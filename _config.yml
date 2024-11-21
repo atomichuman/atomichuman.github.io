@@ -1,0 +1,70 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "chapter"
+    label: "Chapters"
+    folder: "_chapter"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Reflections", name: "reflections", widget: "list" }
+      - { label: "Technologies", name: "technologies", widget: "list" }
+      - { label: "Historical Events", name: "historical_events", widget: "list" }
+  - name: "themes"
+    label: "Themes"
+    folder: "_themes"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Related Chapters", name: "related_chapters", widget: "list" }
+  - name: "people"
+    label: "People"
+    folder: "_people"
+    create: true
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Related Chapters", name: "related_chapters", widget: "list" }
+  - name: "bibliography"
+    label: "Bibliography"
+    folder: "_bibliography"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+  - name: "reflections"
+    label: "Reflections"
+    folder: "_reflections"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Type", name: "type", widget: "string" }
+      - { label: "Related Themes", name: "related_themes", widget: "list" }
+  - name: "history"
+    label: "History"
+    folder: "_history"
+    create: true
+    fields:
+      - { label: "Event", name: "event", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Related Chapters", name: "related_chapters", widget: "list" }
+  - name: "technology"
+    label: "Technology"
+    folder: "_technology"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Related Chapters", name: "related_chapters", widget: "list" }

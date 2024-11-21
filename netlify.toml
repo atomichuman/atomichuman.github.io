@@ -1,0 +1,20 @@
+[build]
+  base = ""
+  publish = "_site"
+  command = "bundle exec jekyll build"
+
+[dev]
+  command = "bundle exec jekyll serve --livereload --incremental"
+  port = 4000
+
+[functions]
+  directory = "functions"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+  BUNDLE_PATH = "vendor/bundle"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
