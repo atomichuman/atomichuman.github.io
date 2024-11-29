@@ -1,0 +1,59 @@
+---
+layout: default
+title: "The Atomic Human"
+description: "Exploring themes, reflections, and ideas from Neil D. Lawrence's book 'The Atomic Human'."
+---
+
+<!--https://www.coryzue.com/writing/bluesky-comments/-->
+
+# Welcome to *The Atomic Human*
+
+Discover the themes, reflections, and ideas behind *The Atomic Human* by Neil D. Lawrence. 
+
+This site serves as a companion to the book, offering insights, interactive discussions, and curated resources.
+
+## Explore the Collections
+
+### **[Chapters](chapters)**
+
+Check out detailed summaries, bibliographies, and reflections for each chapter. Understand the concepts and questions that drive the narrative.
+
+### **[Themes](themes)**
+
+Unpack the central themes of *The Atomic Human*. From artificial intelligence to the philosophy of human identity, explore what makes us human in the age of technology.
+
+### **[Reviews](reviews)**
+
+Read what others are saying about the book. Includes both human and AI-generated reviews, offering diverse perspectives.
+
+### **[People](people)**
+
+Learn about the key figures mentioned in the book, including pioneers like Alan Turing and Norbert Wiener.
+
+### **[History](history)**
+
+Explore the historical events that shape the narrative, from the advent of computing to pivotal moments in AI development.
+
+### **[Technology](technology)**
+
+Understand the impact and lessons we derive from the technologies that *The Atomic Human* explores and what they tell us about today's technology and how it will evolve in the future.
+
+---
+
+## About the Author
+
+Neil D. Lawrence is a machine learning researcher. His book *The Atomic Human* is a blend of philosophy, technology and personal stories that explores the intersection between humans and technology.
+
+---
+
+## Join the Conversation
+
+Have reflections, questions, or ideas? Share your thoughts and join the community discussions.
+
+- **Follow on Bluesky:** [@lawrennd.bsky.social](https://bsky.app/profile/lawrennd.bsky.social)
+- **GitHub Repository:** [Atomic Human Website](https://github.com/atomichuman/atomichuman.github.io)
+
+---
+
+Explore, reflect, and engage with the future of humanity and technology.
+
