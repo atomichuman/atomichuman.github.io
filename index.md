@@ -2,6 +2,11 @@
 layout: default
 title: "The Atomic Human"
 description: "Exploring themes, reflections, and ideas from Neil D. Lawrence's book 'The Atomic Human'."
+contributed_by:
+  type: "machine-generated"
+  tool: "ChatGPT - OpenAI"
+  date: "2024-11-29"
+  notes: "Generated in collaboration with Neil D. Lawrence for initial site setup."
 ---
 
 <!--https://www.coryzue.com/writing/bluesky-comments/-->
