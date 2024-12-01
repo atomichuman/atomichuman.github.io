@@ -2,12 +2,12 @@
 title: "The Atomic Human"
 description: "Exploring the themes, reflections, and ideas from Neil D. Lawrence's book 'The Atomic Human'."
 baseurl: "" # Leave blank for root or update if deploying to a subdirectory
-url: "https://your-site-name.netlify.app" # Update with your Netlify site URL
+url: "https://the-atomic-human.ai" # Update with your Netlify site URL
 
 # Author information
 author:
   name: "Neil D. Lawrence"
-  email: "example@example.com"
+  email: "neil@the-atomic-human.ai"
 
 # Collections configuration for Jekyll
 collections:
