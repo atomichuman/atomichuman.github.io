@@ -7,7 +7,6 @@ url: "https://the-atomic-human.ai" # Update with your Netlify site URL
 # Author information
 author:
   name: "Neil D. Lawrence"
-  email: "neil@the-atomic-human.ai"
 
 # Collections configuration for Jekyll
 collections:
