@@ -13,8 +13,10 @@
 [build.environment]
   JEKYLL_ENV = "production"
   BUNDLE_PATH = "vendor/bundle"
-
+  RUBY_VERSION = "3.2.6"
+  
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/admin/*"
+  to = "/admin/index.html"
   status = 200
+
