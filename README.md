@@ -56,7 +56,7 @@ contributed_by:
     date: "YYYY-MM-DD"
     notes: "Review notes."
 ---
-'''
+```
 
 ### Layouts
 
@@ -76,16 +76,16 @@ contributed_by:
    - Basic understanding of Markdown and YAML.
 
 2. **Setup**:
-```
+   ```
    git clone https://github.com/atomichuman/atomichuman.github.io
    cd atomichuman.github.io
    bundle install
-'''
+   ```
 
 3. **Local Development**:
-```
+   ```
    bundle exec jekyll serve
-'''
+   ```
    Access the site locally at `http://127.0.0.1:4000`.
 
 4. **Deployment**:
