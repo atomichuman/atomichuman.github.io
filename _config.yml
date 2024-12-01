@@ -1,70 +1,120 @@
-backend:
-  name: git-gateway
-  branch: main
+# Site settings
+title: "The Atomic Human"
+description: "Exploring the themes, reflections, and ideas from Neil D. Lawrence's book 'The Atomic Human'."
+baseurl: "" # Leave blank for root or update if deploying to a subdirectory
+url: "https://your-site-name.netlify.app" # Update with your Netlify site URL
 
-media_folder: "assets/images"
-public_folder: "/assets/images"
+# Author information
+author:
+  name: "Neil D. Lawrence"
+  email: "example@example.com"
 
+# Collections configuration for Jekyll
 collections:
-  - name: "chapter"
-    label: "Chapters"
-    folder: "_chapter"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Reflections", name: "reflections", widget: "list" }
-      - { label: "Technologies", name: "technologies", widget: "list" }
-      - { label: "Historical Events", name: "historical_events", widget: "list" }
-  - name: "themes"
-    label: "Themes"
-    folder: "_themes"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Related Chapters", name: "related_chapters", widget: "list" }
-  - name: "people"
-    label: "People"
-    folder: "_people"
-    create: true
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Role", name: "role", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Related Chapters", name: "related_chapters", widget: "list" }
-  - name: "bibliography"
-    label: "Bibliography"
-    folder: "_bibliography"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Category", name: "category", widget: "string" }
-      - { label: "Link", name: "link", widget: "string" }
-  - name: "reflections"
-    label: "Reflections"
-    folder: "_reflections"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Type", name: "type", widget: "string" }
-      - { label: "Related Themes", name: "related_themes", widget: "list" }
-  - name: "history"
-    label: "History"
-    folder: "_history"
-    create: true
-    fields:
-      - { label: "Event", name: "event", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Related Chapters", name: "related_chapters", widget: "list" }
-  - name: "technology"
-    label: "Technology"
-    folder: "_technology"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Related Chapters", name: "related_chapters", widget: "list" }
+  chapter:
+    output: true
+    permalink: /chapter/:title/
+  themes:
+    output: true
+    permalink: /themes/:title/
+  reviews:
+    output: true
+    permalink: /reviews/:title/
+  people:
+    output: true
+    permalink: /people/:name/
+  bibliography:
+    output: true
+    permalink: /bibliography/:title/
+  reflections:
+    output: true
+    permalink: /reflections/:title/
+  history:
+    output: true
+    permalink: /history/:title/
+  technology:
+    output: true
+    permalink: /technology/:title/
+  images:
+    output: true
+    permalink: /images/:title/
+
+# Default front matter for collections
+defaults:
+  - scope:
+      path: "_chapter"
+    values:
+      layout: chapter
+  - scope:
+      path: "_themes"
+    values:
+      layout: theme
+  - scope:
+      path: "_reviews"
+    values:
+      layout: review
+  - scope:
+      path: "_people"
+    values:
+      layout: person
+  - scope:
+      path: "_bibliography"
+    values:
+      layout: bibliography
+  - scope:
+      path: "_reflections"
+    values:
+      layout: reflection
+  - scope:
+      path: "_history"
+    values:
+      layout: history
+      event: "deault-event"
+  - scope:
+      path: "_technology"
+    values:
+      layout: technology
+  - scope:
+      path: "_images"
+    values:
+      layout: image
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+remote_theme: atomichuman/atomic-human-theme@main
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Permalinks
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination (if needed)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Metadata
+metadata:
+  isbn: "978-0-241-62524-8"
+  publisher: "Allen Lane"
+  publication_year: 2024
+  tagline: "Understanding Ourselves in the Age of AI"
+
+# Social links
+social_links:
+  twitter: "https://twitter.com/yourhandle"
+  github: "https://github.com/yourhandle"
+  linkedin: "https://www.linkedin.com/in/yourhandle"
+
+# Sass/SCSS settings
+sass:
+  sass_dir: _sass
+  style: compressed
