@@ -11,9 +11,9 @@ author:
 
 # Collections configuration for Jekyll
 collections:
-  chapter:
+  chapters:
     output: true
-    permalink: /chapter/:title/
+    permalink: /chapters/:title/
   themes:
     output: true
     permalink: /themes/:title/
@@ -42,7 +42,7 @@ collections:
 # Default front matter for collections
 defaults:
   - scope:
-      path: "_chapter"
+      path: "_chapters"
     values:
       layout: chapter
   - scope:
