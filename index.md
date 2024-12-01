@@ -33,7 +33,7 @@ Check out detailed summaries, bibliographies, and reflections for each chapter. 
 
 ### **[Images](images)**
 
-Check out images inspired by the book.
+Check out images that are inspired by the book or that inspired the book.
 
 ### **[Themes](themes)**
 
