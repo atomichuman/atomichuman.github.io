@@ -31,6 +31,10 @@ This site serves as a companion to the book, offering insights, interactive disc
 
 Check out detailed summaries, bibliographies, and reflections for each chapter. Understand the concepts and questions that drive the narrative.
 
+### **[Images](images)**
+
+Check out images inspired by the book.
+
 ### **[Themes](themes)**
 
 Unpack the central themes of *The Atomic Human*. From artificial intelligence to the philosophy of human identity, explore what makes us human in the age of technology.
