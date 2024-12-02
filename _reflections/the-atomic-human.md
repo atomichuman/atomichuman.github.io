@@ -28,7 +28,7 @@ I sometimes think of the book as "triple cooked", I know some find the layering 
 
 >  I can claim some tiny credit; in one of his later Vanity Fair columns, written under the death sentence, he generously said that I had told him to write as he spoke, and that had liberated his style.
 
-I think ever since then I strived to "write as I spoke", but ironically that's not actually what you want to do. As many who've read transcripts of their own meeetings will see you typically want to write much more eloquently than you speak! 
+I think ever since then I strived to "write as I spoke", but that's not actually what you literally want to do. As many who've read transcripts of their own meeetings will see you typically want to write much more eloquently than you speak! 
 
 The triple cooking comes because after the first draft I went to work for Amazon for three years. I always knew I wanted to return to academia, and I jumped at the chance to return when my current job was advertised. I was sorry to leave some unfinished work at Amazon, particularly around science culture. But shortly before leaving I'd spoken to a publisher who'd offered me a contract to write. My current chair is the DeepMind chair, I don't work for Google/DeepMind but they fund my chair. Unfortunately an overzealous lawyer in Amazon didn't quite see it that way and when the legal department heard of my impending move to academia I was marched from the office and placed on garden leave. This gave me some unexpected free time and I began to write again. Across the pandemic I wrote the second draft with the contract I'd been offered in mind.
 
