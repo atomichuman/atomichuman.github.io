@@ -8,7 +8,7 @@ contributed_by:
     name: "Neil D. Lawrence"
     person_id: "neil-d-lawrence"
     date: "2024-12-02"
-    notes: "Edited and approved for publication."
+    notes: "Written and approved for publication."
 featured_image: assets/images/Atomic_H_1_Gods_Robots.png
 ---
 
