@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: The Role of Diverse Voices
 contributed_by:
   initial:

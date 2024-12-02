@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Intent as Knowledge
 contributed_by:
   initial:

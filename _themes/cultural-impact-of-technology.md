@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Cultural Impact of Technology
 contributed_by:
   initial:

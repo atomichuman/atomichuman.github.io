@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Collaboration vs Automation
 contributed_by:
   initial:

@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Human and Machine Trust
 contributed_by:
   initial:

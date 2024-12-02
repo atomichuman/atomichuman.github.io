@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Risks in Human-Analogue AI
 contributed_by:
   initial:

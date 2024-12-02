@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Rationalism vs Emotion
 contributed_by:
   initial:

@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Embracing Doubt
 contributed_by:
   initial:

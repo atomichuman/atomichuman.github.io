@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Rethinking Human-Machine Interaction
 contributed_by:
   initial:

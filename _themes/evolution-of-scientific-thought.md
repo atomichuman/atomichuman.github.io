@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Evolution of Scientific Thought
 contributed_by:
   initial:

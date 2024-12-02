@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Human Culture vs Machine
 contributed_by:
   initial:

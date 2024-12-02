@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Training Reflexive Systems
 contributed_by:
   initial:

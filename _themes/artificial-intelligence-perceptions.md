@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Artificial Intelligence Perceptions
 contributed_by:
   initial:

@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Lessons from The Sorcerer’s Apprentice
 contributed_by:
   initial:

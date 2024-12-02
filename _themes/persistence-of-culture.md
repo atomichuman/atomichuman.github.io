@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Persistence of Culture
 contributed_by:
   initial:

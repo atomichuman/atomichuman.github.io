@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Limitations of AI
 contributed_by:
   initial:

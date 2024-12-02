@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Innovation Through Synergy
 contributed_by:
   initial:

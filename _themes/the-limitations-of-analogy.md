@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: The Limitations of Analogy
 contributed_by:
   initial:

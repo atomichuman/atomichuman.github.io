@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: The Atomic Human Essence
 contributed_by:
   initial:

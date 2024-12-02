@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: The Impact of Printing
 contributed_by:
   initial:

@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Emergence Through Error
 contributed_by:
   initial:

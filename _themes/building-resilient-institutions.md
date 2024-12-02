@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Building Resilient Institutions
 contributed_by:
   initial:

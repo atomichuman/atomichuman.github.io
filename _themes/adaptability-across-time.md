@@ -1,5 +1,5 @@
 ---
-layout: reflection
+layout: theme
 title: Adaptability Across Time
 contributed_by:
   initial:
