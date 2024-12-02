@@ -10,9 +10,9 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-	person_id: neil-d-lawrence
-	date: 2024-12-02
-	notes: Moving to bibliography section, add how the book is referenced in The Atomic Human.	
+    person_id: neil-d-lawrence
+    date: 2024-12-02
+    notes: Moving to bibliography section, add how the book is referenced in The Atomic Human.	
 ---
 
 ### Summary

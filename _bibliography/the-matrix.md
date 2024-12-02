@@ -9,11 +9,11 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
-  reviewed_by:
+  reviewed_by: 
   - type: "human"
-	person_id: neil-d-lawrence
-	date: 2024-12-02
-	notes: Moving to bibliography section, add how the film is used in the book.
+    person_id: neil-d-lawrence
+    date: 2024-12-02
+    notes: Moving to bibliography section, add how the film is used in the book.
 ---
 
 ### Summary

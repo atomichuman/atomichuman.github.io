@@ -13,16 +13,17 @@ contributed_by:
 featured_image: assets/images/Atomic_H_1_Gods_Robots.png
 ---
 
-
 This is the first of my reflections posts nearly six months after publication of *The Atomic Human*. It's been busy, not only with giving talks about the book, but with teaching and supporting our efforts in [ai@cam](https://ai.cam.ac.uk), [Accelerate Science](https://science.ai.cam.ac.uk) and my own group's research.
 
-The idea of the reflections posts is that they allow me to share thoughts that wouldn't fit into the book, or thoughts that have emerged out of the book. To get things going I thought I'd kick of with the Advent Calendar of Atomic Human. Most of the work on 1st December was getting the website ready, but the aim was always to showcase Dan Andrew's beautiful work illustrating the chapters. So the first image made it out an hour before midnight GMT in the UK!
+The idea of the reflections posts is that they allow me to share thoughts that wouldn't fit into the book, or thoughts that have emerged out of the book. To get things going I thought I'd kick of with the Advent Calendar of Atomic Human. Most of the work on 1st December was getting the website ready, but the aim was always to showcase Dan Andrew's beautiful work illustrating the chapters.[^1] So the first image made it out an hour before midnight GMT in the UK!
+<center>
+<img src="/assets/images/Atomic_H_1_Gods_Robots.png" alt="Dan Andrews's drawing for Chapter 1, Gods and Robots" width="70%">
 
-<img src="/assets/images/Atomic_H_1_Gods_Robots.png" alt="Dan Andrews's drawing for Chapter 1, Gods and Robots" width="50%">
-
-*Dan Andrews' illustration of Chapter 1.*
-
+<i>Dan Andrews' illustration of Chapter 1. See <a href="https://scribeysense.com">scribeysense.com</a></i>
+</center>
 For the second post, I wanted to give a nod to some of the people I got to talk to and share ideas with while writing. One question I often get is "How long did the book take you to write?", it's a difficult question to answer because it was written, roughly, across a decade. The first version was being pulled together across 2015 and 2016, but it was mainly warning about the emerging digital oligarchy and the dangers of concentrating data. Events moved rather ahead of the book with the 2016 US election. 
+
+[^1]: For work from Dan illustrating one of our Accelerate Science events see <https://scribeysense.com/accelerate-programme-for-scientific-research>
 
 I sometimes think of the book as "triple cooked", I know some find the layering of stories distracting, but I'm also glad that others see the depth that it can give. To the extent that the depth is there, it's emerging from a process of writing and rewriting, at least across the first half as I looked to find my voice. I'm very glad that many who know me say they can hear me in the words. This was an objective of mine ever since reading [this article by Simon Hoggart about Christopher Hitchens](https://www.theguardian.com/theguardian/2011/dec/17/christopher-hitchens-remembered). I always enjoyed reading both Hoggart and Hitchens and a piece of advice Hoggart gave Hitchens stuck with me.
 
