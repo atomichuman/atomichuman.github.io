@@ -18,7 +18,7 @@ This is the first of my reflections posts nearly six months after publication of
 
 The idea of the reflections posts is that they allow me to share thoughts that wouldn't fit into the book, or thoughts that have emerged out of the book. To get things going I thought I'd kick of with the Advent Calendar of Atomic Human. Most of the work on 1st December was getting the website ready, but the aim was always to showcase Dan Andrew's beautiful work illustrating the chapters. So the first image made it out an hour before midnight GMT in the UK!
 
-![](/assets/images/Atomic_H_1_Gods_Robots.png)
+<img src="/assets/images/Atomic_H_1_Gods_Robots.png" alt="Dan Andrews's drawing for Chapter 1, Gods and Robots" width="50%">
 
 *Dan Andrews' illustration of Chapter 1.*
 
