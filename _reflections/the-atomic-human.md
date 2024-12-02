@@ -4,7 +4,6 @@ title: Triple Cooked
 date: 2024-12-02
 contributed_by:
   initial:
-  reviewed_by:
     type: "human"
     name: "Neil D. Lawrence"
     person_id: "neil-d-lawrence"
