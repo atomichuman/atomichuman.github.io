@@ -8,18 +8,23 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
+  reviewed_by:
+  - type: "human"
+	person_id: neil-d-lawrence
+	date: 2024-12-02
+	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - data-and-control
   - reflexive-vs-reflective-intelligence
   - manipulation-through-systems
   - societal-resilience
-reflections:
   - power-of-personal-data
   - surveillance-capitalism
   - emergent-behavior-in-ai
+bibliography:
+  - the-matrix
 historical_events:
   - bletchley-park
-  - the-matrix
   - cambridge-analytica
 
 ---

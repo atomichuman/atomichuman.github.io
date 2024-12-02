@@ -8,17 +8,22 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
+  reviewed_by:
+  - type: "human"
+	person_id: neil-d-lawrence
+	date: 2024-12-02
+	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - human-reflexes-and-training
   - interdependence-of-intelligence
   - motor-skills-and-adaptability
   - evolution-of-automation
-reflections:
   - training-reflexive-systems
   - innovation-through-synergy
   - human-culture-vs-machine
 historical_events:
   - moon-landing
+technology:
   - mission-control-development
   - apollo-guidance-computer
 

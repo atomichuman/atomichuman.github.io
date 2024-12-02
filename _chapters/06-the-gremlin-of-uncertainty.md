@@ -8,12 +8,16 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
+  reviewed_by:
+  - type: "human"
+	person_id: neil-d-lawrence
+	date: 2024-12-02
+	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - uncertainty-in-decision-making
   - diversity-in-approaches
   - probability-theory
   - human-vs-machine-adaptability
-reflections:
   - embracing-doubt
   - evolution-of-probabilistic-thinking
   - practical-vs-perfect-knowledge

@@ -8,20 +8,25 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
+  reviewed_by:
+  - type: "human"
+	person_id: neil-d-lawrence
+	date: 2024-12-02
+	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - intelligence-and-creation
   - automation-and-humanity
   - the-embodiment-factor
   - locked-in-intelligence
-reflections:
   - human-intelligence-vs-machine
   - cultural-parallels-in-creation
   - the-role-of-myths-in-ai
 historical_events:
   - michelangelo-sistine-chapel
-  - printing-press
+media:
   - terminator-movie
-
+technology:
+  - printing-press
 ---
 
 ### Summary

@@ -8,19 +8,24 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
+  reviewed_by:
+  - type: "human"
+	person_id: neil-d-lawrence
+	date: 2024-12-02
+	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - evolution-and-intelligence
   - resilience-and-robustness
   - natural-vs-artificial-intelligence
   - collaboration-in-adversity
-reflections:
   - emergence-through-error
   - persistence-of-culture
   - adaptability-across-time
 historical_events:
   - dna-transcription-discovery
-  - enigma-decryption
   - natural-selection
+technolgy:
+  - enigma-decryption
 
 ---
 

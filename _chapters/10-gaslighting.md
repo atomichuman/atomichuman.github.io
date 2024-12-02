@@ -8,18 +8,24 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
+  reviewed_by:
+  - type: "human"
+	person_id: neil-d-lawrence
+	date: 2024-12-02
+	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - manipulation-and-trust
   - surveillance-and-power
   - societal-fractures
   - resilience-against-deception
-reflections:
   - fragility-of-trust
   - ethical-boundaries-in-data
   - lessons-from-history
+bibliography:
+  - nineteen-eighty-four
+  - gas-light
 historical_events:
   - stasi-surveillance
-  - nineteen-eighty-four
   - cambridge-analytica
 
 ---

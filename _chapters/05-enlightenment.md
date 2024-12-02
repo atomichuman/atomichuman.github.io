@@ -8,19 +8,24 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
+  reviewed_by:
+  - type: "human"
+	person_id: neil-d-lawrence
+	date: 2024-12-02
+	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - scientific-revolution
   - knowledge-sharing
   - rationalism-and-reductionism
   - historical-transformations
-reflections:
   - the-impact-of-printing
   - rationalism-vs-emotion
   - evolution-of-scientific-thought
 historical_events:
-  - printing-press
   - newton-principia
   - laplace-demon
+technology:
+  - printing-press
 
 ---
 

@@ -8,19 +8,25 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
+  reviewed_by:
+  - type: "human"
+	person_id: neil-d-lawrence
+	date: 2024-12-02
+	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - human-machine-collaboration
   - societal-ownership-of-ai
   - digital-oligarchy-vs-open-society
   - vulnerabilities-as-strengths
-reflections:
   - lessons-from-the-sorcerers-apprentice
   - building-resilient-institutions
   - the-role-of-diverse-voices
 historical_events:
-  - the-open-society-and-its-enemies
   - horizon-scandal
+technology:
   - generative-ai-launch
+bibliography:
+  - the-open-society-and-its-enemies
 
 ---
 

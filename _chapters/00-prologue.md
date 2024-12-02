@@ -7,21 +7,26 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
+  reviewed_by:
+  - type: "human"
+	person_id: neil-d-lawrence
+	date: 2024-12-02
+	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - human-intelligence-limitations
   - communication-bandwidth
   - human-vs-machine-intelligence
   - embodiment-factor
-reflections:
   - the-atomic-human-essence
   - artificial-intelligence-perceptions
   - cultural-impact-of-technology
   - limitations-of-ai
 historical_events:
   - michelangelo-sistine-chapel
+  - facebook-ai-research-foundation
+technology:
   - printing-press
   - deep-learning-breakthrough
-  - facebook-ai-research-foundation
 ---
 
 The prologue of *The Atomic Human* by Neil D. Lawrence sets the stage for an exploration of artificial intelligence (AI) through a personal and historical lens. It opens with a vivid account of the author's participation in a pivotal moment for the field of AI: the 2013 Neural Information Processing Systems conference, where the rise of "deep learning" technology began to reshape machine learning and society at large. This event marked Facebook's strategic entry into AI with Yann LeCun's appointment to lead Facebook AI Research, signaling a shift in industry and academia.

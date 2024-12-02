@@ -8,16 +8,20 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
+  reviewed_by:
+  - type: "human"
+	person_id: neil-d-lawrence
+	date: 2024-12-02
+	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - homeostasis-and-adaptation
   - brain-as-machine
   - intelligence-and-computation
   - affordance-gap
-reflections:
   - limits-of-modeling
   - evolution-of-computational-theories
   - creativity-in-adaptation
-historical_events:
+technology:
   - turing-universal-computer
   - ross-ashby-homeostasis
   - neural-network-foundations

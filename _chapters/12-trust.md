@@ -8,20 +8,24 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-01"
+  reviewed_by:
+  - type: "human"
+	person_id: neil-d-lawrence
+	date: 2024-12-02
+	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - trust-and-betrayal
   - societal-resilience
   - shared-vulnerability
   - algorithmic-accountability
-reflections:
   - trust-as-social-glue
   - ethical-use-of-data
   - lessons-from-surveillance
 historical_events:
-  - nineteen-eighty-four
   - stasi-files-release
   - cambridge-analytica
-
+bibliography:
+  - nineteen-eighty-four
 ---
 
 ### Summary
