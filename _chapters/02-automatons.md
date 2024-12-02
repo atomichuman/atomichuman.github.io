@@ -10,9 +10,9 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-	person_id: neil-d-lawrence
-	date: 2024-12-02
-	notes: Moving computer allocated categories to separate technology and media and to merge reflections.
+    person_id: neil-d-lawrence
+    date: 2024-12-02
+    notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - human-automation-synergy
   - machine-learning-origins
