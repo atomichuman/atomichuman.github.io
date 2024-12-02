@@ -1,5 +1,5 @@
 ---
-layout: reflections
+layout: reflection
 title: Triple Cooked
 date: 2024-12-02
 contributed_by:

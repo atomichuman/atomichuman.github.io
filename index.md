@@ -27,6 +27,10 @@ This site serves as a companion to the book, offering insights, interactive disc
 
 ## Explore the Collections
 
+### **[Reflections](reflections)**
+
+Reflections on the *The Atomic Human* from the author.
+
 ### **[Chapters](chapters)**
 
 Check out detailed summaries, bibliographies, and reflections for each chapter. Understand the concepts and questions that drive the narrative.
