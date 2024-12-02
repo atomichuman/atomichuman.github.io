@@ -1,5 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: atomichuman/atomichuman.github.io # Path to your GitHub repository
+  # optional, defaults to master
   branch: main
 
 media_folder: "assets/images"
@@ -69,8 +71,3 @@ collections:
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Related Chapters", name: "related_chapters", widget: "list" }
 
-backend:
-  name: github
-  repo: atomichuman/atomichuman.github.io # Path to your GitHub repository
-  # optional, defaults to master
-  branch: main      
