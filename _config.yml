@@ -78,6 +78,12 @@ defaults:
     values:
       layout: image
 
+# For giti settings
+ghub:
+  edit: true
+  repository: atomichuman.github.io
+github_username: atomichuman
+      
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -109,9 +115,9 @@ metadata:
 
 # Social links
 social_links:
-  twitter: "https://twitter.com/yourhandle"
-  github: "https://github.com/yourhandle"
-  linkedin: "https://www.linkedin.com/in/yourhandle"
+  twitter: "https://twitter.com/lawrennd"
+  github: "https://github.com/atomic-human"
+  linkedin: "https://www.linkedin.com/in/neil-lawrence-129a22127"
 
 # Sass/SCSS settings
 sass:
