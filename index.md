@@ -19,6 +19,13 @@ contributed_by:
 
 <!--https://www.coryzue.com/writing/bluesky-comments/-->
 
+# Atomic Human Advent Calendar
+
+
+* [Day 3](reflections/why-write-a-book/)
+* [Day 2](reflections/the-atomic-human/)
+* [Day 1](images/dan-andrews-chapter-1/)
+
 # Welcome to *The Atomic Human*
 
 Discover the themes, reflections, and ideas behind *The Atomic Human* by Neil D. Lawrence. 
