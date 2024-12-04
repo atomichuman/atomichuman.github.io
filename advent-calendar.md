@@ -5,6 +5,7 @@ title: Advent Calendar - The Atomic Human
 
 # The Atomic Human Advent Calendar
 
+
 <style>
   .advent-calendar {
     width: 100%;
@@ -21,7 +22,6 @@ title: Advent Calendar - The Atomic Human
 
   .advent-calendar a {
     text-decoration: none;
-    color: #000;
     font-weight: bold;
   }
 </style>
