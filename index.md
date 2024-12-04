@@ -19,14 +19,6 @@ contributed_by:
 
 <!--https://www.coryzue.com/writing/bluesky-comments/-->
 
-# Atomic Human Advent Calendar
-
----
-layout: default
-title: Advent Calendar - The Atomic Human
----
-
-# The Atomic Human Advent Calendar
 
 <style>
   .advent-calendar {
@@ -44,7 +36,6 @@ title: Advent Calendar - The Atomic Human
 
   .advent-calendar a {
     text-decoration: none;
-    color: #000;
     font-weight: bold;
   }
 </style>
