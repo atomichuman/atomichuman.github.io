@@ -21,7 +21,7 @@ contributed_by:
 
 # Atomic Human Advent Calendar
 
-
+* [Day 4](images/dan-andrews-chapter-2/)
 * [Day 3](reflections/why-write-a-book/)
 * [Day 2](reflections/the-atomic-human/)
 * [Day 1](images/dan-andrews-chapter-1/)
