@@ -25,6 +25,7 @@ technology:
   - turing-universal-computer
   - ross-ashby-homeostasis
   - neural-network-foundations
+  - colossus
 
 ---
 

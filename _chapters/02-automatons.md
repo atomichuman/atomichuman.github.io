@@ -26,6 +26,7 @@ historical_events:
 technology:
   - enigma-machine
   - alan-turing-bombes
+  - colossus
 
 ---
 

@@ -25,7 +25,7 @@ historical_events:
   - laplace-demon
   - world-war-ii-aircraft-testing
   - bayesian-probability
-
+  - colossus
 ---
 
 ### Summary
