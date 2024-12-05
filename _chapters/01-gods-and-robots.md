@@ -27,6 +27,9 @@ media:
   - terminator-movie
 technology:
   - printing-press
+people:
+  - jeff-bezos
+  - dwight-eisenhower
 ---
 
 ### Summary
