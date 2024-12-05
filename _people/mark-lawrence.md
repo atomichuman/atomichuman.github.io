@@ -9,7 +9,7 @@ period: 1970-2018
 contributed_by:
   initial:
     type: "machine"
-	tool: "ChatGPT"
+    tool: "ChatGPT"
     version: 4o1
     date: "2024-12-05"
   revision:
