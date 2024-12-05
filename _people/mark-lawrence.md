@@ -26,6 +26,3 @@ As a trial lawyer, Mark preferred improvisation and working outside established 
 The author uses this family dynamic to demonstrate how different approaches to uncertainty can be equally valid - Mark's improvisational style being more appropriate for high-uncertainty situations, while their father's planning approach better suited low-uncertainty scenarios. This comparison helps illustrate one of the book's key themes about the value of diverse approaches to handling uncertainty and decision-making.
 
 The text suggests Mark worked to "highlight corruption and expose hypocrisy," though specific details of his legal career are not provided. His role in the narrative serves primarily to demonstrate how different personalities and approaches can successfully address similar challenges through contrasting methods.
-```
-
-This revision removes the fabricated elements from the ChatGPT version while accurately reflecting what's presented in the source material, particularly from Chapter 6. The description stays focused on what we can verify from the text rather than making assumptions or embellishments.
