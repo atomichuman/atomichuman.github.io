@@ -9,14 +9,14 @@ period: 1970-2018
 contributed_by:
   initial:
     type: "machine"
-    tool: "ChatGPT"
+	tool: "ChatGPT"
     version: 4o1
     date: "2024-12-05"
   revision:
     type: "machine"
     tools: "Claude"
-	version: 3.5
-	notes: Requested revision after very inaccurate summary from ChatGPT.
+    version: 3.5
+    notes: Requested revision after very inaccurate summary from ChatGPT.
     date: "2024-12-05"
 ---
 

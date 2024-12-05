@@ -12,8 +12,8 @@ contributed_by:
   revision:
     type: "machine"
     tools: Claude
-	version: 3.5
-	notes: Requested revision after very inaccurate summary from ChatGPT.
+    version: 3.5
+    notes: Requested revision after very inaccurate summary from ChatGPT.
     date: "2024-12-05"
 ---
 
