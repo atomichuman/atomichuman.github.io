@@ -1,6 +1,3 @@
-Yes, I'll create an accurate description based on the provided materials:
-
-```markdown
 ---
 layout: person
 title: Mark Lawrence
