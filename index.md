@@ -77,12 +77,6 @@ contributed_by:
   </tr>
 </table>
 
-
-* [Day 4]()
-* [Day 3]()
-* [Day 2]()
-* [Day 1]
-
 # Welcome to *The Atomic Human*
 
 Discover the themes, reflections, and ideas behind *The Atomic Human* by Neil D. Lawrence. 
