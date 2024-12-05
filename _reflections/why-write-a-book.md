@@ -14,7 +14,7 @@ featured_image: assets/images/data-science-africa-log.png
 
 This is day three of the *Atomic Human* advent calendar and the second of a set-of reflection posts. 
 
-This is the first of my reflections posts nearly six months after publication of *The Atomic Human*. One amazing aspect of publishing with a trade publisher is all the support they give in terms of marketing and publicity. What's the difference? Apparently marketing is promotion you pay for and publicity is promotion that you don't pay for. Well, at least not in terms of money, but you dedicate a lot for publicity in terms of time. That leads to book tours, podcasts and interviews. 
+One amazing aspect of publishing with a trade publisher is all the support they give in terms of marketing and publicity. What's the difference between the two? Apparently marketing is promotion you pay for and publicity is promotion that you don't pay for. Well, at least not in terms of money, but you dedicate a lot for publicity in terms of time. That leads to book tours, podcasts and interviews. 
 
 One question you're often asked is "why did you write this book?". And my standard answer is "because I wanted to change the conversation." It's my standard answer because it's true, but I often feel it sounds somewhat arrogant. The idea that somehow the conversation is wrong and its up to me to change it. How is the conversation wrong? 
 
