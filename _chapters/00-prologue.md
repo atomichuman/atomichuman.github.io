@@ -14,8 +14,8 @@ contributed_by:
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
   - type: "machine"
     tool: "Claude"
-	version: 3.5
-	date: "2024-12-05"
+    version: 3.5
+    date: "2024-12-05"
     notes: Have Claude rewrite prologue text through initially analyzing through a strengths/weaknesses critique.
 themes:
   - human-intelligence-limitations

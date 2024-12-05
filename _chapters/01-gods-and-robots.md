@@ -15,9 +15,9 @@ contributed_by:
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
   - type: "machine"
     tool: "Claude"
-	version: 3.5
-	notes: Rewrite of summary based on chapter and summaries of other chapters. Required prompting to remove hallucinations.
-	date: "2024-12-05"
+    version: 3.5
+    notes: Rewrite of summary based on chapter and summaries of other chapters. Required prompting to remove hallucinations.
+    date: "2024-12-05"
 themes:
   - intelligence-and-creation
   - automation-and-humanity
