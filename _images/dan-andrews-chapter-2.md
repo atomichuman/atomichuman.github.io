@@ -1,6 +1,7 @@
 ---
 layout: image
 title: "Dan Andrews: Automatons"
+date: 2024-12-04
 contributed_by:
   initial:
     type: "human"
