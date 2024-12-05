@@ -75,11 +75,11 @@ title: Advent Calendar - The Atomic Human
 <table class="advent-calendar">
   <tbody>
     <tr>
-      <td data-date="1"><a href="images/dan-andrews-chapter-1/">1</a></td>
-      <td data-date="2"><a href="reflections/the-atomic-human/">2</a></td>
-      <td data-date="3"><a href="reflections/why-write-a-book/">3</a></td>
-      <td data-date="4"><a href="images/dan-andrews-chapter-2/">4</a></td>
-      <td data-date="5"><a href="reflections/finite-horizons/">5</a></td>
+      <td data-date="1"><a href="/images/dan-andrews-chapter-1/">1</a></td>
+      <td data-date="2"><a href="/reflections/the-atomic-human/">2</a></td>
+      <td data-date="3"><a href="/reflections/why-write-a-book/">3</a></td>
+      <td data-date="4"><a href="/images/dan-andrews-chapter-2/">4</a></td>
+      <td data-date="5"><a href="/reflections/finite-horizons/">5</a></td>
       <td data-date="6">6</td>
     </tr>
     <tr>
