@@ -28,4 +28,4 @@ Today I should be in a hot tub sharing a whisky with my brother. His daughters a
 
 When we last came together for dinner in New York in September I could see my brother within them. His life and ideas transcend him, pervade them and the sense of purpose with which they lead their lives.
 
-This is a sad story, but its also a human story.
+This is a sad story, but it's also a human story.
