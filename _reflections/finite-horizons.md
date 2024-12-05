@@ -12,7 +12,7 @@ contributed_by:
 featured_image: assets/images/elizabeth-police.png
 ---
 
-Almost every year from 1997 to 2017, I would have been in the US right now, visiting [my brother](/people/mark-lawrence/). The timing worked out well because I would stop by on my way across to the NeurIPS conference, typically held in Vancouver at this time. I have memories of go-karting, drinking in hot tubs and even jumping out of a planes. Mark was always my more adventurous older brother. Today would have been his 54th birthday. He died in February 2018 at the age of 47.
+Almost every year from 1997 to 2017, I would have been in the US right now, visiting [my brother](/people/mark-lawrence/). The timing worked out well because I would stop by on my way across to the NeurIPS conference, typically held in Vancouver at this time. I have memories of go-karting, drinking in hot tubs and even jumping out of a planes. Mark was my more adventurous older brother. Today would have been his 54th birthday. He died in February 2018 at the age of 47.
 
 Two nights ago I gave the [Bennett Public Policy lecture](https://inverseprobability.com/talks/notes/mind-the-gap-briding-innovations-supply-and-demand-in-the-ai-era.html), at the dinner which followed one of my colleagues remarked that he'd heard David Runciman suggest that people's perspectives are molded by world the events that occur when they are around 20 years old. It was a great way to start a table conversation, so I didn't vocalize the thought that came to me. Close expereince of death is the formative experience that came to my mind. Why? Because when I was 20 I had a worldly and adventurous older brother. A brother who was consumed by concern for the underdog and a passion to live a life that was different every day.
 
