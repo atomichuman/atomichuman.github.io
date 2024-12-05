@@ -26,6 +26,6 @@ Together we'd watched [our father](/people/garth-lawrence/) die in 2013, and I'd
 
 Today I should be in a hot tub sharing a whisky with my brother. His daughters and his wife should be celebrating another year of his life. His partner and him should be celebrating seven years of their co-founded law firm. Instead each of us misses him. But we are also motivated by a memory of him and what he stood for. And each of us tries in our own way to live up to that memory and deliver on his ideals. Close contact with death changes people. And although when I look at my nieces I always see a deep sadness there, I also see a deep purpose, one that is inspired by their father. 
 
-When we last came together for dinner in New York in September I could see my brother within them. His life and ideas transcend him, pervade them, and the sense of purpose with which they lead their lives.
+When we last came together for dinner in New York in September I could see my brother within them. His life and ideas transcend him, pervade them and the sense of purpose with which they lead their lives.
 
 This is a sad story, but its also a human story.
