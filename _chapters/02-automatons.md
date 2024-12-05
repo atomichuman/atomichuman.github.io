@@ -27,7 +27,9 @@ technology:
   - enigma-machine
   - alan-turing-bombes
   - colossus
-
+people:
+  - jeff-bezos
+  - dwight-eisenhower
 ---
 
 ### Summary
