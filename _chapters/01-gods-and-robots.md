@@ -33,9 +33,6 @@ bibliography:
   - diving-bell-and-butterfly
 technology:
   - printing-press
-people:
-  - jeff-bezos
-  - dwight-eisenhower
 ---
 
 ### Summary
