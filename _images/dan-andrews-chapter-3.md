@@ -1,6 +1,6 @@
 ---
 layout: image
-title: "Dan Andrews: Automatons"
+title: "Dan Andrews: Intent"
 date: 2024-12-06
 contributed_by:
   initial:
