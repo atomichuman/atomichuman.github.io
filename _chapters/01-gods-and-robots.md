@@ -13,6 +13,11 @@ contributed_by:
     person_id: neil-d-lawrence
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
+  - type: "machine"
+    tool: "Claude"
+	version: 3.5
+	notes: Rewrite of summary based on chapter and summaries of other chapters. Required prompting to remove hallucinations.
+	date: "2024-12-05"
 themes:
   - intelligence-and-creation
   - automation-and-humanity
@@ -23,8 +28,9 @@ themes:
   - the-role-of-myths-in-ai
 historical_events:
   - michelangelo-sistine-chapel
-media:
+bibliography:
   - terminator-movie
+  - diving-bell-and-butterfly
 technology:
   - printing-press
 people:
@@ -34,11 +40,12 @@ people:
 
 ### Summary
 
-Chapter 1, *Gods and Robots*, juxtaposes two iconic representations of creation: Michelangelo’s depiction of God giving life to Adam in the Sistine Chapel and James Cameron’s Terminator, a machine designed to extinguish human life. These contrasting images embody different facets of intelligence and creation, one divine and the other artificial. The chapter explores how these representations reflect human fascination with intelligence—natural and synthetic.
+The chapter opens with two contrasting images of creation: Michelangelo's God giving life to Adam in the Sistine Chapel, and James Cameron's Terminator designed to extinguish human life. These images, separated by five centuries, illustrate humanity's tendency to embody intelligence, whether divine or artificial.
 
-The narrative delves into the concept of the "embodiment factor," which refers to the interplay between computational and communication abilities in defining intelligence. Human intelligence is constrained by our biological embodiment, limiting our communication bandwidth. Machines, by contrast, excel in communication, sharing vast amounts of data at incredible speeds, a feat humans can only dream of.
+The author introduces the concept of the "embodiment factor" - the ratio between computational and communication abilities. Humans can communicate around 2,000 bits per minute, while machines can exchange 60 billion bits per minute. This difference is illustrated through a salary metaphor: if human bandwidth equals a $2,000 monthly salary, machine bandwidth would exceed the UK's national budget.
 
-Through historical parallels, such as the printing press automating text reproduction and the Protestant Reformation it indirectly sparked, the chapter contextualizes artificial intelligence as the next step in humanity’s quest for automation. AI, however, automates decision-making, unblocking the bottleneck of human cognitive choices and challenging notions of human uniqueness.
+Using Bauby's "The Diving Bell and the Butterfly" as a key metaphor, the chapter explores how human intelligence is fundamentally "locked in," with limited ability to communicate our thoughts. Despite these limitations, humans engage in seemingly "wasteful" communication like small talk because it builds crucial contextual understanding.
 
-The chapter closes with a reflection on myths like Frankenstein and the Golem, which caution against hubris in creation. These narratives are reframed as allegories for humanity's relationship with its tools, revealing both fear and hope for a future shared with artificial intelligences.
+The Amazon supply chain serves as a practical example of machine intelligence, demonstrating how automated systems must "second-guess" themselves when making decisions under time constraints. This leads to a critique of popular notions of superintelligence and the technological singularity, which the author dismisses as "hooey." Using the Top Trumps card game analogy, he argues that intelligence isn't a simple linear quality but varies by context and application.
 
+The chapter concludes by proposing to use machine intelligence as a mirror for understanding human intelligence, moving beyond hype to focus on how we can better understand ourselves and make informed choices about AI's role in society. This sets up the book's exploration of what makes us uniquely human - the "atomic human" that cannot be replicated by machines.
