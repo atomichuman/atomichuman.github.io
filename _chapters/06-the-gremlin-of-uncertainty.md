@@ -26,6 +26,10 @@ historical_events:
   - world-war-ii-aircraft-testing
   - bayesian-probability
   - colossus
+people:
+  - mark-lawrence
+  - garth-lawrence
+  - valerie-lawrence
 ---
 
 ### Summary

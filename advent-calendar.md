@@ -34,7 +34,7 @@ title: Advent Calendar - The Atomic Human
     <td><a href="reflections/the-atomic-human/">Day 2</a></td>
     <td><a href="reflections/why-write-a-book/">Day 3</a></td>
     <td><a href="images/dan-andrews-chapter-2/">Day 4</a></td>
-    <td>Day 5</td>
+    <td><a href="reflections/finite-horizons/">Day 5</a></td>
     <td>Day 6</td>
   </tr>
   <tr>
