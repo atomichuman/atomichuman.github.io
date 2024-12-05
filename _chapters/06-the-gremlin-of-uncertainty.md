@@ -26,6 +26,8 @@ historical_events:
   - world-war-ii-aircraft-testing
   - bayesian-probability
   - colossus
+reflections:
+  - finite-horizons
 people:
   - mark-lawrence
   - garth-lawrence
