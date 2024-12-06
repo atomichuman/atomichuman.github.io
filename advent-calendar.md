@@ -80,7 +80,7 @@ title: Advent Calendar - The Atomic Human
       <td data-date="3"><a href="/reflections/why-write-a-book/">3</a></td>
       <td data-date="4"><a href="/images/dan-andrews-chapter-2/">4</a></td>
       <td data-date="5"><a href="/reflections/finite-horizons/">5</a></td>
-      <td data-date="6">6</td>
+      <td data-date="6"><a href="/images/dan-andrews-chapter-3/">6</a></td>
     </tr>
     <tr>
       <td data-date="7">7</td>
