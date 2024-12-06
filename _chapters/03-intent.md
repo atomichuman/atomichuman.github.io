@@ -25,7 +25,8 @@ historical_events:
   - bletchley-park
   - facebook-data-scandal
   - cambridge-analytica
-
+people:
+  - dwight-eisenhower
 ---
 
 ### Summary
