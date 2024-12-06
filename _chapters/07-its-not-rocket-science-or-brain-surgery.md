@@ -26,7 +26,8 @@ historical_events:
 technology:
   - mission-control-development
   - apollo-guidance-computer
-
+people:
+  - dwight-eisenhower
 ---
 
 ### Summary

@@ -26,7 +26,8 @@ bibliography:
 historical_events:
   - bletchley-park
   - cambridge-analytica
-
+people:
+  - dwight-eisenhower
 ---
 
 ### Summary

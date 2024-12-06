@@ -18,6 +18,7 @@ description: A representation of vitruvian man set in context of trust, autonomy
 source: "Drawn on commission by Dan Andrews of scribeysense.com"
 tags:
 - intent
+toggle_machine_commentary: True
 ---
 
 Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a graphical scribe for many [ai@cam](https://ai.cam.ac.uk) and [Accelerate Science](https://science.ai.cam.ac.uk) events. 
