@@ -30,6 +30,7 @@ people:
   - dwight-eisenhower
 ---
 
+<div class="machine-commentary" markdown="1">
 ### Summary
 
 Chapter 12, *Trust*, examines the foundation of human collaboration and decision-making by exploring the dual nature of trust as both a necessity and a vulnerability. The narrative begins by recounting Vera Lengsfeld’s harrowing betrayal by her husband, a Stasi informant, during East Germany's dictatorship. Her story highlights the personal and societal fractures that occur when trust is weaponized.
@@ -39,3 +40,4 @@ The chapter moves into philosophical territory, discussing Peter Strawson’s wo
 Modern challenges to trust are analyzed through the lens of Cambridge Analytica’s manipulation of social media and the broader implications of algorithmic decision-making. The asymmetry between human and machine decision-making—rooted in bandwidth and accountability—underscores the need for ethical boundaries and transparent systems.
 
 The chapter concludes with a reflection on human resilience, emphasizing the importance of balancing shared vulnerability with technological governance to ensure that trust remains the backbone of societal progress.
+</div>

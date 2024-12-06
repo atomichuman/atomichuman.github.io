@@ -16,8 +16,10 @@ contributed_by:
     notes: Moving to bibliography section, add how the film is used in the book.
 ---
 
+<div class="machine-commentary" markdown="1">
 ### Summary
 
 The film *The Matrix* (1999), directed by the Wachowskis, presents a dystopian vision of humanity trapped within a simulated reality controlled by intelligent machines. It explores themes of free will, perception, and the relationship between humans and technology. The movie’s iconic imagery and philosophical questions have made it a cultural touchstone, influencing discussions about artificial intelligence, virtual reality, and the ethics of technological control.
 
 The film is used when the book talks about System Zero, which is suggested to be a more subtle and efficient variant of the idea that emerges from the digital oligarchy.
+</div>

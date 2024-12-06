@@ -29,6 +29,7 @@ people:
   - dwight-eisenhower
 ---
 
+<div class="machine-commentary" markdown="1">
 ### Summary
 
 Chapter 3, *Intent*, explores the role of intent in intelligence, decision-making, and collaboration, emphasizing how human adaptability differs from machine rigidity. Drawing historical parallels from Bletchley Park during World War II, the chapter contrasts the effectiveness of combining human judgment and machine precision. At Bletchley, knowing the adversary's intent allowed for task decomposition, enabling effective use of machines and human experts alike.
@@ -38,3 +39,4 @@ Modern applications of machine learning, exemplified by Facebook's automated sys
 The chapter highlights the human tendency to operate in networks of trust and shared purpose. However, trust introduces vulnerabilities, as seen in both historical contexts and the modern digital landscape. The dangers of intent-less machine decision-making are contrasted with the collaborative adaptability of human intelligence.
 
 By linking these ideas to ongoing challenges in AI governance and societal impact, the chapter underscores the importance of integrating context and intent into systems that increasingly shape our lives.
+</div>
