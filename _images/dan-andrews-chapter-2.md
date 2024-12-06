@@ -8,7 +8,7 @@ contributed_by:
     name: Dan Andrews
     date: "2024-08-31"
   reviewed_by:
-    type: "machine"
+  - type: "machine"
     tool: "ChatGPT"
     version: 4o1
     notes: Commentary on the image triggered by a prompt asking what inspired the drawing and what it shows.
