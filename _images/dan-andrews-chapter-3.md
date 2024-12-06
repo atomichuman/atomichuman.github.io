@@ -25,8 +25,8 @@ Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a gr
 
 This image sets the context of our intelligence emphasising how we overcome the embodiment factor.
 
-> ## Commentary from Chat GPT
->
+## Commentary by Machine
+
 > The drawing you shared visually interprets several key ideas and themes from Chapter 3, Intent, in The Atomic Human by Neil D. Lawrence. Let me break it down:
 >
 > ## Inspiration from Chapter 3

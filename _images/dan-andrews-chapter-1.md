@@ -25,8 +25,8 @@ Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a gr
 I asked him if he would mind reading the book and drawing what inspired him. One drawing for each chapter. This is what he picked out from Chapter 1.
 
 
-> ## Commentary from ChatGPT
->
+## Commentary by Machine
+
 > This illustration, inspired by Chapter 1 of *The Atomic Human*, explores central themes discussed in the chapter, particularly the interplay between humanity's identity and its creation of artificial intelligence. Here are the key thematic elements captured in the drawing:
 >
 > 1. **Narcissistic Fascination with Intelligence**: The image of a human gazing into a pool and seeing an AI reflection mirrors the book's discussion of Narcissus and humanity's self-obsession with intelligence. The chapter highlights how our exploration of AI often stems from a deep curiosity about understanding and replicating ourselves. The title phrase in the artwork, "Our fascination with AI is a projected fascination with ourselves," encapsulates this idea perfectly.
