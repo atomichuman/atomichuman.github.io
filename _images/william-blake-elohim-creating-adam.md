@@ -8,9 +8,13 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-06"
+featured_image: /assets/images/947px-William_Blake_008.jpg
 description: "An analysis of William Blake’s *Elohim Creating Adam* as used in *The Atomic Human* to explore Tyson's Maxim and the challenges intelligent entities face when their plans confront the real world."
 source: "Referenced from *The Atomic Human* by Neil D. Lawrence, published by Allen Lane in 2024."
 ---
+
+
+*Image source [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/William_Blake_008.jpg/947px-William_Blake_008.jpg).*
 
 ### Note from Neil
 

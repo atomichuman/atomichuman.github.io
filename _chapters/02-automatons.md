@@ -23,6 +23,8 @@ themes:
   - limitations-of-machine-autonomy
 historical_events:
   - bletchley-park
+images:
+  - dan-andrews-chapter-2
 technology:
   - enigma-machine
   - alan-turing-bombes
@@ -30,6 +32,8 @@ technology:
 people:
   - jeff-bezos
   - dwight-eisenhower
+images:
+  - dan-andrews-chapter-3
 ---
 
 ### Summary

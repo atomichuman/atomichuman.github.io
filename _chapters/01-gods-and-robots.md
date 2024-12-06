@@ -28,6 +28,10 @@ themes:
   - the-role-of-myths-in-ai
 historical_events:
   - michelangelo-sistine-chapel
+images:
+  - dan-andrews-chapter-1
+  - michelangelo-creation-of-adam
+  - red-eyed-terminator
 bibliography:
   - terminator-movie
   - diving-bell-and-butterfly
