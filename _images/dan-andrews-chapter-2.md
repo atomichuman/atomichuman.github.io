@@ -48,6 +48,7 @@ I think the image is referring to one of the running themes of the chapter, whic
 <br>
 <br>
 <br>
+
 > This illustration beautifully captures the key themes from Chapter 2, *Automatons*, of *The Atomic Human* by Neil D. Lawrence. The chapter explores the contrast between human and machine intelligence, focusing on how humans process and share information versus how machines do the same. Here's how the drawing reflects these ideas:
 >
 > ### **Themes Captured:**
