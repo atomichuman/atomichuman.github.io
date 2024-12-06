@@ -14,7 +14,7 @@ source: "Referenced from *The Atomic Human* by Neil D. Lawrence, published by Al
 ---
 
 
-*Image source [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/William_Blake_008.jpg/947px-William_Blake_008.jpg).*
+*Image source [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/William_Blake_008.jpg/947px-William_Blake_008.jpg). Original in Tate Britain.*
 
 ### Note from Neil
 
