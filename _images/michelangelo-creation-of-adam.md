@@ -14,7 +14,7 @@ source: "Referenced from *The Atomic Human* by Neil D. Lawrence, published by Al
 ---
 
 
-*Image source [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1024px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg). File in public domain.*
+*Image source [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1024px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg). File in public domain. Original in the Sistine Chapel.*
 
 <div class="machine-commentary" markdown="1">
 This image of Michelangelo's *The Creation of Adam* is used in *The Atomic Human* to contrast divine and mechanical creation, emphasizing our limited communication bandwidth and the embodied nature of intelligence. It illustrates humanity’s inherent tendency to anthropomorphize intelligence, both divine and artificial.
