@@ -32,6 +32,7 @@ people:
   - mark-lawrence
   - garth-lawrence
   - valerie-lawrence
+  - dwight-eisenhower
 ---
 
 ### Summary
