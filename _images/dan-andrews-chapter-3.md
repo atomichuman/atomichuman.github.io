@@ -12,7 +12,7 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     notes: Commentary on the image triggered by a prompt asking what inspired the drawing and what it shows.
-	date: 2024-12-06
+    date: 2024-12-06
 featured_image: /assets/images/Atomic_H_3_Intent.png
 description: A representation of vitruvian man set in context of trust, autonomy and high embodiment
 source: "Drawn on commission by Dan Andrews of scribeysense.com"
@@ -25,7 +25,6 @@ Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a gr
 
 This image sets the context of our intelligence emphasising how we overcome the embodiment factor.
 
-# Commentary from ChatGPT 4o1 with access to the book.
 
 > The drawing you shared visually interprets several key ideas and themes from Chapter 3, Intent, in The Atomic Human by Neil D. Lawrence. Let me break it down:
 >
@@ -52,4 +51,4 @@ This image sets the context of our intelligence emphasising how we overcome the 
 >
 > The drawing synthesizes these ideas into a unified visual metaphor. The central, Vitruvian-like figure embodies adaptability and intent, framed by elements like storytelling, shared culture, and expertise. This visualization underscores the chapter’s argument: understanding intent (human or machine) requires acknowledging the constraints and freedoms provided by embodiment, context, and collaboration.
 >
-> ChatGPT 4o1 on 6th December 2024
+> Commentary from ChatGPT 4o1 on 6th December 2024

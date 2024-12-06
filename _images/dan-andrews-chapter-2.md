@@ -12,7 +12,7 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     notes: Commentary on the image triggered by a prompt asking what inspired the drawing and what it shows.
-	date: 2024-12-06	
+    date: 2024-12-06	
 featured_image: /assets/images/Atomic_H_2_Automatons.png
 description: A group of humans and a group of robots are taught in different ways
 source: "Drawn on commission by Dan Andrews of scribeysense.com"

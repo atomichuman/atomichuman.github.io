@@ -12,7 +12,7 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     notes: Commentary on the image triggered by a prompt asking what inspired the drawing and what it shows.
-	date: 2024-12-06
+    date: 2024-12-06
 featured_image: /assets/images/Atomic_H_1_Gods_Robots.png
 description: Image of Narcissus gazing into a pond and seeing AI reflect back.
 source: "Drawn on commission by Dan Andrews of scribeysense.com"
