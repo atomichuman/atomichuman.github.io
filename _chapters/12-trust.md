@@ -26,6 +26,8 @@ historical_events:
   - cambridge-analytica
 bibliography:
   - nineteen-eighty-four
+people:
+  - dwight-eisenhower
 ---
 
 ### Summary
