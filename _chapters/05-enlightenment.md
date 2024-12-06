@@ -26,7 +26,8 @@ historical_events:
   - laplace-demon
 technology:
   - printing-press
-
+people:
+  - dwight-eisenhower
 ---
 
 ### Summary
