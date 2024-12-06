@@ -25,6 +25,7 @@ Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a gr
 
 This image sets the context of our intelligence emphasising how we overcome the embodiment factor.
 
+<div class="machine-commentary">
 ## Commentary by Machine
 
 > The drawing you shared visually interprets several key ideas and themes from Chapter 3, Intent, in The Atomic Human by Neil D. Lawrence. Let me break it down:
@@ -54,3 +55,4 @@ This image sets the context of our intelligence emphasising how we overcome the 
 > The drawing synthesizes these ideas into a unified visual metaphor. The central, Vitruvian-like figure embodies adaptability and intent, framed by elements like storytelling, shared culture, and expertise. This visualization underscores the chapter’s argument: understanding intent (human or machine) requires acknowledging the constraints and freedoms provided by embodiment, context, and collaboration.
 >
 > Commentary from ChatGPT 4o1 on 6th December 2024
+</div>

@@ -24,7 +24,7 @@ Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a gr
 
 I asked him if he would mind reading the book and drawing what inspired him. One drawing for each chapter. This is what he picked out from Chapter 1.
 
-
+<div class="machine-commentary">
 ## Commentary by Machine
 
 > This illustration, inspired by Chapter 1 of *The Atomic Human*, explores central themes discussed in the chapter, particularly the interplay between humanity's identity and its creation of artificial intelligence. Here are the key thematic elements captured in the drawing:
@@ -40,3 +40,4 @@ I asked him if he would mind reading the book and drawing what inspired him. One
 > Overall, the drawing captures the introspective and philosophical undertones of Chapter 1, emphasizing that AI is as much a tool for external development as it is a mirror for self-understanding. Would you like further analysis of this specific chapter or other symbolic connections to the text?
 >
 > Commentary from ChatGPT 4o1 on 6th December 2024
+</div>
