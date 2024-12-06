@@ -32,6 +32,8 @@ technology:
 people:
   - jeff-bezos
   - dwight-eisenhower
+images:
+  - dan-andrews-chapter-3
 ---
 
 ### Summary
