@@ -24,7 +24,34 @@ Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a gr
 
 I think the image is referring to one of the running themes of the chapter, which is around my [grandfather's story](people/fred-lawrence/) on the run in to D-Day alongside the story of [Tommy Flowers](people/tommy-flowers/) and the creation of [Colossus](technology/colossus/). In both cases they operated autonomously, making different decisions to what they were told to do. And those decisions turn out to be linked in terms of the timing of D-Day.
 
+<<<<<<< HEAD
 ## Commentary by Machine
+=======
+> ## Commentary from ChatGPT
+> 
+> If you're interested in what the machine says about the image and the book, 
+> scroll down. If not just enjoy the image for how you feel about it.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+>>>>>>> 2eb463aa72489aad85d55505b3a67abcc355659f
 
 > This illustration beautifully captures the key themes from Chapter 2, *Automatons*, of *The Atomic Human* by Neil D. Lawrence. The chapter explores the contrast between human and machine intelligence, focusing on how humans process and share information versus how machines do the same. Here's how the drawing reflects these ideas:
 >
