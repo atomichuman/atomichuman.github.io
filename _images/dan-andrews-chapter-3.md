@@ -46,6 +46,7 @@ This image sets the context of our intelligence emphasising how we overcome the 
 > **Trust and Autonomy**: The left side emphasizes "Trust" through storytelling and shared meaning, which reflects how humans rely on narratives to communicate intent. The right side highlights "Autonomy," connecting to the idea of machines and humans needing expertise to act independently while still aligned with shared goals.
 >
 > **Cultural Coordination**: The central theme of #TeamCommonPurpose emphasizes that a shared culture binds disparate individuals or entities, echoing the text’s exploration of how societal frameworks enable humans to transcend individual limitations.
+> 
 > **"A Drop of Chaos"**: This adds a playful nod to the unpredictability and creativity inherent in human systems, as opposed to the rigidity often associated with machine intelligence.
 >
 > ## Overall Representation
