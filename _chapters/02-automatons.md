@@ -23,6 +23,8 @@ themes:
   - limitations-of-machine-autonomy
 historical_events:
   - bletchley-park
+images:
+  - dan-andrews-chapter-2
 technology:
   - enigma-machine
   - alan-turing-bombes
