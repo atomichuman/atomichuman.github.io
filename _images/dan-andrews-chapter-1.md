@@ -24,7 +24,7 @@ Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a gr
 
 I asked him if he would mind reading the book and drawing what inspired him. One drawing for each chapter. This is what he picked out from Chapter 1.
 
-<div class="machine-commentary">
+<div class="machine-commentary" markdown="1">
 ## Commentary by Machine
 
 > This illustration, inspired by Chapter 1 of *The Atomic Human*, explores central themes discussed in the chapter, particularly the interplay between humanity's identity and its creation of artificial intelligence. Here are the key thematic elements captured in the drawing:
