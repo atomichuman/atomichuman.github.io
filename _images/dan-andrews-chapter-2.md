@@ -26,8 +26,8 @@ I think the image is referring to one of the running themes of the chapter, whic
 
 > ## Commentary from ChatGPT
 > 
-> If you're interested in what the machine says, scroll down. If not just enjoy 
-> the image.
+> If you're interested in what the machine says about the image and the book, 
+> scroll down. If not just enjoy the image for how you feel about it.
 >
 >
 >
