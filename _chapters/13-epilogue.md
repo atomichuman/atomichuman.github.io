@@ -27,6 +27,8 @@ technology:
   - generative-ai-launch
 bibliography:
   - the-open-society-and-its-enemies
+people:
+  - dwight-eisenhower
 ---
 
 ### Summary
