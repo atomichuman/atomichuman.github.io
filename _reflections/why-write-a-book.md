@@ -9,7 +9,7 @@ contributed_by:
     person_id: "neil-d-lawrence"
     date: "2024-12-02"
     notes: "Written and approved for publication."
-featured_image: assets/images/data-science-africa-log.png
+featured_image: assets/images/data-science-africa-logo.png
 ---
 
 This is day three of the *Atomic Human* advent calendar and the second of a set-of reflection posts. 
