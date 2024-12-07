@@ -18,14 +18,17 @@ contributed_by:
     version: 3.5
     notes: Rewrite of summary based on chapter and summaries of other chapters. Required prompting to remove hallucinations.
     date: "2024-12-05"
+  - type: "human"
+    person_id: neil-d-lawrence
+    date: 2024-12-07
+    notes: Removed incorrect themes etc and deleted themes from site that aren't relevant.
 themes:
-  - intelligence-and-creation
-  - automation-and-humanity
-  - the-embodiment-factor
+  - embodiment-factor
   - locked-in-intelligence
-  - human-intelligence-vs-machine
-  - cultural-parallels-in-creation
-  - the-role-of-myths-in-ai
+  - human-intelligence-limitations
+  - communication-bandwidth
+  - human-vs-machine-intelligence
+  - the-atomic-human-essence
 historical_events:
   - michelangelo-sistine-chapel
 images:
