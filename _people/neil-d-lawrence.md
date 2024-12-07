@@ -4,7 +4,6 @@ title: Neil D. Lawrence
 role: Author, Machine Learning Researcher
 period: 1972–present
 given: Neil D.
-preferred: Neil
 family: Lawrence
 contributed_by:
   initial:
