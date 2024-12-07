@@ -10,10 +10,10 @@ contributed_by:
     date: "2024-12-07"
   reviewed_by:
   - type: "machine"
-	tool: "ChatGPT"
-	version: 4o1
-	date: "2024-12-07"
-	notes: Provided commentary that describes image and a title.
+    tool: "ChatGPT"
+    version: 4o1
+    date: "2024-12-07"
+    notes: Provided commentary that describes image and a title.
 featured_image: /assets/images/DALLE-2024-12-07-071039-a-cartoon-style-mid-20th-century-inspired-illustration-of-a-proud-yet-slightly-nervous-ai-researcher-the-researcher-wearing-a-trench-coat-and-glasses-holds-a-model-of-the-lunar-landing-module.webp
 description: "A image created to accompany the Onion Review written by Claude. Commentary by ChatGPT4o1."
 source: "DALL-E via ChatGPT4o1"
