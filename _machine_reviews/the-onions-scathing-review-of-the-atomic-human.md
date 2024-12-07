@@ -5,6 +5,8 @@ date: 2024-12-07
 type: "machine_review"
 extract: >
   CAMBRIDGE, UK — In what observers are calling a "desperate plea for continued relevance," AI researcher Neil Lawrence has published a 400-page manifesto arguing that humans are actually pretty great at stuff, according to sources who really hope he's right.
+comment: >
+  This is part of a series of reviews I asked Claude to write. I felt it caught the style of humour of the Onion very well, and I find it very funny.
 contributed_by:
   initial:
     type: "machine"
@@ -13,7 +15,7 @@ contributed_by:
     date: "2024-11-13"
 	notes: The prompt was 'Can you write a review of the book as written by "The Onion"'. The model had a the index, table of contents and a summary it had created of each chapter.
 ---
-
+<div class="machine-commentary" markdown="1">
 CAMBRIDGE, UK — In what observers are calling a "desperate plea for continued relevance," AI researcher Neil Lawrence has published a 400-page manifesto arguing that humans are actually pretty great at stuff, according to sources who really hope he's right.
 
 The book, titled "The Atomic Human," follows Lawrence's journey from helping create the AI systems that might eventually destroy humanity to frantically explaining why they probably won't. Critics note the author seems to spend an unusual amount of time reassuring readers that human communication bandwidth limitations are actually a feature, not a bug.
@@ -35,3 +37,4 @@ At press time, Lawrence was reportedly working on a follow-up book titled "Pleas
 - "Nervous Computer Scientists Begin Treating Their Laptops Really, Really Well Just In Case"
 
 - "AI Researcher's Children Still Not Convinced Dad's Job Is Real"
+</div>
