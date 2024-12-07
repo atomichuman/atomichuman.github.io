@@ -42,7 +42,7 @@ Reflections on the *The Atomic Human* from the author.
 
 ### **[Chapters](chapters)**
 
-Check out detailed summaries, bibliographies, and reflections for each chapter. Understand the concepts and questions that drive the narrative.
+Check out machine summaries, bibliographies, and themes for each chapter. Understand the concepts and questions that drive the narrative.
 
 ### **[Images](images)**
 
