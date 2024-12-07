@@ -83,7 +83,7 @@ title: Advent Calendar - The Atomic Human
       <td data-date="6"><a href="/images/dan-andrews-chapter-3/">6</a></td>
     </tr>
     <tr>
-      <td data-date="7">7</td>
+      <td data-date="7"><a href="/machine_reviews/the-onions-scathing-review-of-the-atomic-human/">7</td>
       <td data-date="8">8</td>
       <td data-date="9">9</td>
       <td data-date="10">10</td>
