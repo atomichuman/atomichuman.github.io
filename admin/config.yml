@@ -128,4 +128,7 @@ collections:
           { label: "Type", name: "type", widget: "select", options: ["human", "machine"] },
           { label: "Name", name: "name", widget: "string" },
           { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id" },
-          { label:
+          { label: "Date", name: "date", widget: "date" },
+          { label: "Notes", name: "notes", widget: "text" }
+        ] }
+        
