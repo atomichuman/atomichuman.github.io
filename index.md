@@ -42,7 +42,7 @@ Reflections on the *The Atomic Human* from the author.
 
 ### **[Chapters](chapters)**
 
-Check out detailed summaries, bibliographies, and reflections for each chapter. Understand the concepts and questions that drive the narrative.
+Check out machine summaries, bibliographies, and themes for each chapter. Understand the concepts and questions that drive the narrative.
 
 ### **[Images](images)**
 
@@ -54,7 +54,11 @@ Unpack the central themes of *The Atomic Human*. From artificial intelligence to
 
 ### **[Reviews](reviews)**
 
-Read what others are saying about the book. Includes both human and AI-generated reviews, offering diverse perspectives.
+Read what humans are saying about the book. 
+
+### **[Machine Reviews](machine_reviews)**
+
+Read what the machine is saying about the book. Machine generated reviews in different styles to try and see diverse perspectives.
 
 ### **[People](people)**
 

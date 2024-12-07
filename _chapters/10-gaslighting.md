@@ -30,6 +30,7 @@ historical_events:
 
 ---
 
+<div class="machine-commentary" markdown="1">
 ### Summary
 
 Chapter 10, *Gaslighting*, delves into the manipulation of trust and perception at individual, societal, and systemic levels. The title draws from the 1938 play *Gas Light*, where a husband manipulates his wife’s reality to make her question her sanity. This concept is expanded to examine how both states and technologies use similar tactics to control and manipulate.
@@ -39,3 +40,4 @@ The chapter recounts the Stasi’s pervasive surveillance in East Germany, which
 Modern parallels include the 2016 US election and Cambridge Analytica’s exploitation of social media algorithms to manipulate public perception. These examples highlight the dangers of surveillance capitalism and the commodification of personal data. Like the Stasi, today’s corporations leverage collected data to exploit human vulnerabilities, eroding trust at unprecedented scales.
 
 The chapter closes with reflections on resilience, emphasizing the importance of transparency, ethical boundaries, and collective awareness to resist manipulation. It calls for renewed attention to the lessons of history and vigilance against the exploitation of data and trust in our interconnected world.
+</div>

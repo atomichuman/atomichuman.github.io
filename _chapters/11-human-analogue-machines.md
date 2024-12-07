@@ -29,6 +29,7 @@ technology:
 
 ---
 
+<div class="machine-commentary" markdown="1">
 ### Summary
 
 Chapter 11, *Human–Analogue Machines (HAMs)*, explores the concept of machines designed to emulate human cognitive and emotional patterns. It begins by examining historical instances where machines were anthropomorphized to help humans comprehend their function, such as Donald MacKay's analogue computers and the MONIAC economic simulator. These systems aimed to model the real world through physical analogies like water flows or electrical circuits.
@@ -38,3 +39,4 @@ The chapter then transitions to modern neural networks and large language models
 Trust and vulnerability emerge as central themes. The chapter critiques the asymmetry in trust within human-machine interactions. Unlike human relationships, where trust involves mutual risk, interactions with HAMs often place humans in a position of greater vulnerability. This imbalance is compounded by machines' vast information-processing capabilities, which can lead to unforeseen outcomes and ethical dilemmas.
 
 Finally, the chapter reflects on the lessons from aviation and space exploration, such as the Apollo program, where engineers carefully curated interfaces to maintain control over complex systems. It argues for similar approaches in human-analogue machines, emphasizing the need for responsible design to mitigate risks while maximizing societal benefits.
+</div>

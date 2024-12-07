@@ -19,6 +19,9 @@ collections:
   reviews:
     output: true
     permalink: /reviews/:title/
+  machine_reviews:
+    output: true
+    permalink: /machine_reviews/:title/
   people:
     output: true
     permalink: /people/:name/
@@ -52,6 +55,10 @@ defaults:
       path: "_reviews"
     values:
       layout: review
+  - scope:
+      path: "_machine_reviews"
+    values:
+      layout: machine_review
   - scope:
       path: "_people"
     values:

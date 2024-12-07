@@ -21,6 +21,7 @@ themes:
   - limits-of-modeling
   - evolution-of-computational-theories
   - creativity-in-adaptation
+  - resilience-and-robustness
 technology:
   - turing-universal-computer
   - ross-ashby-homeostasis
@@ -29,6 +30,7 @@ technology:
 
 ---
 
+<div class="machine-commentary" markdown="1">
 ### Summary
 
 Chapter 9, *A Design for a Brain*, explores the intersection of biology, computation, and intelligence. Inspired by W. Ross Ashby’s work on homeostasis, the chapter examines how the human brain adapts to its environment, maintaining equilibrium while processing complex information. Ashby’s theories, as outlined in his book *Design for a Brain*, emphasize the nervous system’s mechanistic nature, likening it to a feedback system that ensures survival under changing conditions.
@@ -40,3 +42,4 @@ Using examples such as Konrad Lorenz’s studies of animal behavior and Warren M
 The narrative also addresses the “affordance gap” faced by early computational theorists like Turing. While they imagined machines capable of simulating human thought, technological limitations of their time constrained their ambitions. This gap between potential and realization parallels the challenges faced in modern AI research.
 
 By intertwining historical milestones with conceptual breakthroughs, *A Design for a Brain* illuminates the dynamic interplay of human creativity, biological inspiration, and computational innovation in the quest to understand intelligence.
+</div>

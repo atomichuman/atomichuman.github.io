@@ -30,6 +30,7 @@ people:
   - dwight-eisenhower
 ---
 
+<div class="machine-commentary" markdown="1">
 ### Summary
 
 Chapter 7, *It’s Not Rocket Science or Brain Surgery*, examines the interplay of human and machine intelligence, with a focus on the balance between automated systems and human intervention. Drawing on the Apollo moon landing as a case study, the chapter explores the importance of reflexive and reflective systems in decision-making and control.
@@ -41,3 +42,4 @@ Human motor intelligence, the chapter argues, emerges from the co-evolution of n
 The chapter contrasts these human capabilities with machine intelligence, highlighting the limitations of automation in contexts requiring adaptability and nuance. While computers like the Apollo Guidance Computer excelled in calculations, their "fast-reacting systems" were still dependent on human oversight for critical decisions.
 
 By analyzing historical advancements in automation, such as the Apollo mission’s development of Mission Control, the chapter underscores the importance of integrating human culture, training, and intelligence into systems of automation. These collaborations enable achievements far beyond the capacity of machines or humans alone.
+</div>

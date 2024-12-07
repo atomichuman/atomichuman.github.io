@@ -17,6 +17,8 @@ themes:
   - evolution-and-intelligence
   - resilience-and-robustness
   - natural-vs-artificial-intelligence
+  - resilience-and-robustness
+  - lessons-from-history
   - collaboration-in-adversity
   - emergence-through-error
   - persistence-of-culture
@@ -31,7 +33,6 @@ technolgy:
 images:
   - dan-andrews-chapter-4
 ---
-
 
 <div class="machine-commentary" markdown="1">
 ### Summary

@@ -15,6 +15,8 @@ contributed_by:
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - scientific-revolution
+  - natural-vs-artificial-intelligence
+  - lessons-from-history
   - knowledge-sharing
   - rationalism-and-reductionism
   - historical-transformations
@@ -30,6 +32,7 @@ people:
   - dwight-eisenhower
 ---
 
+<div class="machine-commentary" markdown="1">
 ### Summary
 
 Chapter 5, *Enlightenment*, examines the transformation of human knowledge and culture brought about by scientific and technological progress, focusing on the historical revolutions sparked by figures such as Johannes Gutenberg, Isaac Newton, and Pierre-Simon Laplace.
@@ -41,3 +44,4 @@ Isaac Newton’s *Principia Mathematica* emerges as a pivotal work of the Enligh
 Pierre-Simon Laplace’s philosophical essay on determinism, often referred to as "Laplace’s demon," extends this mechanistic view of the universe, envisioning a hypothetical intellect capable of predicting the future based on perfect knowledge of the past and present. This deterministic worldview underscores the chapter’s exploration of reductionism versus the complexity of human culture and emotion.
 
 The chapter closes with reflections on how these historical advancements laid the foundation for modern scientific inquiry, emphasizing the interplay of rationalism, creativity, and cultural context in shaping human progress.
+</div>

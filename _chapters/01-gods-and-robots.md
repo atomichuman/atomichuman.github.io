@@ -18,14 +18,19 @@ contributed_by:
     version: 3.5
     notes: Rewrite of summary based on chapter and summaries of other chapters. Required prompting to remove hallucinations.
     date: "2024-12-05"
+  - type: "human"
+    person_id: neil-d-lawrence
+    date: 2024-12-07
+    notes: Removed incorrect themes etc and deleted themes from site that aren't relevant.
 themes:
-  - intelligence-and-creation
-  - automation-and-humanity
-  - the-embodiment-factor
+  - embodiment-factor
   - locked-in-intelligence
-  - human-intelligence-vs-machine
-  - cultural-parallels-in-creation
-  - the-role-of-myths-in-ai
+  - natural-vs-artificial-intelligence
+  - lessons-from-history
+  - human-intelligence-limitations
+  - communication-bandwidth
+  - human-vs-machine-intelligence
+  - the-atomic-human-essence
 historical_events:
   - michelangelo-sistine-chapel
 images:
@@ -39,6 +44,7 @@ technology:
   - printing-press
 ---
 
+<div class="machine-commentary" markdown="1">
 ### Summary
 
 The chapter opens with two contrasting images of creation: Michelangelo's God giving life to Adam in the Sistine Chapel, and James Cameron's Terminator designed to extinguish human life. These images, separated by five centuries, illustrate humanity's tendency to embody intelligence, whether divine or artificial.
@@ -50,3 +56,4 @@ Using Bauby's "The Diving Bell and the Butterfly" as a key metaphor, the chapter
 The Amazon supply chain serves as a practical example of machine intelligence, demonstrating how automated systems must "second-guess" themselves when making decisions under time constraints. This leads to a critique of popular notions of superintelligence and the technological singularity, which the author dismisses as "hooey." Using the Top Trumps card game analogy, he argues that intelligence isn't a simple linear quality but varies by context and application.
 
 The chapter concludes by proposing to use machine intelligence as a mirror for understanding human intelligence, moving beyond hype to focus on how we can better understand ourselves and make informed choices about AI's role in society. This sets up the book's exploration of what makes us uniquely human - the "atomic human" that cannot be replicated by machines.
+</div>
