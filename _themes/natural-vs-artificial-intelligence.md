@@ -16,7 +16,7 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-07"
-	notes: After initial review human noticed chapter 4 was totally missing and prompted model to add it in.
+    notes: After initial review human noticed chapter 4 was totally missing and prompted model to add it in.
 ---
 
 <div class="machine-commentary" markdown="1">
