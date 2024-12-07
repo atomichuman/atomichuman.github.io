@@ -54,7 +54,11 @@ Unpack the central themes of *The Atomic Human*. From artificial intelligence to
 
 ### **[Reviews](reviews)**
 
-Read what others are saying about the book. Includes both human and AI-generated reviews, offering diverse perspectives.
+Read what humans are saying about the book. 
+
+### **[Machine Reviews](machine_reviews)**
+
+Read what the machine is saying about the book. Machine generated reviews in different styles to try and see diverse perspectives.
 
 ### **[People](people)**
 
