@@ -21,21 +21,10 @@ contributed_by:
     person_id: neil-d-lawrence
     date: 2024-12-07
     notes: Minor adjustments to machine text (e.g. remove redundant effectively).
-themes:
-  - human-intelligence-limitations
-  - communication-bandwidth
-  - human-vs-machine-intelligence
-  - embodiment-factor
-  - the-atomic-human-essence
-  - artificial-intelligence-perceptions
-  - cultural-impact-of-technology
-  - limitations-of-ai
-historical_events:
-  - michelangelo-sistine-chapel
-  - facebook-ai-research-foundation
-technology:
-  - printing-press
-  - deep-learning-breakthrough
+  - type: "human"
+    person_id: neil-d-lawrence
+    date: 2024-12-07
+    notes: Remove themes etc that are not covered in this chapter.
 people:
   - yann-lecun
   - zoubin-ghahramani
