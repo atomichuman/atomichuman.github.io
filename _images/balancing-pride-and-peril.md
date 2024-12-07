@@ -1,6 +1,6 @@
 ---
 layout: image
-title: "Balancing Pride and Peril"
+title: "DALL-E: Balancing Pride and Peril"
 date: 2024-12-07
 contributed_by:
   initial:
