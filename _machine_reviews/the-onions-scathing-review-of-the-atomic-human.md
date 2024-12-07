@@ -16,7 +16,7 @@ contributed_by:
     date: "2024-11-13"
     notes: The prompt was 'Can you write a review of the book as written by "The Onion"'. The model had a the index, table of contents and a summary it had created of each chapter.
   reviewed_by:
-    type: "human"
+  - type: "human"
     person_id: neil-d-lawrence
     date: "2024-12-07"
     notes: Comment to acknwoledge the fact that the review is funny, but also highlight that the humour is coming from humans who wrote for The Onion.
