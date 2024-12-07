@@ -3,6 +3,7 @@ layout: machine_review
 title: "Nervous AI Researcher Writes Entire Book To Convince Machines He's Not Worth Replacing"
 date: 2024-12-07
 type: "machine_review"
+style: The Onion
 description: >
   CAMBRIDGE, UK — In what observers are calling a "desperate plea for continued relevance," AI researcher Neil Lawrence has published a 400-page manifesto arguing that humans are actually pretty great at stuff, according to sources who really hope he's right.
 comment: >
