@@ -19,7 +19,8 @@ featured_image: /assets/images/DALLE-2024-12-07-071039-a-cartoon-style-mid-20th-
 
 <div class="machine-commentary" markdown="1">
 
-<center><image src="/assets/images/DALLE-2024-12-07-071039-a-cartoon-style-mid-20th-century-inspired-illustration-of-a-proud-yet-slightly-nervous-ai-researcher-the-researcher-wearing-a-trench-coat-and-glasses-holds-a-model-of-the-lunar-landing-module.webp" width="50%"></center>
+<center><image src="/assets/images/DALLE-2024-12-07-071039-a-cartoon-style-mid-20th-century-inspired-illustration-of-a-proud-yet-slightly-nervous-ai-researcher-the-researcher-wearing-a-trench-coat-and-glasses-holds-a-model-of-the-lunar-landing-module.webp" width="50%"/>
+</center>
 
 CAMBRIDGE, UK — In what observers are calling a "desperate plea for continued relevance," AI researcher Neil Lawrence has published a 400-page manifesto arguing that humans are actually pretty great at stuff, according to sources who really hope he's right.
 
