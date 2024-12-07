@@ -25,6 +25,12 @@ contributed_by:
     person_id: neil-d-lawrence
     date: 2024-12-07
     notes: Remove themes etc that are not covered in this chapter.
+themes:
+  - artificial-intelligence-perceptions
+technology:
+  - deep-learning-breakthrough
+historical_events:
+  - facebook-ai-research-foundation
 people:
   - yann-lecun
   - zoubin-ghahramani
