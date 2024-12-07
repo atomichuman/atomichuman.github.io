@@ -7,7 +7,7 @@ style: The Onion
 description: >
   CAMBRIDGE, UK — In what observers are calling a "desperate plea for continued relevance," AI researcher Neil Lawrence has published a 400-page manifesto arguing that humans are actually pretty great at stuff, according to sources who really hope he's right.
 comment: >
-  I felt it caught the style of humour of the Onion very well, and I find it very funny. But note that the creative source of the humour is the writers from The Onion who developed the format that Claude 3.5 has copied. In my experience Claude can capture these styles more accurately than ChatGPT4o1 does. I did try what would happen if I worked on a book with ChatGPT which uses the title given below. It wasn't funny, it was just depressing.
+  I felt it caught the style of humour of the Onion very well, and I find it very funny. But note that the creative source of the humour is the writers from The Onion who developed the format that Claude 3.5 has copied. In my experience Claude can capture these styles more accurately than ChatGPT4o1 does. I did test what would happen if I worked on a book with ChatGPT which uses the title given Claude suggested, but it wasn't funny, it was just depressing.
 contributed_by:
   initial:
     type: "machine"
