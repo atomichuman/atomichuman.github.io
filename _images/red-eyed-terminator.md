@@ -3,11 +3,18 @@ layout: image
 title: "The Terminator: Automation and Threat"
 date: 2024-12-06
 contributed_by:
+contributed_by:
   initial:
     type: "machine"
-    tool: "ChatGPT"
-    version: 4o1
+    tool: "DALL-E"
+    version: 3
     date: "2024-12-06"
+  reviewed_by:
+  - type: "machine"
+	tool: "ChatGPT"
+	version: 4o1
+	date: "2024-12-06"
+	notes: Provided commentary that describes image and a title.
 featured_image: /assets/images/DALLE-2024-12-06-070519-A-cartoon-style-depiction-of-a-humanoid-robot-with-glowing-red-eyes-slightly-menacing-but-approachable-in-design-standing-in-a-futuristic-metallic.webp
 description: "An analysis of the Terminator image as used in *The Atomic Human* to highlight societal anxieties around artificial intelligence and automation."  
 source: "Referenced from *The Atomic Human* by Neil D. Lawrence, published by Allen Lane in 2024."
