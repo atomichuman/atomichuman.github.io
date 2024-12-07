@@ -17,8 +17,6 @@ contributed_by:
 featured_image: /assets/images/DALLE-2024-12-07-071039-a-cartoon-style-mid-20th-century-inspired-illustration-of-a-proud-yet-slightly-nervous-ai-researcher-the-researcher-wearing-a-trench-coat-and-glasses-holds-a-model-of-the-lunar-landing-module.webp
 ---
 
-## Nervous AI Researcher Writes Entire Book To Convince Machines He's Not Worth Replacing
-
 <div class="machine-commentary" markdown="1">
 
 <center><image src="/assets/images/DALLE-2024-12-07-071039-a-cartoon-style-mid-20th-century-inspired-illustration-of-a-proud-yet-slightly-nervous-ai-researcher-the-researcher-wearing-a-trench-coat-and-glasses-holds-a-model-of-the-lunar-landing-module.webp" width="50%"/>
