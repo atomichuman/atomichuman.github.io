@@ -16,8 +16,8 @@ contributed_by:
 featured_image: /assets/images/Atomic_H_3_Intent.png
 description: A representation of Vitruvian man set in context of trust, autonomy and high embodiment
 source: "Drawn on commission by Dan Andrews of scribeysense.com"
-tags:
-- intent
+related-chapters:
+- 03-intent
 toggle_machine_commentary: True
 ---
 
