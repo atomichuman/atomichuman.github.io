@@ -15,6 +15,11 @@ contributed_by:
     version: 3.5
     date: "2024-11-13"
     notes: The prompt was 'Can you write a review of the book as written by "The Onion"'. The model had a the index, table of contents and a summary it had created of each chapter.
+  reviewed_by:
+    type: "human"
+    person_id: neil-d-lawrence
+    date: "2024-12-07"
+    notes: Comment to acknwoledge the fact that the review is funny, but also highlight that the humour is coming from humans who wrote for The Onion.
 featured_image: /assets/images/DALLE-2024-12-07-071039-a-cartoon-style-mid-20th-century-inspired-illustration-of-a-proud-yet-slightly-nervous-ai-researcher-the-researcher-wearing-a-trench-coat-and-glasses-holds-a-model-of-the-lunar-landing-module.webp
 ---
 
