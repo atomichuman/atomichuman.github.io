@@ -2,20 +2,20 @@
 layout: theme
 title: Natural vs Artificial Intelligence
 contributed_by:
-initial:
-type: "machine"
-tool: "ChatGPT"
-version: 4o1
-date: "2024-12-07"
-reviewed_by:
-- type: "human"
-person_id: neil-d-lawrence
-date: 2024-12-07
-notes: Lots of effort when creating the theme to get the model to focus on right chapters. Add in links to chapters.
-- type: "machine"
-tool: "ChatGPT"
-version: 4o1
-date: "2024-12-07"
+  initial:
+    type: "machine"
+    tool: "ChatGPT"
+    version: 4o1
+    date: "2024-12-07"
+  reviewed_by:
+  - type: "human"
+    person_id: neil-d-lawrence
+    date: 2024-12-07
+    notes: Lots of effort when creating the theme to get the model to focus on right chapters. Add in links to chapters.
+  - type: "machine"
+    tool: "ChatGPT"
+    version: 4o1
+    date: "2024-12-07"
 	notes: After initial review human noticed chapter 4 was totally missing and prompted model to add it in.
 ---
 
