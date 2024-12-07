@@ -7,7 +7,7 @@ style: The Onion
 description: >
   CAMBRIDGE, UK — In what observers are calling a "desperate plea for continued relevance," AI researcher Neil Lawrence has published a 400-page manifesto arguing that humans are actually pretty great at stuff, according to sources who really hope he's right.
 comment: >
-  This is part of a series of reviews I asked Claude to write. I felt it caught the style of humour of the Onion very well, and I find it very funny.
+  I felt it caught the style of humour of the Onion very well, and I find it very funny.
 contributed_by:
   initial:
     type: "machine"
