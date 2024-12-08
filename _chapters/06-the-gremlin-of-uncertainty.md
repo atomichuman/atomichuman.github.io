@@ -33,6 +33,7 @@ people:
   - Garth Lawrence
   - Valerie Lawrence
   - Dwight Eisenhower
+  - Norbert Wiener
 ---
 
 <div class="machine-commentary" markdown="1">
