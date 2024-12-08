@@ -28,9 +28,9 @@ collections:
             name: "initial"
             widget: "object"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -39,9 +39,9 @@ collections:
             name: "reviewed_by"
             widget: "list"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -62,9 +62,9 @@ collections:
             name: "initial"
             widget: "object"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -73,9 +73,9 @@ collections:
             name: "reviewed_by"
             widget: "list"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -97,9 +97,9 @@ collections:
             name: "initial"
             widget: "object"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -108,9 +108,9 @@ collections:
             name: "reviewed_by"
             widget: "list"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -133,9 +133,9 @@ collections:
             name: "initial"
             widget: "object"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -144,9 +144,9 @@ collections:
             name: "reviewed_by"
             widget: "list"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -188,7 +188,7 @@ collections:
             fields:
               - { label: "Type", name: "type", widget: "select", options: ["human"] }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
               - { label: "Notes", name: "notes", widget: "text", required: false }
       - { label: "Content", name: "body", widget: "markdown" }
@@ -214,9 +214,9 @@ collections:
             name: "initial"
             widget: "object"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -225,9 +225,9 @@ collections:
             name: "reviewed_by"
             widget: "list"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -250,9 +250,9 @@ collections:
             name: "initial"
             widget: "object"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -261,9 +261,9 @@ collections:
             name: "reviewed_by"
             widget: "list"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -286,9 +286,9 @@ collections:
             name: "initial"
             widget: "object"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -297,9 +297,9 @@ collections:
             name: "reviewed_by"
             widget: "list"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -311,10 +311,16 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Type", name: "type", widget: "select", options: ["article", "book", "inproceedings", "misc"], default: "misc" }
-      - { label: "Authors", name: "authors", widget: "list", fields: [
-          { label: "Given Name", name: "given", widget: "string" },
-          { label: "Family Name", name: "family", widget: "string" },
+      - { label: "Type", name: "layout", widget: "select", options: ["article", "book", "inproceedings", "misc"], default: "misc" }
+      - { label: "Authors", name: "author", widget: "list", fields: [
+          { label: "Given Name", name: "given", widget: "string", required: false },
+          { label: "Family Name", name: "family", widget: "string", required: false },
+          { label: "Prefix", name: "prefix", widget: "string", required: false },
+          { label: "Suffix", name: "suffix", widget: "string", required: false }
+        ] }
+      - { label: "Editors", name: "editor", widget: "list", fields: [
+          { label: "Given Name", name: "given", widget: "string", required: false },
+          { label: "Family Name", name: "family", widget: "string", required: false },
           { label: "Prefix", name: "prefix", widget: "string", required: false },
           { label: "Suffix", name: "suffix", widget: "string", required: false }
         ] }
@@ -339,9 +345,9 @@ collections:
             name: "initial"
             widget: "object"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
@@ -350,9 +356,9 @@ collections:
             name: "reviewed_by"
             widget: "list"
             fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
               - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Name", name: "name", widget: "string", required: false }
               - { label: "Tool", name: "tool", widget: "string", required: false }
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
