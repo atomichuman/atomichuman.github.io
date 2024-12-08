@@ -164,11 +164,10 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Model", name: "model", widget: "string" }
-      - { label: "Version", name: "version", widget: "string" }
       - { label: "Date Generated", name: "date_generated", widget: "date" }
-      - { label: "Rating", name: "rating", widget: "number", required: false }
-      - { label: "Summary", name: "summary", widget: "markdown" }
+      - { label: "Style", name: "style", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Comment", name: "comment", widget: "markdown" }
       - label: "Contributed By"
         name: "contributed_by"
         widget: "object"
