@@ -206,7 +206,6 @@ collections:
       - { label: "Prefix", name: "prefix", widget: "string", required: false }
       - { label: "Family Name", name: "family", widget: "string" }
       - { label: "Suffix", name: "suffix", widget: "string", required: false }
-: false }
       - label: "Contributed By"
         name: "contributed_by"
         widget: "object"
