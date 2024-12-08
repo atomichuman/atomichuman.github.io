@@ -202,7 +202,8 @@ collections:
       - { label: "Period", name: "period", widget: "string" }
       - { label: "Role", name: "role", widget: "string" }
       - { label: "Given Name", name: "given", widget: "string" }
-      - { label: "Preferred Name", name: "preferred", widget: "string", required      - { label: "Prefix", name: "prefix", widget: "string", required: false }
+      - { label: "Preferred Name", name: "preferred", widget: "string", required: false}
+      - { label: "Prefix", name: "prefix", widget: "string", required: false }
       - { label: "Family Name", name: "family", widget: "string" }
       - { label: "Suffix", name: "suffix", widget: "string", required: false }
 : false }
