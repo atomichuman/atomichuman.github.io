@@ -19,25 +19,25 @@ In *The Atomic Human*, Neil D. Lawrence draws parallels between the evolutionary
 
 ## **Evolution and Intelligence: Natural Adaptation vs. Artificial Design**
 
-### 1. Survival and Adaptability (Chapter 4: [Persistence](/chapters/04-persistence/))
+### 1. Survival and Adaptability (Chapter 4: [Persistence](/chapters/Persistence/))
 
 Natural intelligence arises from evolutionary pressures that favor survival. Lawrence emphasizes how persistence—both cultural and biological—is a hallmark of evolved systems, from bacterial colonies to human cognition. Evolution favors adaptability, enabling humans to respond to diverse and unpredictable challenges. In contrast, AI systems are typically optimized for specific, pre-defined environments, limiting their flexibility in unstructured scenarios.
 
 ---
 
-### 2. Directed vs. Evolved Intelligence (Chapter 4: [Persistence](/chapters/04-persistence/))
+### 2. Directed vs. Evolved Intelligence (Chapter 4: [Persistence](/chapters/Persistence/))
 
 The distinction between directed (designed) and evolved intelligence is central to understanding the strengths and weaknesses of AI. Directed intelligence, exemplified by AI systems, is task-oriented, efficient, and fast but lacks the robustness and generality of evolved systems. Lawrence illustrates this with examples such as wartime codebreaking, where human ingenuity complemented the structured processes of machines.
 
 ---
 
-### 3. Cultural Evolution and Knowledge Transmission (Chapter 5: [Enlightenment](/chapters/05-enlightenment/))
+### 3. Cultural Evolution and Knowledge Transmission (Chapter 5: [Enlightenment](/chapters/Enlightenment/))
 
 Cultural evolution plays a critical role in human intelligence, serving as a mechanism for the transmission of accumulated knowledge across generations. Lawrence compares this to genetic evolution, highlighting how cultural artifacts, from language to art, enhance human adaptability. AI, while capable of processing vast datasets, lacks the ability to generate or inherit the cultural context that shapes human cognition.
 
 ---
 
-### 4. Intelligence as an Ecosystem (Chapter 12: [Trust](/chapters/12-trust/))
+### 4. Intelligence as an Ecosystem (Chapter 12: [Trust](/chapters/Trust/))
 
 Human intelligence functions as part of a larger ecosystem, interacting with social and environmental factors. Lawrence discusses how AI systems are increasingly integrated into this ecosystem, but their success depends on their ability to align with the evolved intelligence of humans. Mismatches between AI designs and human contexts often lead to failures in trust and usability, underscoring the importance of considering evolutionary principles in AI design.
 

@@ -13,7 +13,7 @@ contributed_by:
     date: "2024-12-08"
   reviewed_by:
   - type: "human"
-    person_id: "neil-d-lawrence"
+    person_id: "Neil D. Lawrence"
     date: "2024-12-08"
     notes: A bit syrupy, but that's what the machine said so I'll leave it there for the moment.
 ---

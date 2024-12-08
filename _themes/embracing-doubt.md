@@ -9,7 +9,7 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
     type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: "2024-12-07"
     notes: Fixed reflection to theme. The reflections are coming from humans only, this is an automated theme extraction. Added div tags for machine labelling.
 ---

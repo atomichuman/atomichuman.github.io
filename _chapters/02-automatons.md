@@ -10,7 +10,7 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
@@ -22,18 +22,18 @@ themes:
   - human-context-in-ai
   - limitations-of-machine-autonomy
 historical_events:
-  - bletchley-park
+  - Bletchley Park
 images:
-  - dan-andrews-chapter-2
+  - "Dan Andrews: Automatons"
 technology:
-  - enigma-machine
-  - alan-turing-bombes
-  - colossus
+  - Enigma Machine
+  - Alan Turing and the Bombes
+  - Colossus
 people:
-  - jeff-bezos
-  - dwight-eisenhower
+  - Jeff Bezos
+  - Dwight Eisenhower
 images:
-  - dan-andrews-chapter-3
+  - "Dan Andrews: Intent"
 ---
 
 <div class="machine-commentary" markdown="1">

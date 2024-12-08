@@ -16,7 +16,7 @@ contributed_by:
     notes: Requested revision after very inaccurate summary from ChatGPT.
     date: "2024-12-05"
   - type: human
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: "2024-12-05"
     notes: Clarify the planning approach is not an approach to uncertainty.
 ---

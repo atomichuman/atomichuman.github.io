@@ -12,12 +12,12 @@ contributed_by:
   reviewed_by:
   - type: "human"
     name: "Neil D. Lawrence"
-    person_id: "neil-d-lawrence"
+    person_id: "Neil D. Lawrence"
     date: "2024-11-29"
     notes: "Edited and approved for publication."
   - type: "human"
     name: "Neil D. Lawrence"
-    person_id: "neil-d-lawrence"
+    person_id: "Neil D. Lawrence"
     date: "2024-12-05"
     notes: "Updated advent calendar link."
 ---

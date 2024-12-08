@@ -6,7 +6,7 @@ contributed_by:
   initial:
     type: "human"
     name: "Neil D. Lawrence"
-    person_id: "neil-d-lawrence"
+    person_id: "Neil D. Lawrence"
     date: "2024-12-08"
     notes: "Written and approved for publication."
 featured_image: assets/images/Atomic_H_4_Persistence.png

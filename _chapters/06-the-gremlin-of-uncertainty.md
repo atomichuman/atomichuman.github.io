@@ -10,7 +10,7 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
@@ -18,21 +18,21 @@ themes:
   - diversity-in-approaches
   - probability-theory
   - human-vs-machine-adaptability
-  - embracing-doubt
+  - Embracing Doubt
   - evolution-of-probabilistic-thinking
   - practical-vs-perfect-knowledge
 historical_events:
-  - laplace-demon
+  - "Laplace's Demon"
   - world-war-ii-aircraft-testing
   - bayesian-probability
-  - colossus
+  - Colossus
 reflections:
-  - finite-horizons
+  - Finite Horizons
 people:
-  - mark-lawrence
-  - garth-lawrence
-  - valerie-lawrence
-  - dwight-eisenhower
+  - Mark Lawrence
+  - Garth Lawrence
+  - Valerie Lawrence
+  - Dwight Eisenhower
 ---
 
 <div class="machine-commentary" markdown="1">

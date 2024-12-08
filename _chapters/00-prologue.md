@@ -9,7 +9,7 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
   - type: "machine"
@@ -18,21 +18,21 @@ contributed_by:
     date: "2024-12-05"
     notes: Have Claude rewrite prologue text through initially analyzing through a strengths/weaknesses critique.
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-07
     notes: Minor adjustments to machine text (e.g. remove redundant effectively).
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-07
     notes: Remove themes etc that are not covered in this chapter.
 themes:
-  - artificial-intelligence-perceptions
+  - Artificial Intelligence Perceptions
 technology:
-  - deep-learning-breakthrough
+  - Deep Learning Breakthrough
 historical_events:
-  - facebook-ai-research-foundation
+  - Facebook AI Research Foundation
 people:
-  - yann-lecun
+  - Yann LeCun
   - zoubin-ghahramani
   - max-welling
 ---

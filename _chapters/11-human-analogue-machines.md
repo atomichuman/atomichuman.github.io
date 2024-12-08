@@ -10,7 +10,7 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
@@ -18,14 +18,14 @@ themes:
   - trust-in-technology
   - human-centered-ai
   - system-vulnerabilities
-  - the-limitations-of-analogy
-  - rethinking-human-machine-interaction
-  - risks-in-human-analogue-ai
+  - The Limitations of Analogy
+  - Rethinking Human-Machine Interaction
+  - Risks in Human-Analogue AI
 historical_events:
-  - cambridge-analytica
+  - Cambridge Analytica
 technology:
-  - turing-universal-machine
-  - apollo-guidance-computer
+  - Turing Universal Machine
+  - Apollo Guidance Computer
 
 ---
 

@@ -10,7 +10,7 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
   - type: "machine"
@@ -19,29 +19,29 @@ contributed_by:
     notes: Rewrite of summary based on chapter and summaries of other chapters. Required prompting to remove hallucinations.
     date: "2024-12-05"
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-07
     notes: Removed incorrect themes etc and deleted themes from site that aren't relevant.
 themes:
-  - embodiment-factor
-  - locked-in-intelligence
-  - natural-vs-artificial-intelligence
+  - The Embodiment Factor
+  - Locked-In Intelligence
+  - Natural vs Artificial Intelligence
   - lessons-from-history
-  - human-intelligence-limitations
-  - communication-bandwidth
-  - human-vs-machine-intelligence
-  - the-atomic-human-essence
+  - Human Intelligence Limitations
+  - Communication Bandwidth
+  - Human vs Machine Intelligence
+  - The Atomic Human Essence
 historical_events:
-  - michelangelo-sistine-chapel
+  - Michelangelo’s Sistine Chapel
 images:
-  - dan-andrews-chapter-1
-  - michelangelo-creation-of-adam
-  - red-eyed-terminator
+  - "Dan Andrews: Gods and Robots"
+  - "The Creation of Adam: Embodiment and Intelligence"
+  - "DALL-E: Red Eyed Terminator: Automation and Threat"
 bibliography:
   - terminator-movie
   - diving-bell-and-butterfly
 technology:
-  - printing-press
+  - The Printing Press
 ---
 
 <div class="machine-commentary" markdown="1">

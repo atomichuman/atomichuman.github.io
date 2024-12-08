@@ -10,13 +10,13 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - trust-and-betrayal
-  - natural-vs-artificial-intelligence
-  - resilience-and-robustness
+  - Natural vs Artificial Intelligence
+  - Resilience and Robustness
   - societal-resilience
   - shared-vulnerability
   - algorithmic-accountability
@@ -24,12 +24,12 @@ themes:
   - ethical-use-of-data
   - lessons-from-surveillance
 historical_events:
-  - stasi-files-release
-  - cambridge-analytica
+  - Stasi Files Release
+  - Cambridge Analytica
 bibliography:
-  - nineteen-eighty-four
+  - Nineteen Eighty-Four
 people:
-  - dwight-eisenhower
+  - Dwight Eisenhower
 ---
 
 <div class="machine-commentary" markdown="1">

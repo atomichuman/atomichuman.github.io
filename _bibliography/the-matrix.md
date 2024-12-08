@@ -11,7 +11,7 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by: 
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-02
     notes: Moving to bibliography section, add how the film is used in the book.
 ---

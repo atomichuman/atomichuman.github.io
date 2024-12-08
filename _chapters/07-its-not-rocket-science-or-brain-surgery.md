@@ -10,7 +10,7 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
@@ -18,16 +18,16 @@ themes:
   - interdependence-of-intelligence
   - motor-skills-and-adaptability
   - evolution-of-automation
-  - training-reflexive-systems
-  - innovation-through-synergy
-  - human-culture-vs-machine
+  - Training Reflexive Systems
+  - Innovation Through Synergy
+  - Human Culture vs Machine
 historical_events:
-  - moon-landing
+  - Moon Landing
 technology:
-  - mission-control-development
-  - apollo-guidance-computer
+  - Mission Control Development
+  - Apollo Guidance Computer
 people:
-  - dwight-eisenhower
+  - Dwight Eisenhower
 ---
 
 <div class="machine-commentary" markdown="1">

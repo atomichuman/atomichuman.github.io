@@ -11,6 +11,6 @@ contributed_by:
     type: "human"
     name: "Zoubin Ghahramani"
     notes: "Part of the Talks at Google series."
-    person_id: "talks-at-google"
+    person_id: "Talks at Google"
     date: "2024-07-15"
 ---

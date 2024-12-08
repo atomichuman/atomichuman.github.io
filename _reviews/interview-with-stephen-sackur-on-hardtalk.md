@@ -11,6 +11,6 @@ contributed_by:
     type: "human"
     name: "Stephen Sackur"
     notes: "Available on IPlayer (UK only). Podcast version available via BBC World Service."
-    person_id: "interview-with-stephen-sackur-on-hardtalk"
+    person_id: "Interview with Stephen Sackur on HARDtalk"
     date: "2024-08-07"
 ---

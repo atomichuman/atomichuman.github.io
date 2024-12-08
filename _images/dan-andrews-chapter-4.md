@@ -18,7 +18,7 @@ description: Art is a shared message being read across time form one human to an
 source: "Drawn on commission by Dan Andrews of scribeysense.com"
 toggle_machine_commentary: True
 reflections:
-  art-is-human
+  Art is Human
 ---
 
 I found this image from Dan to be the one that most resonated with me, because it meant he'd picked out what I felt to be one of the most imporant messages from the book. That art is intrinsically human.

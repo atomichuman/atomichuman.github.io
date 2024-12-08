@@ -12,6 +12,6 @@ contributed_by:
   initial:
     type: "human"
     name: "Jessi Hempel"
-    person_id: "the-case-for-ai-optimism"
+    person_id: "The Case for AI Optimism"
     date: "2024-09-23"
 ---

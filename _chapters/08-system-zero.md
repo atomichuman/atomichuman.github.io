@@ -10,24 +10,24 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - data-and-control
-  - reflexive-vs-reflective-intelligence
-  - manipulation-through-systems
+  - Reflexive vs Reflective Intelligence
+  - Manipulation Through Systems
   - societal-resilience
   - power-of-personal-data
   - surveillance-capitalism
   - emergent-behavior-in-ai
 bibliography:
-  - the-matrix
+  - The Matrix
 historical_events:
-  - bletchley-park
-  - cambridge-analytica
+  - Bletchley Park
+  - Cambridge Analytica
 people:
-  - dwight-eisenhower
+  - Dwight Eisenhower
 ---
 
 <div class="machine-commentary" markdown="1">

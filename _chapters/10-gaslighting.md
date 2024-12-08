@@ -10,23 +10,23 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-    person_id: neil-d-lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
-  - manipulation-and-trust
-  - surveillance-and-power
+  - Manipulation and Trust
+  - Surveillance and Power
   - societal-fractures
   - resilience-against-deception
   - fragility-of-trust
   - ethical-boundaries-in-data
   - lessons-from-history
 bibliography:
-  - nineteen-eighty-four
+  - Nineteen Eighty-Four
   - gas-light
 historical_events:
-  - stasi-surveillance
-  - cambridge-analytica
+  - Stasi Surveillance
+  - Cambridge Analytica
 
 ---
 
