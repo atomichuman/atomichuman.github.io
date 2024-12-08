@@ -5,5 +5,6 @@ given: Alan
 family: Turing
 role: "Pioneer in Computer Science and AI"
 description: "Developed the Turing Test to measure machine intelligence."
-related_chapters: ["09-a-design-for-a-brain"]
+related_chapters: 
+- 09-a-design-for-a-brain
 ---

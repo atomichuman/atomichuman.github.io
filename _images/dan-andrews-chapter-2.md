@@ -16,8 +16,8 @@ contributed_by:
 featured_image: /assets/images/Atomic_H_2_Automatons.png
 description: A group of humans and a group of robots are taught in different ways
 source: "Drawn on commission by Dan Andrews of scribeysense.com"
-tags:
-- automatons
+related_chapters:
+- 02-automatons
 toggle_machine_commentary: True
 ---
 

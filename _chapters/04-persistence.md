@@ -17,21 +17,16 @@ themes:
   - evolution-and-intelligence
   - resilience-and-robustness
   - natural-vs-artificial-intelligence
-  - resilience-and-robustness
-  - lessons-from-history
   - collaboration-in-adversity
   - emergence-through-error
   - persistence-of-culture
   - adaptability-across-time
-reflections:
-  - art-is-human
 historical_events:
   - dna-transcription-discovery
   - natural-selection
 technolgy:
   - enigma-decryption
-images:
-  - dan-andrews-chapter-4
+
 ---
 
 <div class="machine-commentary" markdown="1">
