@@ -25,7 +25,6 @@ reflections:
 - Facebook AI Lab Launch
 ---
 
-I found this image from Dan to be the one that most resonated with me, because it meant he'd picked out what I felt to be one of the most imporant messages from the book. That art is intrinsically human.
 
 <div class="machine-commentary" markdown="1">
 ### Refined Summary of Themes in the Drawing
