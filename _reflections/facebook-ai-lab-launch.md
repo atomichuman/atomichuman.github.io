@@ -30,4 +30,10 @@ But while our intelligence can transmit information much faster than our ecology
 
 [^1]: Now it seems complex life may have been around longer than previously thought. See this [this paper](https://www.nature.com/articles/s41559-024-02461-1) for the science and [this video](https://www.youtube.com/watch?v=wHWKfa7PdOE) for a nice explanation.
 
+<center>
+<img src="/assets/images/Atomic_H_12_Trust.png" alt="Dan Andrews's drawing for Chapter 12, Trust" width="70%">
+
+<i><a href="/images/dan-andrews-chapter-12/">Dan Andrews' illustration of Chapter 12</a>. See <a href="https://scribeysense.com">scribeysense.com</a></i>
+</center>
+
 In the book I remark that that implies that the threat that machines present to us is more similar to the threat we present to our ecology than the more vivid existential risk narratives that have dominated the popular conversation over the last few years. This idea is captured nicely in Dan Andrews' iamge included here.
