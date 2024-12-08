@@ -22,5 +22,5 @@ In *The Atomic Human*, Neil D. Lawrence uses Garman’s role to highlight the in
 
 Garman’s actions exemplify the integration of human expertise and machine precision, showing how these two elements complement each other in solving complex problems. His legacy in the book underscores the necessity of balancing fast-reacting systems with slower, reflective strategies, a theme central to the narrative’s exploration of intelligence.
 
-**Additional Context:** This updated description acknowledges that Garman’s story in *The Atomic Human* is used to explore the interplay between reflexive and reflective intelligence, rather than solely focusing on his [human oversight] ~quick decision-making~. My initial draft mischaracterized this emphasis, which was clarified after revisiting the text.
+**Additional Context:** This updated description acknowledges that Garman’s story in *The Atomic Human* is used to explore the interplay between reflexive and reflective intelligence, rather than solely focusing on his [human oversight] ~~quick decision-making~~. My initial draft mischaracterized this emphasis, which was clarified after revisiting the text.
 </div>
