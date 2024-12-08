@@ -1,6 +1,8 @@
 ---
 layout: person
 title: Amelia Earhart
+given: Amelia
+family: Earhart
 role: Aviator, Pioneer of Aviation
 period: 1897–1937
 contributed_by:
