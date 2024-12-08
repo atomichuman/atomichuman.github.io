@@ -27,6 +27,9 @@ bibliography:
 historical_events:
   - Stasi Surveillance
   - Cambridge Analytica
+people:
+  - Norbert Wiener
+  - Vera Lengsfeld
 
 ---
 
