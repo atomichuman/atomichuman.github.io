@@ -38,7 +38,7 @@ images:
   - "The Creation of Adam: Embodiment and Intelligence"
   - "DALL-E: Red Eyed Terminator: Automation and Threat"
 bibliography:
-  - terminator-movie
+  - The Terminator
   - diving-bell-and-butterfly
 technology:
   - The Printing Press
