@@ -30,6 +30,7 @@ technology:
 people:
   - Alan Turing
   - W. Ross Ashby
+  - Norbert Wiener
 ---
 
 <div class="machine-commentary" markdown="1">
