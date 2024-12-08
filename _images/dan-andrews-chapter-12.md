@@ -1,6 +1,6 @@
 ---
 layout: image
-title: "Dan Andrews: Persistence"
+title: "Dan Andrews: Trust"
 date: 2024-12-08
 contributed_by:
   initial:
