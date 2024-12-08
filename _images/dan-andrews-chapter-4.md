@@ -1,7 +1,7 @@
 ---
 layout: image
 title: "Dan Andrews: Persistence"
-date: 2024-12-08
+date: 2024-12-09
 contributed_by:
   initial:
     type: "human"
