@@ -85,7 +85,7 @@ title: Advent Calendar - The Atomic Human
     <tr>
       <td data-date="7"><a href="/machine_reviews/the-onions-scathing-review-of-the-atomic-human/">7</a></td>
       <td data-date="8"><a href="/reflections/facebook-ai-lab-launch">8</a></td>
-      <td data-date="9"><a href="/machine_reviews/fifeteen-diverse-amazon-reviews/">9</td>
+      <td data-date="9"><a href="/machine_reviews/fifeteen-diverse-amazon-reviews/">9</a></td>
       <td data-date="10">10</td>
       <td data-date="11">11</td>
       <td data-date="12">12</td>
