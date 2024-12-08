@@ -27,6 +27,7 @@ reflections:
 
 
 <div class="machine-commentary" markdown="1">
+  
 ### Refined Summary of Themes in the Drawing
 
 Dan Andrews' drawing for Chapter 12 of *The Atomic Human* serves as a vivid visual metaphor for the relationship between humanity, machines, and ecology. The themes it captures are:
