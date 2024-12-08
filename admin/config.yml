@@ -20,13 +20,33 @@ collections:
       - { label: "Link", name: "link", widget: "string" }
       - { label: "Extract", name: "extract", widget: "text" }
       - { label: "Comment", name: "comment", widget: "text" }
-      - { label: "Contributed By", name: "contributed_by", widget: "object", fields: [
-          { label: "Type", name: "type", widget: "select", options: ["human", "machine"] },
-          { label: "Name", name: "name", widget: "string" },
-          { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id" },
-          { label: "Date", name: "date", widget: "date" },
-          { label: "Notes", name: "notes", widget: "text" }
-        ] }
+      - label: "Contributed By"
+        name: "contributed_by"
+        widget: "object"
+        fields:
+          - label: "Initial Contribution"
+            name: "initial"
+            widget: "object"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id", required: false }
+              - { label: "Name", name: "name", widget: "string" },
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+              - label: "Reviewed By"
+                name: "reviewed_by"
+                widget: "list"
+                fields:
+                  - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+                  - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id", required: false }
+                  - { label: "Name", name: "name", widget: "string" },
+                  - { label: "Tool", name: "tool", widget: "string", required: false }
+                  - { label: "Version", name: "version", widget: "string", required: false }
+                  - { label: "Date", name: "date", widget: "date" }
+                  - { label: "Notes", name: "notes", widget: "text", required: false }
+      - { label: "Content", name: "body", widget: "markdown" }        
 
   - name: "reflections"
     label: "Reflections"
@@ -35,14 +55,34 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "date" }
-      - { label: "Contributed By", name: "contributed_by", widget: "object", fields: [
-          { label: "Type", name: "type", widget: "select", options: ["human", "machine"] },
-          { label: "Name", name: "name", widget: "string" },
-          { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id" },
-          { label: "Date", name: "date", widget: "date" },
-          { label: "Notes", name: "notes", widget: "text" }
-        ] }
+      - label: "Contributed By"
+        name: "contributed_by"
+        widget: "object"
+        fields:
+          - label: "Initial Contribution"
+            name: "initial"
+            widget: "object"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id", required: false }
+              - { label: "Name", name: "name", widget: "string" },
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+              - label: "Reviewed By"
+                name: "reviewed_by"
+                widget: "list"
+                fields:
+                  - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+                  - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id", required: false }
+                  - { label: "Name", name: "name", widget: "string" },
+                  - { label: "Tool", name: "tool", widget: "string", required: false }
+                  - { label: "Version", name: "version", widget: "string", required: false }
+                  - { label: "Date", name: "date", widget: "date" }
+                  - { label: "Notes", name: "notes", widget: "text", required: false }
       - { label: "Featured Image", name: "featured_image", widget: "image" }
+      - { label: "Content", name: "body", widget: "markdown" }        
 
   - name: "chapters"
     label: "Chapters"
@@ -51,18 +91,38 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Chapter Number", name: "number", widget: "number" }
-      - { label: "Contributed By", name: "contributed_by", widget: "object", fields: [
-          { label: "Type", name: "type", widget: "select", options: ["human", "machine"] },
-          { label: "Name", name: "name", widget: "string" },
-          { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id" },
-          { label: "Date", name: "date", widget: "date" },
-          { label: "Notes", name: "notes", widget: "text" }
-        ] }
+      - label: "Contributed By"
+        name: "contributed_by"
+        widget: "object"
+        fields:
+          - label: "Initial Contribution"
+            name: "initial"
+            widget: "object"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id", required: false }
+              - { label: "Name", name: "name", widget: "string" },
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+              - label: "Reviewed By"
+                name: "reviewed_by"
+                widget: "list"
+                fields:
+                  - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+                  - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id", required: false }
+                  - { label: "Name", name: "name", widget: "string" },
+                  - { label: "Tool", name: "tool", widget: "string", required: false }
+                  - { label: "Version", name: "version", widget: "string", required: false }
+                  - { label: "Date", name: "date", widget: "date" }
+                  - { label: "Notes", name: "notes", widget: "text", required: false }
       - { label: "Themes", name: "themes", widget: "relation", collection: "themes", search_fields: ["title"], value_field: "title", multiple: true }
       - { label: "Historical Events", name: "historical_events", widget: "relation", collection: "history", search_fields: ["title"], value_field: "title", multiple: true }
       - { label: "Images", name: "images", widget: "relation", collection: "images", search_fields: ["title"], value_field: "title", multiple: true }
       - { label: "Bibliography", name: "bibliography", widget: "relation", collection: "bibliography", search_fields: ["title"], value_field: "title", multiple: true }
       - { label: "Technology", name: "technology", widget: "relation", collection: "technology", search_fields: ["title"], value_field: "title", multiple: true }
+      - { label: "Content", name: "body", widget: "markdown" }        
 
   - name: "themes"
     label: "Themes"
@@ -70,13 +130,32 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Contributed By", name: "contributed_by", widget: "object", fields: [
-          { label: "Type", name: "type", widget: "select", options: ["human", "machine"] },
-          { label: "Name", name: "name", widget: "string" },
-          { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id" },
-          { label: "Date", name: "date", widget: "date" },
-          { label: "Notes", name: "notes", widget: "text" }
-        ] }
+      - label: "Contributed By"
+        name: "contributed_by"
+        widget: "object"
+        fields:
+          - label: "Initial Contribution"
+            name: "initial"
+            widget: "object"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id", required: false }
+              - { label: "Name", name: "name", widget: "string" },
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+              - label: "Reviewed By"
+                name: "reviewed_by"
+                widget: "list"
+                fields:
+                  - { label: "Type", name: "type", widget: "select", options: ["human", "machine"] }
+                  - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "person_id", required: false }
+                  - { label: "Tool", name: "tool", widget: "string", required: false }
+                  - { label: "Version", name: "version", widget: "string", required: false }
+                  - { label: "Date", name: "date", widget: "date" }
+                  - { label: "Notes", name: "notes", widget: "text", required: false }
+      - { label: "Content", name: "body", widget: "markdown" }        
 
   - name: "technology"
     label: "Technology"
@@ -92,6 +171,7 @@ collections:
           { label: "Date", name: "date", widget: "date" },
           { label: "Notes", name: "notes", widget: "text" }
         ] }
+      - { label: "Content", name: "body", widget: "markdown" }        
 
   - name: "history"
     label: "History"
@@ -107,6 +187,7 @@ collections:
           { label: "Date", name: "date", widget: "date" },
           { label: "Notes", name: "notes", widget: "text" }
         ] }
+      - { label: "Content", name: "body", widget: "markdown" }        
 
   - name: "bibliography"
     label: "Bibliography"
@@ -131,4 +212,5 @@ collections:
           { label: "Date", name: "date", widget: "date" },
           { label: "Notes", name: "notes", widget: "text" }
         ] }
+      - { label: "Content", name: "body", widget: "markdown" }        
         
