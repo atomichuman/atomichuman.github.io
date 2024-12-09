@@ -11,8 +11,8 @@ contributed_by:
     tool: ChatGPT
     version: 4o1
   reviewed_by:
-    - date: 2024-12-09T19:15:24.153Z
-      type: human
+    - type: human
+      date: 2024-12-09T19:15:24.153Z
       person_id: Neil D. Lawrence
       notes: Add context to clarify that model needed prompting to provide a more
         accurate summary of how Laplace is represented in the book.
