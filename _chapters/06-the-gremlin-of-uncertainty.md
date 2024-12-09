@@ -29,10 +29,11 @@ historical_events:
 reflections:
   - Finite Horizons
 people:
+  - Dwight Eisenhower
+  - Pierre-Simon Laplace
   - Mark Lawrence
   - Garth Lawrence
   - Valerie Lawrence
-  - Dwight Eisenhower
   - Norbert Wiener
 ---
 
