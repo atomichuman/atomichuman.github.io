@@ -30,6 +30,7 @@ historical_events:
 people:
   - Norbert Wiener
   - Vera Lengsfeld
+  - Frank Rosenblatt
 
 ---
 
