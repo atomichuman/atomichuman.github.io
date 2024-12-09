@@ -26,7 +26,7 @@ contributed_by:
 	version: 4o1
     date: "2024-12-09"
     notes: Comment on the nature of the reviews.
-featured_image: /assets/images/customers-also-viewed.png
+featured_image: /assets/images/DALLE-2024-12-08-215941-a-cartoon-style-customers-also-viewed-book-recommendation-layout-featuring-titles-mentioned-in-the-atomic-human-by-neil-d-lawrence.webp
 ---
 
 
