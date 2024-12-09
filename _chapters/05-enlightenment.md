@@ -31,9 +31,11 @@ technology:
 people:
   - Dwight Eisenhower
   - Norbert Wiener
+  - Pierre-Simon Laplace
 ---
 
 <div class="machine-commentary" markdown="1">
+
 ### Summary
 
 Chapter 5, *Enlightenment*, examines the transformation of human knowledge and culture brought about by scientific and technological progress, focusing on the historical revolutions sparked by figures such as Johannes Gutenberg, Isaac Newton, and Pierre-Simon Laplace.
