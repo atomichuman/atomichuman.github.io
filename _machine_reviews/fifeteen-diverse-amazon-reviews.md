@@ -6,7 +6,8 @@ type: "machine_review"
 style: Amazon
 description: >
   ★★★★★ "A Fascinating Journey Through Intelligence" - by TechPhilosopher
-An absolutely brilliant exploration of what makes us human in the age of AI. Lawrence weaves personal stories (his grandfather's D-Day experiences, bicycle accidents) with deep technical insights about intelligence. The way he connects historical moments ...
+  An absolutely brilliant exploration of what makes us human in the age of AI. Lawrence weaves personal stories (his grandfather's D-Day experiences, bicycle accidents) with deep technical 
+  insights about intelligence. The way he connects historical moments ...
 comment: >
   I've played with various "reviews in the style of" but I think this was the most effective in capturing what people feel about the book. Principally because each review has a username that reflects the mindset of the underlying reviewer. These reviews match very well to the type of reviews the book gets on the web. To check the real reviews (which read pretty much the same but don't give you the mindset) see here: <https://www.amazon.co.uk/Atomic-Human-Understanding-Ourselves-Age-ebook/dp/B0CGZHBSLL#customerReviews>
 contributed_by:
