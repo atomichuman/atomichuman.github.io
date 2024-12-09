@@ -38,6 +38,7 @@ people:
 ---
 
 <div class="machine-commentary" markdown="1">
+  
 ### Summary
 
 Chapter 6, *The Gremlin of Uncertainty*, examines the pervasive role of uncertainty in both human and machine intelligence. Drawing on Pierre-Simon Laplace’s philosophical ideas, the chapter discusses “Laplace’s demon,” a thought experiment that imagines a being with perfect knowledge of all forces and positions in the universe. While theoretically compelling, Laplace’s demon underscores the limitations of real-world knowledge and computation, a problem the author refers to as "Laplace’s gremlin."
