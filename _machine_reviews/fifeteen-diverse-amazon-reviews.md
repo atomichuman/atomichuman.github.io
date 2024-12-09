@@ -1,33 +1,44 @@
 ---
+featured_image: /assets/images/DALLE-2024-12-08-215941-a-cartoon-style-customers-also-viewed-book-recommendation-layout-featuring-titles-mentioned-in-the-atomic-human-by-neil-d-lawrence.webp
 layout: machine_review
-title: "Fifeteen Diverse Amazon Reviews"
 date: 2024-12-09
-type: "machine_review"
+title: Fifeteen Diverse Amazon Reviews
 style: Amazon
+type: machine_review
+date_generated: 2024-12-09T06:57:20.031Z
 description: >
-  ★★★★★ "A Fascinating Journey Through Intelligence" - by TechPhilosopher
-  An absolutely brilliant exploration of what makes us human in the age of AI. Lawrence weaves personal stories (his grandfather's D-Day experiences, bicycle accidents) with deep technical 
-  insights about intelligence. The way he connects historical moments ...
+  ★★★★★ "A Fascinating Journey Through Intelligence" - by TechPhilosopher An
+  absolutely brilliant exploration of what makes us human in the age of AI.
+  Lawrence weaves personal stories (his grandfather's D-Day experiences, bicycle
+  accidents) with deep technical  insights about intelligence. The way he
+  connects historical moments ...
 comment: >
-  I've played with various "reviews in the style of" but I think this was the most effective in capturing what people feel about the book. Principally because each review has a username that reflects the mindset of the underlying reviewer. These reviews match very well to the type of reviews the book gets on the web. To check the real reviews (which read pretty much the same but don't give you the mindset) see here: <https://www.amazon.co.uk/Atomic-Human-Understanding-Ourselves-Age-ebook/dp/B0CGZHBSLL#customerReviews>
+  I've played with various "reviews in the style of" but I think this was the
+  most effective in capturing what people feel about the book. Principally
+  because each review has a username that reflects the mindset of the underlying
+  reviewer. These reviews match very well to the type of reviews the book gets
+  on the web. To check the real reviews (which read pretty much the same but
+  don't give you the mindset) see here:
+  <https://www.amazon.co.uk/Atomic-Human-Understanding-Ourselves-Age-ebook/dp/B0CGZHBSLL#customerReviews>
 contributed_by:
   initial:
-    type: "machine"
-    tool: "Claude"
+    type: machine
+    tool: Claude
     version: 3.5
-    date: "2024-11-12"
-    notes: The prompt was 'Can you generate a spectrum of 15 different reviews in the style of Amazon reviewers?'. The model had a the index, table of contents and a summary it had created of each chapter.
+    date: 2024-11-12
+    notes: The prompt was 'Can you generate a spectrum of 15 different reviews in
+      the style of Amazon reviewers?'. The model had a the index, table of
+      contents and a summary it had created of each chapter.
   reviewed_by:
-  - type: "human"
-    person_id: Neil D. Lawrence
-    date: "2024-12-08"
-    notes: Comment on the nature of the reviews.
-  - type: "machine"
-    tool: ChatGPT
-    version: 4o1
-    date: "2024-12-09"
-    notes: Comment on the nature of the reviews.
-featured_image: /assets/images/DALLE-2024-12-08-215941-a-cartoon-style-customers-also-viewed-book-recommendation-layout-featuring-titles-mentioned-in-the-atomic-human-by-neil-d-lawrence.webp
+    - type: human
+      person_id: Neil D. Lawrence
+      date: 2024-12-08
+      notes: Comment on the nature of the reviews.
+    - type: machine
+      tool: ChatGPT
+      version: 4o1
+      date: 2024-12-09
+      notes: Comment on the nature of the reviews.
 ---
 
 
