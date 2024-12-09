@@ -3,7 +3,7 @@ layout: default
 title: Advent Calendar - The Atomic Human
 ---
 
-# The Atomic Human Advent Calendar
+# The Atomic Human Advent Calendar 2024
 
 <style>
   .advent-calendar {
