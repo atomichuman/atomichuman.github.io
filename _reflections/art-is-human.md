@@ -22,7 +22,7 @@ There were a number of messages that emerged from those dialogues, and many of t
 <i>Dan Andrews' illustration of Chapter 4. See <a href="https://scribeysense.com">scribeysense.com</a></i>
 </center>
 
-However, there was one big difference. In the work leading to the 2017 report, there was one area where the public were unequivocal that they didn't want the research community to pursue progress. Quoting from the report (my emphasis).
+However, there was one area we asked about in 2017, but we didn't ask about in 2024. That was an area where the public unequivocal that they didn't want the research community to pursue progress. Quoting from the report (my emphasis).
 
 > **Art**: Participants failed to see the purpose of machine learning-written poetry. For all the other case studies, participants recognised that a machine might be able to do a better job than a human. However, they did not think this would be the case when creating art, as doing so was considered to be a fundamentally human activity *that machines could only mimic at best*.
 > 
