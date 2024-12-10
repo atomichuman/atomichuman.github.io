@@ -24,9 +24,10 @@ themes:
 historical_events:
   - dna-transcription-discovery
   - natural-selection
-technolgy:
+technology:
   - enigma-decryption
-
+refelctions:
+  - Art is Human
 ---
 
 <div class="machine-commentary" markdown="1">
