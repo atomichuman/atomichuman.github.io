@@ -12,9 +12,9 @@ contributed_by:
 featured_image: assets/images/Atomic_H_4_Persistence.png
 ---
 
-For the Working Group for the [Royal Society report on Machine Learning](https://royalsociety.org/-/media/policy/projects/machine-learning/publications/machine-learning-report.pdf), back in 2016, the group [worked with Ipsos MORI to engage in public dialogue around the technology](https://royalsociety.org/~/media/policy/projects/machine-learning/publications/public-views-of-machine-learning-ipsos-mori.pdf). Ever since I've been struck about how much more sensible the conversations that emerge from public dialogue are than the breathless drivel that seems to emerged from supposedly more informed individuals.
+For the Working Group for the [Royal Society report on Machine Learning](https://royalsociety.org/-/media/policy/projects/machine-learning/publications/machine-learning-report.pdf), back in 2016, the group [worked with Ipsos MORI to engage in public dialogue around the technology](https://royalsociety.org/~/media/policy/projects/machine-learning/publications/public-views-of-machine-learning-ipsos-mori.pdf). Ever since I've been struck about how much more sensible the conversations that emerge from public dialogue are than the breathless drivel that seems to emerge from supposedly more informed individuals.
 
-There were a number of messages that emerged from those dialogues, and many of those messages were reinforced in two further public dialogues we organised in September.
+There were a number of messages that emerged from those dialogues, and many of those messages were reinforced in [two further public dialogues we organised in September](https://ai.cam.ac.uk/blog/using-ai-for-public-benefit-insights-from-our-public-dialogues-on-ai-and-the-missions-for-government).
 
 <center>
 <img src="/assets/images/Atomic_H_1_Gods_Robots.png" alt="Dan Andrews's drawing for Chapter 4, Persistence" width="70%">
