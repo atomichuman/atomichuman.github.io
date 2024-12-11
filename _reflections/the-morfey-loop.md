@@ -49,9 +49,10 @@ The concept of the Atomic Human came to me while he was telling me the story bec
 [^stairs]: Named for Roger Penrose but originally constructed by [Oscar Reutsv%C3%A4rd](https://en.m.wikipedia.org/wiki/Oscar_Reutersv%C3%A4rd)
 
 <center>
-<image src="https://upload.wikimedia.org/wikipedia/en/6/66/Ascending_and_Descending.jpg" width="50%">
+<image src="https://upload.wikimedia.org/wikipedia/en/6/66/Ascending_and_Descending.jpg" width="50%"/>
 
 <i>M. C. Escher's Ascending and Descending</i>
+
 </center>
 
 I liked the story but I felt that the reason it wouldn't happen is that there's a core to human nature that's like Democritus's atom, only cognitive. And that's how the title and the idea of the Atomic Human came about. 
