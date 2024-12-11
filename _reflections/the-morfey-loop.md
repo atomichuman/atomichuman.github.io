@@ -46,7 +46,7 @@ We were talking about inteligence and Alastair told me about a story he came up 
 
 The concept of the Atomic Human came to me while he was telling me the story because I felt that what he was describing was impossible. A loop that was akin to [Penrose Stairs](https://en.m.wikipedia.org/wiki/Penrose_stairs),[^stairs] famously represented in a lithograph by Escher. 
 
-[^stairs]: Named for Roger Penrose but originally constructed by [Oscar Reutsv%C3%A4rd](https://en.m.wikipedia.org/wiki/Oscar_Reutersv%C3%A4rd)
+[^stairs]: Named for Roger Penrose but originally constructed by [Oscar Reutsvärd](https://en.m.wikipedia.org/wiki/Oscar_Reutersvärd).
 
 <center>
 <image src="https://upload.wikimedia.org/wikipedia/en/6/66/Ascending_and_Descending.jpg" width="50%"/>
