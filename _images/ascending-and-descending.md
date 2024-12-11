@@ -10,16 +10,8 @@ generated_by:
   date: 2024-12-11T10:46:20.004Z
 contributed_by:
   initial:
-    date: 2024-12-11T10:46:20.011Z
+    date: 1960-03-01
     type: human
     name: M. C. Escher
-    version: ""
     notes: Lithograph by M. C. Escher. Low resolution version from Wikimedia.
-  reviewed_by:
-    - date: 2024-12-11T11:17:20.783Z
-      type: machine
-      tool: ChatGPT
-      version: 4o1
-      notes: Review of image and it's relation to Alastair Morfey's Esher-like story
-        of creation.
 ---
