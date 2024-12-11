@@ -20,9 +20,9 @@ contributed_by:
       notes: I asked ChatGPT 4o1 to relate the image to the story.
 featured_image: https://upload.wikimedia.org/wikipedia/en/6/66/Ascending_and_Descending.jpg
 ---
-I've related how the book was [triple cooked](/reflections/the-atomic-human/). And the concept of the Atomic Human only emerged between the second and third rewrite. I was looking for a title that would bring together the ideas I'd shared. The title and the associated concept came to me on a bike ride during a conversation with my friend Alastair Morfey.
+I've related how the book was [triple cooked](/reflections/the-atomic-human/). And the concept of the Atomic Human only emerged between the second and third rewrite. I was looking for a title that would bring together the ideas I'd shared. The title and the associated concept came to me on a bike ride during a conversation with my friend Alistair Morfey.
 
-We were talking about inteligence and Alastair told me about a story he came up with when he was younger. Back in August I asked Alistair to share written version of the story.
+We were talking about inteligence and Alistair told me about a story he came up with when he was younger. Back in August I asked Alistair to share written version of the story.
 
 > Man has always wanted to invent and build machines to make life easier. Man started by inventing tools to reduce his manual labour.
 > 
