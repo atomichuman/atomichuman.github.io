@@ -88,7 +88,7 @@ title: Advent Calendar - The Atomic Human
       <td data-date="9"><a href="/machine_reviews/fifeteen-diverse-amazon-reviews/">9</a></td>
       <td data-date="10"><a href="/reflections/art-is-human/">10</a></td>
       <td data-date="11"><a href="/reflections/the-morfey-loop/">11</a></td>
-      <td data-date="12"><a href="/reflections/two-types-of-stochatic-parrot/>12</a></td>
+      <td data-date="12"><a href="/reflections/two-types-of-stochatic-parrot/">12</a></td>
     </tr>
     <tr>
       <td data-date="13">13</td>
