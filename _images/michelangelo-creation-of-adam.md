@@ -1,6 +1,6 @@
 ---
 layout: image
-title: "The Creation of Adam: Embodiment and Intelligence"
+title: "Michelangelo's The Creation of Adam: Embodiment and Intelligence"
 date: 2024-12-06
 contributed_by:
   initial:

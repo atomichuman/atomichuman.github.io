@@ -30,6 +30,10 @@ bibliography:
   - Nineteen Eighty-Four
 people:
   - Dwight Eisenhower
+images:
+  - "Dan Andrews: Trust"
+reflections:
+  - Facebook AI Lab Launch
 ---
 
 <div class="machine-commentary" markdown="1">

@@ -54,7 +54,7 @@ Human intelligence is profoundly shaped by cultural narratives and historical pe
 
 ### 5. Trust and Integration (Chapter 12: [Trust](/chapters/Trust/))
 
-The theme culminates in the question of trust: can we trust machines to make decisions for us? Lawrence explores this in depth, showing that the lack of emotional and cultural grounding in machines complicates their integration into human decision-making processes. While machines excel in areas like data analysis and logistics, their inability to incorporate empathy, ethics, or long-term societal impact creates challenges in domains such as healthcare, law, and governance. Building trust in artificial systems requires not just technological innovation but also ethical frameworks that align machine actions with human values.
+The theme culminates in the question of trust: can we trust machines to make decisions for us? Lawrence explores this in depth, showing that the lack of emotional and cultural grounding in machines complicates their integration into human decision-making processes. While machines excel in areas like data analysis and logistics, their inability to incorporate empathy, ethics, or long-term societal impact creates challenges in domains such as healthcare, law, and governance. Building trust in artificial systems requires not just technological innovation but also ~~ethical frameworks that align machine actions with human values~~ [the decision making systems should be "socially vested", i.e. they should share vulnerabilities with those impacted by their decisions. Lawrence relates these ideas to Baroness Onora O'Neill's Reith lectures "A Question of Trust"]. 
 
 ---
 

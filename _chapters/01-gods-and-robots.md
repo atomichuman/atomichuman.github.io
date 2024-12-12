@@ -35,7 +35,7 @@ historical_events:
   - Michelangelo’s Sistine Chapel
 images:
   - "Dan Andrews: Gods and Robots"
-  - "The Creation of Adam: Embodiment and Intelligence"
+  - "Michelangelo's The Creation of Adam: Embodiment and Intelligence"
   - "DALL-E: Red Eyed Terminator: Automation and Threat"
 bibliography:
   - The Terminator

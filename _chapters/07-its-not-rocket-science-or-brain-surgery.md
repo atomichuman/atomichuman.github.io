@@ -28,6 +28,11 @@ technology:
   - Apollo Guidance Computer
 people:
   - Dwight Eisenhower
+  - Stefan Cavallo
+  - Neil Armstrong
+  - Amelia Earhart
+  - Chris Kraft
+  - Jack Garman
 ---
 
 <div class="machine-commentary" markdown="1">

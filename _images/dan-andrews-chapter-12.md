@@ -1,6 +1,6 @@
 ---
 layout: image
-title: "Dan Andrews: Persistence"
+title: "Dan Andrews: Trust"
 date: 2024-12-08
 contributed_by:
   initial:
@@ -25,9 +25,9 @@ reflections:
 - Facebook AI Lab Launch
 ---
 
-I found this image from Dan to be the one that most resonated with me, because it meant he'd picked out what I felt to be one of the most imporant messages from the book. That art is intrinsically human.
 
 <div class="machine-commentary" markdown="1">
+  
 ### Refined Summary of Themes in the Drawing
 
 Dan Andrews' drawing for Chapter 12 of *The Atomic Human* serves as a vivid visual metaphor for the relationship between humanity, machines, and ecology. The themes it captures are:

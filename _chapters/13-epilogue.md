@@ -28,6 +28,8 @@ bibliography:
   - the-open-society-and-its-enemies
 people:
   - Dwight Eisenhower
+  - Norbert Wiener
+  - Karl Popper
 ---
 
 <div class="machine-commentary" markdown="1">

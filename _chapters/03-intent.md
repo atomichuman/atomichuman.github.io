@@ -31,6 +31,7 @@ people:
 ---
 
 <div class="machine-commentary" markdown="1">
+  
 ### Summary
 
 Chapter 3, *Intent*, explores the role of intent in intelligence, decision-making, and collaboration, emphasizing how human adaptability differs from machine rigidity. Drawing historical parallels from Bletchley Park during World War II, the chapter contrasts the effectiveness of combining human judgment and machine precision. At Bletchley, knowing the adversary's intent allowed for task decomposition, enabling effective use of machines and human experts alike.

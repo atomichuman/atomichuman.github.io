@@ -27,7 +27,10 @@ technology:
   - Ross Ashby and Homeostasis
   - Neural Network Foundations
   - Colossus
-
+people:
+  - Alan Turing
+  - W. Ross Ashby
+  - Norbert Wiener
 ---
 
 <div class="machine-commentary" markdown="1">
