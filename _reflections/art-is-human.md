@@ -19,7 +19,7 @@ There were a number of messages that emerged from those dialogues, and many of t
 <center>
 <img src="/assets/images/Atomic_H_4_Persistence.png" alt="Dan Andrews's drawing for Chapter 4, Persistence" width="70%">
 
-<i>Dan Andrews' illustration of Chapter 4. See <a href="https://scribeysense.com">scribeysense.com</a></i>
+<i>[Dan Andrews' illustration of Chapter 4](/images/dan-andrews-chapter-4/). See <a href="https://scribeysense.com">scribeysense.com</a></i>
 </center>
 
 However, there was one area we asked about in 2017, but we didn't ask about in 2024. That was an area where the public unequivocal that they didn't want the research community to pursue progress. Quoting from the report (my emphasis).
