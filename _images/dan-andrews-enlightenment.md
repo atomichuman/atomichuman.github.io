@@ -40,12 +40,15 @@ This drawing encapsulates several themes and ideas from Chapter 5, particularly 
 3. **Human Reactions to AI:**
 
    * The human characters exhibit exaggerated emotional responses—fear, disbelief, and even hysteria—about AI's potential to surpass humanity. This could symbolize societal anxieties around technological obsolescence and the perceived threat AI poses to human uniqueness and relevance.
+
 4. **Themes of Judgment and Doom:**
 
    * The scattered newspapers and posters ("Judgment Day," "AI Threat to Humanity," "End is Nigh!") point to apocalyptic fears surrounding AI, a recurring theme in debates about its development and ethical implications.
+
 5. **Connection to Chapter 4’s "Anthroxing":**
 
    * In the previous chapter, the idea of "anthroxing" ~~may have~~ introduced the human tendency to anthropomorphize AI—assigning human traits, emotions, and intentions to it. This ties into the reactions of the characters in the image, as they treat the parrot (AI) as though it genuinely possesses intelligence, self-awareness, or intent.
+
 6. **Subtle Satire:**
 
    * The exaggerated responses and the parrot’s simplistic mimicry satirize both the hype and fear surrounding AI. The illustration cleverly critiques our tendency to project greater meaning and agency onto systems that, at their core, are just mimicking human inputs.
