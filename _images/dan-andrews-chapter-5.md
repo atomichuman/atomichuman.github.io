@@ -1,8 +1,7 @@
 ---
 title: "Dan Andrews: Enlightenment"
 date: 2024-12-12T06:51:20.110Z
-image: /assets/images/atomic_h_5_enlightenment.png
-featured_image: /assets/images/atomic_h_5_enlightenment.png
+featured_image: /assets/images/Atomic_H_5_Enlightenment.png
 toggle_machine_commentary: true
 generated_by:
   date: 2024-12-12T06:51:20.129Z
@@ -21,7 +20,8 @@ contributed_by:
         AI rather than themselves. This was pointed out explicitly when creating
         a new summary.
 ---
-Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a graphical scribe for many [ai@cam](https://ai.cam.ac.uk) and [Accelerate Science](https://science.ai.cam.ac.uk) events.  
+
+Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a graphical scribe for many [ai@cam](https://ai.cam.ac.uk) and [Accelerate Science](https://science.ai.cam.ac.uk) events.
 
 This is what he picked out from Chapter 5.
 
@@ -34,9 +34,11 @@ This drawing encapsulates several themes and ideas from Chapter 5, particularly 
 1. **The "Stochastic Parrot" Analogy:**
 
    * The image prominently features a cartoon parrot labeled "AI," mimicking human phrases like "Humans are obsolete" and "AI is smarter than humans." This reflects the idea that AI systems, while appearing intelligent, often rely on mimicking and synthesizing human-provided data without true understanding or creativity.
+   
 2. **The Art of Mimicry:**
 
    * The tagline at the bottom, "They have refined the art of mimicry," emphasizes that AI models excel at imitating human language and behavior, but their "intelligence" is derivative, rooted in the vast amounts of human data they are trained on.
+   
 3. **Human Reactions to AI:**
 
    * The human characters exhibit exaggerated emotional responses—fear, disbelief, and even hysteria—about AI's potential to surpass humanity. This could symbolize societal anxieties around technological obsolescence and the perceived threat AI poses to human uniqueness and relevance.
