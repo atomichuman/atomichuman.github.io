@@ -34,6 +34,8 @@ people:
   - Pierre-Simon Laplace
 images:
   - dan-andrews-chapter-5
+bibliography:
+  - "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
 ---
 
 <div class="machine-commentary" markdown="1">
