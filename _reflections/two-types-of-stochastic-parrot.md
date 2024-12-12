@@ -18,7 +18,7 @@ It feels a sensible point to reflect on the importance of the original paper. Wh
 <center>
 <img src="/assets/images/Atomic_H_5_Enlightenment.png" alt="Dan Andrews's drawing for Chapter 5, Enlightenment" width="70%">
 
-<i>[Dan Andrews' illustration of Chapter 5](/images/dan-andrews-chapter-5/). See <a href="https://scribeysense.com">scribeysense.com</a></i>
+<i><a href="/images/dan-andrews-chapter-5/">Dan Andrews' illustration of Chapter 5</a>. See <a href="https://scribeysense.com">scribeysense.com</a></i>
 </center>
 
 In the UK their voices were replaced by a different type of stochastic parrot, a group of "fleshy GPTs" that speak confidently and eloquently but have little experience of real life and make arguments that, for those with deeper knowledge are flawed in naive and obvious ways. 
