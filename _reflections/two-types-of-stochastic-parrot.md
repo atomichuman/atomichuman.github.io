@@ -11,14 +11,14 @@ featured_image: /assets/images/Atomic_H_5_Enlightenment.png
 
 Today's reflection is inspired by Dan Andrew's image for Chapter 5. Dan uses the stochastic parrot analogy from Bender et al to capture one of the chapters themes around the data of the machine coming from us. 
 
-It feels a sensible point to reflect on the importance of the original paper. While I cite it in passing, it doesn't form an integrated part of the narrative, but I hope that doesn't mean people don't think I find it unimportant. 
+It feels a sensible point to reflect on the importance of the original paper. While I cite it in passing, it doesn't form an integrated part of the narrative, but I hope that doesn't mean people think I find it unimportant. 
 
 [The stochastic parrots paper](/bibliography/on-the-dangers-of-stochastic-parrots/) was the moment that the research community, through a group of brave researchers, some of whom paid with their jobs, raised the first warnings about these technologies. Despite their bravery, at least in the UK, their voices and those of many other female researchers were erased from the public debate around AI. 
 
 <center>
 <img src="/assets/images/Atomic_H_5_Enlightenment.png" alt="Dan Andrews's drawing for Chapter 5, Enlightenment" width="70%">
 
-<i>[Dan Andrews' illustration of Chapter 5](/images/dan-andrews-chapter-5/). See <a href="https://scribeysense.com">scribeysense.com</a></i>
+<i><a href="/images/dan-andrews-chapter-5/">Dan Andrews' illustration of Chapter 5</a>. See <a href="https://scribeysense.com">scribeysense.com</a></i>
 </center>
 
 In the UK their voices were replaced by a different type of stochastic parrot, a group of "fleshy GPTs" that speak confidently and eloquently but have little experience of real life and make arguments that, for those with deeper knowledge are flawed in naive and obvious ways. 
