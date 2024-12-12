@@ -32,6 +32,8 @@ people:
   - Dwight Eisenhower
   - Norbert Wiener
   - Pierre-Simon Laplace
+images:
+  - dan-andrews-chapter-5
 ---
 
 <div class="machine-commentary" markdown="1">

@@ -3,6 +3,8 @@ title: "Dan Andrews: Enlightenment"
 date: 2024-12-12T06:51:20.110Z
 featured_image: /assets/images/Atomic_H_5_Enlightenment.png
 toggle_machine_commentary: true
+source: Drawn on commission by Dan Andrews of scribeysense.com
+description: An AI parrot repeats information about AI doom panicking humans.
 generated_by:
   date: 2024-12-12T06:51:20.129Z
 contributed_by:
