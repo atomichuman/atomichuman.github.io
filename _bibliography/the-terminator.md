@@ -11,12 +11,13 @@ contributed_by:
     date: "2024-12-02"
   reviewed_by:
   - type: "human"
-	person_id: Neil D. Lawrence
+    person_id: Neil D. Lawrence
     date: 2024-12-02
     notes: Moving to bibliography section, add how the film is used in the book.
 ---
 
 <div class="machine-commentary" markdown="1">
+
 ### Summary
 
 James Cameron’s *The Terminator* (1984) introduced audiences to a dystopian vision of artificial intelligence. The film depicts a future where Skynet, an AI defense system, becomes self-aware and initiates a war against humanity. The Terminator, a relentless robotic assassin, serves as a powerful symbol of unbridled technological advancement and its potential dangers. The movie has become a cultural icon, shaping public perceptions of AI and sparking discussions about the ethical limits of automation and machine autonomy.
