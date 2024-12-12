@@ -1,5 +1,5 @@
 ---
-layout: paper
+layout: inproceedings
 title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
 author:
   - given: Emily M.
@@ -11,7 +11,6 @@ author:
   - given: Shmargaret
     family: Shmitchell
 year: 2021
-isbn: 9781450383097
 publisher: Association for Computing Machinery
 address: New York, NY, USA
 url: https://doi.org/10.1145/3442188.3445922
