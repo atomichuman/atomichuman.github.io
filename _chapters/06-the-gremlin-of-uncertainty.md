@@ -35,6 +35,8 @@ people:
   - Garth Lawrence
   - Valerie Lawrence
   - Norbert Wiener
+images:
+  - "Dan Andrews: The Gremlin of Uncertainty"
 ---
 
 <div class="machine-commentary" markdown="1">
