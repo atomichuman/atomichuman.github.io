@@ -91,7 +91,7 @@ title: Advent Calendar - The Atomic Human
       <td data-date="12"><a href="/reflections/two-types-of-stochastic-parrot/">12</a></td>
     </tr>
     <tr>
-      <td data-date="13">13</td>
+      <td data-date="13"><a href="/reflections/the-subjectivity-of-superiority/">13</a></td>
       <td data-date="14">14</td>
       <td data-date="15">15</td>
       <td data-date="16">16</td>
