@@ -9,7 +9,7 @@ contributed_by:
 featured_image: /assets/images/academic-capability-plot.png
 ---
 
-I once participated in a round table discussion on liberalism.[^1] The two main debaters were an early career political historian and a very established behavioral economist. I was excited to listen, because although I'm an instinctive supporter of democratic institutionalism, the young political historian challenging had interesting ideas that she presented in a provocative way. I'd learned a lot from her in the conversations we'd had.
+I once participated in a round table discussion on liberalism.[^1] The two main debaters were an early career political historian and a very established behavioral economist. I was excited to listen, because although I'm an instinctive supporter of democratic institutionalism, the young political historian had interesting ideas that challenged the liberal consensus that she presented in a provocative way. I'd learned a lot from her in the conversations we'd had.
 
 [^1]: As in [classical liberalism](https://en.wikipedia.org/wiki/Classical_liberalism). 
 
