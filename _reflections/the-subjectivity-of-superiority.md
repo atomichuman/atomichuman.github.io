@@ -17,7 +17,7 @@ The debate was disappointing because the behavioural economist failed to engage 
 
 For me, this attitude lacked respect for the young political historian's perspective. Whether I was right or not, the lack of respect I perceived irritated me to the extent that, later the same day, when the behavioural economist gave a public speech, I entered the room in a somewhat contrarian mood. 
 
-Whatever the behavioural economist said, I mentally pick holes in it.[^1] Their style was somewhat sardonic, and at some point they continued a thready of their argument by smugly wheeling out the idea that "everyone in this room thinks they're better than the average academic" (ha ha, what idiots we all are). 
+Whatever the behavioural economist said, I mentally pick holes in it.[^1] Their style was somewhat sardonic, and at some point they continued a thread of their argument by smugly wheeling out the idea that "everyone in this room thinks they're better than the average academic" (ha ha, what idiots we all are). 
 
 [^1]: I didn't vocalise these, the room was mainly filled with esteemed people who (I felt) fawned soemwhat over the economists ideas. Expressing my contrarianism would not have chimed with the broader atmosphere.
 
