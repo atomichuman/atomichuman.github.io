@@ -42,6 +42,8 @@ bibliography:
   - diving-bell-and-butterfly
 technology:
   - The Printing Press
+reflections:
+  - The Subjectivity of Superiority
 ---
 
 <div class="machine-commentary" markdown="1">

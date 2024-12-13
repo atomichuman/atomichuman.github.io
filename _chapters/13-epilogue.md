@@ -30,6 +30,8 @@ people:
   - Dwight Eisenhower
   - Norbert Wiener
   - Karl Popper
+reflections:
+  - The Subjectivity of Superiority
 ---
 
 <div class="machine-commentary" markdown="1">
