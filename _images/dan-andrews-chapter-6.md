@@ -14,9 +14,9 @@ contributed_by:
     - date: 2024-12-14
       type: machine
       notes: The initial summary made connections to Kahneman's System 1 and System 2 which are not explored significantly in the text. The updated summary required human prompting to establish this misrepresentation.
-	- type: human
-	  person_id: Neil D. Lawrence
-	  date: 2024-12-14
+    - type: human
+      person_id: Neil D. Lawrence
+      date: 2024-12-14
 ---
 
 Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a graphical scribe for many [ai@cam](https://ai.cam.ac.uk) and [Accelerate Science](https://science.ai.cam.ac.uk) events.
