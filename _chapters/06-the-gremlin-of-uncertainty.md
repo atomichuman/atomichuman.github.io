@@ -28,6 +28,7 @@ historical_events:
   - Colossus
 reflections:
   - Finite Horizons
+  - Racing, Fast and Slow
 people:
   - Dwight Eisenhower
   - Pierre-Simon Laplace
