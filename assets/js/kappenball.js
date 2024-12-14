@@ -157,7 +157,7 @@ var params = {
     initialSpeed: 5,
     energy: 0.0,
     gravityAccel: 0.06,
-    arrowAccel: 0.4,
+    arrowAccel: 4,
     stochasticity: 0.0,
     stochasticityScale: 0.2,
     dragFactor: 0.97
