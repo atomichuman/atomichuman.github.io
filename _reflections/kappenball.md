@@ -14,14 +14,24 @@ contributed_by:
 <!-- style for kappenball canvas-->
 <style>
 :root {
-    --kappenball-ground: rgba(56, 256, 56, 0.8);
-    --kappenball-pin: rgba(256, 56, 56, 0.8);
-    --kappenball-ball: rgba(200, 200, 200, 0.8);
-    --kappenball-membrane: rgba(56, 256, 56, 0.8);
-    --kappenball-hot: rgba(256, 56, 56, 0.8);
-    --kappenball-cold: rgba(56, 56, 256, 0.8);
+    /* Ground: Using a darker variant of your secondary cyan color for better contrast */
+    --kappenball-ground: rgba(76, 201, 240, 0.8);  /* Based on secondary: #4cc9f0 */
+    
+    /* Pin: Using your accent magenta */
+    --kappenball-pin: rgba(247, 37, 133, 0.8);     /* Based on accent: #f72585 */
+    
+    /* Ball: Using a variant of your footer text color */
+    --kappenball-ball: rgba(224, 224, 224, 0.8);   /* Based on footer.text: #e0e0e0 */
+    
+    /* Membrane: Using the same color as ground for consistency */
+    --kappenball-membrane: rgba(76, 201, 240, 0.8); /* Matches ground color */
+    
+    /* Hot: Using your accent magenta */
+    --kappenball-hot: rgba(247, 37, 133, 0.8);     /* Based on accent: #f72585 */
+    
+    /* Cold: Using your secondary cyan */
+    --kappenball-cold: rgba(76, 201, 240, 0.8);    /* Based on secondary: #4cc9f0 */
 }
-
 .game-container {
     width: 100%;
     max-width: 900px;
