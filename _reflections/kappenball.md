@@ -29,12 +29,27 @@ contributed_by:
     padding: 10px;
 }
 
+.game-container.fullscreen {
+    max-width: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
 #kappenball-canvas {
     width: 100%;
     height: auto;
     max-width: 900px;
     max-height: 500px;
     margin-top: -20px;
+}
+
+.fullscreen #kappenball-canvas {
+    max-width: none;
+    max-height: none;
+    flex: 1;
+    margin: 10px 0;
 }
 
 .game-controls {
@@ -158,6 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 } else if (gameContainer.msRequestFullscreen) {
                     gameContainer.msRequestFullscreen();
                 }
+                gameContainer.classList.add('fullscreen');
             } else {
                 if (document.exitFullscreen) {
                     document.exitFullscreen();
@@ -168,22 +184,56 @@ document.addEventListener('DOMContentLoaded', function() {
                 } else if (document.msExitFullscreen) {
                     document.msExitFullscreen();
                 }
+                gameContainer.classList.remove('fullscreen');
             }
         });
+
+        // Handle fullscreen change events
+        document.addEventListener('fullscreenchange', handleFullscreenChange);
+        document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+        document.addEventListener('mozfullscreenchange', handleFullscreenChange);
+        document.addEventListener('MSFullscreenChange', handleFullscreenChange);
+
+        function handleFullscreenChange() {
+            if (!document.fullscreenElement && 
+                !document.webkitFullscreenElement && 
+                !document.mozFullScreenElement && 
+                !document.msFullscreenElement) {
+                gameContainer.classList.remove('fullscreen');
+            }
+        }
     }
     
-    // Adjust canvas size based on device
+    // Adjust canvas size based on device and fullscreen state
     function resizeCanvas() {
         const canvas = document.getElementById('kappenball-canvas');
         const container = canvas.parentElement;
         const containerWidth = container.clientWidth;
         
-        // Maintain aspect ratio
-        const aspectRatio = 900/500;
-        const height = containerWidth / aspectRatio;
-        
-        canvas.style.width = containerWidth + 'px';
-        canvas.style.height = height + 'px';
+        if (container.classList.contains('fullscreen')) {
+            const containerHeight = container.clientHeight;
+            const availableHeight = containerHeight - 150; // Account for controls
+            const aspectRatio = 900/500;
+            
+            // Calculate dimensions that maintain aspect ratio and fit the container
+            let width = containerWidth;
+            let height = width / aspectRatio;
+            
+            if (height > availableHeight) {
+                height = availableHeight;
+                width = height * aspectRatio;
+            }
+            
+            canvas.style.width = width + 'px';
+            canvas.style.height = height + 'px';
+        } else {
+            // Normal mode
+            const aspectRatio = 900/500;
+            const height = containerWidth / aspectRatio;
+            
+            canvas.style.width = containerWidth + 'px';
+            canvas.style.height = height + 'px';
+        }
     }
     
     // Call on load and resize
