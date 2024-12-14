@@ -22,8 +22,79 @@ contributed_by:
     --kappenball-cold: rgba(56, 56, 256, 0.8);
 }
 
-#myCanvas {
-  margin-top: -20px;
+.game-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#kappenball-canvas {
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    max-height: 500px;
+    margin-top: -20px;
+}
+
+.game-controls {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.score-display {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.slider-container {
+    width: 100%;
+}
+
+#kappenball-stochasticity {
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.game-button {
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.game-button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .game-container {
+        padding: 5px;
+    }
+    
+    #kappenball-canvas {
+        touch-action: none; /* Prevents default touch behaviors on mobile */
+    }
+}
+
+@media (min-width: 768px) {
+    .fullscreen-button {
+        display: block;
+    }
 }
 </style>
 
@@ -38,22 +109,85 @@ In fact, it seems here uncertainty is a good thing, because on average you'll ge
 
 This simple game explains many of the behaviours we exhibit in real life. If a system is completely deterministic, then we can make a decision early on and be sure that the ball will 'drop in the hole'. However, if there is uncertainty in a system, it can make sense to delay our decision making until we've seen how events 'pan out'. Be careful though, as we also see that when the uncertainty is large, if you don't have the resources or the skill to be deadline-driven the uncertainty can overwhelm you and events can quickly move beyond our control.
 
-<div>
-  <div style="width:900px;text-align:center;display:inline">
-    <span style="float:left;">Score: <output id="kappenball-score"></output></span>
-    <span style="float:right;">Energy: <output id="kappenball-energy"></output></span>
-    <div style="clear: both;"></div>
-  </div>
-  <canvas id="kappenball-canvas" width="900" height="500" style="display:inline;text-align:center"></canvas>
-  <div>
-    <input type="range" min="0" max="100" value="0" class="slider" id="kappenball-stochasticity" style="width:900px;"/>
-  </div>
-  <div>
-    <button id="kappenball-newball" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">New Ball</button>
-    <button id="kappenball-pause" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">Pause</button>
-  </div>
-  <output id="kappenball-count"></output>
-  <script src="/assets/js/ballworld.js"></script>
-  <script src="/assets/js/kappenball.js"></script>
+<div class="game-container">
+    <div class="score-display">
+        <span>Score: <output id="kappenball-score"></output></span>
+        <span>Energy: <output id="kappenball-energy"></output></span>
+    </div>
+    
+    <canvas id="kappenball-canvas" width="900" height="500"></canvas>
+    
+    <div class="game-controls">
+        <div class="slider-container">
+            <input type="range" min="0" max="100" value="0" class="slider" id="kappenball-stochasticity"/>
+        </div>
+        
+        <div class="button-container">
+            <button id="kappenball-newball" class="game-button">New Ball</button>
+            <button id="kappenball-pause" class="game-button">Pause</button>
+            <button id="kappenball-fullscreen" class="game-button fullscreen-button" style="display:none">Fullscreen</button>
+        </div>
+    </div>
+    <output id="kappenball-count"></output>
 </div>
 
+<script src="/assets/js/ballworld.js"></script>
+<script src="/assets/js/kappenball.js"></script>
+<script>
+// Add fullscreen functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const fullscreenButton = document.getElementById('kappenball-fullscreen');
+    const gameContainer = document.querySelector('.game-container');
+    
+    // Only show fullscreen button if the API is supported
+    if (document.fullscreenEnabled || 
+        document.webkitFullscreenEnabled || 
+        document.mozFullScreenEnabled ||
+        document.msFullscreenEnabled) {
+        
+        fullscreenButton.style.display = 'block';
+        
+        fullscreenButton.addEventListener('click', function() {
+            if (!document.fullscreenElement) {
+                if (gameContainer.requestFullscreen) {
+                    gameContainer.requestFullscreen();
+                } else if (gameContainer.webkitRequestFullscreen) {
+                    gameContainer.webkitRequestFullscreen();
+                } else if (gameContainer.mozRequestFullScreen) {
+                    gameContainer.mozRequestFullScreen();
+                } else if (gameContainer.msRequestFullscreen) {
+                    gameContainer.msRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        });
+    }
+    
+    // Adjust canvas size based on device
+    function resizeCanvas() {
+        const canvas = document.getElementById('kappenball-canvas');
+        const container = canvas.parentElement;
+        const containerWidth = container.clientWidth;
+        
+        // Maintain aspect ratio
+        const aspectRatio = 900/500;
+        const height = containerWidth / aspectRatio;
+        
+        canvas.style.width = containerWidth + 'px';
+        canvas.style.height = height + 'px';
+    }
+    
+    // Call on load and resize
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+});
+</script>
