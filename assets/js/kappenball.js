@@ -122,12 +122,12 @@ slider.oninput = function() {
 
 // Define colors for game objects
 var colors = {
-    ground: 'rgba(56, 256, 56, 0.8)',    // Green
-    pin: 'rgba(256, 56, 56, 0.8)',       // Red
-    ball: 'rgba(200, 200, 200, 0.8)',    // Gray
-    membrane: 'rgba(56, 256, 56, 0.8)',  // Green
-    hot: 'rgba(256, 56, 56, 0.8)',       // Red
-    cold: 'rgba(56, 56, 256, 0.8)'       // Blue
+    ground: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-ground').trim(),
+    pin: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-pin').trim(),
+    ball: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-ball').trim(),
+    membrane: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-membrane').trim(),
+    hot: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-hot').trim(),
+    cold: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-cold').trim()
 };
 
 // Simulation settings

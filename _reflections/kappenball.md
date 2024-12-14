@@ -13,7 +13,6 @@ contributed_by:
 
 <!-- style for kappenball canvas-->
 <style>
-
 :root {
     --kappenball-ground: rgba(56, 256, 56, 0.8);
     --kappenball-pin: rgba(256, 56, 56, 0.8);
@@ -23,38 +22,8 @@ contributed_by:
     --kappenball-cold: rgba(56, 56, 256, 0.8);
 }
 
-body {
-  background-color: whiteg;
-  text-align: center;
-  font-family: Ubuntu Mono;
-}
-
-#title {
-  color: black;
-  font-size: 200%;
-  font-style: normal;
-  margin: 1px;
-  border: 1px;
-}
-
-#balls {
-  margin-top: 5px;
-}
-
 #myCanvas {
   margin-top: -20px;
-}
-
-section.footer {
-  color: black;
-  font-family: Ubuntu Mono;
-  font-style: normal;
-  font-size: small;
-}
-
-#disclaimer {
-  font-size: 74%;
-  color: gray;
 }
 </style>
 
@@ -80,8 +49,8 @@ This simple game explains many of the behaviours we exhibit in real life. If a s
     <input type="range" min="0" max="100" value="0" class="slider" id="kappenball-stochasticity" style="width:900px;"/>
   </div>
   <div>
-    <button id="kappenball-newball" style="text-align:right">New Ball</button>
-    <button id="kappenball-pause" style="text-align:right">Pause</button>
+    <button id="kappenball-newball" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">New Ball</button>
+    <button id="kappenball-pause" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">Pause</button>
   </div>
   <output id="kappenball-count"></output>
   <script src="/assets/js/ballworld.js"></script>
