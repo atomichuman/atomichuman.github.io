@@ -113,6 +113,40 @@ contributed_by:
     background-color: #1d4ed8;
 }
 
+.instructions-toggle {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.instructions-toggle::before {
+    content: "►";
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.instructions-toggle.active::before {
+    transform: rotate(90deg);
+}
+
+.instructions-content {
+    display: none;
+    padding: 15px;
+    border-left: 2px solid #2563eb;
+    margin-left: 20px;
+}
+
+.instructions-content.active {
+    display: block;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
     .game-container {
@@ -162,6 +196,35 @@ This simple game explains many of the behaviours we exhibit in real life. If a s
         </div>
     </div>
     <output id="kappenball-count"></output>
+
+    <button class="instructions-toggle">Game Controls & Features</button>
+    <div class="instructions-content">
+        <h3>Keyboard Controls</h3>
+        <ul>
+            <li><strong>Movement:</strong> Arrow Keys or WASD</li>
+            <li><strong>Pause/Unpause:</strong> P or Spacebar</li>
+            <li><strong>Reset Game:</strong> R</li>
+            <li><strong>New Ball:</strong> C</li>
+            <li><strong>Toggle Physics:</strong> G (gravity/drag)</li>
+            <li><strong>Toggle Sound:</strong> M</li>
+            <li><strong>Toggle Trails:</strong> K</li>
+            <li><strong>Toggle Ball Size:</strong> X</li>
+        </ul>
+
+        <h3>Mouse Controls</h3>
+        <ul>
+            <li>Click left side: Push ball right</li>
+            <li>Click right side: Push ball left</li>
+        </ul>
+
+        <h3>Game Objects</h3>
+        <ul>
+            <li><strong>Balls:</strong> Physics-enabled objects affected by gravity and collisions</li>
+            <li><strong>Posts:</strong> Static circular obstacles</li>
+            <li><strong>Boxes:</strong> Rectangular boundaries</li>
+            <li><strong>Membranes:</strong> Semi-permeable barriers</li>
+        </ul>
+    </div>
 </div>
 
 <script src="/assets/js/ballworld.js"></script>
@@ -171,6 +234,14 @@ This simple game explains many of the behaviours we exhibit in real life. If a s
 document.addEventListener('DOMContentLoaded', function() {
     const fullscreenButton = document.getElementById('kappenball-fullscreen');
     const gameContainer = document.querySelector('.game-container');
+    const instructionsToggle = document.querySelector('.instructions-toggle');
+    const instructionsContent = document.querySelector('.instructions-content');
+    
+    // Instructions toggle functionality
+    instructionsToggle.addEventListener('click', function() {
+        instructionsContent.classList.toggle('active');
+        instructionsToggle.classList.toggle('active');
+    });
     
     // Only show fullscreen button if the API is supported
     if (document.fullscreenEnabled || 
