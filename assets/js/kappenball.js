@@ -157,7 +157,7 @@ var params = {
     initialSpeed: 5,
     energy: 0.0,
     gravityAccel: 0.06,
-    arrowAccel: 4,
+    arrowAccel: 4, // How much to push the ball when using arrow keys
     stochasticity: 0.0,
     stochasticityScale: 0.2,
     dragFactor: 0.97
@@ -188,7 +188,10 @@ kappenball = new Kappenball(objects, params, simulation, boundaries, context, co
 function clickReporter(event, game) {
     const rect = game.context.canvas.getBoundingClientRect();
     const backgroundColor = game.context.canvas.style.backgroundColor;
-    const x = event.clientX - rect.left;
+    
+    // Scale the click coordinates to match the canvas's internal coordinate system
+    const scaleX = game.context.canvas.width / rect.width;
+    const x = (event.clientX - rect.left) * scaleX;
 
     // Visual feedback flash
     game.context.canvas.style.backgroundColor = "rgb(0, 0, 0)";
