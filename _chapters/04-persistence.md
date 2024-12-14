@@ -24,9 +24,12 @@ themes:
 historical_events:
   - dna-transcription-discovery
   - natural-selection
-technolgy:
+technology:
   - enigma-decryption
-
+refelctions:
+  - Art is Human
+images:
+  - dan-andrews-chapter-4
 ---
 
 <div class="machine-commentary" markdown="1">

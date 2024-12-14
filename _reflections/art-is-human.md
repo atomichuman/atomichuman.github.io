@@ -17,9 +17,9 @@ For the Working Group for the [Royal Society report on Machine Learning](https:/
 There were a number of messages that emerged from those dialogues, and many of those messages were reinforced in [two further public dialogues we organised in September](https://ai.cam.ac.uk/blog/using-ai-for-public-benefit-insights-from-our-public-dialogues-on-ai-and-the-missions-for-government).
 
 <center>
-<img src="/assets/images/Atomic_H_1_Gods_Robots.png" alt="Dan Andrews's drawing for Chapter 4, Persistence" width="70%">
+<img src="/assets/images/Atomic_H_4_Persistence.png" alt="Dan Andrews's drawing for Chapter 4, Persistence" width="70%">
 
-<i>Dan Andrews' illustration of Chapter 4. See <a href="https://scribeysense.com">scribeysense.com</a></i>
+<i>[Dan Andrews' illustration of Chapter 4](/images/dan-andrews-chapter-4/). See <a href="https://scribeysense.com">scribeysense.com</a></i>
 </center>
 
 However, there was one area we asked about in 2017, but we didn't ask about in 2024. That was an area where the public unequivocal that they didn't want the research community to pursue progress. Quoting from the report (my emphasis).

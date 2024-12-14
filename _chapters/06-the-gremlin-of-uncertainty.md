@@ -28,6 +28,7 @@ historical_events:
   - Colossus
 reflections:
   - Finite Horizons
+  - Racing, Fast and Slow
 people:
   - Dwight Eisenhower
   - Pierre-Simon Laplace
@@ -35,6 +36,8 @@ people:
   - Garth Lawrence
   - Valerie Lawrence
   - Norbert Wiener
+images:
+  - "Dan Andrews: The Gremlin of Uncertainty"
 ---
 
 <div class="machine-commentary" markdown="1">
