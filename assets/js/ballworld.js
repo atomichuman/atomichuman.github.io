@@ -562,7 +562,6 @@ const timer = ms => new Promise(res => setTimeout(res, ms))
 
 // Main game animation loop
 async function draw(game) {
-    console.log('Draw loop balls:', game.objects.balls.length);
     
     if(game.simulation.clearCanv)
         game.clearCanvas();
