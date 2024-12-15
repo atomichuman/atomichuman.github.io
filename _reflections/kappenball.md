@@ -228,16 +228,16 @@ I had hoped to include a description of the game in Chapter 6, *The Gremlins of 
     </div>
     
     <canvas id="kappenball-canvas" width="900" height="500"></canvas>
-    
+
     <div class="game-controls">
         <div class="slider-container">
             <input type="range" min="0" max="100" value="0" class="slider" id="kappenball-stochasticity"/>
         </div>
         
         <div class="button-container">
-            <button id="kappenball-newball" class="game-button">New Ball</button>
-            <button id="kappenball-pause" class="game-button">Pause</button>
-            <button id="kappenball-fullscreen" class="game-button fullscreen-button" style="display:none">Fullscreen</button>
+            <button id="kappenball-newball" class="game-button" aria-label="Add a new ball">New Ball</button>
+            <button id="kappenball-pause" class="game-button" aria-label="Pause the game">Pause</button>
+            <button id="kappenball-fullscreen" class="game-button fullscreen-button" style="display:none" aria-label="Enter or exit fullscreen mode>Fullscreen</button>
         </div>
     </div>
     
@@ -267,10 +267,13 @@ I had hoped to include a description of the game in Chapter 6, *The Gremlins of 
     </div>
 </div>
 
+<!-- External JavaScript Files -->
 <script src="/assets/js/ballworld.js"></script>
 <script src="/assets/js/kappenball.js"></script>
+
+<!-- Inline JavaScript -->
 <script>
-// Add fullscreen functionality
+// Fullscreen functionality and instructions toggle
 document.addEventListener('DOMContentLoaded', function() {
     const fullscreenButton = document.getElementById('kappenball-fullscreen');
     const gameContainer = document.querySelector('.game-container');
@@ -282,7 +285,8 @@ document.addEventListener('DOMContentLoaded', function() {
         instructionsContent.classList.toggle('active');
         instructionsToggle.classList.toggle('active');
     });
-    
+
+    // Fullscreen logic
     // Only show fullscreen button if the API is supported
     if (document.fullscreenEnabled || 
         document.webkitFullscreenEnabled || 
@@ -332,41 +336,47 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     }
-    
-    // Adjust canvas size based on device and fullscreen state
-    function resizeCanvas() {
-        const canvas = document.getElementById('kappenball-canvas');
-        const container = canvas.parentElement;
-        const containerWidth = container.clientWidth;
-        
-        if (container.classList.contains('fullscreen')) {
-            const containerHeight = container.clientHeight;
-            const availableHeight = containerHeight - 150; // Account for controls
-            const aspectRatio = 900/500;
-            
-            // Calculate dimensions that maintain aspect ratio and fit the container
-            let width = containerWidth;
-            let height = width / aspectRatio;
-            
-            if (height > availableHeight) {
-                height = availableHeight;
-                width = height * aspectRatio;
-            }
-            
-            canvas.style.width = width + 'px';
-            canvas.style.height = height + 'px';
-        } else {
-            // Normal mode
-            const aspectRatio = 900/500;
-            const height = containerWidth / aspectRatio;
-            
-            canvas.style.width = containerWidth + 'px';
-            canvas.style.height = height + 'px';
-        }
-    }
-    
-    // Call on load and resize
-    resizeCanvas();
-    window.addEventListener('resize', resizeCanvas);
 });
+    
+// Adjust canvas size based on device and fullscreen state
+function resizeCanvas() {
+    const canvas = document.getElementById('kappenball-canvas');
+    const container = canvas.parentElement;
+    const containerWidth = container.clientWidth;
+        
+    if (container.classList.contains('fullscreen')) {
+        const containerHeight = container.clientHeight;
+        const availableHeight = containerHeight - 150; // Account for controls
+        const aspectRatio = 900/500;
+            
+        // Calculate dimensions that maintain aspect ratio and fit the container
+        let width = containerWidth;
+        let height = width / aspectRatio;
+            
+        if (height > availableHeight) {
+            height = availableHeight;
+            width = height * aspectRatio;
+        }
+            
+        canvas.style.width = width + 'px';
+        canvas.style.height = height + 'px';
+    } else {
+        // Normal mode
+        const aspectRatio = 900/500;
+        const height = containerWidth / aspectRatio;
+            
+        canvas.style.width = containerWidth + 'px';
+        canvas.style.height = height + 'px';
+    }
+}
+
+// Debounce sizing for better performance
+let resizeTimeout;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(resizeCanvas, 100);
+});
+
+// Initial canvas resize 
+document.addEventListener('DOMContentLoaded', resizeCanvas);
 </script>
