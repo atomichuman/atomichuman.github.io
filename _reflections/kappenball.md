@@ -165,9 +165,6 @@ contributed_by:
 }
 </style>
 
-
-## Kappenball
-
 If you want to complete a task, should you do it now or should you put it off until tomorrow? Despite being told to not delay tasks, many of us are deadline driven. Why is this?
 
 Kappenball is a simple game that illustrates that this behaviour can be optimal. It is inspired by an example in stochastic optimal control by [Bert Kappen](https://www.snn.ru.nl/~bertk/). The game is as follows: you need to place a falling balloon into one of two holes, but if the balloon misses the holes it will pop on pins placed in the ground. In 'deterministic mode', the balloon falls straight towards the ground and the game is easy. You simply choose which hole to place the ball in, and you can start to place it there as soon as the ball appears at the top of the screen. The game becomes more interesting as you increase the uncertainty. In Kappenball, the uncertainty takes the form of the balloon being blown left and right as it falls. This movement means that it is not sensible to decide early on which hole to place the balloon in. A better strategy is to wait and see which hole the ball falls towards. You can then place it in that hole using less energy than in deterministic mode. Sometimes, the ball even falls into the hole on its own, and you don't have to expend any energy, but it requires some skill to judge when you need to intervene. For this system Bert Kappen has shown mathematically that the best solution is to wait until the ball is close to the hole before you push it in. In other words, you should be deadline driven.
@@ -199,31 +196,25 @@ This simple game explains many of the behaviours we exhibit in real life. If a s
 
     <button class="instructions-toggle">Game Controls & Features</button>
     <div class="instructions-content">
-        <h3>Keyboard Controls</h3>
+        <h3>Tap Controls</h3>
+        <ul>
+            <li>Tap left side: Push ball right</li>
+            <li>Tap right side: Push ball left</li>
+        </ul>
+
+        <h3>Game Instructions</h3>
+
+        <p>Try the game first with low stochasticity. Then you can simply place the ball over a hole and let it drop through. This leads to the idea of "don't put off until tomorrow what you can do today". But try it with the stochasticity slider placed up, now you are best off delaying and seeing which hole the ball falls towards. This provides a mathematical justification for procrastination.</p>
+        
+        <h3>Advanced Controls</h3>
         <ul>
             <li><strong>Movement:</strong> Arrow Keys or WASD</li>
             <li><strong>Pause/Unpause:</strong> P or Spacebar</li>
             <li><strong>Reset Game:</strong> R</li>
-            <li><strong>New Ball:</strong> C</li>
-            <li><strong>Toggle Physics:</strong> G (gravity/drag)</li>
-            <li><strong>Toggle Sound:</strong> M</li>
-            <li><strong>Toggle Trails:</strong> K</li>
-            <li><strong>Toggle Ball Size:</strong> X</li>
+            <li><strong>Random Ball:</strong> C</li>
+            <li><strong>Random Atomic Eye:</strong>Shift C</li>
         </ul>
 
-        <h3>Mouse Controls</h3>
-        <ul>
-            <li>Click left side: Push ball right</li>
-            <li>Click right side: Push ball left</li>
-        </ul>
-
-        <h3>Game Objects</h3>
-        <ul>
-            <li><strong>Balls:</strong> Physics-enabled objects affected by gravity and collisions</li>
-            <li><strong>Posts:</strong> Static circular obstacles</li>
-            <li><strong>Boxes:</strong> Rectangular boundaries</li>
-            <li><strong>Membranes:</strong> Semi-permeable barriers</li>
-        </ul>
     </div>
 </div>
 
