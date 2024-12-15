@@ -9,6 +9,7 @@ contributed_by:
     person_id: "Neil D. Lawrence"
     date: "2024-12-15"
     notes: "Written and approved for publication."
+featured_image: /assets/images/kappenball.png
 ---
 
 <!-- style for kappenball canvas-->
