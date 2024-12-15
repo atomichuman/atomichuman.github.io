@@ -169,13 +169,25 @@ contributed_by:
 }
 </style>
 
-If you want to complete a task, should you do it now or should you put it off until tomorrow? Despite being told to not delay tasks, many of us are deadline driven. Why is this?
+The Gremlins of Uncertainty tries to communicate the importance of uncertainty when decision-making. Communicating this is something I've been thinking about for a while. Twelve years ago when I gave my inaugural lecture at the University of Sheffield, I wanted to communicate this idea with a game. I [coded it in Matlab](https://github.com/lawrennd/kappenball), and it was called Kappenball.
 
-Kappenball is a simple game that illustrates that this behaviour can be optimal. It is inspired by an example in stochastic optimal control by [Bert Kappen](https://www.snn.ru.nl/~bertk/). The game is as follows: you need to place a falling balloon into one of two holes, but if the balloon misses the holes it will pop on pins placed in the ground. In 'deterministic mode', the balloon falls straight towards the ground and the game is easy. You simply choose which hole to place the ball in, and you can start to place it there as soon as the ball appears at the top of the screen. The game becomes more interesting as you increase the uncertainty. In Kappenball, the uncertainty takes the form of the balloon being blown left and right as it falls. This movement means that it is not sensible to decide early on which hole to place the balloon in. A better strategy is to wait and see which hole the ball falls towards. You can then place it in that hole using less energy than in deterministic mode. Sometimes, the ball even falls into the hole on its own, and you don't have to expend any energy, but it requires some skill to judge when you need to intervene. For this system Bert Kappen has shown mathematically that the best solution is to wait until the ball is close to the hole before you push it in. In other words, you should be deadline driven.
+Kappenball is a simple game that illustrates that this behaviour can be optimal. It is inspired by an example in stochastic optimal control by [Bert Kappen](https://www.snn.ru.nl/~bertk/). 
+
+The aim is to place a falling ball into one of two holes. If the ball misses the holes it will be destroyed when it hits the ground. The aim is to get the ball in a hole, but every movement of the ball costs energy.
+
+There are two modes to playing Kappenball. 
+
+In 'deterministic mode', the balloon falls straight towards the ground and the game is easy. You simply choose which hole to place the ball in, and you can start to place it there as soon as the ball appears at the top of the screen. 
+
+The game gets interesting in stochastic mode. In Kappenball, uncertainty takes the form of the ball being blown left and right as it falls. This movement means that deciding early which hole to place the ball in is pointless, because it's going to move. A better strategy is to wait and see which hole the ball falls towards. You can then place it in that hole using less energy than in deterministic mode. 
+
+Sometimes, the ball even falls into the hole on its own, and you don't have to expend any energy, but it requires some skill to judge when you need to intervene. For this system Bert Kappen has shown mathematically that the best solution is to wait until the ball is close to the hole before you push it in. In other words, you should be deadline driven.
 
 In fact, it seems here uncertainty is a good thing, because on average you'll get the ball into the hole with less energy (by playing intelligently, and being deadline driven!) than you do with 'deterministic mode'. It requires some skill to do this, more than the deterministic system, but by using your resources intelligently you can get more out of the system. However, if the uncertainty increases too much then regardless of your skill, you can't control the ball at all.
 
 This simple game explains many of the behaviours we exhibit in real life. If a system is completely deterministic, then we can make a decision early on and be sure that the ball will 'drop in the hole'. However, if there is uncertainty in a system, it can make sense to delay our decision making until we've seen how events 'pan out'. Be careful though, as we also see that when the uncertainty is large, if you don't have the resources or the skill to be deadline-driven the uncertainty can overwhelm you and events can quickly move beyond our control.
+
+I had hoped to include a description of the game in Chapter 6, *The Gremlins of Uncertainty*. But in the end, it didn't quite fit in with the rhythmn of the chapter. So, instead, here's the game for you to play directly!
 
 <div class="game-container">
     <div class="score-display">
