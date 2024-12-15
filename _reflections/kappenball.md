@@ -116,6 +116,25 @@ featured_image: /assets/images/kappenball.png
 
 .slider-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-label {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.slider-description {
+    display: block;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #555;
+    margin-top: 2px;
+    text-align: center;
 }
 
 #kappenball-stochasticity {
@@ -231,7 +250,11 @@ I had hoped to include a description of the game in Chapter 6, *The Gremlins of 
 
     <div class="game-controls">
         <div class="slider-container">
-            <input type="range" min="0" max="100" value="0" class="slider" id="kappenball-stochasticity"/>
+          <label for="kappenball-stochasticity" class="slider-label">
+            Stochasticity Level:
+            <span class="slider-description">(Left: Deterministic, Right: High Uncertainty)</span>
+          </label>
+          <input type="range" min="0" max="100" value="0" class="slider" id="kappenball-stochasticity" />
         </div>
         
         <div class="button-container">
