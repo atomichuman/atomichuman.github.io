@@ -50,6 +50,7 @@ contributed_by:
     padding: 20px;
     position: relative;
     justify-content: space-between;
+    background: rgba(0, 0, 0, 0.8); /* Dark background in fullscreen */
 }
 
 #kappenball-canvas {
@@ -78,9 +79,14 @@ contributed_by:
     max-width: 900px;
     position: relative;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.9); /* Optional: adds slight background to make buttons more visible */
+    background: rgba(255, 255, 255, 0.9);
     padding: 10px;
     border-radius: 8px;
+}
+
+.fullscreen .game-controls {
+    background: rgba(255, 255, 255, 0.95); /* More opaque in fullscreen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow for better visibility */
 }
 
 .score-display {
@@ -89,17 +95,18 @@ contributed_by:
     width: 100%;
     margin-bottom: 10px;
     max-width: 900px;
-    font-size: 1.5em; /* Larger font size */
+    font-size: 1.5em;
     font-weight: bold;
     padding: 10px;
     background: rgba(0,0,0,0.1);
     border-radius: 8px;
-    color: #000000; /* Default dark text */
+    color: #000000;
 }
 
 .fullscreen .score-display {
-    color: #ffffff; /* White text in fullscreen mode */
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Add shadow for better visibility */
+    background: rgba(255, 255, 255, 0.95); /* More visible background */
+    color: #000000; /* Keep dark text for better contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .slider-container {
@@ -124,6 +131,11 @@ contributed_by:
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+.fullscreen .game-button {
+    background-color: #3b82f6; /* Brighter blue in fullscreen */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .game-button:hover {
@@ -171,7 +183,7 @@ contributed_by:
     }
     
     #kappenball-canvas {
-        touch-action: none; /* Prevents default touch behaviors on mobile */
+        touch-action: none;
     }
 }
 
