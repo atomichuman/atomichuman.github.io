@@ -20,7 +20,7 @@ contributed_by:
 
 Dan Andrews runs <https://scribeysense.com>. We've worked with him a lot as a graphical scribe for many [ai@cam](https://ai.cam.ac.uk) and [Accelerate Science](https://science.ai.cam.ac.uk) events.
 
-This is what he picked out from Chapter 5.
+This is what he picked out from Chapter 7.
 
 <div class="machine-commentary" markdown="1">
 
