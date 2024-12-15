@@ -18,7 +18,7 @@ Hawking can be forgiven for not having read the full essay, his book predates th
 
 But our continued failure to appreciate the dominant effect that uncertainty has on our decision making systems is less forgivable. 
 
-When analying Dan Andrew's image of the Ferrari and the McLaren, ChatGPT was gaslighting me by suggesting that the chapter makes a big connection between System 1 and System 2 thinking (alla Kahneman) and the different cultural approaches Ferrari and McLaren take to organising their racing teams. I don't think I did that ... but that's the challenge with gaslighting I can't be 100% sure. 
+When analysing Dan Andrew's image of the Ferrari and the McLaren, ChatGPT was gaslighting me by suggesting that the chapter makes a big connection between System 1 and System 2 thinking (alla Kahneman) and the different cultural approaches Ferrari and McLaren take to organising their racing teams. I don't think I did that ... but that's the challenge with gaslighting I can't be 100% sure. 
 
 However, there is an underlying important point here. Individuals and cultures can be more dominated by their reflexive or their reflective self. The arguments I make in [*The Gremlin of Uncertainty*](/chapters/06-the-gremlin-of-uncertainty/) suggest that McLaren and Ferrari (in previous incarnations when then were dominating the F1 championship) were respectively dominated by planning and improvisational approaches. Similarly, I describe my father and brother's approach as being respectively dominated by planning and improvisational approaches. There's even a roundabout connection to how an individual chooses to react to a situation, with a reflexive or a reflective response. What Kahneman called slow or fast thinking. 
 
