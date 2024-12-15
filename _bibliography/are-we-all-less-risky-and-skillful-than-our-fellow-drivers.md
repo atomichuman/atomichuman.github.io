@@ -17,7 +17,7 @@ contributed_by:
     tool: ChatGPT
     version: 4o1
     date: 2024-12-13
-	notes: Translated from a bibtex entry
+    notes: Translated from a bibtex entry
   reviewed_by:
     - type: human
       person_id: Neil D. Lawrence
