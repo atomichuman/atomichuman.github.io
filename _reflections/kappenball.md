@@ -55,17 +55,15 @@ contributed_by:
     height: auto;
     max-width: 900px;
     max-height: 500px;
-    margin-top: -20px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
 }
 
 .fullscreen #kappenball-canvas {
     max-width: none;
     max-height: none;
     flex: 1;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .game-controls {
@@ -75,6 +73,7 @@ contributed_by:
     gap: 10px;
     margin: 10px 0;
     max-width: 900px;
+    padding-bottom: 20px; /* Ensure buttons aren't cut off in fullscreen */
 }
 
 .score-display {
@@ -83,6 +82,11 @@ contributed_by:
     width: 100%;
     margin-bottom: 10px;
     max-width: 900px;
+    font-size: 1.5em; /* Larger font size */
+    font-weight: bold;
+    padding: 10px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
 .slider-container {
