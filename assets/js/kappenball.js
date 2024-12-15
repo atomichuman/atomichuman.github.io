@@ -17,6 +17,8 @@ class Kappenball extends Game {
     constructor(objects, params, simulation, boundaries, context, colors) {
         super(objects, params, simulation, boundaries, context, colors);
 
+        this.favicon = favicon; // store favicon image for use as balls
+
         // Width of holes that balls can fall into
         this.holeWidth = 100;
 
@@ -67,10 +69,10 @@ class Kappenball extends Game {
     }
 
     /**
-     * Create a new ball at the top center of the game
+     * Create a new favicon object at the top center of the game
      */
     birth() {
-        var temp = new Ball(this.context, this.context.canvas.width/2, 10, 10);
+        var temp = new Ico(this.context, this.context.canvas.width/2, 10, this.favicon);
         temp.dx = 0;
         temp.dy = 1;
         this.objects.balls[this.objects.balls.length] = temp;
@@ -177,8 +179,10 @@ var context = {
     canvas: document.getElementById("kappenball-canvas")
 };
 
+// Get favicon image
+const favicon = document.querySelector("link[rel~='icon']").href;
 // Create game instance
-kappenball = new Kappenball(objects, params, simulation, boundaries, context, colors);
+kappenball = new Kappenball(objects, params, simulation, boundaries, context, colors, favicon);
 
 /**
  * Handle click events on the canvas
