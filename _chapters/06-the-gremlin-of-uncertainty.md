@@ -28,7 +28,8 @@ historical_events:
   - Colossus
 reflections:
   - Finite Horizons
-  - Racing, Fast and Slow
+  - "Racing, Fast and Slow"
+  - Kappenball
 people:
   - Dwight Eisenhower
   - Pierre-Simon Laplace
