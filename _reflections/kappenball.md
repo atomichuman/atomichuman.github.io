@@ -214,11 +214,12 @@ In fact, it seems here uncertainty is a good thing, because on average you'll ge
 This simple game explains many of the behaviours we exhibit in real life. If a system is completely deterministic, then we can make a decision early on and be sure that the ball will 'drop in the hole'. However, if there is uncertainty in a system, it can make sense to delay our decision making until we've seen how events 'pan out'. Be careful though, as we also see that when the uncertainty is large, if you don't have the resources or the skill to be deadline-driven the uncertainty can overwhelm you and events can quickly move beyond our control.
 
 I had hoped to include a description of the game in Chapter 6, *The Gremlins of Uncertainty*. But in the end, it didn't quite fit in with the rhythmn of the chapter. So, instead, here's the game for you to play directly!
-
+<output id="kappenball-count"></output>
 <div class="game-container">
     <div class="score-display">
         <span>Score: <output id="kappenball-score"></output></span>
         <span>Energy: <output id="kappenball-energy"></output></span>
+        
     </div>
     
     <canvas id="kappenball-canvas" width="900" height="500"></canvas>
@@ -234,8 +235,9 @@ I had hoped to include a description of the game in Chapter 6, *The Gremlins of 
             <button id="kappenball-fullscreen" class="game-button fullscreen-button" style="display:none">Fullscreen</button>
         </div>
     </div>
-    <output id="kappenball-count"></output>
-
+    
+</div>
+<div class="instructions-container">
     <button class="instructions-toggle">Game Controls & Features</button>
     <div class="instructions-content">
         <h3>Tap Controls</h3>
