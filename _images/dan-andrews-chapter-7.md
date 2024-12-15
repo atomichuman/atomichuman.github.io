@@ -1,7 +1,7 @@
 ---
 title: "Dan Andrews: It's Not Rocket Science or Brain Surgery"
 date: 2024-12-16
-featured_image: /assets/images/atomic_h_7_not_rocket.png
+featured_image: /assets/images/Atomic_H_7_Not_Rocket.png
 source: Drawn on commission by Dan Andrews of scribeysense.com
 description: Two sides to our thinking need to reconcile giving the illusion of control.
 toggle_machine_commentary: true
