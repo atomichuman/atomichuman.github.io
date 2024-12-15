@@ -64,11 +64,10 @@ featured_image: /assets/images/kappenball.png
 }
 
 .fullscreen #kappenball-canvas {
-    max-width: none;
-    max-height: none;
-    flex: 1;
-    margin: 20px 0;
-    position: relative;
+    flex: 1; /* Allow the canvas to take up available space */
+    width: 100%; /* ensure full width */
+    height: auto; /* maintain aspect ratio */
+    margin: 0; /* No margin in fullscreen */
 }
 
 .game-controls {
@@ -86,12 +85,13 @@ featured_image: /assets/images/kappenball.png
 }
 
 .fullscreen .game-controls {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto; /* Centre the control sin fullscreen */
+    position: relative; /* Remove floating behaviour */
+    bottom: 0; /* Ensure controls remain at bottom of screen */
     background: rgba(255, 255, 255, 0.95); /* More opaque in fullscreen */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow for better visibility */
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    box-shadow: none;
 }
 
 .score-display {
