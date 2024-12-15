@@ -94,6 +94,12 @@ contributed_by:
     padding: 10px;
     background: rgba(0,0,0,0.1);
     border-radius: 8px;
+    color: #000000; /* Default dark text */
+}
+
+.fullscreen .score-display {
+    color: #ffffff; /* White text in fullscreen mode */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Add shadow for better visibility */
 }
 
 .slider-container {
