@@ -237,7 +237,7 @@ I had hoped to include a description of the game in Chapter 6, *The Gremlins of 
         <div class="button-container">
             <button id="kappenball-newball" class="game-button" aria-label="Add a new ball">New Ball</button>
             <button id="kappenball-pause" class="game-button" aria-label="Pause the game">Pause</button>
-            <button id="kappenball-fullscreen" class="game-button fullscreen-button" style="display:none" aria-label="Enter or exit fullscreen mode>Fullscreen</button>
+            <button id="kappenball-fullscreen" class="game-button fullscreen-button" style="display:none" aria-label="Enter or exit fullscreen mode">Fullscreen</button>
         </div>
     </div>
     
