@@ -48,6 +48,8 @@ contributed_by:
     display: flex;
     flex-direction: column;
     padding: 20px;
+    position: relative;
+    justify-content: space-between;
 }
 
 #kappenball-canvas {
@@ -64,6 +66,7 @@ contributed_by:
     max-height: none;
     flex: 1;
     margin: 20px 0;
+    position: relative;
 }
 
 .game-controls {
@@ -73,7 +76,11 @@ contributed_by:
     gap: 10px;
     margin: 10px 0;
     max-width: 900px;
-    padding-bottom: 20px; /* Ensure buttons aren't cut off in fullscreen */
+    position: relative;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9); /* Optional: adds slight background to make buttons more visible */
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .score-display {
