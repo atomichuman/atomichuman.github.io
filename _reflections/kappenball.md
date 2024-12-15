@@ -50,7 +50,7 @@ featured_image: /assets/images/kappenball.png
     flex-direction: column;
     padding: 20px;
     position: relative;
-    justify-content: space-between;
+    justify-content: flex-start;
     background: rgba(0, 0, 0, 0.8); /* Dark background in fullscreen */
 }
 
@@ -88,6 +88,10 @@ featured_image: /assets/images/kappenball.png
 .fullscreen .game-controls {
     background: rgba(255, 255, 255, 0.95); /* More opaque in fullscreen */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow for better visibility */
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .score-display {
@@ -122,6 +126,7 @@ featured_image: /assets/images/kappenball.png
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .game-button {
