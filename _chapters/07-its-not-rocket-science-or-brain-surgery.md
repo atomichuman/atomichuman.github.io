@@ -33,6 +33,8 @@ people:
   - Amelia Earhart
   - Chris Kraft
   - Jack Garman
+images:
+  - "Dan Andrews: It's Not Rocket Science or Brain Surgery"
 ---
 
 <div class="machine-commentary" markdown="1">
