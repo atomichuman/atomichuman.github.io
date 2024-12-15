@@ -242,7 +242,7 @@ I had hoped to include a description of the game in Chapter 6, *The Gremlins of 
     <div class="score-display">
     <span>Score: <output id="kappenball-score">0</output></span>
     <span>Energy: <output id="kappenball-energy">100</output></span>
-    <span>Balls Remaining: <output id="kappenball-count">3</output></span>
+    <span>Ball count: <output id="kappenball-count">3</output></span>
     </div>    
     <canvas id="kappenball-canvas" width="900" height="500"></canvas>
 
