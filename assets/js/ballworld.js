@@ -562,6 +562,8 @@ const timer = ms => new Promise(res => setTimeout(res, ms))
 
 // Main game animation loop
 async function draw(game) {
+    console.log('Draw loop balls:', game.objects.balls.length);
+    
     if(game.simulation.clearCanv)
         game.clearCanvas();
     game.canvasBackground();
@@ -847,7 +849,7 @@ class Game {
             if (ball.x - ball.radius + ball.dx < 0 ||
                 ball.x + ball.radius + ball.dx > this.context.canvas.width) {
                 ball.dx *= -1;
-                this.applyInelasticity(ball, params);
+                this.applyInelasticity(ball, this.params);
             }
             
             // Keep ball within bounds

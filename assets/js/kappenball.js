@@ -72,11 +72,16 @@ class Kappenball extends Game {
     /**
      * Create a new favicon object at the top center of the game
      */
+    
     birth() {
-        var temp = new Ico(this.context, this.context.canvas.width/2, 10, this.favicon);
-        temp.dx = 0;
-        temp.dy = 1;
-        this.objects.balls[this.objects.balls.length] = temp;
+        if (this.favicon.complete) {
+            var temp = new Ico(this.context, this.context.canvas.width/2, 16, this.favicon);
+            temp.dx = 0;
+            temp.dy = 1;
+            this.objects.balls[this.objects.balls.length] = temp;
+        } else {
+            console.log('Favicon not loaded yet');
+        }
     }
 
     /**
@@ -123,82 +128,84 @@ slider.oninput = function() {
     kappenball.params.stochasticity = this.value;
 }
 
-// Define colors for game objects
-var colors = {
-    ground: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-ground').trim(),
-    pin: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-pin').trim(),
-    ball: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-ball').trim(),
-    membrane: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-membrane').trim(),
-    hot: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-hot').trim(),
-    cold: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-cold').trim()
-};
-
-// Simulation settings
-var simulation = {
-    paused: false,
-    gravity: true,
-    drag: true,
-    sound: false,
-    clearCanv: true,
-    bigBalls: false,
-    dt: 1
-};
-
-// Boundary behavior settings
-var boundaries = {
-    wallBounce: true,
-    floorBounce: false,
-    floorWrap: false,
-    floorWrapCenter: true,
-    floorReset: false
-};
-
-// Game physics parameters
-var params = {
-    inelasticityFactor: 1.0,
-    demonThreshold: 3,
-    initialSpeed: 5,
-    energy: 0.0,
-    gravityAccel: 0.06,
-    arrowAccel: 4, // How much to push the ball when using arrow keys
-    stochasticity: 0.0,
-    stochasticityScale: 0.2,
-    dragFactor: 0.97
-};
-
-// Initialize game objects arrays
-var objects = {
-    balls: [],
-    boxes: [],
-    pits: [],
-    posts: [],
-    membranes: []
-};
-
-// Get canvas context
-var context = {
-    canvas: document.getElementById("kappenball-canvas"),
-    ctx: document.getElementById("kappenball-canvas").getContext("2d")
-};
-
-
-
 // Create game instance
 window.onload = function() {
+
+    // Define colors for game objects
+    var colors = {
+        ground: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-ground').trim(),
+        pin: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-pin').trim(),
+        ball: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-ball').trim(),
+        membrane: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-membrane').trim(),
+        hot: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-hot').trim(),
+        cold: getComputedStyle(document.documentElement).getPropertyValue('--kappenball-cold').trim()
+    };  
+
+    // Simulation settings
+    var simulation = {
+        paused: false,
+        gravity: true,
+        drag: true,
+        sound: false,
+        clearCanv: true,
+        bigBalls: false,
+        dt: 1
+    };
+
+    // Boundary behavior settings
+    var boundaries = {
+        wallBounce: true,
+        floorBounce: false,
+        floorWrap: false,
+        floorWrapCenter: true,
+        floorReset: false
+    };
+
+    // Game physics parameters
+    var params = {
+        inelasticityFactor: 1.0,
+        demonThreshold: 3,
+        initialSpeed: 5,
+        energy: 0.0,
+        gravityAccel: 0.06,
+        arrowAccel: 4, // How much to push the ball when using arrow keys
+        stochasticity: 0.0,
+        stochasticityScale: 0.2,
+        dragFactor: 0.97
+    };
+
+    // Initialize game objects arrays
+    var objects = {
+        balls: [],
+        boxes: [],
+        pits: [],
+        posts: [],
+        membranes: []
+    };
+
+    // Get canvas context
+    var context = {
+        canvas: document.getElementById("kappenball-canvas"),
+        ctx: document.getElementById("kappenball-canvas").getContext("2d")
+    };
+
     // Create and load favicon image
     const favicon = new Image();
     favicon.src = 'https://the-atomic-human.ai/favicon.ico';
+
+    favicon.onload = function() {
+        kappenball = new Kappenball(objects, params, simulation, boundaries, context, colors, favicon);
+        kappenball.reset();
+        draw(kappenball);
+
+        // Add click handler to canvas
+        kappenball.context.canvas.addEventListener("click", function(event) {
+            clickReporter(event, kappenball);
+        });
+    };
     favicon.onerror = function() {
         console.error('Error loading favicon image');
     };
-    kappenball = new Kappenball(objects, params, simulation, boundaries, context, colors, favicon);
-    kappenball.reset();
-    draw(kappenball);
-
-    // Add click handler to canvas
-    kappenball.context.canvas.addEventListener("click", function(event) {
-        clickReporter(event, kappenball);
-    });
 }
 
 
