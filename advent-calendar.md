@@ -93,8 +93,7 @@ title: Advent Calendar - The Atomic Human
     <tr>
       <td data-date="13"><a href="/reflections/the-subjectivity-of-superiority/">13</a></td>
       <td data-date="14"><a href="/reflections/racing-fast-and-slow/">14</a></td>
-      <td data-date="14">14</td>
-      <td data-date="15">15</td>
+      <td data-date="15"><a href="/reflections/kappenball/">15</a></td>
       <td data-date="16">16</td>
       <td data-date="17">17</td>
       <td data-date="18">18</td>
