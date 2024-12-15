@@ -13,9 +13,10 @@ class Kappenball extends Game {
      * @param {Object} boundaries - Boundary behavior settings
      * @param {Object} context - Canvas context for rendering
      * @param {Object} colors - Color definitions for game objects
+     * @param {Image} favicon - Favicon image for use as balls
      */
-    constructor(objects, params, simulation, boundaries, context, colors) {
-        super(objects, params, simulation, boundaries, context, colors);
+    constructor(objects, params, simulation, boundaries, context, colors, favicon) {
+        super(objects, params, simulation, boundaries, context, colors, favicon);
 
         this.favicon = favicon; // store favicon image for use as balls
 
@@ -176,47 +177,29 @@ var objects = {
 
 // Get canvas context
 var context = {
-    canvas: document.getElementById("kappenball-canvas")
+    canvas: document.getElementById("kappenball-canvas"),
+    ctx: document.getElementById("kappenball-canvas").getContext("2d")
 };
 
-// Get favicon image
-const favicon = document.querySelector("link[rel~='icon']").href;
+
+
 // Create game instance
-kappenball = new Kappenball(objects, params, simulation, boundaries, context, colors, favicon);
+window.onload = function() {
+    // Create and load favicon image
+    const favicon = new Image();
+    favicon.src = 'https://the-atomic-human.ai/favicon.ico';
+    favicon.onerror = function() {
+        console.error('Error loading favicon image');
+    };
+    kappenball = new Kappenball(objects, params, simulation, boundaries, context, colors, favicon);
+    kappenball.reset();
+    draw(kappenball);
 
-/**
- * Handle click events on the canvas
- * @param {Event} event - Click event
- * @param {Kappenball} game - Game instance
- */
-function clickReporter(event, game) {
-    const rect = game.context.canvas.getBoundingClientRect();
-    const backgroundColor = game.context.canvas.style.backgroundColor;
-    
-    // Scale the click coordinates to match the canvas's internal coordinate system
-    const scaleX = game.context.canvas.width / rect.width;
-    const x = (event.clientX - rect.left) * scaleX;
-
-    // Visual feedback flash
-    game.context.canvas.style.backgroundColor = "rgb(0, 0, 0)";
-    game.draw();
-    game.context.canvas.style.backgroundColor = "rgb(255, 255, 255)";
-    game.draw();
-    game.context.canvas.style.backgroundColor = backgroundColor;
-
-    // Push ball left or right based on click position
-    if(x > game.context.canvas.width/2) {
-        game.pushLeft(20.0)
-    } else {
-        game.pushRight(20.0)
-    }
+    // Add click handler to canvas
+    kappenball.context.canvas.addEventListener("click", function(event) {
+        clickReporter(event, kappenball);
+    });
 }
 
-// Add click handler to canvas
-kappenball.context.canvas.addEventListener("click", function(event) {
-    clickReporter(event, kappenball);
-});
 
-// Start the game
-kappenball.reset();
-draw(kappenball);
+
