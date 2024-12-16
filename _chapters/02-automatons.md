@@ -32,8 +32,6 @@ technology:
 people:
   - Jeff Bezos
   - Dwight Eisenhower
-images:
-  - "Dan Andrews: Intent"
 ---
 
 <div class="machine-commentary" markdown="1">
