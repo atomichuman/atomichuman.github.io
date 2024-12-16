@@ -3,7 +3,6 @@ layout: image
 title: "DALL-E: Red Eyed Terminator: Automation and Threat"
 date: 2024-12-06
 contributed_by:
-contributed_by:
   initial:
     type: "machine"
     tool: "DALL-E"

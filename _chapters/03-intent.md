@@ -28,6 +28,8 @@ historical_events:
   - Cambridge Analytica
 people:
   - Dwight Eisenhower
+images:
+  - "Dan Andrews: Intent"
 ---
 
 <div class="machine-commentary" markdown="1">

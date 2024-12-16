@@ -9,6 +9,7 @@ contributed_by:
     person_id: "Neil D. Lawrence"
     date: "2024-12-15"
     notes: "Written and approved for publication."
+featured_image: /assets/images/kappenball.png
 ---
 
 <!-- style for kappenball canvas-->
@@ -49,7 +50,7 @@ contributed_by:
     flex-direction: column;
     padding: 20px;
     position: relative;
-    justify-content: space-between;
+    justify-content: flex-start;
     background: rgba(0, 0, 0, 0.8); /* Dark background in fullscreen */
 }
 
@@ -63,11 +64,10 @@ contributed_by:
 }
 
 .fullscreen #kappenball-canvas {
-    max-width: none;
-    max-height: none;
-    flex: 1;
-    margin: 20px 0;
-    position: relative;
+    flex: 1; /* Allow the canvas to take up available space */
+    width: 100%; /* ensure full width */
+    height: auto; /* maintain aspect ratio */
+    margin: 0; /* No margin in fullscreen */
 }
 
 .game-controls {
@@ -85,8 +85,13 @@ contributed_by:
 }
 
 .fullscreen .game-controls {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto; /* Centre the control sin fullscreen */
+    position: relative; /* Remove floating behaviour */
+    bottom: 0; /* Ensure controls remain at bottom of screen */
     background: rgba(255, 255, 255, 0.95); /* More opaque in fullscreen */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow for better visibility */
+    box-shadow: none;
 }
 
 .score-display {
@@ -111,6 +116,25 @@ contributed_by:
 
 .slider-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-label {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.slider-description {
+    display: block;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #555;
+    margin-top: 2px;
+    text-align: center;
 }
 
 #kappenball-stochasticity {
@@ -121,6 +145,7 @@ contributed_by:
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .game-button {
@@ -213,28 +238,32 @@ In fact, it seems here uncertainty is a good thing, because on average you'll ge
 This simple game explains many of the behaviours we exhibit in real life. If a system is completely deterministic, then we can make a decision early on and be sure that the ball will 'drop in the hole'. However, if there is uncertainty in a system, it can make sense to delay our decision making until we've seen how events 'pan out'. Be careful though, as we also see that when the uncertainty is large, if you don't have the resources or the skill to be deadline-driven the uncertainty can overwhelm you and events can quickly move beyond our control.
 
 I had hoped to include a description of the game in Chapter 6, *The Gremlins of Uncertainty*. But in the end, it didn't quite fit in with the rhythmn of the chapter. So, instead, here's the game for you to play directly!
-
 <div class="game-container">
     <div class="score-display">
-        <span>Score: <output id="kappenball-score"></output></span>
-        <span>Energy: <output id="kappenball-energy"></output></span>
-    </div>
-    
+    <span>Score: <output id="kappenball-score">0</output></span>
+    <span>Energy: <output id="kappenball-energy">100</output></span>
+    <span>Ball count: <output id="kappenball-count">3</output></span>
+    </div>    
     <canvas id="kappenball-canvas" width="900" height="500"></canvas>
-    
+
     <div class="game-controls">
         <div class="slider-container">
-            <input type="range" min="0" max="100" value="0" class="slider" id="kappenball-stochasticity"/>
+          <label for="kappenball-stochasticity" class="slider-label">
+            Stochasticity Level:
+            <span class="slider-description">(Left: Deterministic, Right: High Uncertainty)</span>
+          </label>
+          <input type="range" min="0" max="100" value="0" class="slider" id="kappenball-stochasticity" />
         </div>
         
         <div class="button-container">
-            <button id="kappenball-newball" class="game-button">New Ball</button>
-            <button id="kappenball-pause" class="game-button">Pause</button>
-            <button id="kappenball-fullscreen" class="game-button fullscreen-button" style="display:none">Fullscreen</button>
+            <button id="kappenball-newball" class="game-button" aria-label="Add a new ball">New Ball</button>
+            <button id="kappenball-pause" class="game-button" aria-label="Pause the game">Pause</button>
+            <button id="kappenball-fullscreen" class="game-button fullscreen-button" style="display:none" aria-label="Enter or exit fullscreen mode">Fullscreen</button>
         </div>
     </div>
-    <output id="kappenball-count"></output>
-
+    
+</div>
+<div class="instructions-container">
     <button class="instructions-toggle">Game Controls & Features</button>
     <div class="instructions-content">
         <h3>Tap Controls</h3>
@@ -259,10 +288,13 @@ I had hoped to include a description of the game in Chapter 6, *The Gremlins of 
     </div>
 </div>
 
+<!-- External JavaScript Files -->
 <script src="/assets/js/ballworld.js"></script>
 <script src="/assets/js/kappenball.js"></script>
+
+<!-- Inline JavaScript -->
 <script>
-// Add fullscreen functionality
+// Fullscreen functionality and instructions toggle
 document.addEventListener('DOMContentLoaded', function() {
     const fullscreenButton = document.getElementById('kappenball-fullscreen');
     const gameContainer = document.querySelector('.game-container');
@@ -274,7 +306,8 @@ document.addEventListener('DOMContentLoaded', function() {
         instructionsContent.classList.toggle('active');
         instructionsToggle.classList.toggle('active');
     });
-    
+
+    // Fullscreen logic
     // Only show fullscreen button if the API is supported
     if (document.fullscreenEnabled || 
         document.webkitFullscreenEnabled || 
@@ -324,41 +357,47 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     }
-    
-    // Adjust canvas size based on device and fullscreen state
-    function resizeCanvas() {
-        const canvas = document.getElementById('kappenball-canvas');
-        const container = canvas.parentElement;
-        const containerWidth = container.clientWidth;
-        
-        if (container.classList.contains('fullscreen')) {
-            const containerHeight = container.clientHeight;
-            const availableHeight = containerHeight - 150; // Account for controls
-            const aspectRatio = 900/500;
-            
-            // Calculate dimensions that maintain aspect ratio and fit the container
-            let width = containerWidth;
-            let height = width / aspectRatio;
-            
-            if (height > availableHeight) {
-                height = availableHeight;
-                width = height * aspectRatio;
-            }
-            
-            canvas.style.width = width + 'px';
-            canvas.style.height = height + 'px';
-        } else {
-            // Normal mode
-            const aspectRatio = 900/500;
-            const height = containerWidth / aspectRatio;
-            
-            canvas.style.width = containerWidth + 'px';
-            canvas.style.height = height + 'px';
-        }
-    }
-    
-    // Call on load and resize
-    resizeCanvas();
-    window.addEventListener('resize', resizeCanvas);
 });
+    
+// Adjust canvas size based on device and fullscreen state
+function resizeCanvas() {
+    const canvas = document.getElementById('kappenball-canvas');
+    const container = canvas.parentElement;
+    const containerWidth = container.clientWidth;
+        
+    if (container.classList.contains('fullscreen')) {
+        const containerHeight = container.clientHeight;
+        const availableHeight = containerHeight - 150; // Account for controls
+        const aspectRatio = 900/500;
+            
+        // Calculate dimensions that maintain aspect ratio and fit the container
+        let width = containerWidth;
+        let height = width / aspectRatio;
+            
+        if (height > availableHeight) {
+            height = availableHeight;
+            width = height * aspectRatio;
+        }
+            
+        canvas.style.width = width + 'px';
+        canvas.style.height = height + 'px';
+    } else {
+        // Normal mode
+        const aspectRatio = 900/500;
+        const height = containerWidth / aspectRatio;
+            
+        canvas.style.width = containerWidth + 'px';
+        canvas.style.height = height + 'px';
+    }
+}
+
+// Debounce sizing for better performance
+let resizeTimeout;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(resizeCanvas, 100);
+});
+
+// Initial canvas resize 
+document.addEventListener('DOMContentLoaded', resizeCanvas);
 </script>
