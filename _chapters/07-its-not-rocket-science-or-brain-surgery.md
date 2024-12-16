@@ -35,6 +35,8 @@ people:
   - Jack Garman
 images:
   - "Dan Andrews: It's Not Rocket Science or Brain Surgery"
+reflections:
+  - Balancing Reflective and Reflexive
 ---
 
 <div class="machine-commentary" markdown="1">
