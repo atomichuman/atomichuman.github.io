@@ -29,6 +29,7 @@ Both the sports person and the student relying on trained behaviours which mean 
 
 From motor intelligence to mathematical instinct, it feels like there's a full spectrum of decision-making approaches that can be deployed and that best performance is when they are judiciously deployed according to the circumstances. *The Atomic Human* tries to explore this in different contexts and I think Dan Andrews did a great job of capturing some of those explorations in his image for Chapter 7.
 
+I think the reason why they relate is because in both cases there is time pressure, it's from the outside world that pressures come and require us to deliver a conclusion on a particular timeframe. What I find remarkable in human intelligence is how we sustain both these fast and slow answers together, so that we're ready to go with some form of answer at any given moment. That means that as individuals we are filled with contradictions, differences between the versions of our selves we imagine versus how we behave in practice. 
 
 
 * [ELLIS Unconference retrospective on the 2015 Neurips Talk](https://inverseprobability.com/talks/notes/the-mechanistic-fallacy-and-modelling-how-we-think-caught-by-surprise.html)
