@@ -7,7 +7,7 @@ author:
 translator:
   - given: Benjamin
     family: Jowett
-publisher: Oxford University Press
+publisher: Clarendon Press
 address: Oxford
 year: 1885
 toggle_machine_commentary: True
