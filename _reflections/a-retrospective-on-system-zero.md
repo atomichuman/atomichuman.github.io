@@ -8,11 +8,11 @@ contributed_by:
     type: human
     name: Neil D. Lawrence
   reviewed_by:
-    date: 2024-12-17
-	type: machine
-	tool: Claude
-	version: 3.5
-	notes: Request to review the original System Zero post to see how it's stood the test of time.
+  - date: 2024-12-17
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Request to review the original System Zero post to see how it's stood the test of time.
 featured_image: /assets/images/Atomic_H_8_System_Zero.png
 ---
 
