@@ -58,4 +58,6 @@ This drawing encapsulates several themes and ideas from Chapter 5, particularly 
    * The exaggerated responses and the parrot’s simplistic mimicry satirize both the hype and fear surrounding AI. The illustration cleverly critiques our tendency to project greater meaning and agency onto systems that, at their core, are just mimicking human inputs.
 
 In summary, this drawing visually distills the chapter's exploration of how AI systems like large language models are fundamentally dependent on human data while eliciting complex human responses that may overestimate their capabilities. The reference to "stochastic parrots" and the backdrop of societal fears make it a humorous yet poignant commentary on AI's role in our collective imagination.
+
+Commentary from ChatGPT 4o1 on 12th December 2024
 <﻿/div>

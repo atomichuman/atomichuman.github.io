@@ -6,13 +6,13 @@ contributed_by:
     date: 2024-12-16
     type: human
     name: Neil D. Lawrence
-featured_image: /assets/images/Atomic_H_7_Not_Rocket.png
   reviewed_by:
-    date: 2024-12-17
+  - date: 2024-12-17
 	type: machine
 	tool: Claude
 	version: 3.5
 	notes: Minor corrections to text based on proof read from Claude.
+featured_image: /assets/images/Atomic_H_7_Not_Rocket.png
 ---
 
 On April 20th 2015 Professor Steve Peters came to the University of Sheffield to present ["Getting the best out of yourself and others – befriending the Chimp within"](/bibliography/getting-the-best-out-of-yourself-and-others-befriending-the-chimp-within/). Peters is a psychiatrist who used to work in Sheffield's medical school as Dean of Undergraduate Education. He also worked with British cycling, the snooker player Ronnie O'Sullivan, the Liverpool footballer Steven Gerrard and many others.

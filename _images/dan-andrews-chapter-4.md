@@ -24,6 +24,9 @@ reflections:
 I found this image from Dan to be the one that most resonated with me, because it meant he'd picked out what I felt to be one of the most imporant messages from the book. That art is intrinsically human.
 
 <div class="machine-commentary" markdown="1">
+
+## Commentary by Machine
+
 The drawing resonates deeply with the themes explored in Chapter 4, "Persistence," of *The Atomic Human*. This chapter focuses on how cultural and biological evolution intertwine through resilience, collaboration, and the communication of shared knowledge across generations.
 
 ### Key Aspects from Chapter 4 Reflected in the Drawing:
