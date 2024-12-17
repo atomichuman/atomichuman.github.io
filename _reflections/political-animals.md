@@ -1,6 +1,7 @@
 ---
 title: Political Animals
 date: 2024-12-17
+toggle_machine_commentary: true
 contributed_by:
   initial:
     date: 2024-12-17
@@ -25,7 +26,7 @@ The word *political* has many senses, most of which seem to be negative. Perhaps
 <center>
 <image src="/assets/images/DALLE-2024-12-17-074313-create-an-image-of-a-political-animal-in-the-style-of-makonde-art-emphasizing-intricate-interconnected-forms-that-symbolize-unity-and-collective.webp" width="50%"/>
 
-<i>DALL-E Generated version of political animals that are intricately connected and working together in the style of [Makonde art](https://en.wikipedia.org/wiki/Makonde_art).</i>
+<i>DALL-E Generated version of political animals that are intricately connected and working together in the style of <a href="https://en.wikipedia.org/wiki/Makonde_art">Makonde art</a>.</i>
 </center>
 
 I didn't set out to write a political book, but there are ways in which *The Atomic Human* is implicitly political. One sense of the word political comes from [Aristotle's *Politics*](/bibliography/politics/). He suggests that humans are political animals. He says our political nature emerges from our ability to talk and reason morally.[^1]
