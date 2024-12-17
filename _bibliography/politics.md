@@ -16,6 +16,7 @@ initial:
   tool: ChatGPT
   version: 4o1
   notes: Requested summary on 'How do the themes in the book relate to Aristotle's Politics?'
+toggle_machine_commentary: true
 ---
 
 <div class="machine-commentary" markdown="1">

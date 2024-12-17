@@ -8,13 +8,15 @@ publisher: "W. W. Norton & Company"
 address: New York
 year: 2018
 isbn: 978-0-393-63524-9
+
 contributed_by:
   initial:
     type: machine
     tool: ChatGPT
     version: 4o1
     date: 2024-12-17
-	notes: "Provide commentary by being asked: 'How do the themes in the book relate to Jill Lepore's *These Truths*?'"
+    notes: "Provide commentary by being asked: 'How do the themes in the book relate to Jill Lepore's *These Truths*?'"
+toggle_machine_commentary: true
 ---
 
 <div class="machine-commentary" markdown="1">
