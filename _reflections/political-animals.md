@@ -8,15 +8,15 @@ contributed_by:
     name: Neil D. Lawrence
   reviewed_by:
   - date: 2024-11-17
-	type: machine
-	tool: Claude
-	version: 3.5
-	notes: Commentary on political nature of book added.
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Commentary on political nature of book added.
   - date: 2024-12-17
     type: machine
-	tool: Claude
-	version: 3.5
-	notes: 	Minor corrections to text based on proof read from Claude.	
+    tool: Claude
+    version: 3.5
+    notes: Minor corrections to text based on proof read from Claude.	
 featured_image: /assets/images/DALLE-2024-12-17-074313-create-an-image-of-a-political-animal-in-the-style-of-makonde-art-emphasizing-intricate-interconnected-forms-that-symbolize-unity-and-collective.webp
 ---
 
@@ -28,7 +28,7 @@ The word *political* has many senses, most of which seem to be negative. Perhaps
 <i>DALL-E Generated version of political animals that are intricately connected and working together in the style of [Makonde art](https://en.wikipedia.org/wiki/Makonde_art).</i>
 </center>
 
-I didn't set out to write a political book, but there are ways in which the book is implicitly political. One sense of the word political comes from [Aristotle's *Politics*](/bibliography/politics/). He suggests that humans are political animals. He says our political nature emerges from our ability to talk and reason morally.[^1]
+I didn't set out to write a political book, but there are ways in which *The Atomic Human* is implicitly political. One sense of the word political comes from [Aristotle's *Politics*](/bibliography/politics/). He suggests that humans are political animals. He says our political nature emerges from our ability to talk and reason morally.[^1]
 
 [^1]: The quote can be found in Chapter II of Book I. 
 > and that man is naturally a political animal ... The gift of speech also evidently proves that man is a more social animal than the bees, or any of the herding cattle: for nature, as we say, does nothing in vain, and man is the only animal who enjoys it. Voice indeed, as being the token of pleasure and pain, is imparted to others also, and thus much their nature is capable of, to perceive pleasure and pain, and to impart these sensations to others; but it is by speech that we are enabled to express what is useful for us, and what is hurtful, and of course what is just and what is unjust: for in this particular man differs from other animals, that he alone has a perception of good and evil, of just and unjust, and it is a participation of these common sentiments which forms a family and a city. 
