@@ -12,6 +12,11 @@ contributed_by:
 	tool: Claude
 	version: 3.5
 	notes: Commentary on political nature of book added.
+  - date: 2024-12-17
+    type: machine
+	tool: Claude
+	version: 3.5
+	notes: 	Minor corrections to text based on proof read from Claude.	
 featured_image: /assets/images/DALLE-2024-12-17-074313-create-an-image-of-a-political-animal-in-the-style-of-makonde-art-emphasizing-intricate-interconnected-forms-that-symbolize-unity-and-collective.webp
 ---
 
@@ -23,12 +28,12 @@ The word *political* has many senses, most of which seem to be negative. Perhaps
 <i>DALL-E Generated version of political animals that are intricately connected and working together in the style of [Makonde art](https://en.wikipedia.org/wiki/Makonde_art).</i>
 </center>
 
-I didn't set out to write a political book, but there are ways in which the book is implicitly political. One sense of the word political comes from [Aristotle's *Politics*](/bibliography/politics/). He suggests that humans are political animals He says our political nature emerges from our ability to talk and reason morally.[^1]
+I didn't set out to write a political book, but there are ways in which the book is implicitly political. One sense of the word political comes from [Aristotle's *Politics*](/bibliography/politics/). He suggests that humans are political animals. He says our political nature emerges from our ability to talk and reason morally.[^1]
 
 [^1]: The quote can be found in Chapter II of Book I. 
 > and that man is naturally a political animal ... The gift of speech also evidently proves that man is a more social animal than the bees, or any of the herding cattle: for nature, as we say, does nothing in vain, and man is the only animal who enjoys it. Voice indeed, as being the token of pleasure and pain, is imparted to others also, and thus much their nature is capable of, to perceive pleasure and pain, and to impart these sensations to others; but it is by speech that we are enabled to express what is useful for us, and what is hurtful, and of course what is just and what is unjust: for in this particular man differs from other animals, that he alone has a perception of good and evil, of just and unjust, and it is a participation of these common sentiments which forms a family and a city. 
 
-That sense relates to notion of the atomic human, in that it's the ways in which we communicate that underpin our politics. It is through politics that we resolve tensions that arise from our diverse view points. And it is these diverse view points that give us the robustness we need to survive in an uncertain world.
+That sense relates to the notion of the atomic human, in that it's the ways in which we communicate that underpin our politics. It is through politics that we resolve tensions that arise from our diverse viewpoints. And it is these diverse view points that give us the robustness we need to survive in an uncertain world.
 
 My route to Aristotle's politics was through [Jill Lepore's *These Truths*](/bibliography/these-truths/), which I read during the early part of lock down. Alongside my own writing, my lock down was also dominated by providing government advice, [through the DELVE group, convened by the Royal Society](https://rs-delve.github.io/). Through both Jill Lepore's (excellent) book and the operationalisation of the Covid19 advice we were giving I got to see both good politics and bad politics in practice. 
 
