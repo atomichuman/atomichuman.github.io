@@ -8,10 +8,10 @@ contributed_by:
     name: Neil D. Lawrence
   reviewed_by:
   - date: 2024-12-17
-	type: machine
-	tool: Claude
-	version: 3.5
-	notes: Minor corrections to text based on proof read from Claude.
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Minor corrections to text based on proof read from Claude.
 featured_image: /assets/images/Atomic_H_7_Not_Rocket.png
 ---
 
