@@ -8,15 +8,15 @@ contributed_by:
     name: Neil D. Lawrence
   reviewed_by:
   - date: 2024-11-17
-	type: machine
-	tool: Claude
-	version: 3.5
-	notes: Commentary on political nature of book added.
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Commentary on political nature of book added.
   - date: 2024-12-17
     type: machine
-	tool: Claude
-	version: 3.5
-	notes: 	Minor corrections to text based on proof read from Claude.	
+    tool: Claude
+    version: 3.5
+    notes: Minor corrections to text based on proof read from Claude.	
 featured_image: /assets/images/DALLE-2024-12-17-074313-create-an-image-of-a-political-animal-in-the-style-of-makonde-art-emphasizing-intricate-interconnected-forms-that-symbolize-unity-and-collective.webp
 ---
 
