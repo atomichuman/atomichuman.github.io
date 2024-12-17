@@ -1,10 +1,10 @@
 ---
 layout: book
-title: These Truths: A History of the United States
+title: "These Truths: A History of the United States"
 author:
-  - given: Jill
-    family: Lepore
-publisher: W. W. Norton & Company
+- given: Jill
+  family: Lepore
+publisher: "W. W. Norton & Company"
 address: New York
 year: 2018
 isbn: 978-0-393-63524-9
