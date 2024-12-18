@@ -23,7 +23,7 @@ featured_image: /assets/images/Atomic_H_8_System_Zero.png
 
 Just over nine years ago, I published a blog post "[System Zero: What Kind of AI have we Created?](https://inverseprobability.com/2015/12/04/what-kind-of-ai)". Nine years later, the ideas in the post seem remarkably relevant.[^1]
 
-[^1]: So relevant that when searching for my blog post I see an article was published in [a paper on the idea](https://www.nature.com/articles/s41562-024-01995-5) in October 2024! Some of the concepts I place in the Human Analogue Machines appear in their System 0. And they also do more theoretical analysis (but I think miss my prior work).
+[^1]: So relevant that when searching for my blog post I see an article was published in [a paper on the idea](https://www.nature.com/articles/s41562-024-01995-5) in October 2024! Some of the concepts I place in the Human Analogue Machines appear in their System 0. And they also do more theoretical analysis.
 
 The idea of System Zero is that the machine's access to information is so much greater than ours that it can manipulate us in ways that exploit our cognitive foibles, interacting directly with our reflexive selves and undermining our reflective selves.
 
@@ -155,7 +155,7 @@ Key Expansions:
 - Introduces concepts like "locked-in intelligence", "embodied intelligence", and "directed intelligence"
 - Provides detailed exploration of biological intelligence through examples like immune systems, ants, and neural networks
 
-[^2]: This is definitely a shift, while I think dual process models of cognition are useful, they seem like a very coarse model. The book speculates that there is a spectrum of responses (maybe we could think of system 1.2 ... system 1.4) and that the driving factor is external in terms of the need for response on a given time frame. I think there's an observer bias associated with the System 2 end of the spectrum, it comes because by definition we spend all our time with our "slow reacting self".
+[^2]: <div class="machine-commentary" markdown="1">This is definitely a shift, while I think dual process models of cognition are useful, they seem like a very coarse model. The book speculates that there is a spectrum of responses (maybe we could think of system 1.2 ... system 1.4) and that the driving factor is external in terms of the need for response on a given time frame. I think there's an observer bias associated with the System 2 end of the spectrum, it comes because by definition we spend all our time with our "slow reacting self".</div>
 
 3. Human-Analogue Machines (HAMs):
 - This is a major new concept not present in the blog post
@@ -167,7 +167,7 @@ Key Expansions:
 - Proposes institutional solutions like data trusts and university involvement
 - Offers more nuanced discussion of how to balance innovation with human agency
 
-[^3]: The machine summaries keep characterising the blog post as suggesting the solution is that we withold personal data, but that's presented as a straw man solution in the post and its problems are discussed.
+[^3]: <div class="machine-commentary" markdown="1">The machine summaries keep characterising the blog post as suggesting the solution is that we withold personal data, but that's presented as a straw man solution in the post and its problems are discussed.</div>
 
 5. Technical Understanding:
 - Provides much deeper technical explanation of how AI systems work
@@ -188,7 +188,7 @@ Gaps Addressed:
 - The blog post was more alarmist about AI risks[^4]
 - The book offers a more balanced view, acknowledging both benefits and risks while proposing practical solutions
 
-[^4]: I'm not sure I agree with this. I wouldn't say it's alarmist, I think its predictions panned out in practice. The post certainly has more emphasis on the risk because it's contrasting they hyper around sentient AI and existential risk with the real challenges we face. But it explicitly highlights the possible benefits. I've noticed this pattern in summaries both from ChatGPT and Claude. If a point is made but some conditioning is provided later then it ignores the conditioning. It's as if it gives the material only a cursory read. But that's probably a fair reflection of what humans do too (similar comments apply to the witholding data misreading too).
+[^4]: <div class="machine-commentary" markdown="1">I'm not sure I agree with this. I wouldn't say it's alarmist, I think its predictions panned out in practice. The post certainly has more emphasis on the risk because it's contrasting they hyper around sentient AI and existential risk with the real challenges we face. But it explicitly highlights the possible benefits. I've noticed this pattern in summaries both from ChatGPT and Claude. If a point is made but some conditioning is provided later then it ignores the conditioning. It's as if it gives the material only a cursory read. But that's probably a fair reflection of what humans do too (similar comments apply to the witholding data misreading too).</div>
 
 4. Agency:
 - The blog focused on individual data control
