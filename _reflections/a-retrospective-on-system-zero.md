@@ -167,7 +167,7 @@ Key Expansions:
 - Proposes institutional solutions like data trusts and university involvement
 - Offers more nuanced discussion of how to balance innovation with human agency
 
-[^3]: The machine summaries keep characterising the blog post as witholding data, but that's presented as a straw man solution in the post and its problems are discussed.
+[^3]: The machine summaries keep characterising the blog post as suggesting the solution is that we withold personal data, but that's presented as a straw man solution in the post and its problems are discussed.
 
 5. Technical Understanding:
 - Provides much deeper technical explanation of how AI systems work
@@ -188,7 +188,7 @@ Gaps Addressed:
 - The blog post was more alarmist about AI risks[^4]
 - The book offers a more balanced view, acknowledging both benefits and risks while proposing practical solutions
 
-[^4]: I'm not sure I agree with this. I wouldn't say it's alarmist, I think its predictions panned out in practice. The post certainly has more emphasis on the risk because it's contrasting they hyper around sentient AI and existential risk with the real challenges we face. But it explicitly highlights the possible benefits. I've noticed this pattern in summaries both from ChatGPT and Claude. If a point is made but some conditioning is provided later then it ignores the conditioning. It's as if it gives the material only a cursory read. But that's probably a fair reflection of what humans do too.
+[^4]: I'm not sure I agree with this. I wouldn't say it's alarmist, I think its predictions panned out in practice. The post certainly has more emphasis on the risk because it's contrasting they hyper around sentient AI and existential risk with the real challenges we face. But it explicitly highlights the possible benefits. I've noticed this pattern in summaries both from ChatGPT and Claude. If a point is made but some conditioning is provided later then it ignores the conditioning. It's as if it gives the material only a cursory read. But that's probably a fair reflection of what humans do too (similar comments apply to the witholding data misreading too).
 
 4. Agency:
 - The blog focused on individual data control
