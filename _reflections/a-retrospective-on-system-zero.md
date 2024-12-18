@@ -35,8 +35,11 @@ The idea of System Zero is that the machine's access to information is so much g
 
 The original post was written in December 2015, before the UK Brexit vote and before the 2016 US election and the Cambridge Analytica scandal. It ended by suggesting what we should truly fear was not sentient AI but a regress into a state where we all start clubbing each other. Dan's illustration for Chapter 8 also visualises the regress to this state. 
 
+The System Zero we experienced fro 2015 to today has been problematic because it undermines diversity of thought. It appeals to us by providing the cognitive equivalent of high-fructose corn syrup. The models that serve this content simplify and stereotype us, rendering us as digital charicatures, but these charicatures then spill over into the real world. 
+
 As a retrospective on System Zero I asked Claude 3.5 to review the original post and summarise whether it's stood the test of time. Click on the machine commentary below to reveal the summary.
 
+One thing that I did not predict in 2015 was the emergence of large language models and their astonishing capabilities. These models bring new challenges, they also bring great possibilities because they do not charicature us in the same simplistic way as earlier machine learning models. They capture the nuances of our culture sufficiently for us to communicate with machines in natural language. But they still do so on the back of our data. 
 
 <div class="machine-commentary" markdown="1">
 
