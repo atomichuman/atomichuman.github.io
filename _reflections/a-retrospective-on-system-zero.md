@@ -13,12 +13,17 @@ contributed_by:
     tool: Claude
     version: 3.5
     notes: Request to review the original System Zero post to see how it's stood the test of time.
+  - date: 2024-12-18
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Check for typos and other errors.
 featured_image: /assets/images/Atomic_H_8_System_Zero.png
 ---
 
-Just over nine years ago, I published a blog post "[System Zero: What Kind of AI have we Created?](https://inverseprobability.com/2015/12/04/what-kind-of-ai)". Today, the ideas in the post continue to seem relevant.[^1]
+Just over nine years ago, I published a blog post "[System Zero: What Kind of AI have we Created?](https://inverseprobability.com/2015/12/04/what-kind-of-ai)". Nine years later, the ideas in the post seem remarkably relevant.[^1]
 
-[^1]: So relevant that when searching for my blog post I see an article was published in [a paper on the idea](https://www.nature.com/articles/s41562-024-01995-5) in October 2024! Some of the concepts I place in the Human Analogue Machines apepar in their System 0. And they also do more theoretical analysis (but I think miss my prior work).
+[^1]: So relevant that when searching for my blog post I see an article was published in [a paper on the idea](https://www.nature.com/articles/s41562-024-01995-5) in October 2024! Some of the concepts I place in the Human Analogue Machines appear in their System 0. And they also do more theoretical analysis (but I think miss my prior work).
 
 The idea of System Zero is that the machine's access to information is so much greater than ours that it can manipulate us in ways that exploit our cognitive foibles, interacting directly with our reflexive selves and undermining our reflective selves.
 
@@ -28,17 +33,14 @@ The idea of System Zero is that the machine's access to information is so much g
 <i><a href="/images/dan-andrews-chapter-8/">Dan Andrews' illustration for Chapter 8, System Zero</a>. See <a href="https://scribeysense.com">scribeysense.com</a></i>
 </center>
 
-The original post was written in December 2015, before the UK Brexit vote and before thw 2016 US election and the Cambridge Analytica scandal. It ended by suggesting what we should truly fear was not sentient AI but a regress into a state where we all start clubbing each other. Dan's illustration for Chapter 8 also visualises the regress to this state. 
+The original post was written in December 2015, before the UK Brexit vote and before the 2016 US election and the Cambridge Analytica scandal. It ended by suggesting what we should truly fear was not sentient AI but a regress into a state where we all start clubbing each other. Dan's illustration for Chapter 8 also visualises the regress to this state. 
 
-As a retrospective on System Zero I asked Claude 3.5 to review the original post and summarise whether it's stood the test of time. Click on the machine commentary below to see it.
-
-
+As a retrospective on System Zero I asked Claude 3.5 to review the original post and summarise whether it's stood the test of time. Click on the machine commentary below to reveal the summary.
 
 
 <div class="machine-commentary" markdown="1">
 
 ## Commentary by Machine
-
 
 *NL*: This post was published on 2015/12/04
 
