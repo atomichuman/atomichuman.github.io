@@ -20,15 +20,19 @@ Just over nine years ago, I published a blog post "[System Zero: What Kind of AI
 
 [^1]: So relevant that when searching for my blog post I see an article was published in [a paper on the idea](https://www.nature.com/articles/s41562-024-01995-5) in October 2024! Some of the concepts I place in the Human Analogue Machines apepar in their System 0. And they also do more theoretical analysis (but I think miss my prior work).
 
-As a retrospective on System Zero I asked Claude to take a look at the post and see how it's stood the test of time. Click on the machine commentary below to see it.
+The idea of System Zero is that the machine's access to information is so much greater than ours that it can manipulate us in ways that exploit our cognitive foibles, interacting directly with our reflexive selves and undermining our reflective selves.
 
 <center>
 <image src="/assets/images/Atomic_H_8_System_Zero.png" alt="Dan Andrews's drawing for Chapter 8, System Zero" width="50%"/>
 
-<i><a href="/images/dan-andrews-chapter-8/">Dan Andrews' illustration of Chapter 8</a>. See <a href="https://scribeysense.com">scribeysense.com</a></i>
+<i><a href="/images/dan-andrews-chapter-8/">Dan Andrews' illustration for Chapter 8, System Zero</a>. See <a href="https://scribeysense.com">scribeysense.com</a></i>
 </center>
 
-As ever, Dan Andrews managed to capture the concept beautifully in his illustration from Chapter 8.
+The original post was written in December 2015, before the UK Brexit vote and before thw 2016 US election and the Cambridge Analytica scandal. It ended by suggesting what we should truly fear was not sentient AI but a regress into a state where we all start clubbing each other. Dan's illustration for Chapter 8 also visualises the regress to this state. 
+
+As a retrospective on System Zero I asked Claude 3.5 to review the original post and summarise whether it's stood the test of time. Click on the machine commentary below to see it.
+
+
 
 
 <div class="machine-commentary" markdown="1">
