@@ -8,13 +8,14 @@ author:
 publisher: Johns Hopkins University Press
 address: Baltimore, MD
 year: 1971
+toggle_machine_commentary: true
 contributed_by:
   initial:
     type: machine
     tool: ChatGPT
     version: 4o1
     date: 2024-12-19
-    notes: "TCan you speculate on how the ideas in the attached text from 1971 may have influenced the 'The Atomic Human'"
+    notes: "Can you speculate on how the ideas in the attached text from 1971 may have influenced the 'The Atomic Human'"
 website: https://veryinteractive.net/pdfs/simon_designing-organizations-for-an-information-rich-world.pdf
 abstract: >
   DADDARIO. I was attracted to participate in this series by the appropriate- ness of the theme, Computers, Communications, and the Public Interest. Perhaps the title of the present session should be "Designing Organizations for an Information-Rich, Communications-Poor, Problem-Overwhelmed World." If anything characterizes the current age, it is the complex prob- lems of our technological civilization and the unpleasant physical and mental trauma they induce. John W. Gardner and other social critics warn us that a nation can perish from internal strains: indifference, unwillingness to face problems, incapacity to respond to human suffering, failure to adapt to new conditions, and the waning energy of old age. Gardner speaks of the "waxwork of anachronisms" in government and the "impenetrable web of vested interests" in unions, professions, universities, and corporations. He argues for "a society (and institutions) capable of continuous change, continuous renewal, and continuous responsiveness."
