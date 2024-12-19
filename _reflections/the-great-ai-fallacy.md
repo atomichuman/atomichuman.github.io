@@ -12,7 +12,7 @@ contributed_by:
     type: machine
     tool: Claude
     version: 3.5
-    notes: Comments on the original talk and how the two recent papers address i  reviewed_by:
+    notes: Comments on the original talk and how the two recent papers address issues raised.  
   - date: 2024-12-19
     type: machine
     tool: Claude
