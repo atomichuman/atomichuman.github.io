@@ -10,31 +10,36 @@ contributed_by:
   reviewed_by:
   - date: 2024-12-19
     type: machine
-	tool: Claude
-	version: 3.5
-	notes: Comments on the original talk and how the two recent papers address issues raised in the talk.
+    tool: Claude
+    version: 3.5
+    notes: Comments on the original talk and how the two recent papers address i  reviewed_by:
+  - date: 2024-12-19
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Prompted to check for errors now fixed.
 featured_image: /assets/images/Atomic_H_9_Design_Brain.png
 ---
 
-Since starting work on public communication of AI, rather than imposing on people one of the myriad academic definitons of AI (strong or weak or whatever), it seemed more sensible to get a sense of what the public thing it means. 
+Since starting work on public communication of AI, rather than imposing on people one of the myriad academic definitons of AI (strong or weak or whatever), it seemed more sensible to get a sense of what the public think it means. 
 
 People have different opinions, but my best way of summarising the general opinion would be to say that when they are presented with AI, people assume they are being given a form of technology that is capable of adapting to them. This stands in stark contrast to previous waves of technology and automation, each of which forced the human to do the adapting.
 
-In 2020 at at the Information Engineering Distinguished Lecture I gave a talk titled [*Intellectual Debt and the Death of the Programmer*](https://inverseprobability.com/talks/notes/intellectual-debt-and-the-death-of-the-programmer.html). I touched on the idea that people think that we're building AIs that can accommodate them and I called this phenomenon "the great AI fallacy". At the time we saw no sign that the machine was accommodating the human, in fact we saw precisely the opposite. Dan captured this very nicely for his drawing for Chapter 9. 
+In 2020 at the Information Engineering Distinguished Lecture I gave a talk titled [*Intellectual Debt and the Death of the Programmer*](https://inverseprobability.com/talks/notes/intellectual-debt-and-the-death-of-the-programmer.html). I touched on the idea that people think that we're building AIs that can accommodate them and I called this phenomenon "the great AI fallacy". At the time we saw no sign that the machine was accommodating the human, in fact we saw precisely the opposite. Dan captured this very nicely for his drawing for Chapter 9. 
 
 <center>
-<image src="/assets/images/Atomic_H_9_Design_Brain.png" alt="Dan Andrew's drwing for Chapter 9, A Design for a Brain" width="50%"/>
+<image src="/assets/images/Atomic_H_9_Design_Brain.png" alt="Dan Andrew's drawing for Chapter 9, A Design for a Brain" width="50%"/>
 
-<i><a href="/images/dan-andrews-chapter-9/">Dan Andrews' illustration for Chapter 8, A Design for a Brain</a>. See <a href="https://scribeysense.com">scribeysense.com</a></i>
+<i><a href="/images/dan-andrews-chapter-9/">Dan Andrews' illustration for Chapter 9, A Design for a Brain</a>. See <a href="https://scribeysense.com">scribeysense.com</a></i>
 </center>
 
 I revisited the phenomenon in Chapter 9 of the book.
 
->  I call this phenomenon ‘the great AI fallacy’. The fallacy is that we think we have created a form of algo- rithmic intelligence that understands us in the way we understand each other. A technology that gives us the same feel for it as we have for our fellow human.
+>  I call this phenomenon ‘the great AI fallacy’. The fallacy is that we think we have created a form of algorithmic intelligence that understands us in the way we understand each other. A technology that gives us the same feel for it as we have for our fellow human.
 >
 > *The Atomic Human* pg 257
 
-But I also revisited my assessment of whether the fallcy will be maintained. With the advent of generative AI and large language models I *do* think we are seeing the first signs of machines that are able to adapt to us. 
+But I also revisited my assessment of whether the fallacy will be maintained. With the advent of generative AI and large language models I *do* think we are seeing the first signs of machines that are able to adapt to us. 
 
 > With generative AI and large-language models such as ChatGPT we can now build machine-learning systems that provide plausible communication between human and machine using the languages humans have developed for themselves, rather than for their machines. This new frontier presents a promising route to ending the AI fallacy and bringing the technology we’re producing into line with people’s expectations. 
 > 
