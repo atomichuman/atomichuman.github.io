@@ -95,8 +95,8 @@ title: Advent Calendar - The Atomic Human
       <td data-date="14"><a href="/reflections/racing-fast-and-slow/">14</a></td>
       <td data-date="15"><a href="/reflections/kappenball/">15</a></td>
       <td data-date="16"><a href="/reflections/balancing-reflective-and-reflexive/">16</a></td>
-      <td data-date="17">17</td>
-      <td data-date="18">18</td>
+      <td data-date="17"><a href="/reflections/political-animals/">17</a></td>
+      <td data-date="18"><a href="/reflections/a-retrospective-on-system-zero/">18</a></td>
     </tr>
     <tr>
       <td data-date="19">19</td>
