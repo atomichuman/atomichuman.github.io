@@ -47,6 +47,7 @@ reflections:
 ---
 
 <div class="machine-commentary" markdown="1">
+  
 ### Summary
 
 The chapter opens with two contrasting images of creation: Michelangelo's God giving life to Adam in the Sistine Chapel, and James Cameron's Terminator designed to extinguish human life. These images, separated by five centuries, illustrate humanity's tendency to embody intelligence, whether divine or artificial.
