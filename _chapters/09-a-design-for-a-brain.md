@@ -31,6 +31,9 @@ people:
   - Alan Turing
   - W. Ross Ashby
   - Norbert Wiener
+  - Samuel Butler
+reflections:
+  - The Great AI Fallacy
 ---
 
 <div class="machine-commentary" markdown="1">
