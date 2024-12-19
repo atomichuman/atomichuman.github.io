@@ -47,7 +47,7 @@ But I also revisited my assessment of whether the fallacy will be maintained. Wi
 
 This has a myriad of implications for the work I was presenting in 2020. We've outlined some of our new research directions to address the problems I outlined in 2020 in two recent papers ... so watch this space ... maybe a future Dan Andrews will draw a new panel for 2040 where the humans have turned the tables ...
 
-* Christian Cabrera, Andrei Paleyes, and Neil David Lawrence. 2024. Self-sustaining Software Systems (S4): Towards Improved Interpretability and Adaptation. In Proceedings of the 1st International Workshop on New Trends in Software Architecture (SATrends '24). Association for Computing Machinery, New York, NY, USA, 5–9. <https://doi.org/10.1145/3643657.3643910>
+* Christian Cabrera, Andrei Paleyes, and Neil D. Lawrence. 2024. Self-sustaining Software Systems (S4): Towards Improved Interpretability and Adaptation. In Proceedings of the 1st International Workshop on New Trends in Software Architecture (SATrends '24). Association for Computing Machinery, New York, NY, USA, 5–9. <https://doi.org/10.1145/3643657.3643910>
 
 * Diana Robinson, Christian Cabrera, Andrew D. Gordon, Neil D. Lawrence, and Lars Mennen. 2024. Requirements are All You Need: The Final Frontier for End-User Software Engineering. ACM Trans. Softw. Eng. Methodol. Just Accepted (December 2024). <https://doi.org/10.1145/3708524>
 
