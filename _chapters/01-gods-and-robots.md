@@ -39,7 +39,8 @@ images:
   - "DALL-E: Red Eyed Terminator: Automation and Threat"
 bibliography:
   - The Terminator
-  - diving-bell-and-butterfly
+  - Designing Organizations for an Information-Rich World
+  - The Diving Bell and the Butterfly
 technology:
   - The Printing Press
 reflections:
