@@ -101,7 +101,6 @@ title: Advent Calendar - The Atomic Human
     <tr>
       <td data-date="19"><a href="/reflections/spiritual-animals/">19</a></td>
       <td data-date="20"><a href="/reflections/the-great-ai-fallacy/">20</a></td>
-      <td data-date="20">20</td>
       <td data-date="21">21</td>
       <td data-date="22">22</td>
       <td data-date="23">23</td>
