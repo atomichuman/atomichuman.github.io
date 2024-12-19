@@ -14,7 +14,7 @@ contributed_by:
     tool: ChatGPT
     version: 4o1
     date: 2024-12-19
-    notes: "Text produced with the prompt: Can you speculate on how the ideas in the 1971 classic text "Designing Organizations for an Information-Rich World" influenced 'The Atomic Human'"
+    notes: "Text produced with the prompt: Can you speculate on how the ideas in the 1971 classic text 'Designing Organizations for an Information-Rich World' influenced 'The Atomic Human'"
 website: https://veryinteractive.net/pdfs/simon_designing-organizations-for-an-information-rich-world.pdf
 
 ---
