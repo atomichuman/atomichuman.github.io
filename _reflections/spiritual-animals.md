@@ -25,7 +25,7 @@ Although I don't quote him in the book, an important observation about our bandw
 
 In an age of information abundance, our attention becomes the bottleneck. 
 
-We can see [System Zero](/reflections/system-zero/) as a construction that consumes our attention. I'd argue that it does so through appealing to the lowest common denominator of our attention. And that undermines our ability to collaborate, to lift ourselves above our "creaturely nature". 
+We can see [System Zero](/reflections/a-retrospective-on-system-zero/) as a construction that consumes our attention. I'd argue that it does so through appealing to the lowest common denominator of our attention. And that undermines our ability to collaborate, to lift ourselves above our "creaturely nature". 
 
 <center>
 <image src="/assets/images/DALLE-2024-12-19_080808-a-makonde-style-intricate-carving-featuring-monkeys-climing-and-intertwining-on-floating-vines-with-a-radiant-golden-light-or-flame-at-the-top.webp" width="50%"/>
