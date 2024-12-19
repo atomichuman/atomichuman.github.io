@@ -32,6 +32,7 @@ people:
   - Dwight Eisenhower
   - Norbert Wiener
   - Pierre-Simon Laplace
+  - Matthew Boulton
 images:
   - dan-andrews-chapter-5
 bibliography:
