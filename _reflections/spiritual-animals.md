@@ -16,8 +16,7 @@ contributed_by:
 featured_image: /assets/images/DALLE-2024-12-19_080808-a-makonde-style-intricate-carving-featuring-monkeys-climing-and-intertwining-on-floating-vines-with-a-radiant-golden-light-or-flame-at-the-top.webp
 ---
 
-Although I don't quote him in the book, an important observation about our bandwidth limitations comes from [Herbert Simon's 1971 book discussion](/bibliography/designing-organizations-for-an-information-rich-world/)
-
+Although I don't quote him in the book, an important observation about our bandwidth limitations comes from a [lecture in 1971 by Herbert Simon](/bibliography/designing-organizations-for-an-information-rich-world/)
 
 > What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention and a need to allocate that attention efficiently among the overabundance of information sources that might consume it.
 >
