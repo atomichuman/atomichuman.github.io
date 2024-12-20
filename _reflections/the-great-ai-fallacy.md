@@ -21,7 +21,7 @@ contributed_by:
 featured_image: /assets/images/Atomic_H_9_Design_Brain.png
 ---
 
-Yann's [Facebook AI lab launch](/reflections/facebook-ai-lab-launch/) triggered me to think about what what artificial intelligence means. It also triggered me to engage more with public communication of AI. I wrote one of my first articles about the launch for [The Conversation](https://theconversation.com/are-you-an-expert-in-machine-learning-facebook-is-hiring-21439). 
+Yann's [Facebook AI lab launch](/reflections/facebook-ai-lab-launch/) triggered me to think about what what artificial intelligence means. It also triggered me to engage more with public dialogue around AI. I wrote one of my first articles about the launch for [The Conversation](https://theconversation.com/are-you-an-expert-in-machine-learning-facebook-is-hiring-21439). 
 
 Rather than imposing on people one of the myriad academic definitons of AI (strong or weak or whatever), it seemed more sensible to get a sense of what the public think it means. 
 
