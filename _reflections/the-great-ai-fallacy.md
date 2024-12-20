@@ -27,7 +27,9 @@ Rather than imposing on people one of the myriad academic definitons of AI (stro
 
 People have different opinions, but my best way of summarising the general opinion would be to say that when they are presented with AI, people assume they are being given a form of technology that is capable of adapting to them. This stands in stark contrast to previous waves of technology and automation, each of which forced the human to do the adapting.
 
-In 2020 at the Information Engineering Distinguished Lecture I gave a talk titled [*Intellectual Debt and the Death of the Programmer*](https://inverseprobability.com/talks/notes/intellectual-debt-and-the-death-of-the-programmer.html). I touched on the idea that people think that we're building AIs that can accommodate them and I called this phenomenon "the great AI fallacy". At the time we saw no sign that the machine was accommodating the human, in fact we saw precisely the opposite. Dan captured this very nicely for his drawing for Chapter 9. 
+In 2020 at the Information Engineering Distinguished Lecture I gave a talk[^1] titled [*Intellectual Debt and the Death of the Programmer*](https://inverseprobability.com/talks/notes/intellectual-debt-and-the-death-of-the-programmer.html). I touched on the idea that people think that we're building AIs that can accommodate them and I called this phenomenon "the great AI fallacy". At the time we saw no sign that the machine was accommodating the human, in fact we saw precisely the opposite. Dan captured this very nicely for his drawing for Chapter 9. 
+
+[^1]: The talk outlined my research programme for the next five years. Main funding has been provided a UKRI Senior AI Fellowship. We [refer to the project as AutoAI](https://mlatcl.github.io/projects/autoai.html) and you can [find the strategic research agenda for it here](https://mlatcl.github.io/publications/machine-learning-from-innovation-to-deployment-a-strategic-research-agenda-for-autoai.html). 
 
 <center>
 <image src="/assets/images/Atomic_H_9_Design_Brain.png" alt="Dan Andrew's drawing for Chapter 9, A Design for a Brain" width="50%"/>
