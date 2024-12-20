@@ -21,7 +21,9 @@ contributed_by:
 featured_image: /assets/images/Atomic_H_9_Design_Brain.png
 ---
 
-Since starting work on public communication of AI, rather than imposing on people one of the myriad academic definitons of AI (strong or weak or whatever), it seemed more sensible to get a sense of what the public think it means. 
+Yann's [Facebook AI lab launch](/reflections/facebook-ai-lab-launch/) triggered me to think about what what artificial intelligence means. It also triggered me to engage more with public communication of AI. I wrote one of my first articles about the launch for [The Conversation](https://theconversation.com/are-you-an-expert-in-machine-learning-facebook-is-hiring-21439). 
+
+Rather than imposing on people one of the myriad academic definitons of AI (strong or weak or whatever), it seemed more sensible to get a sense of what the public think it means. 
 
 People have different opinions, but my best way of summarising the general opinion would be to say that when they are presented with AI, people assume they are being given a form of technology that is capable of adapting to them. This stands in stark contrast to previous waves of technology and automation, each of which forced the human to do the adapting.
 
@@ -50,6 +52,7 @@ This has a myriad of implications for the work I was presenting in 2020. We've o
 * Christian Cabrera, Andrei Paleyes, and Neil D. Lawrence. 2024. Self-sustaining Software Systems (S4): Towards Improved Interpretability and Adaptation. In Proceedings of the 1st International Workshop on New Trends in Software Architecture (SATrends '24). Association for Computing Machinery, New York, NY, USA, 5–9. <https://doi.org/10.1145/3643657.3643910>
 
 * Diana Robinson, Christian Cabrera, Andrew D. Gordon, Neil D. Lawrence, and Lars Mennen. 2024. Requirements are All You Need: The Final Frontier for End-User Software Engineering. ACM Trans. Softw. Eng. Methodol. Just Accepted (December 2024). <https://doi.org/10.1145/3708524>
+
 
 <div class="machine-commentary" markdown="1">
 
