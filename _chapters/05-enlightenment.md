@@ -37,13 +37,14 @@ images:
   - dan-andrews-chapter-5
 bibliography:
   - "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+  - "Vehicles: Experiments in Synthetic Psychology"
 reflections:
   - Two Types of Stochastic Parrot
 ---
 
 <div class="machine-commentary" markdown="1">
 
-### Summary
+### Machine Summary
 
 Chapter 5, *Enlightenment*, examines the transformation of human knowledge and culture brought about by scientific and technological progress, focusing on the historical revolutions sparked by figures such as Johannes Gutenberg, Isaac Newton, and Pierre-Simon Laplace.
 
