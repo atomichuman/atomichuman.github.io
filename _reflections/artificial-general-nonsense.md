@@ -40,7 +40,7 @@ That doesn't mean there aren't different principles to intelligence we can look 
 
 Intelligence is similar. The nation of artificial general intelligence is fundamentally eugenic. It builds on Spearman's term "general intelligence" which is part of a body of literature that was looking to assess intelligence in the way we assess height. The objective then being to breed greater intelligences.[^1]
 
-[^1]: See [Sara Lyon's book *Assessing Intelligence*](https://www.jstor.org/stable/10.3366/j.ctv32vqk1h) for an overview of the context and the social reactions at the time. 
+[^1]: See [Sara Lyon's book *Assessing Intelligence*](/bibliography/assessing-intelligence/) for an overview of the context and the social reactions at the time. 
 
 So why has a conversation about one of the most socially transformational technologies in human history collapsed into artificial general nonsense? 
 
