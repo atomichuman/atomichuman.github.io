@@ -99,9 +99,9 @@ title: Advent Calendar - The Atomic Human
       <td data-date="18"><a href="/reflections/a-retrospective-on-system-zero/">18</a></td>
     </tr>
     <tr>
-      <td data-date="19">19</td>
-      <td data-date="20">20</td>
-      <td data-date="21">21</td>
+      <td data-date="19"><a href="/reflections/spiritual-animals/">19</a></td>
+      <td data-date="20"><a href="/reflections/the-great-ai-fallacy/">20</a></td>
+      <td data-date="21"><a href="/reflections/artificial-general-nonsense/">21</a></td>
       <td data-date="22">22</td>
       <td data-date="23">23</td>
       <td data-date="24">24</td>

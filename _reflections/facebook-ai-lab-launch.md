@@ -12,7 +12,7 @@ contributed_by:
 featured_image: /assets/images/Atomic_H_12_Trust.png
 ---
 
-Today it is 11 years ago since the Facebook AI lab launched. It's the opening scene in the prologue, and it was genuinely a moment when I wondered what's all this going to mean. Specifically because Yann used the term "artificial intelligence" to launch the lab.
+Today it is 11 years since [the Facebook AI lab launched](https://theconversation.com/are-you-an-expert-in-machine-learning-facebook-is-hiring-21439). It's the opening scene in the prologue, and it was genuinely a moment when I wondered what's all this going to mean. Specifically because Yann used the term "artificial intelligence" to launch the lab.
 
 The book opens on 8th December 2013 in Lake Tahoe. This year's conference will start in two days in Vancouver. But [today Geoff Hinton will give the Nobel Prize lecture on Boltzmann machines](https://www.nobelprize.org/prizes/physics/2024/hinton/lecture/). We've come quite a long way in those 11 years! 
 
