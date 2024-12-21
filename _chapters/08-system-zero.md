@@ -34,7 +34,7 @@ reflections:
 
 <div class="machine-commentary" markdown="1">
   
-### Summary
+### Machine Summary
 
 Chapter 8, *System Zero*, delves into the concept of a decision-making framework dominated by algorithmic systems that exploit personal data. System Zero, a metaphor for the first generation of automated decision systems, is characterized by its reflexive nature, lack of empathy, and inability to grasp social context. The chapter compares System Zero to human cognitive processes, emphasizing how it bypasses reflective thought to target instinctive responses, manipulating behavior at scale.
 
