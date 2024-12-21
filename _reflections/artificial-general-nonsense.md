@@ -8,11 +8,16 @@ contributed_by:
     type: human
     name: Neil D. Lawrence
   reviewed_by:
-  - date: 2024-12-19
+  - date: 2024-12-21
     type: machine
     tool: Claude
     version: 3.5
     notes: Prompted to check for errors now fixed.	
+  - date: 2024-12-21
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Review of blog post against themes of the book.
 featured_image: /assets/images/Artificial_General_Vehicle_211224_Final.png
 ---
 
@@ -47,4 +52,46 @@ Those values are predicated on a fantasy. Intelligence, like a vehicle, is conte
 
 It is also adaptive and it's going to have to be, because while the idea of artificial general intelligence is eugenic nonsense, this technology is utterly transformational. It requires new ways of thinking and managing society. It's urgent that we engage the wider population in understanding how to use it and ensuring its supporting them in their roles. We need to move rapidly beyond artificial general nonsense we are hearing and towards common sense. 
 
+<div class="machine-commentary" markdown="1">
 
+## Machine Commentary
+
+## Theme Analysis: Artificial General Nonsense and The Atomic Human
+
+### 1. Evolution vs Design
+
+The blog post's discussion of the Brompton bicycle as a specialized tool rather than a "general vehicle" connects directly to Chapter 4's exploration of evolution vs design. Just as the book argues that evolved systems are more resilient than designed ones (using examples like Microsoft's Tay chatbot), the blog post extends this argument to challenge the very concept of "general" artificial intelligence. Both texts emphasize how specialization and context-specificity are features, not bugs.
+
+### 2. Historical Context and Power
+
+The blog post's critique of AGI as "fundamentally eugenic" ties into Chapter 10's examination of power structures and manipulation. The book's discussion of the Stasi and surveillance capitalism finds its echo in the post's warning about Silicon Valley's "technosolutionism" and Wall Street's simplistic thinking. Both texts warn about centralizing control over transformative technologies.
+
+### 3. Intelligence as Contextual
+
+The book's recurring theme of intelligence as contextual (explored across Chapters 1, 8, and 11) is crystallized in the blog post's vehicle analogy. Just as the book demonstrates different forms of intelligence through examples like ant colonies, immune systems, and social networks, the post argues that different vehicles serve different purposes - there is no "general" solution.
+
+### 4. Personal Narrative Elements
+
+The author's use of the Brompton bicycle as both physical object and metaphor mirrors the book's technique of weaving personal narratives (like Fred Lawrence's D-Day experiences or the author's work at Amazon) to illuminate broader concepts. This helps ground abstract concepts in tangible reality.
+
+### 5. The Social Nature of Intelligence
+
+The book's emphasis on human intelligence as fundamentally social (particularly in Chapters 1 and 11) is reinforced in the blog post's assertion that intelligence "requires us as individuals to share vulnerabilities and have skin in the game." Both texts argue against viewing intelligence as a standalone capability that can be abstracted from social context.
+
+### 6. HAMs and Future Directions
+
+While the book introduces Human-Analogue Machines (HAMs) as a potential interface between humans and digital systems, the blog post takes a stronger stance against AGI hype. However, both texts emphasize the need for new ways of thinking about and managing technological change, with the blog post's call for "engaging the wider population" echoing the book's emphasis on maintaining human agency and institutional engagement.
+
+### Notable Extensions
+
+The blog post extends the book's arguments in several ways:
+1. More explicitly political stance against AGI conceptually
+2. Direct criticism of Silicon Valley/Wall Street dynamics
+3. Clearer analogy (vehicles) for explaining specialization
+4. More urgent tone regarding societal engagement
+
+### Conclusion
+
+The blog post serves as both a distillation and evolution of the book's core arguments about intelligence, technology, and society. While the book builds its case through detailed historical examples and careful analysis, the post presents a more pointed critique of current AI discourse while maintaining the book's fundamental argument about the contextual nature of intelligence.
+
+</div>
