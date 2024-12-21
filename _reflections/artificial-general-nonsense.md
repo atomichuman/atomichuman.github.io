@@ -24,6 +24,13 @@ I turn up to many book talks with my Brompton bicycle. Embarrassingly I even too
 
 But is it an "artificial general vehicle"? A vehicle that can do everything? Unfortunately not, for example it's not very good for flying to the USA. There is no artificial general vehicle that is optimal for every journey. Similarly there is no such thing as artificial general intelligence. It's just artificial general nonsense.
 
+<center>
+<image src="/assets/images/Artificial_General_Vehicle_211224_Final.png" alt="Dan Andrew's drawing for an Artificial General Vehicle" width="50%"/>
+
+<i><a href="/images/dan-andrews-chapter-artificial-general-vehicle/">Dan Andrews' illustration for an Artificial General Vehicle</a>. See <a href="https://scribeysense.com">scribeysense.com</a></i>
+</center>
+
+
 That doesn't mean there aren't different principles to intelligence we can look at. Just like vehicles have principles that apply to them. When designing vehicles we need to think about air resistance, friction, power. We have developed solutions such as wheels, different types of engines and wings that are deployed across different vehicles to achieve different results. 
 
 Intelligence is similar. The nation of artificial general intelligence is fundamentally eugenic. It builds on Spearman's term "general intelligence" which is part of a body of literature that was looking to assess intelligence in the way we assess height. The objective then being to breed greater intelligences.[^1]
@@ -40,4 +47,4 @@ Those values are predicated on a fantasy. Intelligence, like a vehicle, is conte
 
 It is also adaptive and it's going to have to be, because while the idea of artificial general intelligence is eugenic nonsense, this technology is utterly transformational. It requires new ways of thinking and managing society. It's urgent that we engage the wider population in understanding how to use it and ensuring its supporting them in their roles. We need to move rapidly beyond artificial general nonsense we are hearing and towards common sense. 
 
-<
+
