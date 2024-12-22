@@ -42,7 +42,8 @@ I call this phenomenon the subjectivity of superiority.
 ### Notes
 
 This story doesn't appear in the book, but it could have done, and it relates to 
-1. the importance of diverse perspectives (it's a good thing that different people take different approaches to being an academic ... there's no platonic idea)
-2. fallacies around artificial general intelligence and eugenics
+* the importance of diverse perspectives (it's a good thing that different people take different approaches to being an academic ... there's no platonic idea)
+*  fallacies around artificial general intelligence and eugenics
+
 
 
