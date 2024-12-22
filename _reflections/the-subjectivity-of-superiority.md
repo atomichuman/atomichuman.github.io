@@ -29,9 +29,9 @@ The debate was disappointing because the behavioural economist failed to engage 
 
 For me, this attitude lacked respect for the young political historian's perspective. Whether I was right or not, the lack of respect I perceived irritated me to the extent that, later the same day, when the behavioural economist gave a public speech, I entered the room in a somewhat contrarian mood. 
 
-Whatever the behavioural economist said, I mentally pick holes in it.[^2] Their style was somewhat sardonic, and at some point they continued a thread of their argument by smugly wheeling out the idea that "everyone in this room thinks they're better than the average academic" (ha ha, what idiots we all are). 
+Whatever the behavioural economist said, I mentally picked holes in it.[^2] Their style was somewhat sardonic, and at some point they continued a thread of their argument by smugly wheeling out the idea that "everyone in this room thinks they're better than the average academic" (ha ha, what idiots we all are). 
 
-[^2]: I didn't vocalise these, the room was mainly filled with esteemed people who (I felt) fawned somewhat over the economists ideas. Expressing my contrarianism would not have chimed with the broader atmosphere.
+[^2]: I didn't vocalise these, the room was mainly filled with esteemed people who (I felt) fawned somewhat over the economist's ideas. Expressing my contrarianism would not have chimed with the broader atmosphere.
 
 The speaker was referring to the phenomenon of [*illusory superiority* or the *above average effect*](/bibliography/are-we-all-less-risky-and-skillful-than-our-fellow-drivers/). In the original paper the authors described how most drivers think they are more skillful and less risky than the "average driver". The author  suggested that this was an illusion because there's no way that the majority can be better than (or worse than) the average (here I suppose we are assuming that the average is a median).[^3]
 
