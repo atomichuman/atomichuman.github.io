@@ -30,6 +30,8 @@ people:
   - Dwight Eisenhower
 images:
   - "Dan Andrews: Intent"
+bibliography:
+  - "Intellectual Debt: With Great Power Comes Great Ignorance"
 reflections:
   - A Retrospective on Digital Oligarchy
   
