@@ -7,7 +7,7 @@ contributed_by:
     tool: Claude
     version: 3.5
     date: "2024-12-22"
-	notes: "Can you do a machine summary of the concept of intellectual debt in the book?"
+    notes: "Can you do a machine summary of the concept of intellectual debt in the book?"
 ---
 
 
