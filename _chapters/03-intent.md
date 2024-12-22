@@ -30,6 +30,9 @@ people:
   - Dwight Eisenhower
 images:
   - "Dan Andrews: Intent"
+reflections:
+  - A Retrospective on Digital Oligarchy
+  
 ---
 
 <div class="machine-commentary" markdown="1">
