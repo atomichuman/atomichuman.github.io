@@ -72,8 +72,6 @@ The article's core warning about the need for better data governance and democra
 
 *Can you provide machine commentary that relates the human written part of the post with the themes and chapters in the book?*
 
-# Machine Commentary
-
 This retrospective piece connects several key themes from "The Atomic Human", particularly from Chapters 3, 8, 10 and the Epilogue:
 
 ## Digital Oligarchy and System Zero
