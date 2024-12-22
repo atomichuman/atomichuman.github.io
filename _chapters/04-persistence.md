@@ -28,6 +28,7 @@ technology:
   - enigma-decryption
 refelctions:
   - Art is Human
+  - The Subjectivity of Superiority
 images:
   - dan-andrews-chapter-4
 ---
