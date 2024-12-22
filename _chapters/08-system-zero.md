@@ -30,6 +30,7 @@ people:
   - Dwight Eisenhower
 reflections:
   - A Retrospective on System Zero
+  - A Retrospective on Digital Oligarchy
 ---
 
 <div class="machine-commentary" markdown="1">

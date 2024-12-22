@@ -32,6 +32,8 @@ people:
   - Karl Popper
 reflections:
   - The Subjectivity of Superiority
+  - A Retrospective on Digital Oligarchy
+  - Artificial General Nonsense
 ---
 
 <div class="machine-commentary" markdown="1">

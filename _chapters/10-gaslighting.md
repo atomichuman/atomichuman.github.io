@@ -31,7 +31,8 @@ people:
   - Norbert Wiener
   - Vera Lengsfeld
   - Frank Rosenblatt
-
+reflections: 
+  - A Retrospective on Digital Oligarchy
 ---
 
 <div class="machine-commentary" markdown="1">
