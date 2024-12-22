@@ -14,6 +14,8 @@ editor:
  - given: Wolfram
    family: Burgard
 booktitle: "The Cambridge Handbook of Responsible Artificial Intelligence: Interdisciplinary Perspectives"
+abstract: |
+  In this chapter, law and technology scholar Jonathan Zittrain warns of the danger of relying on answers for which we have no explanations. There are benefits to utilising solutions discovered through trial and error rather than rigorous proof: though aspirin was discovered in the late 19th century, it was not until the late 20th century that scientists were able to explain how it worked. But doing so accrues ‘intellectual debt’. This intellectual debt is compounding quickly in the realm of AI, especially in the subfield of machine learning. Whereas we know that ML models can create efficient, effective answers, we don’t always know why the models come to the conclusions they do. This makes it difficult to detect when they are malfunctioning, being manipulated, or producing unreliable results. When several systems interact, the ledger moves further to the red. Society’s movement from basic science towards applied technology that bypasses rigorous investigative research inches us closer to a world in which we are reliant on an oracle AI, one in which we trust regardless of our ability to audit its trustworthiness. Zittrain concludes that we must create an intellectual debt ‘balance sheet’ by allowing academics to scrutinise the systems.
 series: Cambridge Law Handbooks
 publisher: Cambridge University Press
 address: Cambridge
