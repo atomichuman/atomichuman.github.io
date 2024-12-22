@@ -21,7 +21,7 @@ contributed_by:
 featured_image: /assets/images/Atomic_H_10_Gaslighting.png
 ---
 
-In May 2015 I wrote this article for the Guardian on the idea of the *digital oligarchy*. Like [the System Zero post](/reflections/a-retrospective-on-system-zero/), this article predates the Cambridge Analytica scandal and the discussions around misinformation around the US election.
+In [March 2015 I wrote this article for the Guardian](https://www.theguardian.com/media-network/2015/mar/05/digital-oligarchy-algorithms-personal-data) on the idea of the *digital oligarchy*. Like [the System Zero post](/reflections/a-retrospective-on-system-zero/), this article predates the Cambridge Analytica scandal and the discussions around misinformation around the US election.
 
 The warning suggests that we should be wary of large companies that accumulate power through vast accumulation of our personal data. Today, with the advent of generative AI, we could add "our creative data" to this. It calls the power structures that result the "digital oligarchy".
 
