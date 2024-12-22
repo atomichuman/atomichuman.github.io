@@ -25,7 +25,8 @@ historical_events:
 technology:
   - Generative AI Launch
 bibliography:
-  - the-open-society-and-its-enemies
+  - The Open Society and its Enemies
+  - "Intellectual Debt: With Great Power Comes Great Ignorance"
 people:
   - Dwight Eisenhower
   - Norbert Wiener
