@@ -17,9 +17,9 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     notes: >
-	  Commentary on the influence of the Diving Bell and the Butterfly on The Atomic Human triggered by the following prompt:
-        
-	  Can you write a commentary on how "The Diving Bell and the Butterfly" influenced the Atomic Human. 
+      Commentary on the influence of the Diving Bell and the Butterfly on The Atomic Human triggered by the following prompt:
+
+      Can you write a commentary on how "The Diving Bell and the Butterfly" influenced the Atomic Human. 
 
       If the influence is broad, please describe the breadth and provide detailed contexts (perhaps with chapter references) as to where it comes up.
     date: 2024-12-19

@@ -41,7 +41,7 @@ reflections:
 
 <div class="machine-commentary" markdown="1">
   
-### Summary
+### Machine Summary
 
 Chapter 7, *It’s Not Rocket Science or Brain Surgery*, examines the interplay of human and machine intelligence, with a focus on the balance between automated systems and human intervention. Drawing on the Apollo moon landing as a case study, the chapter explores the importance of reflexive and reflective systems in decision-making and control.
 

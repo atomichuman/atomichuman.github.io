@@ -37,7 +37,8 @@ reflections:
 ---
 
 <div class="machine-commentary" markdown="1">
-### Summary
+  
+### Machine Summary
 
 Chapter 12, *Trust*, examines the foundation of human collaboration and decision-making by exploring the dual nature of trust as both a necessity and a vulnerability. The narrative begins by recounting Vera Lengsfeld’s harrowing betrayal by her husband, a Stasi informant, during East Germany's dictatorship. Her story highlights the personal and societal fractures that occur when trust is weaponized.
 

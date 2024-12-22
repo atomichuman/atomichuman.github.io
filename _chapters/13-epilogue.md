@@ -35,7 +35,8 @@ reflections:
 ---
 
 <div class="machine-commentary" markdown="1">
-### Summary
+  
+### Machine Summary
 
 The *Epilogue* of *The Atomic Human* reflects on the societal impact of artificial intelligence and the lessons drawn from history, literature, and human collaboration. Neil Lawrence invokes Goethe’s *The Sorcerer’s Apprentice*, drawing parallels between the apprentice’s inability to control the spell and modern society’s struggle to manage the technologies it has unleashed. The metaphor highlights the challenge of controlling increasingly complex systems, such as software and AI, which are often opaque even to their creators.
 

@@ -35,7 +35,8 @@ people:
 ---
 
 <div class="machine-commentary" markdown="1">
-### Summary
+  
+### Machine Summary
 
 Chapter 10, *Gaslighting*, delves into the manipulation of trust and perception at individual, societal, and systemic levels. The title draws from the 1938 play *Gas Light*, where a husband manipulates his wife’s reality to make her question her sanity. This concept is expanded to examine how both states and technologies use similar tactics to control and manipulate.
 

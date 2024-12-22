@@ -32,7 +32,7 @@ people:
 
 <div class="machine-commentary" markdown="1">
   
-### Summary
+### Machine Summary
 
 Chapter 11, *Human–Analogue Machines (HAMs)*, explores the concept of machines designed to emulate human cognitive and emotional patterns. It begins by examining historical instances where machines were anthropomorphized to help humans comprehend their function, such as Donald MacKay's analogue computers and the MONIAC economic simulator. These systems aimed to model the real world through physical analogies like water flows or electrical circuits.
 

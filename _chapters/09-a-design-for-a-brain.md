@@ -37,7 +37,8 @@ reflections:
 ---
 
 <div class="machine-commentary" markdown="1">
-### Summary
+  
+### Machine Summary
 
 Chapter 9, *A Design for a Brain*, explores the intersection of biology, computation, and intelligence. Inspired by W. Ross Ashby’s work on homeostasis, the chapter examines how the human brain adapts to its environment, maintaining equilibrium while processing complex information. Ashby’s theories, as outlined in his book *Design for a Brain*, emphasize the nervous system’s mechanistic nature, likening it to a feedback system that ensures survival under changing conditions.
 
