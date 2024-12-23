@@ -26,7 +26,7 @@ historical_events:
   - natural-selection
 technology:
   - enigma-decryption
-refelctions:
+reflections:
   - Art is Human
   - The Subjectivity of Superiority
 images:
@@ -34,6 +34,7 @@ images:
 ---
 
 <div class="machine-commentary" markdown="1">
+
 ### Summary
 
 Chapter 4, *Persistence*, investigates the enduring qualities of both natural and artificial systems. The narrative draws parallels between the Pantheon in Rome, a structure that has withstood time, and biological systems, which survive through resilience and adaptation. A key theme is the role of "anthropomorphization" or “anthroxing”—our tendency to attribute human traits to non-human entities—to frame complex processes in relatable terms.

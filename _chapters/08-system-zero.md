@@ -23,6 +23,7 @@ themes:
   - emergent-behavior-in-ai
 bibliography:
   - The Matrix
+  - "Intellectual Debt: With Great Power Comes Great Ignorance"
 historical_events:
   - Bletchley Park
   - Cambridge Analytica
