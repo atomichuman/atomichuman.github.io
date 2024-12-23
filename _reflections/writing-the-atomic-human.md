@@ -10,9 +10,7 @@ contributed_by:
 featured_image: /assets/images/writing-the-atomic-human.png
 ---
 
-How long did it take you to write? The answer is now visualised below.
-
-Versions of the book from when I started until today are visualised in this YouTube video.
+Sometimes I'm asked "How long did it take you to write?" The answer is now visualised below.
 
 <center>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/vMQPoC944jA">
@@ -22,9 +20,8 @@ Versions of the book from when I started until today are visualised in this YouT
 
 The visualisation tool uses a half second per day, so now I can finally say that the material was edited on around 550 days across eight years with the initial repository created on GitHub on 21st May 2015. 
 
-Here's the commands used to create it.
+It's created using the `gource` source code visualisation tool. Because the book was initially written in one repository, before moving it to another, the first thing I do is combine the logs of the repositories.  
 
-First create the combined log.
 
 ````bash
 gource --output-custom-log log1.txt ~/riseofthealgorithm/riseofthealgorithm.github.io
@@ -32,7 +29,7 @@ gource --output-custom-log log2.txt ~/lawrennd/the-atomic-human
 cat log1.txt log2.txt | sort -n > combinedlog.txt
 ```
 
-Next visualisae it.
+Then gource is used to visualise the result which is uploaded to YouTube. 
 
 ```bash
 gource combinedlog.txt \
