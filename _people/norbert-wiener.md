@@ -19,7 +19,8 @@ contributed_by:
 ---
 
 <div class="machine-commentary" markdown="1">
-### Summary
+
+### Machine Summary
 
 Norbert Wiener was an American mathematician and the founder of cybernetics, a field that explores the relationships between systems, control, and communication in machines, animals, and humans. His pioneering work, particularly through his book *Cybernetics: Or Control and Communication in the Animal and the Machine* (1948), shaped the theoretical foundations of modern computing, automation, and artificial intelligence.
 
