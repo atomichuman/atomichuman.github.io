@@ -103,7 +103,7 @@ title: Advent Calendar - The Atomic Human
       <td data-date="20"><a href="/reflections/the-great-ai-fallacy/">20</a></td>
       <td data-date="21"><a href="/reflections/artificial-general-nonsense/">21</a></td>
       <td data-date="22"><a href="/reflections/a-retrospective-on-digital-oligarchy/">22</a></td>
-      <td data-date="23">23</td>
+      <td data-date="23"><a href="/reflections/writing-the-atomic-human/">23</a></td>
       <td data-date="24">24</td>
     </tr>
     <tr>
