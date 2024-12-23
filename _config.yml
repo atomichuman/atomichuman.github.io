@@ -107,6 +107,7 @@ permalink: pretty
 # Plugins
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-sitemap
 
 # Pagination (if needed)
