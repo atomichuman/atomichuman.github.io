@@ -13,7 +13,7 @@ featured_image: /assets/images/writing-the-atomic-human.png
 Sometimes I'm asked "How long did it take you to write?" The answer is now visualised below.
 
 <center>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/vMQPoC944jA">
+<iframe width="630" height="482" src="https://www.youtube.com/embed/vMQPoC944jA">
 </iframe>
 <i>Visualisation of the writing process using the gource tool and the repositories where the book was written.</i>
 </center>
