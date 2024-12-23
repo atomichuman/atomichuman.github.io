@@ -31,6 +31,7 @@ gource --output-custom-log log1.txt ~/riseofthealgorithm/riseofthealgorithm.gith
 gource --output-custom-log log2.txt ~/lawrennd/the-atomic-human
 cat log1.txt log2.txt | sort -n > combinedlog.txt
 ```
+
 Next visualisae it.
 
 ```bash
