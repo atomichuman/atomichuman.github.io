@@ -21,3 +21,45 @@ Versions of the book from when I started until today are visualised in this YouT
 </center>
 
 The visualisation tool uses a half second per day, so now I can finally say that the material was edited on around 550 days across eight years with the initial repository created on GitHub on 21st May 2015. 
+
+Here's the commands used to create it.
+
+First create the combined log.
+
+````bash
+gource --output-custom-log log1.txt ~/riseofthealgorithm/riseofthealgorithm.github.io
+gource --output-custom-log log2.txt ~/lawrennd/the-atomic-human
+cat log1.txt log2.txt | sort -n > combinedlog.txt
+```
+
+Next visualisae it.
+
+```bash
+gource combinedlog.txt \
+    --seconds-per-day 0.5 \
+    -1280x720 \
+    --auto-skip-seconds .3 \
+    --multi-sampling \
+    --stop-at-end \
+    --key \
+    --highlight-users \
+    --file-idle-time 1500 \
+    --background-colour 000000 \
+    --font-size 25 \
+    --title "The Atomic Human" \
+    --user-image-dir .git/avatar \
+    --user-scale 6.0 \
+    --user-font-size 30 \
+    -e 2.5 \
+    --output-framerate 60 \
+    --output-ppm-stream - \
+    | ffmpeg -y -f image2pipe \
+        -framerate 60 \
+        -i - \
+        -c:v libx264 \
+        -preset medium \
+        -pix_fmt yuv420p \
+        -crf 18 \
+        -movflags +faststart \
+        atomic_human_visualization.mp4
+```
