@@ -20,7 +20,7 @@ Sometimes I'm asked "How long did it take you to write?" The answer is now visua
 
 The visualisation tool uses a half second per day, so now I can finally say that the material was edited on around 550 days across eight years with the initial repository created on GitHub on 21st May 2015. 
 
-It's created using the [`gource` source code visualisation tool](https://gource.io/). Because the book was initially written in one repository, before moving it to another, the first thing I do is combine the logs of the repositories.  
+It's created using the [gource source code visualisation tool](https://gource.io/). Because the book was initially written in one repository, before moving it to another, the first thing I do is combine the logs of the repositories.  
 
 
 ````bash
