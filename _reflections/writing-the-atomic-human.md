@@ -1,7 +1,7 @@
 ---
 title: Writing the Atomic Human
 date: 2024-12-23
-toggle_machine_commentary: true
+toggle_machine_commentary: false
 contributed_by:
   initial:
     date: 2024-12-23
