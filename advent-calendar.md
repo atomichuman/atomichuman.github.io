@@ -66,6 +66,46 @@ title: Advent Calendar - The Atomic Human
   height: 75px; /* Make it taller */
   font-size: 1.2em;
 }
+
+.twelve-days {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.twelve-days td {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #b22222; /* Dark red border */
+  vertical-align: middle;
+  background: linear-gradient(145deg, #f8f9fa 0%, #e9ecef 100%);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.twelve-days td:hover {
+  background: linear-gradient(145deg, #ffe4e1 0%, #fff0f0 100%);
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.twelve-days a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #006400; /* Dark green text */
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  font-size: 1.2em;
+}
+
+.twelve-days a:hover {
+  color: #b22222; /* Dark red on hover */
+}
+
 .twelve-days td:nth-child(even) {
   background: linear-gradient(145deg, #ffe4e1 0%, #ffd700 100%);
   border-color: #8b0000;
@@ -116,6 +156,9 @@ title: Advent Calendar - The Atomic Human
     </tr>
   </tbody>
 </table>
+
+### The Twelve Days of Christmas
+
 <table class="twelve-days">
   <body>
     <tr>
