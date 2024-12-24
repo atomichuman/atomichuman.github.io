@@ -66,6 +66,14 @@ title: Advent Calendar - The Atomic Human
   height: 75px; /* Make it taller */
   font-size: 1.2em;
 }
+.twelve-days td:nth-child(even) {
+  background: linear-gradient(145deg, #ffe4e1 0%, #ffd700 100%);
+  border-color: #8b0000;
+}
+.twelve-days td:nth-child(odd) {
+  background: linear-gradient(145deg, #ffd700 0%, #ff4500 100%);
+  border-color: #8b0000;
+}
 
 .advent-calendar td[data-date="25"] a {
   font-size: 1.5em;
@@ -104,10 +112,28 @@ title: Advent Calendar - The Atomic Human
       <td data-date="21"><a href="/reflections/artificial-general-nonsense/">21</a></td>
       <td data-date="22"><a href="/reflections/a-retrospective-on-digital-oligarchy/">22</a></td>
       <td data-date="23"><a href="/reflections/writing-the-atomic-human/">23</a></td>
-      <td data-date="24">24</td>
-    </tr>
-    <tr>
-      <td data-date="25" col-span="6">25</td>
+      <td data-date="24"><a href="/reflections/playing-in-peoples-backyards/">24</a></td>
     </tr>
   </tbody>
+</table>
+<table class="twelve-days">
+  <body>
+    <tr>
+      <td data-date="25">25</td>
+      <td data-date="26">26</td>
+      <td data-date="27">27</td>
+      <td data-date="28">28</td>
+      <td data-date="29">29</td>
+      <td data-date="30">30</td>
+    </tr>
+    <tr>
+      <td data-date="31">31</td>
+      <td data-date="1">1</td>
+      <td data-date="2">2</td>
+      <td data-date="3">3</td>
+      <td data-date="4">4</td>
+      <td data-date="5">5</td>
+    </tr>
+
+  </body>
 </table>
