@@ -1,7 +1,7 @@
 ---
 title: "Dan Andrews: Human Analogue Machines"
 date: 2024-12-24
-featured_image: /assets/images/Atomic_H_11_Human_Analogue_.png
+featured_image: /assets/images/Atomic_H_11_Human_Analogue.png
 source: Drawn on commission by Dan Andrews of scribeysense.com
 description: Humans are shown across the years accommodating the machine in their activities.
 toggle_machine_commentary: true

@@ -7,7 +7,7 @@ contributed_by:
     date: 2024-12-24
     type: human
     name: Neil D. Lawrence
-featured_image: /assets/images/Atomic_H_11_Human_Analogue_.png
+featured_image: /assets/images/Atomic_H_11_Human_Analogue.png
 ---
 
 The Berkeley statistician [John Tukey](https://www.theguardian.com/news/2000/aug/16/guardianobituaries1) is said to have told a colleague "The best thing about being a statistician is that you get to play in everyone's backyard". The same is true for machine learning, data science and AI. 
@@ -21,7 +21,7 @@ With this approach in mind we approached my colleague [Dr Jonathan Tenney](https
 The beauty of this approach is that we learn both ways, we better understand Jon's work and we better understand the limitations of our own systems. Part of Jon's work made it into the book, and today we end the traditional 24 days of the advent calendar by picking up on that work.
 
 <center>
-<image src="/assets/images/Atomic_H_11_Human_Analogue_.png" alt="Dan Andrew's drawing for Chapter 11, Human Analogue Machines" width="50%"/>
+<image src="/assets/images/Atomic_H_11_Human_Analogue.png" alt="Dan Andrew's drawing for Chapter 11, Human Analogue Machines" width="50%"/>
 
 <i><a href="/images/dan-andrews-chapter-11/">Dan Andrews' illustration for Chapter 11, Human Analogue Machines</a>. See <a href="https://scribeysense.com">scribeysense.com</a>.</i>
 </center>
