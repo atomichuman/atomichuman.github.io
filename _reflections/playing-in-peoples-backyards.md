@@ -7,17 +7,17 @@ contributed_by:
     date: 2024-12-24
     type: human
     name: Neil D. Lawrence
-  reviewd_by:
+  reviewed_by:
   - date: 2024-12-24
-	type: machine
-	tool: ChatGPT
-	version: 4o1
-	notes: Some feedback on grammar and flow that was addressed by Neil.
+    type: machine
+    tool: ChatGPT
+    version: 4o1
+    notes: Some feedback on grammar and flow that was addressed by Neil.
   - date: 2024-12-24
-	type: machine
-	tool: ChatGPT
-	version: 4o1
-	notes: Machine commentary on relationship to the book.	
+    type: machine
+    tool: ChatGPT
+    version: 4o1
+    notes: Machine commentary on relationship to the book.	
 featured_image: /assets/images/Atomic_H_11_Human_Analogue.png
 ---
 
