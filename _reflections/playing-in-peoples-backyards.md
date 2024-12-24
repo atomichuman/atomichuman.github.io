@@ -56,7 +56,7 @@ The post, *"Playing in People's Backyards,"* resonates deeply with the core them
 
 The post highlights the importance of respectful collaboration, emphasizing that AI should complement and support domain experts rather than overshadow them. This mirrors the discussions in *The Atomic Human* about the opportunities and challenges presented when humans and machines interface directly—especially through natural language systems. 
 
-The example of collaborating with Dr. Jonathan Tenney to decode ancient tablets serves as a practical illustration of interdisciplinary approaches that leverage AI without diminishing human expertise. It aligns with the book's exploration of how modern AI systems, while powerful, should be designed to augment human intelligence rather than replace it entirely.
+The example of collaborating with [Dr. Jonathan Tenney](/people/jonathan-tenney/) to decode ancient tablets serves as a practical illustration of interdisciplinary approaches that leverage AI without diminishing human expertise. It aligns with the book's exploration of how modern AI systems, while powerful, should be designed to augment human intelligence rather than replace it entirely.
 
 ### Reflection on Historical and Modern Parallels
 
