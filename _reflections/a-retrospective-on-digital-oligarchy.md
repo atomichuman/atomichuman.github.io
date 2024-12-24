@@ -33,7 +33,7 @@ What has that got to do with AI? Well at the extreme end we have the "technical 
 <center>
 <image src="/assets/images/Atomic_H_10_Gaslighting.png" alt="Dan Andrew's drawing for Chapter 10, Gaslighting" width="50%"/>
 
-<i><a href="/images/dan-andrews-chapter-9/">Dan Andrews' illustration for Chapter 10, Gaslighting</a>. See <a href="https://scribeysense.com">scribeysense.com</a>. Dan focussed on the surveillance aspect of the modern digital tools.</i>
+<i><a href="/images/dan-andrews-chapter-10/">Dan Andrews' illustration for Chapter 10, Gaslighting</a>. See <a href="https://scribeysense.com">scribeysense.com</a>. Dan focussed on the surveillance aspect of the modern digital tools.</i>
 </center>
 
 If these two challenges are conflated, that is a terrifying prospect. But the road to reach that point already presents widespread socio-technical existential risks. We've already [seen one manifestation with System Zero](/reflections/a-retrospective-on-system-zero/), where digital systems make decisions in ways that distort the world around us. 
