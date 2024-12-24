@@ -7,18 +7,26 @@ contributed_by:
     date: 2024-12-24
     type: human
     name: Neil D. Lawrence
+  reviewd_by:
+  - date: 2024-12-24
+	type: machine
+	tool: ChatGPT
+	version: 4o1
+	notes: Some feedback on grammar and flow that was addressed by Neil.
+	
 featured_image: /assets/images/Atomic_H_11_Human_Analogue.png
+
 ---
 
 The Berkeley statistician [John Tukey](https://www.theguardian.com/news/2000/aug/16/guardianobituaries1) is said to have told a colleague "The best thing about being a statistician is that you get to play in everyone's backyard". The same is true for machine learning, data science and AI. 
 
-Most of this play is welcomed, but there's a challenge where what starts out as play becomes a problem, the AI play ignores those who are living in the house, are experts in the domain, and a garden play-shelter becomes a concrete carbuncle ... or the owners own thoughts are drowned out by the noise the players make inviting in the press to show them their new game.
+Most of this play is welcomed, but there's a challenge where what starts out as play becomes a problem. AI play can get a bit raucous. It often ignores those who are living in the house and neighborhood. It ignores experts in the domain. Before you know it the garden play-shelter becomes a concrete carbuncle ... and the AI people are having a big party down there with a load of noise blaring. 
 
-Respectful play involves understanding the home-owners and what they'd find useful. It involves first asking "how can we help".
+Respectful play involves understanding the homeowners and what they'd find useful. It involves first asking "how can we help".
 
-With this approach in mind we approached my colleague [Dr Jonathan Tenney](https://www.arch.cam.ac.uk/staff/dr-jonathan-tenney), an Assyriologist in the University's department of Archeology. Instead of imposing Neural Networks on him [we followed approaches from the social sciences](https://science.ai.cam.ac.uk/2024/12/19/how-can-we-develop-machine-learning-tools-to-map-ancient-social-networks) such as grounded theory to understand Jonathan's work. 
+With this approach in mind we approached my colleague [Dr Jonathan Tenney](https://www.arch.cam.ac.uk/staff/dr-jonathan-tenney), an Assyriologist in the University's department of Archeology. Instead of imposing neural networks on him [we followed approaches from the social sciences](https://science.ai.cam.ac.uk/2024/12/19/how-can-we-develop-machine-learning-tools-to-map-ancient-social-networks) such as grounded theory to understand Jonathan's work. 
 
-The beauty of this approach is that we learn both ways, we better understand Jon's work and we better understand the limitations of our own systems. Part of Jon's work made it into the book, and today we end the traditional 24 days of the advent calendar by picking up on that work.
+The collaboration then can enrich both fields - AI and Assyriology - offering insights into ancient and modern ways of processing information. Part of this work features in *The Atomic Human* where we explore the opportunities presented by human-analogue machiens. Today we conclude the traditional 24 days of the advent calendar by highlighting this approach..
 
 <center>
 <image src="/assets/images/Atomic_H_11_Human_Analogue.png" alt="Dan Andrew's drawing for Chapter 11, Human Analogue Machines" width="50%"/>
