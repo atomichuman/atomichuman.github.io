@@ -28,6 +28,9 @@ technology:
   - Apollo Guidance Computer
 people:
   - Frank Rosenblatt
+  - Jonathan Tenney
+reflections:
+  - Playing in People's Backyards
 ---
 
 <div class="machine-commentary" markdown="1">
