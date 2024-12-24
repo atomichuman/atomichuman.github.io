@@ -1,5 +1,5 @@
 ---
-title: "Dan Andrews: Gaslighting"
+title: "Dan Andrews: Artificial General Vehicle"
 date: 2024-12-21
 featured_image: /assets/images/Artificial_General_Vehicle_211224_Final.png
 source: Drawn on commission by Dan Andrews of scribeysense.com
