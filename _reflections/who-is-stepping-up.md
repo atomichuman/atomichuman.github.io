@@ -34,7 +34,7 @@ featured_image: /assets/images/Atomic_H_Epilogue.png
 
 <map name="initiatives-map">
   <!-- Data Science Africa -->
-  <area shape="rect" coords="680,320,900,360" href="https://datascienceafrica.org" target="_blank" alt="Data Science Africa" />
+  <area shape="rect" coords="680,320,900,360" href="https://www.datascienceafrica.org/" target="_blank" alt="Data Science Africa" />
   <!-- AI@Cam -->
   <area shape="rect" coords="680,370,900,410" href="https://ai.cam.ac.uk" target="_blank" alt="AI@Cam" />
   <!-- APSCI -->
@@ -48,7 +48,7 @@ featured_image: /assets/images/Atomic_H_Epilogue.png
 
 For more information, visit:
 
-- [Data Science Africa](https://datascienceafrica.org)
+- [Data Science Africa](https://www.datascienceafrica.org/)
 - [ai@cam](https://ai.cam.ac.uk)
 - [Accelerate Science](https://science.ai.cam.ac.uk)
 - [Data Trusts Initiative](https://datatrusts.uk)
