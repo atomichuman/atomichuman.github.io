@@ -28,8 +28,8 @@ themes:
 ### Evolution of Tech Power
 
 The book traces the emergence of digital oligarchy through:
-- Early tech company development (Chapter 1)
-- Facebook's creation of FBLearner (Chapter 3)
+- Early tech company development ([Chapter 1](/chapters/01-gods-and-robots/))
+- Facebook's creation of FBLearner ([Chapter 3](/chapters/03-intent/))
 - Amazon's automated supply chains
 - Concentration of AI research in major companies
 
