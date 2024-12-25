@@ -7,17 +7,17 @@ contributed_by:
     date: 2024-12-24
     type: human
     name: Neil D. Lawrence
-  reviewd_by:
+  reviewed_by:
   - date: 2024-12-24
-	type: machine
-	tool: ChatGPT
-	version: 4o1
-	notes: Some feedback on grammar and flow that was addressed by Neil.
+    type: machine
+    tool: ChatGPT
+    version: 4o1
+    notes: Some feedback on grammar and flow that was addressed by Neil.
   - date: 2024-12-24
-	type: machine
-	tool: ChatGPT
-	version: 4o1
-	notes: Machine commentary on relationship to the book.	
+    type: machine
+    tool: ChatGPT
+    version: 4o1
+    notes: Machine commentary on relationship to the book.	
 featured_image: /assets/images/Atomic_H_11_Human_Analogue.png
 ---
 
@@ -27,7 +27,7 @@ Most of this play is welcomed, but there's a challenge where what starts out as 
 
 Respectful play involves understanding the homeowners and what they'd find useful. It involves first asking "how can we help".
 
-With this approach in mind we approached my colleague [Dr Jonathan Tenney](https://www.arch.cam.ac.uk/staff/dr-jonathan-tenney), an Assyriologist in the University's department of Archeology. Instead of imposing neural networks on him [we followed approaches from the social sciences](https://science.ai.cam.ac.uk/2024/12/19/how-can-we-develop-machine-learning-tools-to-map-ancient-social-networks) such as grounded theory to understand Jonathan's work. 
+With this approach in mind we approached my colleague [Dr Jonathan Tenney](/people/jonathan-tenney/), an Assyriologist in the University's department of Archeology. Instead of imposing neural networks on him [we followed approaches from the social sciences](https://science.ai.cam.ac.uk/2024/12/19/how-can-we-develop-machine-learning-tools-to-map-ancient-social-networks) such as grounded theory to understand Jonathan's work. 
 
 The collaboration then can enrich both fields - AI and Assyriology - offering insights into ancient and modern ways of processing information. Part of this work features in *The Atomic Human* where we explore the opportunities presented by human-analogue machiens. Today we conclude the traditional 24 days of the advent calendar by highlighting this approach..
 
@@ -44,7 +44,6 @@ In the judgment witness statements contradicted themselves, and in this case the
 Although this was over 3000 years ago, we see the same tendency in modern AI systems. When things get complicated, let's get the AI to decide. 
 
 This is playing in the garden of others in the worst possible manner. Undermining the original owner's confidence to such a degree that they no longer trust their own judgment and prefer the modern equivalent of trial-by-ordeal rather than expressing their professional judgment. 
-
 
 <div class="machine-commentary" markdown="1">
 

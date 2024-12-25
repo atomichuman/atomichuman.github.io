@@ -12,7 +12,7 @@ contributed_by:
     tool: "ChatGPT"
     version: 4o1
     date: "2024-12-24"
-	notes: Summary by ChatGPT, I find Claude better at this, but had run out of credit on Claude when I was created this person page.
+    notes: Summary by ChatGPT, I find Claude better at this, but had run out of credit on Claude when I was created this person page.
 ---
 
 <div class="machine-commentary" markdown="1">
