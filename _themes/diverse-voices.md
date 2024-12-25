@@ -47,10 +47,11 @@ The book identifies barriers to diverse participation:
 ### Practical Initiatives
 
 The epilogue highlights specific programs:
-- Data Science Africa
-- ai@cam initiative
-- Accelerate Science programme
-- Data Trusts Initiative
+- [Data Science Africa](https://www.datascienceafrica.org)
+- [ai@cam initiative](https://ai.cam.acuk)
+- [Accelerate Science programme](https://science.ai.cam.ac.uk)
+- [Data Trusts Initiative](https://datatrusts.uk)
+  
 These demonstrate practical approaches to including diverse voices.
 
 ### Future Implications
