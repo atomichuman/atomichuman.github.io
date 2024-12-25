@@ -34,7 +34,7 @@ The book traces how cultural diversity enables human intelligence to overcome ou
 
 ### Technical Implementation
 
-[Chapters 8](/chapters/08-system-zero) and [9](/chapters/09-its-not-rocket-science-or-brain-surgery) explore how diversity appears in technical systems, from the complementary roles of fast and slow thinking to the importance of maintaining multiple approaches in AI development. The book argues against the current trend toward massive, monolithic AI models in favor of diverse, specialized solutions.
+[Chapters 8](/chapters/08-system-zero) and [9](/chapters/09-a-design-for-a-brain) explore how diversity appears in technical systems, from the complementary roles of fast and slow thinking to the importance of maintaining multiple approaches in AI development. The book argues against the current trend toward massive, monolithic AI models in favor of diverse, specialized solutions.
 
 ### Future Implications
 
