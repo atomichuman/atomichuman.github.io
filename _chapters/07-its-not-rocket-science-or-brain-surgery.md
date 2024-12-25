@@ -15,7 +15,6 @@ contributed_by:
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
   - Separation of Concerns
-  - Wisdom in Diversity
   - Wicked Problems
   - Diverse Voices
   - Training Reflexive Systems
