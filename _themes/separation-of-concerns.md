@@ -17,11 +17,11 @@ themes:
 
 ## Machine Summary
 
-"Separation of concerns" emerges as a crucial theme in The Atomic Human, describing how complex systems and decisions are broken down into manageable components. This principle appears both as a solution to handling complexity and as a potential source of risk when taken too far.
+"Separation of concerns" emerges as a crucial theme in *The Atomic Human*, describing how complex systems and decisions are broken down into manageable components. This principle appears both as a solution to handling complexity and as a potential source of risk when taken too far.
 
 ### Origins in Military and Computing
 
-The theme is first introduced in Chapter 2 through Fred Lawrence's wartime experiences and the development of early computing at Bletchley Park. The codebreakers demonstrated how complex problems could be separated into mechanical computation and human judgment. This separation allowed the development of early computers while recognizing the unique capabilities of human intelligence.
+The theme is first introduced in Chapter 2 through [Fred Lawrence's](/people/fred-lawrence/) wartime experiences and the development of early computing at Bletchley Park. The codebreakers demonstrated how complex problems could be separated into mechanical computation and human judgment. This separation allowed the development of early computers while recognizing the unique capabilities of human intelligence.
 
 ### Corporate Implementation
 
