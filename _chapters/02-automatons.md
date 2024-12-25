@@ -14,13 +14,10 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
-  - human-automation-synergy
-  - machine-learning-origins
-  - information-topography
-  - decision-automation
-  - intelligence-through-delegation
-  - human-context-in-ai
-  - limitations-of-machine-autonomy
+  - Separation of Concerns
+  - Diverse Voices
+  - The Open Society
+  - Power Asymmetries
 historical_events:
   - Bletchley Park
 images:

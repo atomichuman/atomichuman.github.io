@@ -13,9 +13,10 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
-  - human-machine-collaboration
-  - societal-ownership-of-ai
-  - digital-oligarchy-vs-open-society
+  - The Open Society
+  - Diverse Voices
+  - Wisdom in Diversity
+  - Wicked Problems
   - Vulnerabilities as Strengths
   - Lessons from The Sorcerer’s Apprentice
   - Building Resilient Institutions

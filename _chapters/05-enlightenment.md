@@ -14,11 +14,11 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
-  - scientific-revolution
+  - The Open Society
+  - Separation of Concerns
+  - Wisdom in Diversity
+  - Generative AI and the Sorcerer's Apprentice
   - Natural vs Artificial Intelligence
-  - lessons-from-history
-  - knowledge-sharing
-  - rationalism-and-reductionism
   - Historical Transformations
   - The Impact of Printing
   - Rationalism vs Emotion

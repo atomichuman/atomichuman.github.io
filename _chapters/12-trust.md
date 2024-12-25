@@ -14,15 +14,12 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
-  - trust-and-betrayal
+  - The Open Society
+  - Wisdom in Diversity
+  - Power Asymmetries
+  - Wicked Problems
   - Natural vs Artificial Intelligence
   - Resilience and Robustness
-  - societal-resilience
-  - shared-vulnerability
-  - algorithmic-accountability
-  - trust-as-social-glue
-  - ethical-use-of-data
-  - lessons-from-surveillance
 historical_events:
   - Stasi Files Release
   - Cambridge Analytica

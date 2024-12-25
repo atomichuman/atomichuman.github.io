@@ -14,10 +14,10 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
-  - human-reflexes-and-training
-  - interdependence-of-intelligence
-  - motor-skills-and-adaptability
-  - evolution-of-automation
+  - Separation of Concerns
+  - Wisdom in Diversity
+  - Wicked Problems
+  - Diverse Voices
   - Training Reflexive Systems
   - Innovation Through Synergy
   - Human Culture vs Machine
@@ -52,4 +52,5 @@ Human motor intelligence, the chapter argues, emerges from the co-evolution of n
 The chapter contrasts these human capabilities with machine intelligence, highlighting the limitations of automation in contexts requiring adaptability and nuance. While computers like the Apollo Guidance Computer excelled in calculations, their "fast-reacting systems" were still dependent on human oversight for critical decisions.
 
 By analyzing historical advancements in automation, such as the Apollo mission’s development of Mission Control, the chapter underscores the importance of integrating human culture, training, and intelligence into systems of automation. These collaborations enable achievements far beyond the capacity of machines or humans alone.
+
 </div>

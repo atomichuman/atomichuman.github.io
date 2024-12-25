@@ -14,13 +14,11 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
+  - Diverse Voices
+  - Wisdom in Diversity
+  - Separation of Concerns
+  - Wicked Problems
   - Homeostasis and Adaptation
-  - brain-as-machine
-  - intelligence-and-computation
-  - affordance-gap
-  - limits-of-modeling
-  - evolution-of-computational-theories
-  - creativity-in-adaptation
   - Resilience and Robustness
 technology:
   - turing-universal-computer

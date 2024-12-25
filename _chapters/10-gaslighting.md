@@ -14,13 +14,12 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
+  - Power Asymmetries
+  - Digital Oligarchy
+  - System Zero
+  - The Open Society
   - Manipulation and Trust
   - Surveillance and Power
-  - societal-fractures
-  - resilience-against-deception
-  - fragility-of-trust
-  - ethical-boundaries-in-data
-  - lessons-from-history
 bibliography:
   - Nineteen Eighty-Four
   - gas-light

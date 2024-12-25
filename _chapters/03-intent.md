@@ -14,11 +14,11 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
-  - adaptability-in-intelligence
+  - Digital Oligarchy
+  - System Zero
+  - Power Asymmetries
+  - Separation of Concerns
   - Natural vs Artificial Intelligence
-  - context-aware-decision-making
-  - trust-and-collaboration
-  - manipulation-in-digital-age
   - Human and Machine Trust
   - Collaboration vs Automation
   - Intent as Knowledge

@@ -9,7 +9,7 @@ contributed_by:
     date: "2024-12-01"
   reviewed_by:
   - type: "human"
-    person_id: Neil D. Lawrence
+    person_id: neil-d-lawrence
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
   - type: "machine"
@@ -26,6 +26,9 @@ contributed_by:
     date: 2024-12-07
     notes: Remove themes etc that are not covered in this chapter.
 themes:
+  - Digital Oligarchy
+  - Power Asymmetries
+  - Diverse Voices
   - Artificial Intelligence Perceptions
 technology:
   - Deep Learning Breakthrough
@@ -33,8 +36,8 @@ historical_events:
   - Facebook AI Research Foundation
 people:
   - Yann LeCun
-  - zoubin-ghahramani
-  - max-welling
+  - Zoubin Ghahramani
+  - Max Welling
 ---
 
 <div class="machine-commentary" markdown="1">

@@ -14,13 +14,10 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
-  - uncertainty-in-decision-making
-  - diversity-in-approaches
-  - probability-theory
-  - human-vs-machine-adaptability
+  - Wicked Problems
+  - Wisdom in Diversity
+  - Separation of Concerns
   - Embracing Doubt
-  - evolution-of-probabilistic-thinking
-  - practical-vs-perfect-knowledge
 historical_events:
   - "Laplace's Demon"
   - world-war-ii-aircraft-testing
@@ -52,4 +49,5 @@ The chapter explores historical examples to illustrate how humans have addressed
 The text also discusses the evolution of probabilistic thinking, highlighting figures like Reverend Thomas Bayes, whose work laid the foundation for modern probability theory. These mathematical tools, coupled with the diversity of approaches seen in machine learning, offer strategies for navigating uncertainty. For example, algorithms balance computational shortcuts with data availability, mirroring the complementary improvisational and planned approaches humans use.
 
 Ultimately, the chapter celebrates the value of diversity—in personalities, strategies, and methodologies—as key to resilience and problem-solving in an uncertain world.
+
 </div>

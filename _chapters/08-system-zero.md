@@ -14,13 +14,12 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
-  - data-and-control
+  - System Zero
+  - Power Asymmetries
+  - Digital Oligarchy
+  - Wicked Problems
   - Reflexive vs Reflective Intelligence
   - Manipulation Through Systems
-  - societal-resilience
-  - power-of-personal-data
-  - surveillance-capitalism
-  - emergent-behavior-in-ai
 bibliography:
   - The Matrix
   - "Intellectual Debt: With Great Power Comes Great Ignorance"

@@ -14,10 +14,10 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
-  - convergent-evolution
-  - trust-in-technology
-  - human-centered-ai
-  - system-vulnerabilities
+  - Generative AI and the Sorcerer's Apprentice
+  - Power Asymmetries
+  - Digital Oligarchy
+  - Wicked Problems
   - The Limitations of Analogy
   - Rethinking Human-Machine Interaction
   - Risks in Human-Analogue AI

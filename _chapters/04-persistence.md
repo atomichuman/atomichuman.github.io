@@ -14,6 +14,10 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
+  - Wisdom in Diversity
+  - Diverse Voices
+  - Wicked Problems
+  - The Open Society
   - Evolution and Intelligence
   - Resilience and Robustness
   - Natural vs Artificial Intelligence
