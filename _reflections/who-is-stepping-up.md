@@ -1,13 +1,12 @@
 ---
 layout: reflection
-title: Who’s Stepping Up? Reflections on The Atomic Human Epilogue
-date: 2024-12-23
+title: Who is Stepping Up? Reflections on The Atomic Human Epilogue
+date: 2024-12-25
 contributed_by:
   initial:
     type: "human"
-    name: "Neil D. Lawrence"
     person_id: "Neil D. Lawrence"
-    date: "2024-12-25"
+    date: 2024-12-25
     notes: "Written and approved for publication."
 featured_image: /assets/images/Atomic_H_Epilogue.png
 ---

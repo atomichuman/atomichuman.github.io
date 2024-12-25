@@ -35,7 +35,7 @@ The drawing inspired by the epilogue of *The Atomic Human* reflects several key 
    - The separation of tasks in AI systems means no single individual understands the full workings of these systems, leading to vulnerabilities when failures occur, as illustrated by cascading sheets of code in the image.
 
 2. **The Open Society vs. Digital Oligarchy**
-   - Inspired by Karl Popper’s *The Open Society and Its Enemies*, the epilogue advocates for democratic and transparent systems that can adapt and evolve without violence.
+   - Inspired by Karl Popper’s [*The Open Society and Its Enemies*](/bibliography/the-open-society-and-its-enemies/), the epilogue advocates for democratic and transparent systems that can adapt and evolve without violence.
    - The tree labeled "The Open Society" in the illustration symbolizes resilience and adaptability, contrasting with the destabilizing influence of digital oligarchs who control modern information infrastructures.
 
 3. **Wisdom Through Diversity and Collaboration**
@@ -43,7 +43,7 @@ The drawing inspired by the epilogue of *The Atomic Human* reflects several key 
    - The quote about "many different possible paths" represents the need for a plurality of approaches rather than a single authoritarian direction.
 
 4. **AI and Wicked Problems**
-   - The illustration shifts focus from automating chores to addressing society’s "wicked problems" such as health, education, and governance, urging AI to tackle deeper systemic issues.  
+   - The illustration shifts focus from automating chores to addressing society’s "wicked problems" such as health, education, and governance, urging AI to tackle deeper systemic issues.
    - This theme is depicted through icons representing social challenges, suggesting a need for AI to support—not replace—human decision-making.
 
 5. **Empowerment and Regulation**
@@ -51,7 +51,7 @@ The drawing inspired by the epilogue of *The Atomic Human* reflects several key 
    - The image of Karl Popper with the quote about breaking deference to "great men" reinforces the argument for distributed control and accountability.
 
 6. **Grassroots Initiatives and Data Trusts**
-   - Highlighting efforts like Data Science Africa and Data Trusts, the epilogue envisions a future where individuals reclaim control over their data and leverage AI for collective benefit.  
+   - Highlighting efforts like Data Science Africa and Data Trusts, the epilogue envisions a future where individuals reclaim control over their data and leverage AI for collective benefit.
    - These initiatives are listed in the illustration, tying the book’s call for action to real-world examples of collaborative frameworks.
 
 ### Overall Inspiration:
