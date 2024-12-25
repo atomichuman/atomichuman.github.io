@@ -28,6 +28,7 @@ technology:
 bibliography:
   - The Open Society and its Enemies
   - "Intellectual Debt: With Great Power Comes Great Ignorance"
+  - "Der Zauberlehrling (The Sorcerer's Apprentice)"
 people:
   - Dwight Eisenhower
   - Norbert Wiener
