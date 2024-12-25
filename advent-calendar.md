@@ -162,7 +162,7 @@ title: Advent Calendar - The Atomic Human
 <table class="twelve-days">
   <body>
     <tr>
-      <td data-date="25">25</td>
+      <td data-date="25"><a href="/reflections/who-is-stepping-up/">25</a></td>
       <td data-date="26">26</td>
       <td data-date="27">27</td>
       <td data-date="28">28</td>
