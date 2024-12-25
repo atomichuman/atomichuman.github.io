@@ -2,6 +2,7 @@
 layout: reflection
 title: Who is Stepping Up?
 date: 2024-12-25
+toggle_machine_commentary: true
 contributed_by:
   initial:
     type: "human"
