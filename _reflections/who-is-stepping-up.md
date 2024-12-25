@@ -8,7 +8,7 @@ contributed_by:
     person_id: "Neil D. Lawrence"
     date: 2024-12-25
     notes: "Written and approved for publication."
-featured_image: /assets/images/Atomic_H_Epilogue.png
+featured_image: /assets/images/Atomic_H_Epilogue_scaled.png
 ---
 
 <style>
@@ -27,19 +27,22 @@ featured_image: /assets/images/Atomic_H_Epilogue.png
 ### Interactive Initiatives Map
 
 <center>
-<img src="/assets/images/Atomic_H_Epilogue.png" alt="Illustration of AI and initiatives from The Atomic Human" usemap="#initiatives-map" width="100%">
+<img src="/assets/images/Atomic_H_Epilogue_scaled.png" alt="Illustration of AI and initiatives from The Atomic Human" usemap="#initiatives-map" width="100%">
 </center>
 
 <map name="initiatives-map">
   <!-- Data Science Africa -->
-  <area shape="rect" coords="1248,512,1468,628" href="https://www.datascienceafrica.org/" target="_blank" alt="Data Science Africa" />
-  <area shape="rect" coords="1248,628,1860,574" href="https://www.datascienceafrica.org/" target="_blank" alt="Data Science Africa" />
+  <area shape="rect" coords="1248,490,1468,628" href="https://www.datascienceafrica.org/" target="_blank" alt="Data Science Africa" />
+  <area shape="rect" coords="1248,490,1860,585" href="https://www.datascienceafrica.org/" target="_blank" alt="Data Science Africa" />
   <!-- AI@Cam -->
-  <area shape="rect" coords="680,370,900,410" href="https://ai.cam.ac.uk" target="_blank" alt="ai@cam" />
+  <area shape="rect" coords="1490,585,1720,694" href="https://ai.cam.ac.uk" target="_blank" alt="ai@cam" />
+  <area shape="rect" coords="1720,580,1862,715" href="https://ai.cam.ac.uk" target="_blank" alt="ai@cam" />
   <!-- APSCI -->
-  <area shape="rect" coords="680,420,900,460" href="https://science.ai.cam.ac.uk" target="_blank" alt="APSCI" />
+  <area shape="rect" coords="1314,694,1734,830" href="https://science.ai.cam.ac.uk" target="_blank" alt="APSCI" />
+  <area shape="rect" coords="1734,715,1884,830" href="https://science.ai.cam.ac.uk" target="_blank" alt="APSCI" />
   <!-- Data Trusts Initiative -->
-  <area shape="rect" coords="680,470,900,510" href="https://datatrusts.uk" target="_blank" alt="Data Trusts Initiative" />
+  <area shape="rect" coords="1314,830,1802,918" href="https://datatrusts.uk" target="_blank" alt="Data Trusts Initiative" />
+  <area shape="rect" coords="1802,830,1918,950" href="https://datatrusts.uk" target="_blank" alt="Data Trusts Initiative" />
 </map>
 
 

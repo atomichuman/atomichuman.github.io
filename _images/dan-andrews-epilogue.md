@@ -1,7 +1,7 @@
 ---
 title: "Dan Andrews: Epilogue"
 date: 2024-12-25
-featured_image: /assets/images/Atomic_H_Epilogue.png
+featured_image: /assets/images/Atomic_H_Epilogue_scaled.png
 source: Drawn on commission by Dan Andrews of scribeysense.com
 description: An illustration reflecting key themes from the epilogue of *The Atomic Human*—human fragility, systemic complexity, and AI governance.
 toggle_machine_commentary: true
