@@ -1,6 +1,6 @@
 ---
 layout: reflection
-title: Who is Stepping Up? Reflections on The Atomic Human Epilogue
+title: Who is Stepping Up?
 date: 2024-12-25
 contributed_by:
   initial:
@@ -24,11 +24,6 @@ featured_image: /assets/images/Atomic_H_Epilogue.png
 }
 </style>
 
-
-<center>
-<img src="/assets/images/Atomic_H_Epilogue.png" alt="Illustration of AI and initiatives from The Atomic Human" usemap="#initiatives-map" width="70%">
-</center>
-
 ### Interactive Initiatives Map
 
 
@@ -42,6 +37,11 @@ featured_image: /assets/images/Atomic_H_Epilogue.png
   <!-- Data Trusts Initiative -->
   <area shape="rect" coords="680,470,900,510" href="https://datatrusts.uk" target="_blank" alt="Data Trusts Initiative" />
 </map>
+
+<center>
+<img src="/assets/images/Atomic_H_Epilogue.png" alt="Illustration of AI and initiatives from The Atomic Human" usemap="#initiatives-map" width="100%">
+</center>
+
 
 ---
 

@@ -35,7 +35,7 @@ reflections:
   - The Subjectivity of Superiority
   - A Retrospective on Digital Oligarchy
   - Artificial General Nonsense
-  - Who is Stepping Up? Reflections on The Atomic Human Epilogue
+  - Who is Stepping Up?
 images:
   - "Dan Andrews: Epilogue"
 ---
@@ -53,4 +53,5 @@ The concept of the "open society," as articulated by Karl Popper, is presented a
 Finally, the epilogue emphasizes that humanity's vulnerabilities—its limits, imperfections, and reliance on collaboration—are what make it unique and irreplaceable. It cautions against viewing AI as a pathway to transcendence, advocating instead for a symbiotic relationship where AI remains a tool that amplifies human potential without undermining it.
 
 By situating these technologies within cultural and historical contexts, Lawrence urges readers to take an active role in shaping how AI serves society, promoting inclusivity, transparency, and resilience in addressing the challenges of the digital age.
+
 </div>
