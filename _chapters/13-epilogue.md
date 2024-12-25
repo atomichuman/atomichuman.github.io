@@ -35,6 +35,9 @@ reflections:
   - The Subjectivity of Superiority
   - A Retrospective on Digital Oligarchy
   - Artificial General Nonsense
+  - Who is Stepping Up? Reflections on The Atomic Human Epilogue
+images:
+  - "Dan Andrews: Epilogue"
 ---
 
 <div class="machine-commentary" markdown="1">
