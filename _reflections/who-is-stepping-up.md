@@ -43,6 +43,8 @@ featured_image: /assets/images/Atomic_H_Epilogue_scaled.png
   <!-- Data Trusts Initiative -->
   <area shape="rect" coords="1314,830,1802,918" href="https://datatrusts.uk" target="_blank" alt="Data Trusts Initiative" />
   <area shape="rect" coords="1802,830,1918,950" href="https://datatrusts.uk" target="_blank" alt="Data Trusts Initiative" />
+  <!-- The Atomic Human -->
+  <area shape="rect" coords="680,516,1222,932" href="https://datatrusts.uk" target="_blank" alt="The Atomic Human" />
 </map>
 
 
