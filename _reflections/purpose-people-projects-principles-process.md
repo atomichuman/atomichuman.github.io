@@ -7,6 +7,17 @@ contributed_by:
     date: 2024-12-26
     type: human
     name: Neil D. Lawrence
+  reviewed_by:
+  - date: 2024-12-26
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Proof read of draft leading to some error fixes.
+  - date: 2024-12-26
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Prompt to provide a machine commentary.  	
 featured_image: /assets/images/DALLE-2024-12-26_132949-a-makonde-style-intricate-carving-featuring-monkeys-climing-and-intertwing-on-dense-flowing-vines.webp
 ---
 
@@ -51,6 +62,44 @@ As projects are developed, we can start to think about principles. These capture
 
 [^3]: They are referenced e.g. in [pg 6 of this document](https://www.datascienceafrica.org/assets/DSA-Strategy.pdf)). There are five: (i) By Africa, (ii) Student Focus, (iii) About Solutions, (iv) Sustainable and Inclusive, and (v) Agile. Each of the tenets has a longer description that the board reads to remind themselves of their priorities when they meet. 
 
-The final P is process. Process is necessary for sustainability in an institution. In any long-lived institution it may be easier to understand the process than the purpose. That's because over time institutions evolve to have personalities that are suited to the role they find in society. Such institutions embed their learnings in their processes. But, for a young agile institution it's important to keep the balance between process and purpose right. I avoid young projects that have placed process ahead of purpose, but I know that once the role of an initiative has been understood, developing process is an important part of consolidating the initiaitive. 
+The final P is process. Process is necessary for sustainability in an institution. In any long-lived institution it may be easier to understand the process than the purpose. That's because over time institutions evolve to have personalities that are suited to the role they find in society. Such institutions embed their learnings in their processes. But, for a young agile institution it's important to keep the balance between process and purpose right. I avoid young projects that have placed process ahead of purpose, but I know that once the role of an initiative has been understood, developing process is an important part of consolidating the initiative. 
 
 There many aspects missing from this simple model, but it seems a useful starting point to talk about the work of colleagues that I've admired. Work that doesn't make it onto the front page of Nature or into MIT Technology Review, but work that I think is vital in ensuring the open society is preserved.
+
+<div class="machine-commentary" markdown=1>
+
+### Machine Commentary
+
+*NL*: Can you provide a machine commentary for this post on how it might help address the challenges laid out in The Atomic Human?
+
+*Claude*: Let me analyze how this post connects to the key themes and challenges from The Atomic Human:
+
+1. Institutional Response to Digital Oligarchy:
+- The post acknowledges the growing threat of digital oligarchy (which Chapter 11-12 warn about) and the need for institutional counterbalances
+- It proposes a structured framework (5 Ps) for building sustainable institutions that can act as "honest brokers" in AI development, addressing concerns raised in the Epilogue
+- The reflection on past oversights (like underestimating corporate influence) shows evolution in thinking about institutional responses
+
+2. Diverse Voices and Social Context:
+- The emphasis on "who isn't around the table" directly addresses the book's concern about AI development lacking diverse perspectives and social context
+- The Royal Society Working Group experience demonstrates learning about importance of civic society voices, connecting to the book's emphasis on cultural context
+- This aligns with the book's warning about dangers of narrow technical perspectives in AI development
+
+3. Purpose and Human Agency:
+- The framework's emphasis on purpose reflects the book's argument that human intent and agency must guide technological development
+- Focus on bringing people together around shared purpose addresses the book's concern about maintaining human control over technology
+- The balance between purpose and process speaks to maintaining human values while building sustainable institutions
+
+4. Projects and Practical Solutions:
+- The emphasis on actionable projects aligns with the book's call for practical solutions over theoretical frameworks
+- This connects to the Epilogue's emphasis on pragmatic approaches to AI challenges
+- The focus on specific outcomes helps bridge between high-level purpose and concrete action
+
+5. Process and Cultural Evolution:
+- The discussion of how institutions develop personality over time reflects the book's emphasis on cultural evolution
+- The warning about overemphasizing process in young institutions shows awareness of need for adaptability
+- This connects to the book's argument about importance of cultural context in intelligence
+
+The post effectively proposes a framework for building institutions that could help address the book's concerns about maintaining human agency and cultural context in technological development while avoiding the pitfalls of digital oligarchy.
+
+
+</div>
