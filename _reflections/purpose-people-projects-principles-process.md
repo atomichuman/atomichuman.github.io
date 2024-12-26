@@ -32,6 +32,13 @@ I'm grateful to the exposure the Royal Society Working Group gave me to a more d
 
 To set them against the wider context, for each of the initiatives we'll look at across the twelve days of Christmas, we'll make loose use of a framework I use to contextualise the work. It's a simple mental model for institution building that I call this the five Ps model.
 
+<center>
+<image src="/assets/images/DALLE-2024-12-26_132949-a-makonde-style-intricate-carving-featuring-monkeys-climing-and-intertwing-on-dense-flowing-vines.webp" width="50%"/>
+
+<i>DALL-E Generated version of spiritual animals engaging in the five Ps process in the style of <a href="https://en.wikipedia.org/wiki/Makonde_art">Makonde art</a>.</i>
+</center>
+
+
 The five Ps are: purpose, people, projects, principles, and process. 
 
 The model is a useful sanity check (for me) that I hope lifts my thinking and it is useful in judging how to prioritise my own attention. I hope it's foundational for building initiatives that will become institutions that people will rely on to ensure the type of collaborative future that *The Atomic Human* envisages.
