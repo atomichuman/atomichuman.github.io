@@ -17,18 +17,18 @@ contributor:
   reviewed_by:
   - type: machine
     tool: Claude
-	version: 3.5
-	notes: Iteratively reviewed in (roughly) two minute segments by Claude and Neil.
-	date: 2024-12-24
+    version: 3.5
+    notes: Iteratively reviewed in (roughly) two minute segments by Claude and Neil.
+    date: 2024-12-24
   - type: human
     person_id: Neil D. Lawrence
     notes: Iteratively reviewed by Claude and Neil re-listening to video.
-	date: 2024-12-24
+    date: 2024-12-24
   - type: machine
     tool: Claude
-	version: 3.5
-	notes: Requested summary of panel.
-	date: 2024-12-26
+    version: 3.5
+    notes: Requested summary of panel.
+    date: 2024-12-26
 ---
 
 <div class="machine-commentary" markdown=1>
