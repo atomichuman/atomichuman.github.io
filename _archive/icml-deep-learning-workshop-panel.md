@@ -2,12 +2,13 @@
 title: Deep Learning Workshop Panel Discussion - ICML 2015
 date: 2015-07-11
 description: |
-  On July 11th 2015 the two-day Deep Learning workshop at ICML ended with a panel session that is available on YouTube. I've processed the transcript from that panel to render the prose more flowing.
+  On July 11th 2015 the two-day Deep Learning workshop at ICML ended with a panel session that is available on YouTube. 
+  I've processed the transcript from that panel to render the prose more flowing.
 
   <center>
   <iframe width="630" height="482" src="https://www.youtube.com/embed/EiStan9i8vA"</iframe>
   <i>Panel from ICML 2015 Deep Learning Workshop. Moderator: Max Welling
-Panelists: Demis Hassabis, Yann LeCun, Yoshua Bengio, Kevin Murphy, Neil D. Lawrence, Juergen Schmidhuber.</i>
+  Panelists: Demis Hassabis, Yann LeCun, Yoshua Bengio, Kevin Murphy, Neil D. Lawrence, Juergen Schmidhuber.</i>
   </center>
 contributor:
   initial:
@@ -31,106 +32,6 @@ contributor:
     date: 2024-12-26
 ---
 
-<div class="machine-commentary" markdown=1>
-
-## Machine Commentary
-
-*NL*: This panel occurred at ICML in July 2015 can you summarise what its perspective was on machine learning and suggest to what extent it laid out a useful set of directions for the community to follow?
-
-*Claude*: Let me analyze this historically significant panel discussion from 2015 and assess its perspectives and predictions:
-
-Key Themes and Predictions:
-
-1. State of Deep Learning (2015):
-- The panel recognized that deep learning had transformed computer vision and speech recognition
-- They noted that NLP had not yet been "revolutionized" but predicted it would be (which proved accurate)
-- They identified unsupervised learning as a major challenge (which remains relevant today)
-- They emphasized the importance of developing systems with reasoning, planning, and episodic memory
-
-2. Industry vs Academia:
-- The panel pushed back against concerns about industry dominance
-- They argued that computational advantages were temporary (2-year lead)
-- They emphasized the importance of open research and publication
-- Companies like Google, Facebook, and DeepMind were committed to publishing their research
-- They noted that restricted access to data and compute could drive creative solutions
-
-3. Technological Risks:
-- The panel was notably skeptical of existential AI risk concerns
-- They viewed concerns about superintelligence as premature
-- They identified more immediate concerns about:
-  - Privacy
-  - Data monopolies
-  - Social inequality
-  - Technology-driven unemployment
-  - The need for ethical deployment
-
-Assessment of Their Predictions:
-
-Many of their predictions proved prescient:
-- The revolution in NLP did occur (with transformers)
-- Industry-academia collaboration remained vital
-- Compute access became more democratized through cloud services
-- The immediate concerns they identified about privacy and data monopolies became major issues
-
-However, some areas evolved differently:
-- The optimism about solving unsupervised learning in its classical form was superseded by self-supervised learning
-- The dismissal of AI risk concerns appears less certain given recent developments
-- The vision of AI progress being gradual and predictable has been challenged by rapid breakthroughs
-
-The panel laid out several useful directions:
-1. Focus on fundamental algorithmic advances rather than just scaling
-2. Emphasis on reproducible research and open science
-3. Need for robust evaluation across different datasets
-4. Importance of addressing practical applications like healthcare
-5. Recognition of the need for privacy-preserving techniques
-
-This panel captured a crucial moment in AI history - the early stages of the deep learning revolution - and while not all predictions proved accurate, it helped establish important principles about openness, collaboration, and responsible development that continue to influence the field.
-
-Would you like me to expand on any of these aspects or explore other themes from the discussion?
-
-*NL*: Can you capture each panelist's perspective with a quick summary.
-
-*Claude*: Here's a summary of each panelist's distinct perspective from the 2015 discussion:
-
-**Yoshua Bengio**
-- Emphasized unsupervised learning as a crucial challenge
-- Advocated for open review systems and transparency in research
-- Focused on the untapped potential of NLP and language understanding
-- Promoted rigorous scientific practices and sharing limitations of methods
-
-**Yann LeCun**
-- Strongly advocated for open research and code sharing
-- Emphasized that industry labs need openness to maintain research quality
-- Viewed technology transfer between academia and industry as complementary
-- Dismissed AI risk concerns, emphasizing that machines won't inherently develop human-like drives
-
-**Demis Hassabis**
-- Focused on practical applications like healthcare and drug discovery
-- Emphasized the need for fundamental algorithmic breakthroughs beyond just scaling
-- Advocated for synthetic data as a solution for smaller labs
-- Balanced view on AI safety - saw extreme concerns as overblown but believed some preparatory research was warranted
-
-**Juergen Schmidhuber**
-- Most optimistic about rapid AI progress
-- Predicted human-level AI within the century
-- Emphasized the importance of curiosity and active learning in AI systems
-- Envisioned AI developing as an ecology of different specialized systems rather than a single superintelligence
-
-**Neil Lawrence**
-- Focused on practical concerns about data privacy and digital oligarchies
-- Emphasized the importance of human-AI interaction and interface design
-- Advocated for universities' unique role in handling sensitive data
-- Stressed the need for updating rights and protections for the digital age
-
-**Kevin Murphy**
-- Emphasized the importance of reproducible research
-- Focused on practical applications in healthcare and scientific discovery
-- Advocated for testing systems across multiple datasets
-- Highlighted the importance of learning from limited data like humans do
-
-This panel represented a fascinating mix of perspectives from both industry and academia, with each panelist bringing unique insights while sharing common ground on issues like open research and the importance of responsible development.
-
-</div>
 
 ## Introduction [0:00](https://www.youtube.com/watch?v=EiStan9i8vA)
 
@@ -581,3 +482,104 @@ Yeah, go ahead.
 [1:08:35](https://www.youtube.com/watch?v=EiStan9i8vA?t=4115s) And then I also wanted to thank Diederik Kingma - if you want to come up here quickly show your face - and Kyunghyun Cho who did awesome work you know in organizing this workshop, two-day workshop. It was a lot of work so thank... [Applause]
 
 [1:08:59](https://www.youtube.com/watch?v=EiStan9i8vA?t=4139s) All right and safe travels home.
+
+<div class="machine-commentary" markdown=1>
+
+## Machine Commentary
+
+*NL*: This panel occurred at ICML in July 2015 can you summarise what its perspective was on machine learning and suggest to what extent it laid out a useful set of directions for the community to follow?
+
+*Claude*: Let me analyze this historically significant panel discussion from 2015 and assess its perspectives and predictions:
+
+Key Themes and Predictions:
+
+1. State of Deep Learning (2015):
+- The panel recognized that deep learning had transformed computer vision and speech recognition
+- They noted that NLP had not yet been "revolutionized" but predicted it would be (which proved accurate)
+- They identified unsupervised learning as a major challenge (which remains relevant today)
+- They emphasized the importance of developing systems with reasoning, planning, and episodic memory
+
+2. Industry vs Academia:
+- The panel pushed back against concerns about industry dominance
+- They argued that computational advantages were temporary (2-year lead)
+- They emphasized the importance of open research and publication
+- Companies like Google, Facebook, and DeepMind were committed to publishing their research
+- They noted that restricted access to data and compute could drive creative solutions
+
+3. Technological Risks:
+- The panel was notably skeptical of existential AI risk concerns
+- They viewed concerns about superintelligence as premature
+- They identified more immediate concerns about:
+  - Privacy
+  - Data monopolies
+  - Social inequality
+  - Technology-driven unemployment
+  - The need for ethical deployment
+
+Assessment of Their Predictions:
+
+Many of their predictions proved prescient:
+- The revolution in NLP did occur (with transformers)
+- Industry-academia collaboration remained vital
+- Compute access became more democratized through cloud services
+- The immediate concerns they identified about privacy and data monopolies became major issues
+
+However, some areas evolved differently:
+- The optimism about solving unsupervised learning in its classical form was superseded by self-supervised learning
+- The dismissal of AI risk concerns appears less certain given recent developments
+- The vision of AI progress being gradual and predictable has been challenged by rapid breakthroughs
+
+The panel laid out several useful directions:
+1. Focus on fundamental algorithmic advances rather than just scaling
+2. Emphasis on reproducible research and open science
+3. Need for robust evaluation across different datasets
+4. Importance of addressing practical applications like healthcare
+5. Recognition of the need for privacy-preserving techniques
+
+This panel captured a crucial moment in AI history - the early stages of the deep learning revolution - and while not all predictions proved accurate, it helped establish important principles about openness, collaboration, and responsible development that continue to influence the field.
+
+Would you like me to expand on any of these aspects or explore other themes from the discussion?
+
+*NL*: Can you capture each panelist's perspective with a quick summary.
+
+*Claude*: Here's a summary of each panelist's distinct perspective from the 2015 discussion:
+
+**Yoshua Bengio**
+- Emphasized unsupervised learning as a crucial challenge
+- Advocated for open review systems and transparency in research
+- Focused on the untapped potential of NLP and language understanding
+- Promoted rigorous scientific practices and sharing limitations of methods
+
+**Yann LeCun**
+- Strongly advocated for open research and code sharing
+- Emphasized that industry labs need openness to maintain research quality
+- Viewed technology transfer between academia and industry as complementary
+- Dismissed AI risk concerns, emphasizing that machines won't inherently develop human-like drives
+
+**Demis Hassabis**
+- Focused on practical applications like healthcare and drug discovery
+- Emphasized the need for fundamental algorithmic breakthroughs beyond just scaling
+- Advocated for synthetic data as a solution for smaller labs
+- Balanced view on AI safety - saw extreme concerns as overblown but believed some preparatory research was warranted
+
+**Juergen Schmidhuber**
+- Most optimistic about rapid AI progress
+- Predicted human-level AI within the century
+- Emphasized the importance of curiosity and active learning in AI systems
+- Envisioned AI developing as an ecology of different specialized systems rather than a single superintelligence
+
+**Neil Lawrence**
+- Focused on practical concerns about data privacy and digital oligarchies
+- Emphasized the importance of human-AI interaction and interface design
+- Advocated for universities' unique role in handling sensitive data
+- Stressed the need for updating rights and protections for the digital age
+
+**Kevin Murphy**
+- Emphasized the importance of reproducible research
+- Focused on practical applications in healthcare and scientific discovery
+- Advocated for testing systems across multiple datasets
+- Highlighted the importance of learning from limited data like humans do
+
+This panel represented a fascinating mix of perspectives from both industry and academia, with each panelist bringing unique insights while sharing common ground on issues like open research and the importance of responsible development.
+
+</div>
