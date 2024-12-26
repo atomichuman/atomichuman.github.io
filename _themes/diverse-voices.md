@@ -18,22 +18,22 @@ themes:
 
 ## Machine Summary
 
-"Diverse Voices" emerges as both a theoretical framework and practical imperative in The Atomic Human, emphasizing the critical importance of including multiple perspectives in technological development and deployment.
+"Diverse Voices" emerges as both a theoretical framework and practical imperative in *The Atomic Human*, emphasizing the critical importance of including multiple perspectives in technological development and deployment.
 
 ### Theoretical Foundation
 
 The book establishes why diverse voices matter through:
-- Evolution's demonstration of diversity's value (Chapter 4)
-- Limitations of single perspectives on complex problems (Chapter 6)
-- Cultural context in human intelligence (Chapter 5)
 - Different forms of intelligence and expertise (Chapter 1)
+- Evolution's demonstration of diversity's value (Chapter 4)
+- Cultural context in human intelligence (Chapter 5)
+- Limitations of single perspectives on complex problems (Chapter 6)
 
 ### Historical Lessons
 
 Key historical examples include:
 - Bletchley Park's mix of talents and approaches (Chapter 2)
-- Apollo program's integration of diverse expertise (Chapter 7)
 - Evolution of scientific institutions (Chapter 5)
+- Apollo program's integration of diverse expertise (Chapter 7)
 - Development of early computing (Chapter 9)
 
 ### Modern Challenges
@@ -47,10 +47,11 @@ The book identifies barriers to diverse participation:
 ### Practical Initiatives
 
 The epilogue highlights specific programs:
-- Data Science Africa
-- ai@cam initiative
-- Accelerate Science programme
-- Data Trusts Initiative
+- [Data Science Africa](https://www.datascienceafrica.org)
+- [ai@cam initiative](https://ai.cam.acuk)
+- [Accelerate Science programme](https://science.ai.cam.ac.uk)
+- [Data Trusts Initiative](https://datatrusts.uk)
+  
 These demonstrate practical approaches to including diverse voices.
 
 ### Future Implications
