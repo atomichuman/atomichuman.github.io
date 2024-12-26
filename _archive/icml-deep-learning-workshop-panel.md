@@ -1,13 +1,14 @@
 ---
-title: Deep Learning Workshop Panel Discussion - ICML 2015
+title: "Deep Learning Workshop Panel Discussion - ICML 2015"
 date: 2015-07-11
 description: |
-  On July 11th 2015 the two-day Deep Learning workshop at ICML ended with a panel session that is available on YouTube. I've processed the transcript from that panel to render the prose more flowing.
+  On July 11th 2015 the two-day Deep Learning workshop at ICML ended with a panel session that is available on YouTube. 
+  I've processed the transcript from that panel to render the prose more flowing.
 
   <center>
   <iframe width="630" height="482" src="https://www.youtube.com/embed/EiStan9i8vA"</iframe>
   <i>Panel from ICML 2015 Deep Learning Workshop. Moderator: Max Welling
-Panelists: Demis Hassabis, Yann LeCun, Yoshua Bengio, Kevin Murphy, Neil D. Lawrence, Juergen Schmidhuber.</i>
+  Panelists: Demis Hassabis, Yann LeCun, Yoshua Bengio, Kevin Murphy, Neil D. Lawrence, Juergen Schmidhuber.</i>
   </center>
 contributor:
   initial:
@@ -17,18 +18,18 @@ contributor:
   reviewed_by:
   - type: machine
     tool: Claude
-	version: 3.5
-	notes: Iteratively reviewed in (roughly) two minute segments by Claude and Neil.
-	date: 2024-12-24
+    version: 3.5
+    notes: Iteratively reviewed in (roughly) two minute segments by Claude and Neil.
+    date: 2024-12-24
   - type: human
     person_id: Neil D. Lawrence
     notes: Iteratively reviewed by Claude and Neil re-listening to video.
-	date: 2024-12-24
+    date: 2024-12-24
   - type: machine
     tool: Claude
-	version: 3.5
-	notes: Requested summary of panel.
-	date: 2024-12-26
+    version: 3.5
+    notes: Requested summary of panel.
+    date: 2024-12-26
 ---
 
 <div class="machine-commentary" markdown=1>
