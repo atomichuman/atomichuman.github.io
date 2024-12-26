@@ -10,6 +10,9 @@ author:
 
 # Collections configuration for Jekyll
 collections:
+  archive:
+    output: true
+    permalink: /archive/:title/
   chapters:
     output: true
     permalink: /chapters/:title/
@@ -43,6 +46,10 @@ collections:
 
 # Default front matter for collections
 defaults:
+  - scope:
+      path: "_archive"
+    values:
+      layout: archive
   - scope:
       path: "_chapters"
     values:

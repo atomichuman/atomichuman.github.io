@@ -89,7 +89,43 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "date" }
-      - label: "Contributed By"
+      - { label: "Toggle Machine Commentary", name: "toggle_machine_commentary",      - label: "Contributed By"
+        name: "contributed_by"
+        widget: "object"
+        fields:
+          - label: "Initial Contribution"
+            name: "initial"
+            widget: "object"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+          - label: "Reviewed By"
+            name: "reviewed_by"
+            widget: "list"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+      - { label: "Featured Image", name: "featured_image", widget: "image" }
+      - { label: "Content", name: "body", widget: "markdown" }
+
+  - name: "archive"
+    label: "Archive"
+    folder: "_archive"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Toggle Machine Commentary", name: "toggle_machine_commentary",      - label: "Contributed By"
         name: "contributed_by"
         widget: "object"
         fields:
