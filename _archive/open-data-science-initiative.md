@@ -11,9 +11,9 @@ contributor:
   reviewed_by:
   - type: machine
     tool: Claude
-	version: 3.5
-	notes: Claude asked to review the appropriateness of this approach given how machine learning, data science and AI have panned out in practice.
-	date: 2024-12-26
+    version: 3.5
+    notes: Claude asked to review the appropriateness of this approach given how machine learning, data science and AI have panned out in practice.
+    date: 2024-12-26
 ---
 
 This post describes the approach I was advocating in Sheffield in 2014 to address the increasing challenges from data driven decision making. The details of activities can be found at the website: <http://opendsi.cc/>. 
