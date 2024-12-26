@@ -2,6 +2,7 @@
 layout: image
 title: "DALL-E: The Five Ps Model"
 date: 2024-12-26
+toggle_machine_commentary: true
 contributed_by:
   initial:
     type: "machine"
