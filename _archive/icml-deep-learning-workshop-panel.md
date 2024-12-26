@@ -6,6 +6,7 @@ description: |
 
   <center>
   <iframe width="630" height="482" src="https://www.youtube.com/embed/EiStan9i8vA"</iframe>
+  
   <i>Panel from ICML 2015 Deep Learning Workshop. Moderator: Max Welling
 Panelists: Demis Hassabis, Yann LeCun, Yoshua Bengio, Kevin Murphy, Neil D. Lawrence, Juergen Schmidhuber.</i>
   </center>
