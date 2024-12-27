@@ -4,7 +4,7 @@ date: 2015-07-11
 toggle_machine_commentary: true
 description: |
   On July 11th 2015 the two-day Deep Learning workshop at ICML ended with a panel session that is available on YouTube. 
-  I've processed the transcript from that panel to render the prose more flowing.
+  I've processed the transcript from that panel to render the prose more flowing. 
 contributor:
   initial:
     type: human
@@ -26,6 +26,8 @@ contributor:
     notes: Requested summary of panel.
     date: 2024-12-26
 ---
+
+Here's [a post I wrote at the time giving my reflections on the panel](https://inverseprobability.com/2015/07/14/Digested-deep-panel).
 
 <center>
   <iframe width="630" height="482" src="https://www.youtube.com/embed/EiStan9i8vA"</iframe>
