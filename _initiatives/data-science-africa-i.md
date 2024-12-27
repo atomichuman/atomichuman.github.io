@@ -1,4 +1,5 @@
 ---
+layout: initiative
 title: Data Science Africa - I
 date_generated: 2024-12-27T06:32:26.588Z
 toggle_machine_commentary: true
