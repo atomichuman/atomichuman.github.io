@@ -7,6 +7,11 @@ contributed_by:
     tool: Claude
     version: 3.5
     date: 2024-12-27
+  reviewed_by:
+    type: human
+    person_id: Neil D. Lawrence
+    date 2024-12-27
+    notes: Fixed error where the development of the idea is said to continue in Ch 5 after starting in Ch 6.
 themes:
 - Uncertainty and Knowledge
 - Model-Blinkers
@@ -34,7 +39,7 @@ This framework is particularly well illustrated in [Chapter 10](/chapters/10-gas
 
 ### Historical Development
 
-The theory's origins are traced in [Chapter 6](/chapters/06-gremlin-of-uncertainty), where Wiener's work on artillery targeting during WWI leads him to develop a mathematical framework for handling uncertainty. This development continues through [Chapter 5](/chapters/05-enlightenment) with the evolution of cybernetics and feedback systems, showing how mechanical and electronic systems must also contend with fundamental uncertainties.
+The theory's origins are traced in [Chapter 6](/chapters/06-gremlin-of-uncertainty), where Wiener's work on artillery targeting during WWI leads him to develop a mathematical framework for handling uncertainty. ~~This development continues through~~ The background is given in [Chapter 5](/chapters/05-enlightenment) with the evolution of cybernetics and feedback systems, showing how mechanical and electronic systems must also contend with fundamental uncertainties.
 
 ### Modern Applications
 
