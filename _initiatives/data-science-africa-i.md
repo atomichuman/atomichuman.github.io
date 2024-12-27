@@ -72,7 +72,7 @@ I don't think I left Kampala with a purpose in mind, but I had some early ideas 
 
 ## Machine Commentary
 
-*NL*: I'd like you to provide a "Machine Commentary" on how the initiative fits with the ideas in the book and how its approach informed the ideas in the book.
+*NL*: I'd like you to provide a "Machine Commentary" on how the initiative fits with the ideas in *The Atomic Human* and how its approach informed the ideas in the book.
 
 *Claude*: This initiative exemplifies several key themes from "The Atomic Human" regarding effective deployment of machine intelligence systems:
 
