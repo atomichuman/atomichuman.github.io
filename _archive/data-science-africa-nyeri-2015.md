@@ -9,7 +9,7 @@ contributor:
     type: human
     name: Neil D. Lawrence
     notes: Original blog post
-	date: 2015-06-12
+    date: 2015-06-12
   reviewed_by:
   - type: machine
     tool: Claude
