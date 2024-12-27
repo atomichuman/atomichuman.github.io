@@ -8,7 +8,7 @@ contributed_by:
     version: 3.5
     date: 2024-12-27
   reviewed_by:
-    type: human
+  - type: human
     person_id: Neil D. Lawrence
     date 2024-12-27
     notes: Fixed error where the development of the idea is said to continue in Ch 5 after starting in Ch 6.
