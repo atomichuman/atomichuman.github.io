@@ -36,7 +36,7 @@ contributor:
     date: 2024-12-26
 ---
 
-
+## Transcript
   
 **Max Welling**: [0:00](https://www.youtube.com/watch?v=EiStan9i8vA?t=0) Welcome everybody to the final event, the panel discussion. Let me introduce our distinguished panelists. Here on the left is Juergen Schmidhuber from IIA Switzerland, then we have Neil Lawrence from the University of Sheffield, next to that is Kevin Murphy from Google, then we have Yoshua Bengio from University of Montreal, Yann LeCun from Facebook and NYU, and Demis Hassabis from Google DeepMind.
 
