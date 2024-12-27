@@ -9,7 +9,7 @@ contributor:
     type: human
     name: Neil D. Lawrence
     notes: Original blog post
-	date: 2015-06-12
+    date: 2015-06-12
   reviewed_by:
   - type: machine
     tool: Claude
@@ -70,6 +70,8 @@ I don't think this is idealistic thinking, it's practical thinking.
 * [Arrival in Nyeri 14 Jun 2015](https://inverseprobability.com/2015/06/14/arrival-in-kenya)
 
 <div class="machine-commentary" markdown=1>
+
+## Machine Commentary 
 
 *NL*: Can you describe to what extent the meeting mentioned here conforms to the "purpose, people, projects, principles and process" model described [in this post](/reflections/purpose-people-projects-principles-process/)?
 

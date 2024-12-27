@@ -56,7 +56,7 @@ Unpack the central themes of *The Atomic Human*. From artificial intelligence to
 
 Learn about the key figures mentioned in the book, including pioneers like Alan Turing and Norbert Wiener.
 
-### **[Archives](archives)**
+### **[Archive](archive)**
 
 Archive material that sets the context for the ideas in the book.
 ### **[Images](images)**
