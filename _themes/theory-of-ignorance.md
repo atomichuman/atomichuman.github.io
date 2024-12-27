@@ -19,7 +19,7 @@ themes:
 
 ## Machine Summary
 
-Wiener's Theory of Ignorance emerges as a crucial philosophical framework in The Atomic Human, challenging deterministic views of intelligence and highlighting the fundamental role of uncertainty in both human and machine understanding.
+Wiener's Theory of Ignorance emerges as a crucial philosophical framework in The Atomic Human, first introduced in [Chapter 6](/chapters/06-gremlin-of-uncertainty) and developed throughout the book, challenging deterministic views of intelligence and highlighting the fundamental role of uncertainty in both human and machine understanding.
 
 ### Core Concepts
 
@@ -30,42 +30,22 @@ The book develops this theory through several key aspects:
 - Role of statistical thinking in handling uncertainty
 - Balance between knowledge and acknowledged ignorance
 
+This framework is particularly well illustrated in [Chapter 10](/chapters/10-gaslighting) through the story of Max Planck and the paradigm shift in physics, showing how even our most fundamental scientific understanding must acknowledge inherent uncertainty.
+
 ### Historical Development
 
-The book traces this concept through:
-- Wiener's work on gun targeting during WWI
-- Development of cybernetics movement
-- Statistical mechanics and Brownian motion
-- Evolution of feedback systems
-- Transition from deterministic to probabilistic thinking
+The theory's origins are traced in [Chapter 6](/chapters/06-gremlin-of-uncertainty), where Wiener's work on artillery targeting during WWI leads him to develop a mathematical framework for handling uncertainty. This development continues through [Chapter 5](/chapters/05-enlightenment) with the evolution of cybernetics and feedback systems, showing how mechanical and electronic systems must also contend with fundamental uncertainties.
 
 ### Modern Applications
 
-Contemporary relevance shown through:
-- AI system limitations and failures
-- Weather prediction challenges
-- Financial market modeling
-- Medical trial uncertainties
-- Autonomous system design
+The contemporary relevance of Wiener's theory becomes clear in [Chapter 11](/chapters/11-human-analogue-machines), where modern AI systems face similar challenges of uncertainty and control. The Harrow drug trial example in [Chapter 8](/chapters/08-system-zero) demonstrates how ignoring uncertainty in complex systems can lead to catastrophic outcomes.
 
 ### Knowledge Limitations
 
-Key insights about limitations:
-- Laplace's demon as impossible ideal
-- Role of proxy-truths in practical understanding
-- Importance of environmental interaction
-- Value of admitting ignorance
-- Limitations of pure logical approaches
+These limitations frame much of the book's discussion of modern technology, from weather prediction to autonomous vehicles. The concept of "proxy-truths" introduced in [Chapter 6](/chapters/06-gremlin-of-uncertainty) shows how practical understanding often requires accepting workable approximations rather than seeking perfect knowledge.
 
 ### Scientific Impact
 
-The book shows how this theory influences:
-- Modern machine learning approaches
-- Understanding of human intelligence
-- Design of robust systems
-- Handling of uncertainty in critical systems
-- Balance between theory and practice
-
-This theme fundamentally challenges the idea that perfect knowledge or control is possible, advocating instead for systems that acknowledge and work within their limitations.
+The theory's influence extends through to modern machine learning approaches, particularly evident in [Chapters 11](/chapters/11-human-analogue-machines) and [12](/chapters/12-trust), where the limitations of AI systems are shown to mirror the fundamental uncertainties Wiener identified. This creates a crucial framework for understanding both human and machine intelligence, and their respective limitations.
 
 </div>
