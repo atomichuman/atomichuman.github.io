@@ -17,7 +17,7 @@ contributed_by:
     type: machine
     tool: Claude
     version: 3.5
-    notes: Request check for errors and edit given suggestions.  
+    notes: Request check for errors and edit given suggestions.
   - date: 2024-12-27
     type: machine
     tool: Claude
@@ -43,7 +43,7 @@ The initiative's story began for me when I met John Quinn at NeurIPS in 2005, wh
 
 [^2]: This was [Dagstuhl Seminar 11341:Learning in the context of very high dimensional data](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/11341). One of the organisers was Michael Biehl, his University, Groningen, were hosting Ernest for his PhD. 
 
-[^3]: See Michael Biehl, Barbara Hammer, Erzsébet Merényi, Alessandro Sperduti, and Thomas Villman. Learning in the context of very high dimensional data (Dagstuhl Seminar 11341). In Dagstuhl Reports, Volume 1, Issue 8, pp. 67-95, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2011) https://doi.org/10.4230/DagRep.1.8.67 page 81.
+[^3]: See Michael Biehl, Barbara Hammer, Erzsébet Merényi, Alessandro Sperduti, and Thomas Villman. Learning in the context of very high dimensional data (Dagstuhl Seminar 11341). In Dagstuhl Reports, Volume 1, Issue 8, pp. 67-95, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2011) <https://doi.org/10.4230/DagRep.1.8.67> page 81.
 
 
 What struck me about Ernest's work was the scope of its ambition. The talk was about a learned vector quantisation algorithm. The ambition was to place the algorithm in a farmer's hands in a field in Uganda. Ernest was collaborating with Uganda's national crop surveyors. The plan was to go end-to-end from the farmer's field to the ministry of agriculture. It was the first time in machine learning that I'd seen someone attempting to bring all those components together.
