@@ -345,7 +345,8 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "date" }
-      - { label: "Toggle Machine Commentary", name: "toggle_machine_commentary",      - label: "Contributed By"
+      - { label: "Toggle Machine Commentary", name: "toggle_machine_commentary", widget: "boolean", default: true, required: false }
+      - label: "Contributed By"
         name: "contributed_by"
         widget: "object"
         fields:
