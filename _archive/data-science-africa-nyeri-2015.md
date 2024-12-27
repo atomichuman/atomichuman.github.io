@@ -71,6 +71,8 @@ I don't think this is idealistic thinking, it's practical thinking.
 
 <div class="machine-commentary" markdown=1>
 
+## Machine Commentary 
+
 *NL*: Can you describe to what extent the meeting mentioned here conforms to the "purpose, people, projects, principles and process" model described [in this post](/reflections/purpose-people-projects-principles-process/)?
 
 *Claude*: Let me analyze how the 2015 Data Science Africa workshop in Nyeri aligns with the five Ps model:
