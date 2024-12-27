@@ -31,11 +31,11 @@ contributed_by:
 featured_image: /assets/images/gps_uganda.jpg
 ---
 
-While D﻿ata Science Africa officially launched in 2015, its roots stretch back much further, emerging through a network of dedicated individuals and their collaborations.[^0] 
+While [D﻿ata Science Africa](https://www.datascienceafrica.org) officially launched in 2015, its roots stretch back much further, emerging through a network of dedicated individuals and their collaborations.[^0] 
 
 [^0]: This post is describing how initiatives can grow using the framework of purpose, people, projects, principles and process presented [in this reflection](/reflections/purpose-people-projects-principles-process/). Here we see how Data Science Africa has its foundations in those dedicated individuals, the people.
 
-The initiative's story began for me when I met John Quinn at NeurIPS in 2005, where he published [on monitoring infants in neonatal intensive care](https://proceedings.neurips.cc/paper_files/paper/2005/hash/aeefb050911334869a7a5d9e4d0e1689-Abstract.html). Once he had graduated he moved to Makerere University in Kampala,[^1] Fast forward another five years and we were together at a Dagstuhl Seminar, where I also met Ernest Mwebaze who was John's PhD student at the time.[^2] I was really struck by Ernest's work, he presented on an algorithm[^3] for Crop Surveillance that was implemented on $100 Android mobile phone. 
+The initiative's story began for me when I met [John Quinn](https://jquinn.air.ug/) at NeurIPS in 2005, where he published [on monitoring infants in neonatal intensive care](https://proceedings.neurips.cc/paper_files/paper/2005/hash/aeefb050911334869a7a5d9e4d0e1689-Abstract.html). Once he had graduated he moved to Makerere University in Kampala,[^1] Fast forward another five years and we were together at a Dagstuhl Seminar, where I also met [Ernest Mwebaze](https://emwebaze.github.io/) who was John's PhD student at the time.[^2] I was really struck by Ernest's work, he presented on an algorithm[^3] for Crop Surveillance that was implemented on $100 Android mobile phone. 
 
 <center>
 <image src="https://www.dagstuhl.de/storage/media/0001/1425/conversions/11341.01.l.jpg" width="50%"/>
