@@ -235,7 +235,7 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date Generated", name: "date_generated", widget: "date" }
+      - { label: "Date Generated", name: "date", widget: "date" }
       - { label: "Description", name: "description", widget: "markdown" }
       - { label: "Website", name: "website", widget: "string" }
       - { label: "Toggle Machine Commentary", name: "toggle_machine_commentary", widget: "boolean", default: true, required: false }

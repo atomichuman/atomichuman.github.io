@@ -5,7 +5,7 @@ date_generated: 2024-12-27T06:32:26.588Z
 toggle_machine_commentary: true
 description: D﻿ata Science Africa is a pan-African grass roots initiative that
   supports capability building on the African continent.
-featured_image: 
+website: https://www.datascienceafrica.org
 contributed_by:
   initial:
     date: 2024-12-27
