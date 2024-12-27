@@ -1,8 +1,8 @@
 ---
-title: Data Science Africa III
+title: Data Science Africa - III
 date: 2024-12-29
-description: I﻿n the third post on the Data Science Africa initiative we look at the breadth
-  of activities today and their current strategy moving forward.
+description: I﻿n the third post on the Data Science Africa initiative we look at
+  the breadth of activities today and their current strategy moving forward.
 website: https://www.datascienceafrica.org/
 toggle_machine_commentary: true
 featured_image: /assets/images/dsa-kigali-2023.jpg
