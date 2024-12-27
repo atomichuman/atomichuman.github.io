@@ -63,7 +63,7 @@ At this point the purpose wasn't yet very well defined, I was impressed with Ern
 
 John's group advertised the school and it attracted researchers from across Kampala, including some John and Ernest hadn't met before. We drove around Kampala visiting these new potential collaborators. One thing I really enjoy about the work there is on fundamentals. I don't mean fundamentals in terms of the mathematical properties of algorithms, but fundamentals in terms of what things work and what don't. Working directly with farmers and the ministry of agriculture forces the focus to be on where the real challenges of successful deployment lie. They are rarely in the mathematics but more often in the people and social environment where you are deploying. There were lots of international projects in Kampala, and some (or many!) of them could seem quite clumsily implemented and harmful to local ecosystems.[^4] 
 
-[^4]: See for example Kabonga, I. (2017). Dependency Theory and Donor Aid: A Critical Analysis. Africanus, 46, 29-39.
+[^4]: See for example Kabonga, I. (2017). Dependency Theory and Donor Aid: A Critical Analysis. Africanus, 46, 29-39. <https://journals.co.za/doi/abs/10.25159/0304-615X/1096>
 
 I don't think I left Kampala with a purpose in mind, but I had some early ideas for ways of working with my Kampalan collaborators. We also left with a further project. My student Ricardo and John's PhD student [Martin Mubangizi](https://www.linkedin.com/in/mmubangizi/) would work together on malaria prediction. And the plan was to go from the Ugandan health centres to the Ugandan ministry of health. We had *people* and we now we had *projects*. 
 
