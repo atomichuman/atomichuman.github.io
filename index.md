@@ -44,25 +44,32 @@ Reflections on the *The Atomic Human* from the author.
 
 Check out machine summaries, bibliographies, and themes for each chapter. Understand the concepts and questions that drive the narrative.
 
-### **[Images](images)**
+### **[Initiatives](initiatives)**
 
-Check out images that are inspired by the book or that inspired the book.
+Check out initiatives that inspired ideas in the book.
 
 ### **[Themes](themes)**
 
 Unpack the central themes of *The Atomic Human*. From artificial intelligence to the philosophy of human identity, explore what makes us human in the age of technology.
 
-### **[Reviews](reviews)**
+### **[People](people)**
 
-Read what humans are saying about the book. 
+Learn about the key figures mentioned in the book, including pioneers like Alan Turing and Norbert Wiener.
+
+### **[Archives](archives)
+
+Archive material that sets the context for the ideas in the book.
+### **[Images](images)**
+
+Check out images that are inspired by the book or that inspired the book.
 
 ### **[Machine Reviews](machine_reviews)**
 
 Read what the machine is saying about the book. Machine generated reviews in different styles to try and see diverse perspectives.
 
-### **[People](people)**
+### **[Reviews](reviews)**
 
-Learn about the key figures mentioned in the book, including pioneers like Alan Turing and Norbert Wiener.
+Read what humans are saying about the book. 
 
 ### **[History](history)**
 
