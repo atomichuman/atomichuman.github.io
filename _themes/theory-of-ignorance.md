@@ -10,7 +10,7 @@ contributed_by:
   reviewed_by:
   - type: human
     person_id: Neil D. Lawrence
-    date 2024-12-27
+    date: 2024-12-27
     notes: Fixed error where the development of the idea is said to continue in Ch 5 after starting in Ch 6.
 themes:
 - Uncertainty and Knowledge
