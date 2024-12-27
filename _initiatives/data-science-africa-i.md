@@ -44,7 +44,7 @@ The initiative's story began for me when I met [John Quinn](https://jquinn.air.u
 
 </center>
 
-[^1]: John also collaborated with the PASCAL2 European Network of Excellence [to deliver training schools in Ghana in 2010 and 2011](https://k4all.org/african-adventures/). I was on the steering committee and remember Colin de la Higuera updating us on both how the school had gone and John's activities in Kampala. 
+[^1]: John also collaborated with the PASCAL2 European Network of Excellence [to deliver training schools in Ghana in 2010 and 2011](https://k4all.org/african-adventures/). I was on the steering committee of PASCAL and remember Colin de la Higuera updating us on both how the school had gone and John's activities in Kampala. 
 
 [^2]: This was [Dagstuhl Seminar 11341:Learning in the context of very high dimensional data](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/11341). One of the organisers was Michael Biehl, his University, Groningen, were hosting Ernest for his PhD. 
 
