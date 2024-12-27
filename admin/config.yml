@@ -227,7 +227,38 @@ collections:
               - { label: "Date", name: "date", widget: "date" }
               - { label: "Notes", name: "notes", widget: "text", required: false }
       - { label: "Content", name: "body", widget: "markdown", required: false }
-      
+
+  - name: "initiatives"
+    label: "Initiatives"
+    folder: "_initiatives"
+    create: true
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date Generated", name: "date_generated", widget: "date" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - label: "Contributed By"
+        name: "contributed_by"
+        widget: "object"
+        fields:
+          - label: "Initial Contribution"
+            name: "initial"
+            widget: "object"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["machine"] }
+              - { label: "Tool", name: "tool", widget: "string" }
+              - { label: "Version", name: "version", widget: "string" }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+          - label: "Reviewed By"
+            name: "reviewed_by"
+            widget: "list"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human"] }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+      - { label: "Content", name: "body", widget: "markdown" }
+
   - name: "machine_reviews"
     label: "Machine Reviews"
     folder: "_machine_reviews"
