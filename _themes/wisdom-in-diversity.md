@@ -9,6 +9,7 @@ contributed_by:
     date: 2024-12-25
 themes:
 - Diverse Voices
+- Wiener's Theory of Ignorance
 - The Open Society
 - Power Asymmetries
 - Wicked Problems
