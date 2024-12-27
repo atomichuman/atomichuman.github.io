@@ -9,115 +9,6 @@ media_folder: "assets/images"  # Where uploaded files will be stored
 public_folder: "/assets/images"  # Public folder path
 
 collections:
-  - name: "reviews"
-    label: "Reviews"
-    folder: "_reviews"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Type", name: "type", widget: "select", options: ["podcast", "print", "television"] }
-      - { label: "Publication", name: "publication", widget: "string" }
-      - { label: "Link", name: "link", widget: "string" }
-      - { label: "Extract", name: "extract", widget: "text" }
-      - { label: "Comment", name: "comment", widget: "text" }
-      - label: "Contributed By"
-        name: "contributed_by"
-        widget: "object"
-        fields:
-          - label: "Initial Contribution"
-            name: "initial"
-            widget: "object"
-            fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
-              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string", required: false }
-              - { label: "Tool", name: "tool", widget: "string", required: false }
-              - { label: "Version", name: "version", widget: "string", required: false }
-              - { label: "Date", name: "date", widget: "date" }
-              - { label: "Notes", name: "notes", widget: "text", required: false }
-          - label: "Reviewed By"
-            name: "reviewed_by"
-            widget: "list"
-            fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
-              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string", required: false }
-              - { label: "Tool", name: "tool", widget: "string", required: false }
-              - { label: "Version", name: "version", widget: "string", required: false }
-              - { label: "Date", name: "date", widget: "date" }
-              - { label: "Notes", name: "notes", widget: "text", required: false }
-      - { label: "Content", name: "body", widget: "markdown" }
-  - name: "themes"
-    label: "Themes"
-    folder: "_themes"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Summary", name: "summary", widget: "markdown" }
-      - label: "Contributed By"
-        name: "contributed_by"
-        widget: "object"
-        fields:
-          - label: "Initial Contribution"
-            name: "initial"
-            widget: "object"
-            fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
-              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string", required: false }
-              - { label: "Tool", name: "tool", widget: "string", required: false }
-              - { label: "Version", name: "version", widget: "string", required: false }
-              - { label: "Date", name: "date", widget: "date" }
-              - { label: "Notes", name: "notes", widget: "text", required: false }
-          - label: "Reviewed By"
-            name: "reviewed_by"
-            widget: "list"
-            fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
-              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string", required: false }
-              - { label: "Tool", name: "tool", widget: "string", required: false }
-              - { label: "Version", name: "version", widget: "string", required: false }
-              - { label: "Date", name: "date", widget: "date" }
-              - { label: "Notes", name: "notes", widget: "text", required: false }
-      - { label: "Content", name: "body", widget: "markdown" }
-
-  - name: "reflections"
-    label: "Reflections"
-    folder: "_reflections"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "date" }
-      - { label: "Toggle Machine Commentary", name: "toggle_machine_commentary",      - label: "Contributed By"
-        name: "contributed_by"
-        widget: "object"
-        fields:
-          - label: "Initial Contribution"
-            name: "initial"
-            widget: "object"
-            fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
-              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string", required: false }
-              - { label: "Tool", name: "tool", widget: "string", required: false }
-              - { label: "Version", name: "version", widget: "string", required: false }
-              - { label: "Date", name: "date", widget: "date" }
-              - { label: "Notes", name: "notes", widget: "text", required: false }
-          - label: "Reviewed By"
-            name: "reviewed_by"
-            widget: "list"
-            fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
-              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string", required: false }
-              - { label: "Tool", name: "tool", widget: "string", required: false }
-              - { label: "Version", name: "version", widget: "string", required: false }
-              - { label: "Date", name: "date", widget: "date" }
-              - { label: "Notes", name: "notes", widget: "text", required: false }
-      - { label: "Featured Image", name: "featured_image", widget: "image" }
-      - { label: "Content", name: "body", widget: "markdown" }
-
   - name: "archive"
     label: "Archive"
     folder: "_archive"
@@ -154,6 +45,65 @@ collections:
               - { label: "Notes", name: "notes", widget: "text", required: false }
       - { label: "Featured Image", name: "featured_image", widget: "image" }
       - { label: "Content", name: "body", widget: "markdown" }
+
+  - name: "bibliography"
+    label: "Bibliography"
+    folder: "_bibliography"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Type", name: "layout", widget: "select", options: ["article", "book", "inproceedings", "misc"], default: "misc" }
+      - { label: "Authors", name: "author", widget: "list", fields: [
+          { label: "Given Name", name: "given", widget: "string", required: false },
+          { label: "Family Name", name: "family", widget: "string", required: false },
+          { label: "Prefix", name: "prefix", widget: "string", required: false },
+          { label: "Suffix", name: "suffix", widget: "string", required: false }
+        ] }
+      - { label: "Editors", name: "editor", widget: "list", fields: [
+          { label: "Given Name", name: "given", widget: "string", required: false },
+          { label: "Family Name", name: "family", widget: "string", required: false },
+          { label: "Prefix", name: "prefix", widget: "string", required: false },
+          { label: "Suffix", name: "suffix", widget: "string", required: false }
+        ] }
+      - { label: "Year", name: "year", widget: "string" }
+      - { label: "DOI", name: "doi", widget: "string", required: false }
+      - { label: "ISBN", name: "isbn", widget: "string", required: false }
+      - { label: "Publisher", name: "publisher", widget: "string", required: false }
+      - { label: "Journal", name: "journal", widget: "string", required: false }
+      - { label: "Volume", name: "volume", widget: "string", required: false }
+      - { label: "Issue", name: "issue", widget: "string", required: false }
+      - { label: "Pages", name: "pages", widget: "string", required: false }
+      - { label: "Conference Name", name: "conference", widget: "string", required: false }
+      - { label: "URL", name: "url", widget: "string", required: false }
+      - { label: "Edition", name: "edition", widget: "string", required: false }
+      - { label: "Abstract", name: "abstract", widget: "markdown", required: false }
+      - label: "Contributed By"
+        name: "contributed_by"
+        widget: "object"
+        fields:
+          - label: "Initial Contribution"
+            name: "initial"
+            widget: "object"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+          - label: "Reviewed By"
+            name: "reviewed_by"
+            widget: "list"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+      - { label: "Content", name: "body", widget: "markdown", required: false }
 
   - name: "chapters"
     label: "Chapters"
@@ -195,6 +145,89 @@ collections:
       - { label: "Technology", name: "technology", widget: "relation", collection: "technology", search_fields: ["title"], value_field: "title", multiple: true }
       - { label: "Content", name: "body", widget: "markdown" }
 
+  - name: "history"
+    label: "History"
+    folder: "_history"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Period", name: "period", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "markdown" }
+      - label: "Contributed By"
+        name: "contributed_by"
+        widget: "object"
+        fields:
+          - label: "Initial Contribution"
+            name: "initial"
+            widget: "object"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+          - label: "Reviewed By"
+            name: "reviewed_by"
+            widget: "list"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+      - { label: "Content", name: "body", widget: "markdown" }
+
+  - name: "images"
+    label: "Images"
+    folder: "_images"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Image File", name: "image", widget: "image" }
+      - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Source", name: "source", widget: "string", required: false }
+      - { label: "License", name: "license", widget: "string", required: false }
+      - { label: "Toggle Machine Commentary", name: "toggle_machine_commentary", widget: "boolean", default: true, required: false }
+      - { label: "Generated By", name: "generated_by", widget: "object", required: false, fields: [
+          { label: "Tool", name: "tool", widget: "string", required: false },
+          { label: "Version", name: "version", widget: "string", required: false },
+          { label: "Date", name: "date", widget: "date", required: false },
+          { label: "Notes", name: "notes", widget: "text", required: false }
+        ] }
+      - label: "Contributed By"
+        name: "contributed_by"
+        widget: "object"
+        fields:
+          - label: "Initial Contribution"
+            name: "initial"
+            widget: "object"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+          - label: "Reviewed By"
+            name: "reviewed_by"
+            widget: "list"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+      - { label: "Content", name: "body", widget: "markdown", required: false }
+      
   - name: "machine_reviews"
     label: "Machine Reviews"
     folder: "_machine_reviews"
@@ -270,14 +303,53 @@ collections:
               - { label: "Notes", name: "notes", widget: "text", required: false }
       - { label: "Content", name: "body", widget: "markdown", required: false }
 
-  - name: "history"
-    label: "History"
-    folder: "_history"
+  - name: "reflections"
+    label: "Reflections"
+    folder: "_reflections"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Period", name: "period", widget: "string" }
-      - { label: "Summary", name: "summary", widget: "markdown" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Toggle Machine Commentary", name: "toggle_machine_commentary",      - label: "Contributed By"
+        name: "contributed_by"
+        widget: "object"
+        fields:
+          - label: "Initial Contribution"
+            name: "initial"
+            widget: "object"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+          - label: "Reviewed By"
+            name: "reviewed_by"
+            widget: "list"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
+              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Tool", name: "tool", widget: "string", required: false }
+              - { label: "Version", name: "version", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+      - { label: "Featured Image", name: "featured_image", widget: "image" }
+      - { label: "Content", name: "body", widget: "markdown" }
+
+  - name: "reviews"
+    label: "Reviews"
+    folder: "_reviews"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Type", name: "type", widget: "select", options: ["podcast", "print", "television"] }
+      - { label: "Publication", name: "publication", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Extract", name: "extract", widget: "text" }
+      - { label: "Comment", name: "comment", widget: "text" }
       - label: "Contributed By"
         name: "contributed_by"
         widget: "object"
@@ -305,7 +377,7 @@ collections:
               - { label: "Date", name: "date", widget: "date" }
               - { label: "Notes", name: "notes", widget: "text", required: false }
       - { label: "Content", name: "body", widget: "markdown" }
-
+      
   - name: "technology"
     label: "Technology"
     folder: "_technology"
@@ -341,84 +413,14 @@ collections:
               - { label: "Date", name: "date", widget: "date" }
               - { label: "Notes", name: "notes", widget: "text", required: false }
       - { label: "Content", name: "body", widget: "markdown" }
-  - name: "bibliography"
-    label: "Bibliography"
-    folder: "_bibliography"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Type", name: "layout", widget: "select", options: ["article", "book", "inproceedings", "misc"], default: "misc" }
-      - { label: "Authors", name: "author", widget: "list", fields: [
-          { label: "Given Name", name: "given", widget: "string", required: false },
-          { label: "Family Name", name: "family", widget: "string", required: false },
-          { label: "Prefix", name: "prefix", widget: "string", required: false },
-          { label: "Suffix", name: "suffix", widget: "string", required: false }
-        ] }
-      - { label: "Editors", name: "editor", widget: "list", fields: [
-          { label: "Given Name", name: "given", widget: "string", required: false },
-          { label: "Family Name", name: "family", widget: "string", required: false },
-          { label: "Prefix", name: "prefix", widget: "string", required: false },
-          { label: "Suffix", name: "suffix", widget: "string", required: false }
-        ] }
-      - { label: "Year", name: "year", widget: "string" }
-      - { label: "DOI", name: "doi", widget: "string", required: false }
-      - { label: "ISBN", name: "isbn", widget: "string", required: false }
-      - { label: "Publisher", name: "publisher", widget: "string", required: false }
-      - { label: "Journal", name: "journal", widget: "string", required: false }
-      - { label: "Volume", name: "volume", widget: "string", required: false }
-      - { label: "Issue", name: "issue", widget: "string", required: false }
-      - { label: "Pages", name: "pages", widget: "string", required: false }
-      - { label: "Conference Name", name: "conference", widget: "string", required: false }
-      - { label: "URL", name: "url", widget: "string", required: false }
-      - { label: "Edition", name: "edition", widget: "string", required: false }
-      - { label: "Abstract", name: "abstract", widget: "markdown", required: false }
-      - label: "Contributed By"
-        name: "contributed_by"
-        widget: "object"
-        fields:
-          - label: "Initial Contribution"
-            name: "initial"
-            widget: "object"
-            fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
-              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string", required: false }
-              - { label: "Tool", name: "tool", widget: "string", required: false }
-              - { label: "Version", name: "version", widget: "string", required: false }
-              - { label: "Date", name: "date", widget: "date" }
-              - { label: "Notes", name: "notes", widget: "text", required: false }
-          - label: "Reviewed By"
-            name: "reviewed_by"
-            widget: "list"
-            fields:
-              - { label: "Type", name: "type", widget: "select", options: ["human", "machine"], required: true }
-              - { label: "Person ID", name: "person_id", widget: "relation", collection: "people", search_fields: ["title"], value_field: "title", required: false }
-              - { label: "Name", name: "name", widget: "string", required: false }
-              - { label: "Tool", name: "tool", widget: "string", required: false }
-              - { label: "Version", name: "version", widget: "string", required: false }
-              - { label: "Date", name: "date", widget: "date" }
-              - { label: "Notes", name: "notes", widget: "text", required: false }
-      - { label: "Content", name: "body", widget: "markdown", required: false }
 
-  - name: "images"
-    label: "Images"
-    folder: "_images"
+  - name: "themes"
+    label: "Themes"
+    folder: "_themes"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "date" }
-      - { label: "Image File", name: "image", widget: "image" }
-      - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
-      - { label: "Description", name: "description", widget: "text", required: false }
-      - { label: "Source", name: "source", widget: "string", required: false }
-      - { label: "License", name: "license", widget: "string", required: false }
-      - { label: "Toggle Machine Commentary", name: "toggle_machine_commentary", widget: "boolean", default: true, required: false }
-      - { label: "Generated By", name: "generated_by", widget: "object", required: false, fields: [
-          { label: "Tool", name: "tool", widget: "string", required: false },
-          { label: "Version", name: "version", widget: "string", required: false },
-          { label: "Date", name: "date", widget: "date", required: false },
-          { label: "Notes", name: "notes", widget: "text", required: false }
-        ] }
+      - { label: "Summary", name: "summary", widget: "markdown" }
       - label: "Contributed By"
         name: "contributed_by"
         widget: "object"
@@ -445,5 +447,5 @@ collections:
               - { label: "Version", name: "version", widget: "string", required: false }
               - { label: "Date", name: "date", widget: "date" }
               - { label: "Notes", name: "notes", widget: "text", required: false }
-      - { label: "Content", name: "body", widget: "markdown", required: false }
-      
+      - { label: "Content", name: "body", widget: "markdown" }
+

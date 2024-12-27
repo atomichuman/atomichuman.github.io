@@ -13,36 +13,39 @@ collections:
   archive:
     output: true
     permalink: /archive/:title/
+  bibliography:
+    output: true
+    permalink: /bibliography/:title/
   chapters:
     output: true
     permalink: /chapters/:title/
-  themes:
+  history:
     output: true
-    permalink: /themes/:title/
-  reviews:
+    permalink: /history/:title/
+  images:
     output: true
-    permalink: /reviews/:title/
+    permalink: /images/:title/
+  initiatives:
+    output: true
+    permalink: /initiatives/:title/
   machine_reviews:
     output: true
     permalink: /machine_reviews/:title/
   people:
     output: true
     permalink: /people/:name/
-  bibliography:
-    output: true
-    permalink: /bibliography/:title/
   reflections:
     output: true
     permalink: /reflections/:title/
-  history:
+  themes:
     output: true
-    permalink: /history/:title/
+    permalink: /themes/:title/
+  reviews:
+    output: true
+    permalink: /reviews/:title/
   technology:
     output: true
     permalink: /technology/:title/
-  images:
-    output: true
-    permalink: /images/:title/
 
 # Default front matter for collections
 defaults:
@@ -51,17 +54,26 @@ defaults:
     values:
       layout: archive
   - scope:
+      path: "_bibliography"
+    values:
+      layout: bibliography
+  - scope:
       path: "_chapters"
     values:
       layout: chapter
   - scope:
-      path: "_themes"
+      path: "_history"
     values:
-      layout: theme
+      layout: history
+      event: "default-event"
   - scope:
-      path: "_reviews"
+      path: "_images"
     values:
-      layout: review
+      layout: image
+  - scope:
+      path: "_initiatives"
+    values:
+      layout: initiative
   - scope:
       path: "_machine_reviews"
     values:
@@ -71,28 +83,23 @@ defaults:
     values:
       layout: person
   - scope:
-      path: "_bibliography"
-    values:
-      layout: bibliography
-  - scope:
       path: "_reflections"
     values:
       layout: reflection
   - scope:
-      path: "_history"
+      path: "_reviews"
     values:
-      layout: history
-      event: "deault-event"
+      layout: review
   - scope:
       path: "_technology"
     values:
       layout: technology
   - scope:
-      path: "_images"
+      path: "_themes"
     values:
-      layout: image
+      layout: theme
 
-# For giti settings
+# For giki settings
 ghub:
   edit: true
   repository: atomichuman.github.io
