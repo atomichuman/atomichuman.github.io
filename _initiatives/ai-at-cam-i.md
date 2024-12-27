@@ -14,6 +14,14 @@ contributed_by:
 featured_image: /assets/images/
 ---
 
+
+ai@cam is the University of Cambridge's flagship mission on AI. Cambridge has always been at the cutting edge of machine learning, from Tony Robinson's recurrent neural networks applied to speech recognition to Zoubin Ghahramani's work on Bayesian machine learning. Today is no exception, so why do we need a flagship mission on AI?
+
+Good question, and so when we were setting up ai@cam the first thing we did was to put that question to the community. 
+
+<https://ai.cam.ac.uk/blog/ai-needs-to-serve-people-science-and-society>
+
+
 <center>
 <image src="/assets/images/" width="70%"/>
 

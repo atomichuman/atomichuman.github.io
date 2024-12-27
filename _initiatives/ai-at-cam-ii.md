@@ -14,6 +14,12 @@ contributed_by:
 featured_image: /assets/images/
 ---
 
+[ai deas](https://ai.cam.ac.uk/ai-deas/) and [this blog](https://ai.cam.ac.uk/blog/introducing-ai-deas-fuelling-interdisciplinary-ai-research) and [this call](https://ai.cam.ac.uk/news/new-ai-deas-funding-call-for-education-and-cultural-heritage)
+[policy lab](https://ai.cam.ac.uk/policy-lab/)
+[pioneer projects](https://ai.cam.ac.uk/news/new-ai-research-resource-call-for-pioneer-projects)
+
+
+
 <center>
 <image src="/assets/images/" width="70%"/>
 

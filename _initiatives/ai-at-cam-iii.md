@@ -14,6 +14,14 @@ contributed_by:
 featured_image: /assets/images/
 ---
 
+Attention capture cycle
+Attention reinvestment cycle
+
+Polarisation in the US vs Europe
+
+Connection to Draghi report.
+
+Failure of the Innovation Economy to deliver.
 <center>
 <image src="/assets/images/" width="70%"/>
 
