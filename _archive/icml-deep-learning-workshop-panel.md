@@ -4,7 +4,16 @@ date: 2015-07-11
 toggle_machine_commentary: true
 description: |
   On July 11th 2015 the two-day Deep Learning workshop at ICML ended with a panel session that is available on YouTube. 
-  I've processed the transcript from that panel to render the prose more flowing.
+  I've processed the transcript from that panel to render the prose more flowing. 
+
+  Here's [a post I wrote at the time giving my reflections on the panel](https://inverseprobability.com/2015/07/14/Digested-deep-panel).
+
+  <center>
+    <iframe width="630" height="482" src="https://www.youtube.com/embed/EiStan9i8vA"></iframe>
+  
+    <i>Panel from ICML 2015 Deep Learning Workshop. Moderator: Max Welling
+    Panelists: Demis Hassabis, Yann LeCun, Yoshua Bengio, Kevin Murphy, Neil D. Lawrence, Juergen Schmidhuber.</i>
+  </center>
 contributor:
   initial:
     type: human
@@ -27,12 +36,7 @@ contributor:
     date: 2024-12-26
 ---
 
-<center>
-  <iframe width="630" height="482" src="https://www.youtube.com/embed/EiStan9i8vA"</iframe>
-  
-  <i>Panel from ICML 2015 Deep Learning Workshop. Moderator: Max Welling
-  Panelists: Demis Hassabis, Yann LeCun, Yoshua Bengio, Kevin Murphy, Neil D. Lawrence, Juergen Schmidhuber.</i>
-</center>
+
   
 **Max Welling**: [0:00](https://www.youtube.com/watch?v=EiStan9i8vA?t=0) Welcome everybody to the final event, the panel discussion. Let me introduce our distinguished panelists. Here on the left is Juergen Schmidhuber from IIA Switzerland, then we have Neil Lawrence from the University of Sheffield, next to that is Kevin Murphy from Google, then we have Yoshua Bengio from University of Montreal, Yann LeCun from Facebook and NYU, and Demis Hassabis from Google DeepMind.
 
