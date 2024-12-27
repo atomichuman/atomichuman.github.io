@@ -1,5 +1,5 @@
 ---
-title: Data Science Africa II
+title: Data Science Africa - II
 date: 2024-12-28
 description: I﻿n the second post on the Data Science Africa initiative we trace
   how the meeting moved from a localised movement to a pan-African community.
