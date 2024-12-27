@@ -26,7 +26,7 @@ contributed_by:
 featured_image: /assets/images/gps_uganda.jpg
 ---
 
-While D﻿ata Science Africa officially launched in 2015, its roots stretch back much further, emerging through a network of dedicated individuals and their collaborations.[^0] 
+While [D﻿ata Science Africa](https://www.datascienceafrica.org) officially launched in 2015, its roots stretch back much further, emerging through a network of dedicated individuals and their collaborations.[^0] 
 
 [^0]: This post is describing how initiatives can grow using the framework of purpose, people, projects, principles and process presented [in this reflection](/reflections/purpose-people-projects-principles-process/). Here we see how Data Science Africa has its foundations in those dedicated individuals, the people.
 
