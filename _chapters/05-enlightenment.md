@@ -46,7 +46,7 @@ reflections:
 
 ### Machine Summary
 
-Chapter 5, *Enlightenment*, examines the transformation of human knowledge and culture brought about by scientific and technological progress, focusing on the historical revolutions sparked by figures such as Johannes Gutenberg, Isaac Newton, and Pierre-Simon Laplace.
+Chapter 5, *Enlightenment*, examines the transformation of human knowledge and culture brought about by scientific and technological progress, focusing on the historical revolutions sparked by figures such as Johannes Gutenberg, Isaac Newton, and [Pierre-Simon Laplace](/people/pierre-simon-laplace/).
 
 The chapter begins with the establishment of Queens’ College, Cambridge, during a time of significant societal change. Dokett’s vision of education intersected with the transformative potential of Gutenberg’s printing press, an invention that democratized knowledge and enabled the spread of revolutionary ideas. The printing press is described as a tool that gave ideas their "own DNA," catalyzing both cultural enlightenment and centuries of violence.
 
@@ -55,4 +55,5 @@ Isaac Newton’s *Principia Mathematica* emerges as a pivotal work of the Enligh
 Pierre-Simon Laplace’s philosophical essay on determinism, often referred to as "Laplace’s demon," extends this mechanistic view of the universe, envisioning a hypothetical intellect capable of predicting the future based on perfect knowledge of the past and present. This deterministic worldview underscores the chapter’s exploration of reductionism versus the complexity of human culture and emotion.
 
 The chapter closes with reflections on how these historical advancements laid the foundation for modern scientific inquiry, emphasizing the interplay of rationalism, creativity, and cultural context in shaping human progress.
+
 </div>
