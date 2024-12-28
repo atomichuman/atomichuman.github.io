@@ -16,7 +16,7 @@ contributor:
     version: 3.5
     notes: Claude asked to review how the workshop as described relates to the 5 Ps model of institution building.
     date: 2024-12-27
-featured_image: /assets/images/dsa-nyeri-ciira-teaching.jpg
+featured_image: /assets/images/dsa-nyeri-2015.jpg
 ---
 
 * [How Africa can benefit from the data revolution: Locally-driven data projects across the continent can enable the infrastructure to bring about economic change](https://www.theguardian.com/media-network/2015/aug/25/africa-benefit-data-science-information>)
