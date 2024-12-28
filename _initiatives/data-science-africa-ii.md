@@ -90,7 +90,7 @@ By 2019 the organisation was mature enough to become a registered non-profit bas
 
 It recently [shared its strategic plan](http://www.datascienceafrica.org/assets/DSA-Strategy.pdf) which outlines its purpose and principles.  
 
-Its approach was recently recognised as critical to diffusion of data science and AI capabilities [when it became a founding partner](http://www.datascienceafrica.org/dsablog/2024/01/19/data-science-africa-joins-international-partners-to-launch-icain.html) of the Swiss-led ICAIN initiative.
+Its approach was recently recognised as critical to diffusion of data science and AI capabilities [when it became a founding partner](http://www.datascienceafrica.org/dsablog/2024/01/19/data-science-africa-joins-international-partners-to-launch-icain.html) of the [Swiss-led ICAIN initiative](https://icain.ch/).
 
 <div class="machine-commentary" markdown=1>
 
