@@ -52,7 +52,7 @@ One of the great privileges of academia is community. More importantly communiti
 [^0]: See [this post](/initiatives/data-science-africa-i/) for the context of Martin's visit.
 
 <center>
-<image src="/assets/images/dsa-logo.png" width="50%"/>
+<image src="/assets/images/dsa-logo.png" width="40%"/>
 
 <i>The logo of Data Science Africa, emphasising connectivity across the continent.</i>
 
@@ -70,7 +70,7 @@ A large focus for the Sheffield group at the time was computational biology. One
 Ciira was keen to return to Kenya and build expertise there. When he told me he'd found a job at Dedan Kimath University of Technology, we agreed that after he'd had a chance to settle in we'd hold a meeting there. That was the first Data Science Africa meeting.[^3] The event was funded on a shoestring, I used consulting money from Ferrari to fly in instructors from Sheffield. Ciira got the support of his University for the lecture theatre. 
 
 <center>
-<image src="/assets/images/dsa-nyeri-ciira-teaching.jpg" width="80%"/>
+<image src="/assets/images/dsa-nyeri-ciira-teaching.jpg" width="90%"/>
 
 <i>Ciira teaching in the main lecture theatre at Dedan Kimathi University of Technology.</i>
 
