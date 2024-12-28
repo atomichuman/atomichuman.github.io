@@ -28,6 +28,16 @@ contributed_by:
       version: 3.5
       notes: Provide machine commentary on how the initiative inspired ideas in the
         book and how it relates to the 5 Ps framework.
+    - date: 2024-12-28
+      type: human
+      person_id: Neil D. Lawrence
+      notes: Update with where DSA is today.
+    - date: 2024-12-28
+      type: machine
+      tool: Claude
+      version: 3.5
+      notes: Provide updated machine commentary on how the initiative inspired ideas in the
+        book.
 ---
 One of the great privileges of academia is community. More importantly communities of achievement. I have friends and colleagues that do things that amaze me. And they are generous enough to share how they are doing them and then I find myself doing things I couldn't have imagined. Martin Mubangizi's visit to Sheffield came at a special time from a community perspective.[^0]
 
@@ -80,39 +90,28 @@ Its approach was recently recognised as critical to diffusion of data science an
 
 *NL*: I'd like you to provide a "Machine Commentary" on how the initiative fits with the ideas in *The Atomic Human* and how its approach informed the ideas in the book.
 
-*Claude*: Based on *The Atomic Human*, this initiative connects to several key themes:
+*Claude*: Based on "The Atomic Human" and this post about Data Science Africa (DSA), here's my machine commentary on how they relate:
 
-1. Information Topography and Devolved Authority:
+DSA embodies several key principles discussed in "The Atomic Human":
 
-* Embraces "attend one, teach one, organize one" model that distributes knowledge and authority
-* Builds local expertise rather than centralizing control
-* Reflects book's emphasis on devolved decision-making over top-down control
+1. Trust and Local Context:
+The book emphasizes how human intelligence relies on cultural context and trust-based relationships. DSA's "attend one, teach one, organize one" model builds trust through direct relationships and local understanding, avoiding the "digital oligarchy" problem the book warns against.
 
-2. Cultural Context and Information Coherence:
+2. Devolved Authority:
+The book discusses how successful systems (like D-Day planning) require devolved decision-making while maintaining coherent purpose. DSA's structure - with local chapters, minimal central staff, and community-led initiatives - mirrors this approach, allowing local adaptation while maintaining shared principles.
 
-* Recognizes importance of local knowledge and context
-* Builds community through shared understanding
-* Mirrors book's discussion of how intelligence emerges from cultural interaction
+3. Information Coherence:
+The book introduces the concept of "information coherence" - how communities maintain shared understanding despite limited bandwidth. DSA's approach of pairing experienced organizers with new ones exemplifies this, passing on tacit knowledge through direct interaction rather than just written procedures.
 
-3. Trust and Human-Analogue Interface:
+4. Alternative to System Zero:
+The book warns about "System Zero" - automated systems that manipulate human behavior through data. DSA offers a counter-model: using data science to empower local communities rather than extract value from them. This aligns with the book's call for maintaining human agency in technological development.
 
-* Creates trusted networks through personal connections
-* Uses summer school format to build relationships
-* Demonstrates book's emphasis on human relationships in technology transfer
+5. Cultural Evolution:
+The book describes how technologies like the printing press enabled new forms of cultural evolution. DSA's approach to spreading data science capabilities across Africa parallels this, but with built-in safeguards against the centralization of power the book warns about.
 
-4. System Zero Resistance:
+The initiative appears to have directly influenced the book's thinking about how technology can be deployed in ways that enhance rather than diminish human agency. It demonstrates practically how to avoid the pitfalls of technological colonialism while still enabling technological advancement - a key concern in the book's epilogue.
 
-* Empowers local communities to control their technological development
-* Counters digital oligarchy by building independent expertise
-* Reflects book's warning about concentrated technological power
-
-5. Practical Implementation:
-
-* Shows how universities can act as "honest brokers" in technological development
-* Demonstrates bottom-up approach to building technological capability
-* Exemplifies book's call for institutional engagement in AI development
-
-The initiative appears to have informed the book's emphasis on human agency in technological development and its argument for distributed rather than centralized control of technological advancement.
+The approach informed the book's emphasis on the importance of institutions and social context in deploying new technologies. Rather than focusing solely on technical capabilities, both DSA and the book emphasize the human and institutional infrastructure needed to make technology serve human needs.​​​​​​​​​​​​​​​​
 
 *NL*: Can you provide further machine commentary on how Data Science Africa is fitting with the approach [described in this post](/reflections/purpose-people-projects-principles-process/)?
 
