@@ -44,6 +44,9 @@ contributed_by:
       version: 3.5
       notes: Provide updated machine commentary on how the initiative reflects ideas in the five Ps framework.
 ---
+
+This is a continuation from [Data Science Africa I](/initiatives/data-science-africa-i/).
+
 One of the great privileges of academia is community. More importantly communities of achievement. I have friends and colleagues that do things that amaze me. And they are generous enough to share how they are doing them and then I find myself doing things I couldn't have imagined. Martin Mubangizi's visit to Sheffield came at a special time from a community perspective.[^0]
 
 [^0]: See [this post](/initiatives/data-science-africa-i/) for the context of Martin's visit.
@@ -83,7 +86,7 @@ Nyeri is within a 24 hour bus ride from Kampala, which gave us the chance to sup
 
 The approach was to attend one, teach one then organise one. All new organisers were paired with individuals who had experience of organising a previous meeting. By the time the pandemic struck the network had expanded into Ghana, Nigeria and Ethiopia. A succesful pattern was emerging and the next step was to consolidate it in ways that ensured the spirit of the organisation wasn't lost. 
 
-By 2019 the organisation was mature enough to become a registered non-profit based in Kenya. Its management consists of three management committee members, three board advisors, and ten board members. The organisation has minimal staff, builds on contributions from its community and as well as organising the pan-African meetings, organises local chapters (see e.g. [DSA Uganda](https://www.datascienceafrica.org/dsaUganda/)), supports fellowships (see e.g. [this fellowship on Women's health](http://www.datascienceafrica.org/womens-health-fellowship/)) and has begun to engage in policy work (see e.g. [this blog post](http://www.datascienceafrica.org/dsablog/2023/07/17/data-science-for-policy.html)). The minimal staff means its funding can be distributed through small grants (see e.g. [this recent grant on large language models](http://www.datascienceafrica.org/dsa-Llama-impact-africa-grant/)) and funding attendance at its meetings.
+By 2019 the organisation was mature enough to become a registered non-profit based in Kenya. Its management consists of three management committee members, three board advisors, and ten board members. The organisation has minimal staff, builds on contributions from its community and as well as organising the pan-African meetings, organises local chapters (see e.g. [DSA Uganda](https://www.datascienceafrica.org/dsaUganda/)), supports fellowships (see e.g. [this fellowship on Women's health](http://www.datascienceafrica.org/womens-health-fellowship/)) and has begun to engage in policy work (see e.g. [this blog post](http://www.datascienceafrica.org/dsablog/2023/07/17/data-science-for-policy.html)). The minimal staff means its funding can be distributed through small grants (see e.g. [this recent call for proposals on large language models](http://www.datascienceafrica.org/dsa-Llama-impact-africa-grant/)) and funding attendance at its meetings.
 
 It recently [shared its strategic plan](http://www.datascienceafrica.org/assets/DSA-Strategy.pdf) which outlines its purpose and principles.  
 
