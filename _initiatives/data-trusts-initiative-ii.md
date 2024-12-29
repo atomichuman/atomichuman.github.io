@@ -21,6 +21,8 @@ featured_image: /assets/images/
 </center>
 
 
+https://studio.youtube.com/video/fWk4jrcVeC4
+
 <div class="machine-commentary" markdown=1>
 
 ## Machine Commentary
