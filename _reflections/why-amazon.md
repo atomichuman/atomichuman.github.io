@@ -24,7 +24,7 @@ contributed_by:
   - date: 2024-12-29
     type: human
     person_id: Neil D. Lawrence
-	notes: Fixes from proof read
+    notes: Fixes from proof read
   - type: machine
     tool: Claude
     version: 3.5
