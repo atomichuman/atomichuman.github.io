@@ -75,7 +75,7 @@ It is common to talk about data or compute or machine learning capabilities as a
 
 What is clear is that large tech companies do not have the answers for solving these problems, and further it is not in their interests to develop those answers. Because by building software systems that are more maintainable they undermine their own dominant positions. As my colleagues at Data Science Africa repeatedly show, there is no individual technical challenge that is insurmountable for a smart and motivated individual with the right support. What is missing is the ecosystem of software engineers to deploy and maintain these systems at scale. But it is not just missing for colleagues in Uganda and Kenya, but for colleagues in the schools and hospitals.
 
-In Cambridge we are addressing these challenges with the AutoAI project. Here's some of our papers:
+In Cambridge we are addressing these challenges with a UKRI Funded fellowship that we call [the AutoAI project](https://mlatcl.github.io/projects/autoai.html). Here's some of our papers that are relevant to the challenges described above:
 
 * Cabrera, C., Paleyes, A. &amp; Lawrence, N.D.. (2024). Self-sustaining software systems (S4): Towards improved interpretability and adaptation. <i>Proceedings of the 1st International Workshop on New Trends in Software Engineering</i> Available from <https://arxiv.org/abs/2401.11370>
 
