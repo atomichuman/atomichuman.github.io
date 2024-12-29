@@ -17,3 +17,5 @@ I'd seem my African colleagues start to construct a [ground up initiative Data S
 I was advocating for what I called [Open Data Science](/archive/open-data-science-initiative/).
 
 Given all that it seems a strange move to up sticks, leave academia and join Amazon.
+
+There were a few factors at play, firstly the UK wasn't investing research money in these communities. All the funding we had in Sheffield was from the EU. Secondly, although we'd made a good start with investments for the Open Data Science Initiative, it was clear the University didn't yet have the will/resources to invest and take things to the next level. But thirdly and most importantly, as machine learning was getting 
