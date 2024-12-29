@@ -9,30 +9,39 @@ contributed_by:
     person_id: Neil D. Lawrence
     notes: Stub for page.
   reviewed_by:
-  - date: 2024-12-29
-    type: human
-    person_id: Neil D. Lawrence
-    notes: First full draft of post.
-  - type: machine
-    tool: DALL-E
-    version: 3.0
-    notes: Illustration of a DevOps team attempting to fix a complex software system in the form of an Amazon truck with complex maintenance manuals. 
-  - type: machine
-    tool: Claude
-    version: 3.5
-    notes: Proof read request.
-  - date: 2024-12-29
-    type: human
-    person_id: Neil D. Lawrence
-    notes: Fixes from proof read
-  - type: machine
-    tool: Claude
-    version: 3.5
-    notes: Support with paragraph transition
-  - type: machine
-    tool: Claude
-    version: 3.5
-    notes: Provision of machine commentary.
+    - date: 2024-12-29
+      type: human
+      person_id: Neil D. Lawrence
+      notes: First full draft of post.
+    - type: machine
+      tool: DALL-E
+      version: 3
+      notes: Illustration of a DevOps team attempting to fix a complex software system
+        in the form of an Amazon truck with complex maintenance manuals.
+      date: 2024-12-29T10:40:07.091Z
+    - type: machine
+      tool: Claude
+      version: 3.5
+      notes: Proof read request.
+      date: 2024-12-29T10:40:07.153Z
+    - date: 2024-12-29
+      type: human
+      person_id: Neil D. Lawrence
+      notes: Fixes from proof read
+    - type: machine
+      tool: Claude
+      version: 3.5
+      notes: Support with paragraph transition
+      date: 2024-12-29T10:40:07.172Z
+    - type: machine
+      tool: Claude
+      version: 3.5
+      notes: Provision of machine commentary.
+      date: 2024-12-29T10:40:07.189Z
+    - date: 2024-12-29T10:43:42.390Z
+      type: human
+      person_id: Neil D. Lawrence
+      notes: Add chapter links.
 featured_image: /assets/images/DALLE-2024-12-29-092138-a-satirical-cartoon-picturing-amazon-as-a-broken-down-vehicle-in-a-repair-garage-the-vehicle-resembles-a-hybrid-between-a-massive-delivery-truck-and.webp
 ---
 
@@ -102,32 +111,32 @@ In Cambridge we are addressing these challenges with a UKRI Funded fellowship th
 
 *Claude*: I'll provide commentary connecting this blog post to key themes from *The Atomic Human*:
 
-This blog post directly addresses several core themes from "The Atomic Human," particularly the challenges of scaling artificial intelligence systems and the concept of "intellectual debt" discussed in Chapters 3 and 8.
+This blog post directly addresses several core themes from "The Atomic Human," particularly the challenges of scaling artificial intelligence systems and the concept of "intellectual debt" discussed in [Chapters 3](/chapters/03-intent) and [8](/chapters/08-system-zero).
 
 Key connections:
 
 1. Digital Oligarchy and System Zero:
-- The post expands on the book's warning about digital oligarchy (Chapter 8's "System Zero"), showing how even Amazon struggles with managing complex automated systems
+- The post expands on the book's warning about digital oligarchy ([Chapter 8's "System Zero"](/chapters/08-system-zero)), showing how even Amazon struggles with managing complex automated systems
 - It provides concrete examples of how the "digital oligarchy" maintains power through hidden "moats" of software maintenance complexity
-- This illustrates the book's concerns about concentration of technological power (Chapter 10's discussion of surveillance capitalism)
+- This illustrates the book's concerns about concentration of technological power ([Chapter 10](/chapters/10-gaslighting)'s discussion of surveillance capitalism)
 
 2. Bits and Atoms Interface:
-- The post's discussion of Negroponte's "bits and atoms" interface connects to Chapter 7's exploration of human-machine interaction in the Apollo program
+- The post's discussion of Negroponte's "bits and atoms" interface connects to [Chapter 7](/chapters/07-its-not-rocket-science-or-brain-surgery)'s exploration of human-machine interaction in the Apollo program
 - Like the Apollo guidance computer, Amazon's supply chain demonstrates the challenge of bridging physical and digital worlds
 - This relates to the book's broader theme of how humans interface with automated systems
 
 3. Evolution vs Design:
-- The post's description of Amazon's growing complexity mirrors Chapter 4's discussion of artificial vs natural selection
+- The post's description of Amazon's growing complexity mirrors [Chapter 4](/chapters/04-persistence)'s discussion of artificial vs natural selection
 - The "service of services" solution proposed aligns with the book's argument for more organic, self-sustaining systems rather than brittle designed ones
-- This connects to Chapter 11's discussion of Human-Analogue Machines (HAMs) and their limitations
+- This connects to [Chapter 11](/chapters/11-human-analogue-machines)'s discussion of Human-Analogue Machines (HAMs) and their limitations
 
 4. Trust and Accountability:
-- The post's focus on democratizing access to complex software systems connects to Chapter 12's emphasis on maintaining human agency and control
+- The post's focus on democratizing access to complex software systems connects to [Chapter 12](/chapters/12-trust)'s emphasis on maintaining human agency and control
 - The proposed solution of data-oriented architectures addresses the book's concern about concentration of power in tech companies
 - This relates to the epilogue's call for pragmatic solutions to AI challenges
 
 5. Cultural Context:
-- The post's examples from Data Science Africa illustrate the book's emphasis on the importance of cultural context in deploying technology (Chapter 5)
+- The post's examples from Data Science Africa illustrate the book's emphasis on the importance of cultural context in deploying technology ([Chapter 5](/chapters/05-enlightenment))
 - The challenges faced by African researchers demonstrate the book's argument about the necessity of human judgment and local knowledge
 
 The post essentially provides a real-world case study of the theoretical challenges outlined in *The Atomic Human*, while also suggesting practical approaches to addressing them through new software architectures and institutional frameworks.
