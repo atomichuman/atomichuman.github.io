@@ -12,7 +12,7 @@ contributed_by:
   - date: 2024-12-29
     type: human
     person_id: Neil D. Lawrence
-	notes: First full draft of post.
+    notes: First full draft of post.
   - type: machine
     tool: DALL-E
     version: 3.0
