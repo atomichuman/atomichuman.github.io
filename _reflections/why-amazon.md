@@ -25,6 +25,10 @@ contributed_by:
     type: human
     person_id: Neil D. Lawrence
 	notes: Fixes from proof read
+  - type: machine
+    tool: Claude
+    version: 3.5
+    notes: Support with paragraph transition
 featured_image: /assets/images/DALLE-2024-12-29-092138-a-satirical-cartoon-picturing-amazon-as-a-broken-down-vehicle-in-a-repair-garage-the-vehicle-resembles-a-hybrid-between-a-massive-delivery-truck-and.webp
 ---
 
@@ -48,9 +52,9 @@ I've often argued that in terms of money spent the Amazon supply chain is the wo
 
 The challenge comes because under a service oriented architecture, the number of people grows linearly with the number of services created. Service oriented architectures are famously described in Bezos's "API Mandate". A memo by Jeff Bezos from 2002 that triggered the company's corporate infrastructure to be aligned with its information infrastructure. Each team in Amazon's supply chain owned a service, and that service (for example the buying system that operated the Newsvendor problem) should be accessible by other teams through an API (a software interface). But as the software gets more complex and more services are introduced more software teams are required. So as the software structure gets more complex, the corporate structure also grows. In the supply chain this had meant both the corporate structure and the software structure grew large and unwieldy.
 
-One of my strategic aims at Amazon was to work out ways of reducing the personnel burden of these large systems, the approach I proposed was "service of services" idea, where instead of one team owning each service, services would be standardised in such a way that software engineering teams could support multiple services in production.This would allow one team to support multiple services, but to do it more standardisation would be required in how the individual services are built.
+One strategic focus at Amazon was to work out ways of reducing the personnel burden of these large systems. The approach I proposed was a "service of services" idea, where instead of one team owning each service, services would be standardized in such a way that software engineering teams could support multiple services in production. This would require a fundamental change in how software was built, but it could dramatically reduce the maintenance burden.
 
-This new approach to software, what we refer to as "data oriented architectures" has become the focus of my research since then. The aim is to build software systems that are self-sustaining. That do not require hordes of software engineers in production. 
+This new approach to software, what we now call "data oriented architectures," has become the focus of my research since leaving Amazon. The aim is to build self-sustaining software systems that don't require armies of engineers to maintain them. This isn't just about making Amazon more efficient - it's about democratizing access to complex software systems. When only the largest tech companies can afford the engineering teams needed to maintain these systems, it creates an invisible barrier to innovation in critical sectors like healthcare, education, and social services.
 
 <center>
 
