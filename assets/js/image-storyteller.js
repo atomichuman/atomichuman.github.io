@@ -1,12 +1,17 @@
 class ImageStoryteller {
-  constructor(container, options) {
-    this.container = container;
-    this.options = {
-      imageSrc: options.imageSrc,
-      sections: options.sections,
-      initialDelay: options.initialDelay || 1000,
-      transitionDuration: options.transitionDuration || 1000
-    };
+  constructor(options) {
+    this.containerId = options.containerId;
+    this.imageId = options.imageId;
+    this.sections = options.sections;
+    this.transitionDuration = options.transitionDuration || 1000;
+    
+    this.container = document.getElementById(this.containerId);
+    this.image = document.getElementById(this.imageId);
+    
+    if (!this.container || !this.image) {
+      console.error('Container or image element not found');
+      return;
+    }
     
     this.currentSection = 0;
     this.isPlaying = false;
@@ -14,24 +19,17 @@ class ImageStoryteller {
   }
 
   setup() {
-    // Set container style
+    // Container setup
     this.container.style.position = 'relative';
     this.container.style.overflow = 'hidden';
     
-    // Create image container
-    this.imageWrapper = document.createElement('div');
-    this.imageWrapper.style.position = 'relative';
-    this.imageWrapper.style.width = '100%';
-    this.imageWrapper.style.height = '100%';
-    
-    // Create and setup image
-    this.image = document.createElement('img');
-    this.image.src = this.options.imageSrc;
+    // Image setup
+    this.image.style.transition = `transform ${this.transitionDuration}ms ease-in-out`;
     this.image.style.width = '100%';
     this.image.style.height = 'auto';
-    this.image.style.transition = `transform ${this.options.transitionDuration}ms ease-in-out`;
+    this.image.style.display = 'block';
     
-    // Create content overlay
+    // Create overlay
     this.overlay = document.createElement('div');
     this.overlay.style.position = 'absolute';
     this.overlay.style.top = '20px';
@@ -41,6 +39,7 @@ class ImageStoryteller {
     this.overlay.style.padding = '20px';
     this.overlay.style.borderRadius = '8px';
     this.overlay.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+    this.overlay.style.zIndex = '1';
     
     // Create controls
     this.controls = document.createElement('div');
@@ -51,8 +50,8 @@ class ImageStoryteller {
     this.controls.style.display = 'flex';
     this.controls.style.justifyContent = 'center';
     this.controls.style.gap = '10px';
+    this.controls.style.zIndex = '1';
     
-    // Create buttons
     const buttonStyles = `
       padding: 8px 16px;
       background: rgba(0, 0, 0, 0.8);
@@ -78,17 +77,14 @@ class ImageStoryteller {
     this.nextButton.style.cssText = buttonStyles;
     this.nextButton.onclick = () => this.next();
     
-    // Assemble DOM
     this.controls.appendChild(this.prevButton);
     this.controls.appendChild(this.playButton);
     this.controls.appendChild(this.nextButton);
     
-    this.imageWrapper.appendChild(this.image);
-    this.container.appendChild(this.imageWrapper);
     this.container.appendChild(this.overlay);
     this.container.appendChild(this.controls);
     
-    // Initial content update
+    // Initial state
     this.updateContent();
     this.updateTransform();
     
@@ -96,30 +92,38 @@ class ImageStoryteller {
     window.addEventListener('resize', () => this.updateTransform());
   }
 
-  updateContent() {
-    if (this.currentSection < this.options.sections.length) {
-      this.overlay.innerHTML = this.options.sections[this.currentSection].content;
-    }
-  }
-
   updateTransform() {
-    if (this.currentSection >= this.options.sections.length) return;
+    if (this.currentSection >= this.sections.length) return;
     
-    const viewBox = this.options.sections[this.currentSection].viewBox;
+    const viewBox = this.sections[this.currentSection].viewBox;
     const containerRect = this.container.getBoundingClientRect();
     const imageRect = this.image.getBoundingClientRect();
     
-    // Calculate scale
+    // Calculate the scale needed to fit the viewBox in the container
     const scaleX = containerRect.width / viewBox.width;
     const scaleY = containerRect.height / viewBox.height;
     const scale = Math.min(scaleX, scaleY);
     
-    // Calculate translation
-    const translateX = -viewBox.x + (containerRect.width - viewBox.width * scale) / (2 * scale);
-    const translateY = -viewBox.y + (containerRect.height - viewBox.height * scale) / (2 * scale);
+    // Calculate the position to center the viewBox
+    const viewBoxCenterX = viewBox.x + (viewBox.width / 2);
+    const viewBoxCenterY = viewBox.y + (viewBox.height / 2);
     
-    // Apply transform
+    // Calculate the image's current dimensions
+    const currentImageWidth = imageRect.width;
+    const currentImageHeight = imageRect.height;
+    
+    // Calculate translations to center the viewBox
+    const translateX = -(viewBoxCenterX / this.image.naturalWidth * currentImageWidth - containerRect.width / 2);
+    const translateY = -(viewBoxCenterY / this.image.naturalHeight * currentImageHeight - containerRect.height / 2);
+    
+    // Apply the transform
     this.image.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+  }
+
+  updateContent() {
+    if (this.currentSection < this.sections.length) {
+      this.overlay.innerHTML = this.sections[this.currentSection].content;
+    }
   }
 
   prev() {
@@ -131,7 +135,7 @@ class ImageStoryteller {
   }
 
   next() {
-    if (this.currentSection < this.options.sections.length - 1) {
+    if (this.currentSection < this.sections.length - 1) {
       this.currentSection++;
       this.updateContent();
       this.updateTransform();
@@ -149,11 +153,11 @@ class ImageStoryteller {
   play() {
     if (!this.isPlaying) return;
     
-    if (this.currentSection < this.options.sections.length - 1) {
+    if (this.currentSection < this.sections.length - 1) {
       setTimeout(() => {
         this.next();
         this.play();
-      }, this.options.sections[this.currentSection].duration || 5000);
+      }, this.sections[this.currentSection].duration || 5000);
     } else {
       this.isPlaying = false;
       this.playButton.textContent = 'Play';
