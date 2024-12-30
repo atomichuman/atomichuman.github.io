@@ -68,9 +68,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 # Accelerate Science Symposium
 
-<div id="story-container" class="w-full h-[600px] mb-8"></div>
+<div id="story-container" class="w-full h-96 mb-8"></div>
 
-<script src="/assets/js/image-storyteller.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const container = document.getElementById('story-container');
@@ -78,14 +77,26 @@ document.addEventListener('DOMContentLoaded', function() {
   const sections = [
     {
       id: 'yang-hui-he',
-      viewBox: { x: 0, y: 0, width: 800, height: 600 },
-      content: `<h3>String Theory and Machine Learning</h3>...`,
+      viewBox: { x: 150, y: 450, width: 800, height: 300 },
+      content: `<h3 class="text-xl font-bold mb-2">String Theory and Machine Learning</h3>
+                <p>Professor Yang-Hui He discusses the intersection of string theory and machine learning,
+                exploring how AI can help unlock mathematical patterns in theoretical physics.</p>`,
       duration: 8000
     },
     {
       id: 'virginie-uhlmann',
-      viewBox: { x: 800, y: 0, width: 800, height: 600 },
-      content: `<h3>Biology Meets Computer Vision</h3>...`,
+      viewBox: { x: 1800, y: 450, width: 900, height: 300 },
+      content: `<h3 class="text-xl font-bold mb-2">Biology Meets Computer Vision</h3>
+                <p>Dr. Virginie Uhlmann presents on the application of computer vision techniques
+                to biological imaging, demonstrating how AI can enhance our understanding of cellular structures.</p>`,
+      duration: 8000
+    },
+    {
+      id: 'overview',
+      viewBox: { x: 0, y: 0, width: 3508, height: 2000 },
+      content: `<h3 class="text-xl font-bold mb-2">Workshop Overview</h3>
+                <p>The Challenges in Science and Maths workshop brought together researchers from various disciplines
+                to explore how AI and machine learning are transforming scientific research.</p>`,
       duration: 8000
     }
   ];
@@ -97,5 +108,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
-
