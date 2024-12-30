@@ -52,8 +52,6 @@ include_js:
 </map>
 </div>
 
-<script src="/assets/js/responsive-image-map.js"></script>
-
 <!-- After your image map HTML -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
