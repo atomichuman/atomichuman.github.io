@@ -3,7 +3,7 @@ layout: initiative
 title: Accelerate Science
 date: 2024-12-30
 toggle_machine_commentary: true
-description: Accelerate Science is a Schmidt Sciences sponsored project to bring about a step change in Cambridge's science capabilities through AI.
+description: Accelerate Science is a Schmidt Sciences sponsored project to 'bring about a step change in Cambridge's science capabilities through AI'.
 website: https://science.ai.cam.ac.uk
 contributed_by:
   initial:
