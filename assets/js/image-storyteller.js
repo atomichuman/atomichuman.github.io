@@ -1,166 +1,257 @@
+// File: assets/js/image-storyteller.js
+
 class ImageStoryteller {
-  constructor(options) {
-    this.containerId = options.containerId;
-    this.imageId = options.imageId;
-    this.sections = options.sections;
-    this.transitionDuration = options.transitionDuration || 1000;
-    
-    this.container = document.getElementById(this.containerId);
-    this.image = document.getElementById(this.imageId);
-    
-    if (!this.container || !this.image) {
-      console.error('Container or image element not found');
+  constructor(config) {
+    this.config = {
+      storyContainerId: config.storyContainerId,
+      textContainerId: config.textContainerId,
+      controlContainerId: config.controlContainerId,
+      imageId: config.imageId,
+      sections: config.sections,
+      transitionDuration: config.transitionDuration || 1000,
+      originalWidth: config.originalWidth || 3508
+    };
+
+    this.state = {
+      currentSectionIndex: -1,
+      isPlaying: false,
+      timeoutId: null
+    };
+
+    this.initialize();
+  }
+
+  initialize() {
+    // Get DOM elements
+    this.container = document.getElementById(this.config.storyContainerId);
+    this.textContainer = document.getElementById(this.config.textContainerId);
+    this.controlContainer = document.getElementById(this.config.controlContainerId);
+    const originalImg = document.getElementById(this.config.imageId);
+
+    if (!this.container || !this.textContainer || !this.controlContainer || !originalImg) {
+      console.error('Required elements not found');
       return;
     }
-    
-    this.currentSection = 0;
-    this.isPlaying = false;
-    this.setup();
+
+    // Create SVG wrapper
+    this.setupSVGWrapper(originalImg);
+    this.setupControls();
+    this.startStory();
   }
 
-  setup() {
-    // Container setup
-    this.container.style.position = 'relative';
-    this.container.style.overflow = 'hidden';
+  setupSVGWrapper(originalImg) {
+    // Wait for the original image to load to get its dimensions
+    if (originalImg.complete) {
+      this.createSVGWrapper(originalImg);
+    } else {
+      originalImg.onload = () => this.createSVGWrapper(originalImg);
+    }
+  }
+
+  createSVGWrapper(originalImg) {
+    const aspectRatio = originalImg.naturalHeight / originalImg.naturalWidth;
+    const svgNS = "http://www.w3.org/2000/svg";
     
-    // Image setup
-    this.image.style.transition = `transform ${this.transitionDuration}ms ease-in-out`;
-    this.image.style.width = '100%';
-    this.image.style.height = 'auto';
-    this.image.style.display = 'block';
+    // Create SVG element
+    const svg = document.createElementNS(svgNS, "svg");
+    svg.setAttribute("width", "100%");
+    svg.setAttribute("height", "auto");
+    svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
     
-    // Create overlay
-    this.overlay = document.createElement('div');
-    this.overlay.style.position = 'absolute';
-    this.overlay.style.top = '20px';
-    this.overlay.style.left = '20px';
-    this.overlay.style.right = '20px';
-    this.overlay.style.background = 'rgba(255, 255, 255, 0.9)';
-    this.overlay.style.padding = '20px';
-    this.overlay.style.borderRadius = '8px';
-    this.overlay.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
-    this.overlay.style.zIndex = '1';
-    
-    // Create controls
-    this.controls = document.createElement('div');
-    this.controls.style.position = 'absolute';
-    this.controls.style.bottom = '20px';
-    this.controls.style.left = '0';
-    this.controls.style.right = '0';
-    this.controls.style.display = 'flex';
-    this.controls.style.justifyContent = 'center';
-    this.controls.style.gap = '10px';
-    this.controls.style.zIndex = '1';
-    
-    const buttonStyles = `
-      padding: 8px 16px;
-      background: rgba(0, 0, 0, 0.8);
-      color: white;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 14px;
+    // Set initial viewBox
+    const viewBoxHeight = this.config.originalWidth * aspectRatio;
+    svg.setAttribute("viewBox", `0 0 ${this.config.originalWidth} ${viewBoxHeight}`);
+
+    // Create image element within SVG
+    const svgImage = document.createElementNS(svgNS, "image");
+    svgImage.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", originalImg.src);
+    svgImage.setAttribute("width", this.config.originalWidth);
+    svgImage.setAttribute("height", viewBoxHeight);
+    svgImage.setAttribute("x", "0");
+    svgImage.setAttribute("y", "0");
+
+    // Copy original image's usemap attribute if it exists
+    if (originalImg.getAttribute("usemap")) {
+      svgImage.setAttribute("usemap", originalImg.getAttribute("usemap"));
+    }
+
+    // Add image to SVG
+    svg.appendChild(svgImage);
+
+    // Replace original image with SVG
+    originalImg.parentNode.replaceChild(svg, originalImg);
+
+    // Store reference to SVG element
+    this.svg = svg;
+    this.svgImage = svgImage;
+    this.viewBoxHeight = viewBoxHeight;
+  }
+
+  setupControls() {
+    // Create control buttons
+    const prevButton = document.createElement('button');
+    const playPauseButton = document.createElement('button');
+    const nextButton = document.createElement('button');
+
+    prevButton.innerHTML = '⏮ Previous';
+    playPauseButton.innerHTML = '⏵ Play';
+    nextButton.innerHTML = 'Next ⏭';
+
+    // Add classes for styling
+    prevButton.className = 'story-control';
+    playPauseButton.className = 'story-control';
+    nextButton.className = 'story-control';
+
+    // Add event listeners
+    prevButton.addEventListener('click', () => this.previousSection());
+    playPauseButton.addEventListener('click', () => this.togglePlayPause());
+    nextButton.addEventListener('click', () => this.nextSection());
+
+    // Store reference to play/pause button
+    this.playPauseButton = playPauseButton;
+
+    // Add buttons to control container
+    this.controlContainer.appendChild(prevButton);
+    this.controlContainer.appendChild(playPauseButton);
+    this.controlContainer.appendChild(nextButton);
+
+    // Add basic styles
+    const style = document.createElement('style');
+    style.textContent = `
+      #${this.config.controlContainerId} {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .story-control {
+        padding: 0.5rem 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background: white;
+        cursor: pointer;
+      }
+      .story-control:hover {
+        background: #f0f0f0;
+      }
+      #${this.config.textContainerId} {
+        margin: 1rem 0;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 4px;
+      }
     `;
-    
-    this.prevButton = document.createElement('button');
-    this.prevButton.textContent = 'Previous';
-    this.prevButton.style.cssText = buttonStyles;
-    this.prevButton.onclick = () => this.prev();
-    
-    this.playButton = document.createElement('button');
-    this.playButton.textContent = 'Play';
-    this.playButton.style.cssText = buttonStyles;
-    this.playButton.onclick = () => this.togglePlay();
-    
-    this.nextButton = document.createElement('button');
-    this.nextButton.textContent = 'Next';
-    this.nextButton.style.cssText = buttonStyles;
-    this.nextButton.onclick = () => this.next();
-    
-    this.controls.appendChild(this.prevButton);
-    this.controls.appendChild(this.playButton);
-    this.controls.appendChild(this.nextButton);
-    
-    this.container.appendChild(this.overlay);
-    this.container.appendChild(this.controls);
-    
-    // Initial state
-    this.updateContent();
-    this.updateTransform();
-    
-    // Handle window resize
-    window.addEventListener('resize', () => this.updateTransform());
+    document.head.appendChild(style);
   }
 
-  updateTransform() {
-    if (this.currentSection >= this.sections.length) return;
-    
-    const viewBox = this.sections[this.currentSection].viewBox;
-    const containerRect = this.container.getBoundingClientRect();
-    const imageRect = this.image.getBoundingClientRect();
-    
-    // Calculate the scale needed to fit the viewBox in the container
-    const scaleX = containerRect.width / viewBox.width;
-    const scaleY = containerRect.height / viewBox.height;
-    const scale = Math.min(scaleX, scaleY);
-    
-    // Calculate the position to center the viewBox
-    const viewBoxCenterX = viewBox.x + (viewBox.width / 2);
-    const viewBoxCenterY = viewBox.y + (viewBox.height / 2);
-    
-    // Calculate the image's current dimensions
-    const currentImageWidth = imageRect.width;
-    const currentImageHeight = imageRect.height;
-    
-    // Calculate translations to center the viewBox
-    const translateX = -(viewBoxCenterX / this.image.naturalWidth * currentImageWidth - containerRect.width / 2);
-    const translateY = -(viewBoxCenterY / this.image.naturalHeight * currentImageHeight - containerRect.height / 2);
-    
-    // Apply the transform
-    this.image.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+  startStory() {
+    // Show full image first
+    this.showSection(-1);
+    // Start autoplay after a delay
+    setTimeout(() => {
+      this.togglePlayPause();
+    }, 1000);
   }
 
-  updateContent() {
-    if (this.currentSection < this.sections.length) {
-      this.overlay.innerHTML = this.sections[this.currentSection].content;
+  showSection(index) {
+    this.state.currentSectionIndex = index;
+
+    if (!this.svg) {
+      console.error('SVG not initialized');
+      return;
+    }
+
+    if (index === -1) {
+      // Show full image
+      this.animateViewBox({
+        x: 0,
+        y: 0,
+        width: this.config.originalWidth,
+        height: this.viewBoxHeight
+      });
+      this.textContainer.innerHTML = '<h3>Overview</h3><p>Click play to start the tour, or click on areas of interest in the image.</p>';
+    } else {
+      const section = this.config.sections[index];
+      this.animateViewBox(section.viewBox);
+      this.textContainer.innerHTML = section.content;
     }
   }
 
-  prev() {
-    if (this.currentSection > 0) {
-      this.currentSection--;
-      this.updateContent();
-      this.updateTransform();
+  animateViewBox(targetViewBox) {
+    if (!this.svg) return;
+
+    // Get current viewBox
+    const currentViewBox = this.svg.getAttribute('viewBox').split(' ').map(Number);
+
+    const startTime = performance.now();
+    const duration = this.config.transitionDuration;
+
+    const animate = (currentTime) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+
+      // Ease function (ease-in-out)
+      const eased = progress < 0.5
+        ? 2 * progress * progress
+        : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+
+      // Interpolate viewBox values
+      const currentX = currentViewBox[0] + (targetViewBox.x - currentViewBox[0]) * eased;
+      const currentY = currentViewBox[1] + (targetViewBox.y - currentViewBox[1]) * eased;
+      const currentWidth = currentViewBox[2] + (targetViewBox.width - currentViewBox[2]) * eased;
+      const currentHeight = currentViewBox[3] + (targetViewBox.height - currentViewBox[3]) * eased;
+
+      this.svg.setAttribute('viewBox', `${currentX} ${currentY} ${currentWidth} ${currentHeight}`);
+
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      }
+    };
+
+    requestAnimationFrame(animate);
+  }
+
+  nextSection() {
+    const nextIndex = this.state.currentSectionIndex + 1;
+    if (nextIndex >= this.config.sections.length) {
+      this.showSection(-1); // Loop back to full image
+    } else {
+      this.showSection(nextIndex);
     }
   }
 
-  next() {
-    if (this.currentSection < this.sections.length - 1) {
-      this.currentSection++;
-      this.updateContent();
-      this.updateTransform();
-    }
+  previousSection() {
+    const prevIndex = this.state.currentSectionIndex - 1;
+    this.showSection(prevIndex < -1 ? this.config.sections.length - 1 : prevIndex);
   }
 
-  togglePlay() {
-    this.isPlaying = !this.isPlaying;
-    this.playButton.textContent = this.isPlaying ? 'Pause' : 'Play';
-    if (this.isPlaying) {
+  togglePlayPause() {
+    this.state.isPlaying = !this.state.isPlaying;
+    this.playPauseButton.innerHTML = this.state.isPlaying ? '⏸ Pause' : '⏵ Play';
+
+    if (this.state.isPlaying) {
       this.play();
+    } else {
+      this.pause();
     }
   }
 
   play() {
-    if (!this.isPlaying) return;
-    
-    if (this.currentSection < this.sections.length - 1) {
-      setTimeout(() => {
-        this.next();
-        this.play();
-      }, this.sections[this.currentSection].duration || 5000);
-    } else {
-      this.isPlaying = false;
-      this.playButton.textContent = 'Play';
+    const nextSection = () => {
+      this.nextSection();
+      if (this.state.isPlaying) {
+        const currentSection = this.config.sections[this.state.currentSectionIndex];
+        this.state.timeoutId = setTimeout(nextSection, currentSection ? currentSection.duration : 5000);
+      }
+    };
+
+    nextSection();
+  }
+
+  pause() {
+    if (this.state.timeoutId) {
+      clearTimeout(this.state.timeoutId);
+      this.state.timeoutId = null;
     }
   }
 }
