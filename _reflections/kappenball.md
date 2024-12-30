@@ -292,11 +292,6 @@ I had hoped to include a description of the game in Chapter 6, *The Gremlins of 
     </div>
 </div>
 
-<!-- External JavaScript Files -->
-<script src="/assets/js/ballworld.js"></script>
-<script src="/assets/js/kappenball.js"></script>
-
-<!-- Inline JavaScript -->
 <script>
 // Fullscreen functionality and instructions toggle
 document.addEventListener('DOMContentLoaded', function() {
