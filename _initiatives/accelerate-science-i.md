@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
 We also interviewed Pushmeet Kohli who leads the science team at DeepMind that had recently published AlphaFold.
 
 <center>
-<img src="/assets/images/2021-11-19_accelerate-science-accelerate-science-fireside-chat-neil-pushmeet.png">
+<img src="/assets/images/2021-11-19_accelerate-science-fireside-chat-neil-pushmeet.png">
 
 <i>Summary of Fireside Chat between Pushmeet and Neil. You can find the [full video of the chat here](https://www.youtube.com/watch?v=g6lTLp65VmY).</i>
 </center>
