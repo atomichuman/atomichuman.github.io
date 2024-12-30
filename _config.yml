@@ -25,6 +25,9 @@ collections:
   images:
     output: true
     permalink: /images/:title/
+  image_maps:
+    output: true
+    permalink: /images_maps/:title/
   initiatives:
     output: true
     permalink: /initiatives/:title/
@@ -70,6 +73,10 @@ defaults:
       path: "_images"
     values:
       layout: image
+  - scope:
+      path: "_image_maps"
+    values:
+      layout: image_map
   - scope:
       path: "_initiatives"
     values:
