@@ -18,7 +18,7 @@ include_js:
 <style>
 .image-container {
   position: relative;
-  max-width: 1925px; /* original image width */
+  max-width: 3508px; /* original image width */
   overflow: hidden;
   margin: 0 auto;
 }
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
   new ResponsiveImageMap({
     imageId: 'science-maths-challenges-unworkshop-map',
     mapName: 'science-maths-challenges-unworkshop-image-map',
-    originalWidth: 1925,
+    originalWidth: 3508,
     debug: true  // Set to false in production
   });
 });
