@@ -12,13 +12,10 @@ contributor:
     date: 2024-12-30
 featured_image: /assets/images/2021-11-19_physical-world-original.jpg
 include_js: 
-- /assets/js/responsive-image-map.js
+- /assets/js/image-storyteller.js
 ---
 
 
 ### Interactive Map from the 2021 ML and the Physical World Unworkshop
-
-
-<center>Click on the relevant are of the image to find out more</center>
 
 {% include story-teller.html map_id=page.slug %}
