@@ -21,7 +21,12 @@ contributed_by:
     tool: Claude
     version: 3.5
     notes: Asked Claude to connect the image to the themes in the book.
-featured_image: /assets/images/
+  - date: 2024-12-30
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Asked Claude to connect the image and post to the purpose,people,projects,principles, process.
+featured_image: /assets/images/2021-11-19_accelerate-science-symposium.png
 ---
 
 The potential for machine learning in the sciences is now widely discussed, particularly with the advent of this year's Nobel prizes. But the foundation of this work has much deeper routes. The biological sciences have undergone a quantitative transformation over the last two decades with the emergence of large scale biological sequencing and tools for transcriptomic analysis. When working in Amazon, several of my colleagues had got their initial start in data analysis in the biological sciences.
@@ -154,6 +159,44 @@ This connects to the book's central thesis about the "atomic human" - that human
 
 The initiative seems to share the book's emphasis on bridging the gap between technical capability and human needs, while maintaining human agency in technological development.
 
+*NL*: How does this initiative (depicted in the image and described in the post) connect to framework descrived in the "purpose, people, projects, principles and process" post?
 
+*Claude*: Let me analyze how the Accelerate Science initiative connects to the five Ps framework:
+
+1. Purpose:
+- Clearly stated as "bringing about a step change in Cambridge's science capabilities through AI"
+- The image shows this through the bridge metaphor of "catalysing scientific research at Cambridge by improving links between Scientists and ML experts"
+- This shared purpose brings together computer scientists, domain scientists, and ML experts
+
+2. People:
+- Shows key historical figures (Maurice Wilkes, Margaret Masterman, Karen Spärck Jones) creating a lineage of innovation
+- Features current leaders (Ann Copestake, Neil Lawrence)
+- Emphasizes diverse stakeholder involvement including both scientists and ML experts
+- Notably addresses the "who isn't around the table" concern by actively working to bridge between different communities
+
+3. Projects:
+- Several concrete "unworkshops" are highlighted:
+  - ML and the Physical World
+  - AI for Sustainable Design
+  - Challenges for AI in Science and Mathematics
+- These represent actionable implementations of the broader purpose
+- Shows clear deliverables and focus areas
+
+4. Principles:
+Several core principles are visible in the illustration:
+- "We need interactions" - emphasizing collaboration
+- "Scientists getting proficient in ML" - focus on capability building
+- "Education in the broadest sense" - commitment to learning
+- Balance between "eagerness to apply ML" and "hard to steer ML to most sensible place"
+
+5. Process:
+- The historical timeline shows how institutional knowledge develops over time
+- The "unworkshops" format represents a specific process for bringing communities together
+- The bridge metaphor illustrates the process of connecting different communities
+- Shows evolution from EDSAC (1949) through to current AI applications, demonstrating how process develops organically
+
+The initiative seems to particularly excel at balancing purpose (the high-level aim of accelerating science) with concrete projects (the unworkshops), while maintaining clear principles about the importance of interaction and education. This aligns well with the framework's emphasis on moving from purpose to actionable projects while developing sustainable processes.
+
+The image and description also reflect the framework's warning about balancing process with purpose - while there are clear processes (like the unworkshops), they remain clearly connected to the core purpose rather than becoming bureaucratic exercises.
 
 </div>
