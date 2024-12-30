@@ -11,6 +11,16 @@ contributed_by:
     type: human
     person_id: Neil D. Lawrence
     notes: First stub of post.
+  reviewed_by:
+  - date: 2024-12-30
+    type: human
+    person_id: Neil D. Lawrence
+    notes: Write post draft.
+  - date: 2024-12-30
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Asked Claude to connect the image to the themes in the book.
 featured_image: /assets/images/
 ---
 
@@ -62,6 +72,8 @@ The aim was to bring about a step change in the sciences through AI. Our approac
     <area target="_blank" alt="AI for Sustainable Design Unworkshop" title="AI for Sustainable Design Unworkshop" href="/archive/unworkshop-ai-for-sustainable-design/" coords="1489,857,1547,864,1552,829,1897,834,1898,859,1960,864,1946,1182,1517,1122,1492,1129,1462,1124,1441,1080,1425,1050,1455,1000,1443,997,1473,979" shape="poly">
     <area target="_blank" alt="Challenges for AI in Science and Mathematics" title="Challenges for AI in Science and Mathematics" href="/archive/unworkshop-challenges-for-ai-in-science-and-mathematics/" coords="1625,385,1916,387,1914,428,1946,438,1936,744,1950,797,1875,825,1771,825,1695,806,1621,807,1591,825,1566,823,1559,800,1545,802,1575,438,1621,435" shape="poly">
     <area target="_blank" alt="Bridging from Domain Experts to AI Capability" title="Bridging from Domain Experts to AI Capability" href="/reflections/bridging-from-domain-experts-to-ai-capability/" coords="716,1263,738,1221,955,1143,1169,1163,1277,1209,1303,1242,1305,1272,1391,1316,1446,1313,1511,1318,1572,1316,1619,1306,1639,1255,1619,1193,1534,1168,1487,1147,1269,1057,1107,1043,861,1044,686,1081,577,1110,534,1103,460,1113,432,1150,423,1187,450,1239,492,1258,494,1302,557,1322,637,1313,692,1295" shape="poly">
+   <area target="_blank" alt="Scribey Sense" title="Scribey Sense" href="https://scribeysense.com" coords="1755,1385,1909,1387,1934,1380,1934,1331,1893,1315,1860,1304,1769,1302,1754,1338" shape="poly">
+
 </map>
 </div>
 
@@ -110,10 +122,32 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ## Machine Commentary
 
-*NL*: I'd like you to provide a "Machine Commentary" on how the initiative fits with the ideas in *The Atomic Human* and how its approach informed the ideas in the book.
+*NL*: This is a graphical summary of the Accelerate Science Summit 2021. 
 
+Can you connect themes in the initiative to themes in the book? Don't force the issue, only connect things where there's a relationship.
 
-*NL*: Can you provide further machine commentary on how DSA is fitting with the approach [described in this post](/reflections/purpose-people-projects-principles-process/)?
+*Claude*: Looking at the image and the book's themes, there are several clear connections:
+
+1. "ML & The Physical World" - Eagerness vs Reality
+This connects directly to Chapter 6 ("The Gremlin of Uncertainty") where the book discusses the gap between theoretical models and practical reality, particularly in weather prediction and other physical systems. The book emphasizes how even perfect knowledge doesn't guarantee perfect prediction.
+
+2. "Too Much for Humans to Interpret"
+This aligns with the book's recurring theme of human bandwidth limitations, introduced in Chapter 1 and developed throughout. The book uses Bauby's "diving bell" analogy to explain how humans have severe communication and processing limitations compared to machines.
+
+3. "Bringing Together Education & Research"
+This connects to the epilogue's discussion of universities as "honest brokers" in AI development, particularly through initiatives like ai@cam at Cambridge. The book argues for the importance of combining different types of expertise.
+
+4. "Usable Tech" and "Scientists Getting Proficient in ML"
+This relates to Chapter 11's discussion of Human-Analogue Machines (HAMs) as interfaces between humans and complex systems, and the book's broader argument that technology should augment rather than replace human intelligence.
+
+5. Historical Context
+The timeline starting with EDSAC in 1949 connects directly to Chapter 5's discussion of technological revolutions, drawing parallels between the printing press and computer revolutions in how they transform society.
+
+6. "We Need Interactions"
+This connects to the book's central thesis about the "atomic human" - that human intelligence is fundamentally social and interactive, a theme developed particularly in Chapters 7-9.
+
+The initiative seems to share the book's emphasis on bridging the gap between technical capability and human needs, while maintaining human agency in technological development.
+
 
 
 </div>
