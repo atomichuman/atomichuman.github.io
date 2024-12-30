@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
   
   const storyteller = new ImageStoryteller(container, {
-    imageSrc: '/assets/images/accelerate-science-symposium-2021.png',
+    imageSrc: '/assets/images/2021-11-19_challenges-in-science-and-maths-original.jpg',
     sections: sections,
     transitionDuration: 1000
   });
