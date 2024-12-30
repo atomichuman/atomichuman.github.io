@@ -11,6 +11,8 @@ contributor:
     notes: Original blog post
     date: 2024-12-30
 featured_image: /assets/images/2021-11-19_challenges-in-science-and-maths-original.jpg
+include_js: 
+- /assets/js/responsive-image-map.js
 ---
 
 <style>
