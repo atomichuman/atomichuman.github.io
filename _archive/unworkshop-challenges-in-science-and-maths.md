@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
     imageId: 'science-maths-challenges-unworkshop-map',
     mapName: 'science-maths-challenges-unworkshop-image-map',
     originalWidth: 3508,
-    debug: true  // Set to false in production
+    debug: false  // Set to false in production
   });
 });
 </script>
