@@ -13,7 +13,6 @@ featured_image: /assets/images/kappenball.png
 include_js:
 - /assets/js/ballworld.js
 - /assets/js/kappenball.js
-
 ---
 
 <!-- style for kappenball canvas-->
@@ -291,6 +290,9 @@ I had hoped to include a description of the game in Chapter 6, *The Gremlins of 
 
     </div>
 </div>
+
+<script src="/assets/js/ballworld.js"></script>
+<script src="/assets/js/kappenball.js"></script>
 
 <script>
 // Fullscreen functionality and instructions toggle
