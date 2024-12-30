@@ -67,89 +67,73 @@ story_sections:
       * Optimizing data flow from real experiments to simulations
     textPosition: bottom
     duration: 8000
-  - id: marie-synakewicz-1
+story_sections:
+  - id: frame-1735601179440
     viewBox:
-      x: 680
-      y: 550
-      width: 800
-      height: 450
+      x: 83
+      y: 564
+      width: 681
+      height: 392
     content: |
-      ### Investigating Biochemical Interactions
       
-      Dr. Marie Synakewicz, a Post-Doctoral Researcher at the University of Zurich, focuses on understanding how highly-charged proteins interact. Her main research investigates:
-      * Understanding weak, underlying factors in protein reactions
-      * Seeing how charge affects force
-      * Optimizing data flow from real experiments to simulations
     textPosition: bottom
     duration: 8000
-  - id: marie-synakewicz-2
+  - id: frame-1735601189668
     viewBox:
-      x: 1300
-      y: 550
-      width: 800
+      x: 783
+      y: 528
+      width: 576
       height: 450
     content: |
-      ### Investigating Biochemical Interactions
       
-      Dr. Marie Synakewicz, a Post-Doctoral Researcher at the University of Zurich, focuses on understanding how highly-charged proteins interact. Her main research investigates:
-      * Understanding weak, underlying factors in protein reactions
-      * Seeing how charge affects force
-      * Optimizing data flow from real experiments to simulations
     textPosition: bottom
     duration: 8000
-  - id: marie-synakewicz-3
+  - id: frame-1735601201579
     viewBox:
-      x: 1700
-      y: 550
-      width: 1300
-      height: 450
+      x: 1373
+      y: 522
+      width: 527
+      height: 431
     content: |
-      ### Investigating Biochemical Interactions
       
-      Dr. Marie Synakewicz, a Post-Doctoral Researcher at the University of Zurich, focuses on understanding how highly-charged proteins interact. Her main research investigates:
-      * Understanding weak, underlying factors in protein reactions
-      * Seeing how charge affects force
-      * Optimizing data flow from real experiments to simulations
     textPosition: bottom
     duration: 8000
-  - id: marie-synakewicz-4
+  - id: frame-1735601224561
     viewBox:
-      x: 2800
-      y: 550
-      width: 700
-      height: 450
+      x: 1829
+      y: 515
+      width: 351
+      height: 447
     content: |
-      ### Investigating Biochemical Interactions
       
-      Dr. Marie Synakewicz, a Post-Doctoral Researcher at the University of Zurich, focuses on understanding how highly-charged proteins interact. Her main research investigates:
-      * Understanding weak, underlying factors in protein reactions
-      * Seeing how charge affects force
-      * Optimizing data flow from real experiments to simulations
     textPosition: bottom
     duration: 8000
-
-  - id: diana-robinson
+  - id: frame-1735601250697
     viewBox:
-      x: 100
-      y: 1000
-      width: 800
-      height: 450
+      x: 2145
+      y: 504
+      width: 844
+      height: 466
     content: |
-      ### Clinical Decision Support Tools
       
-      Diana Robinson, PhD candidate in Computer Science and Technology, works on:
-      * Decision-making under uncertainty in medicine
-      * Tools to augment clinical reasoning
-      * Developing systems that support rather than replace human expertise
-      * Building fair clinical models with context-aware AI
     textPosition: bottom
     duration: 8000
-  - id: diana-robinson-1
+  - id: frame-1735601268311
     viewBox:
-      x: 680
-      y: 1000
-      width: 800
-      height: 450
+      x: 2965
+      y: 504
+      width: 382
+      height: 438
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601277021
+    viewBox:
+      x: 89
+      y: 980
+      width: 665
+      height: 369
     content: |
       ### Clinical Decision Support Tools
       
@@ -157,16 +141,75 @@ story_sections:
       * Decision-making under uncertainty in medicine
       * Tools to augment clinical reasoning
       * Developing systems that support rather than replace human expertise
-      * Building fair clinical models with context-aware AI
+      * Building fair clinical models with context-aware AI      
     textPosition: bottom
     duration: 8000
-
-  - id: martin-rogers
+  - id: frame-1735601284805
     viewBox:
-      x: 100
-      y: 1350
-      width: 800
-      height: 450
+      x: 768
+      y: 982
+      width: 307
+      height: 349
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601302968
+    viewBox:
+      x: 1050
+      y: 984
+      width: 290
+      height: 347
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601315549
+    viewBox:
+      x: 1361
+      y: 960
+      width: 621
+      height: 372
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601332321
+    viewBox:
+      x: 1962
+      y: 991
+      width: 749
+      height: 356
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601340625
+    viewBox:
+      x: 2676
+      y: 975
+      width: 475
+      height: 366
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601348784
+    viewBox:
+      x: 2980
+      y: 909
+      width: 429
+      height: 427
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601360360
+    viewBox:
+      x: 88
+      y: 1362
+      width: 675
+      height: 381
     content: |
       ### Machine Learning in Geosciences
       
@@ -175,15 +218,75 @@ story_sections:
       * Applying satellite imagery analysis to Antarctic research
       * Remote sensing data analysis
       * Volume, velocity, and harmonized data re-analysis
+      
     textPosition: bottom
     duration: 8000
-
-  - id: harry-blakiston
+  - id: frame-1735601375131
     viewBox:
-      x: 100
-      y: 1700
-      width: 800
-      height: 450
+      x: 768
+      y: 1338
+      width: 282
+      height: 382
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601393157
+    viewBox:
+      x: 1034
+      y: 1333
+      width: 290
+      height: 377
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601414817
+    viewBox:
+      x: 1345
+      y: 1341
+      width: 749
+      height: 398
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601423086
+    viewBox:
+      x: 2103
+      y: 1345
+      width: 333
+      height: 393
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601431445
+    viewBox:
+      x: 2426
+      y: 1350
+      width: 243
+      height: 386
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601450239
+    viewBox:
+      x: 2669
+      y: 1343
+      width: 747
+      height: 390
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601460857
+    viewBox:
+      x: 95
+      y: 1754
+      width: 679
+      height: 358
     content: |
       ### ML and the Physical World
       
@@ -192,9 +295,71 @@ story_sections:
       * Genomic breeding programs optimization
       * Data-driven modeling for agricultural systems
       * Identifying areas where ML and physics can complement each other
+      
     textPosition: bottom
     duration: 8000
-
+  - id: frame-1735601472801
+    viewBox:
+      x: 791
+      y: 1746
+      width: 248
+      height: 371
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601482125
+    viewBox:
+      x: 1021
+      y: 1732
+      width: 307
+      height: 391
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601495554
+    viewBox:
+      x: 1362
+      y: 1749
+      width: 450
+      height: 350
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601503745
+    viewBox:
+      x: 1848
+      y: 1758
+      width: 608
+      height: 337
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601510837
+    viewBox:
+      x: 2467
+      y: 1749
+      width: 584
+      height: 344
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+  - id: frame-1735601521023
+    viewBox:
+      x: 3046
+      y: 1738
+      width: 371
+      height: 358
+    content: |
+      
+    textPosition: bottom
+    duration: 8000
+    textPosition: bottom
+    duration: 8000
   - id: discussion-leads
     viewBox:
       x: 1600

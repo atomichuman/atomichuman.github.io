@@ -69,100 +69,346 @@ areas:
     coords: "3107,2327,3454,2342,3463,2460,3125,2451"
     shape: poly
 
+
 story_sections:
-  - id: antiopi-koronaki
+  # Dr. Antiopi Koronaki's Column
+  - id: frame-1735598943265
     viewBox:
-      x: 50
-      y: 400
-      width: 800
-      height: 450
+      x: 34
+      y: 433
+      width: 747
+      height: 325
     content: |
-      ### Computational Design & Sustainability in Buildings
+      ### Computational Design & Building Complexity
       
-      Dr. Antiopi Koronaki's research focuses on reducing complexity in building design:
-      * Developing ML algorithms to speed up construction
-      * Reducing the number of joint types in freeform space structures by 15%
-      * Building joint datasets and clustering algorithms
-      * Optimizing construction through computational design
+      AI algorithms can reduce complexity in building construction through smart joint analysis...
     textPosition: bottom
     duration: 8000
 
-  - id: ana-gatoo
+  - id: frame-1735599035112
     viewBox:
-      x: 800
-      y: 400
-      width: 800
-      height: 450
+      x: 53
+      y: 625
+      width: 722
+      height: 490
     content: |
-      ### Unfolding Structures Using AI
+      ### From Complex to Simple
       
-      Ms. Ana Gatoo investigates sustainable construction materials:
-      * Addressing concrete's 8% contribution to global emissions
-      * Exploring alternative materials and rigid panel design
-      * Developing human-machine collaboration approaches
-      * Using AI to determine optimal geometries for construction
+      AI algorithms can reduce complexity in building construction through smart joint analysis and ML optimization, reducing joint types...
     textPosition: bottom
     duration: 8000
 
-  - id: darshil-shah
+  - id: frame-1735599343673
     viewBox:
-      x: 1450
-      y: 400
-      width: 800
-      height: 450
+      x: 53
+      y: 1136
+      width: 740
+      height: 332
     content: |
-      ### AI and Innovation in Biomaterial Design
+      ### Building Joint Analysis
       
-      Dr. Darshil Shah works on sustainable materials:
-      * Designing intelligent biomaterials through chemistry
-      * Using AI to accelerate material selection and synthesis
-      * Developing testing and diagnostic models
-      * Implementing circular design principles for material reuse
+      AI algorithms can reduce complexity in building construction through smart joint analysis and ML optimization, reducing joint types, while building comprehensive datasets for future improvements...
     textPosition: bottom
     duration: 8000
 
-  - id: ramit-debnath
+  - id: frame-1735599405898
     viewBox:
-      x: 2100
-      y: 400
-      width: 800
-      height: 450
+      x: 54
+      y: 1445
+      width: 723
+      height: 373
     content: |
-      ### AI for Sustainable Public Policy Design
+      ### Construction Optimization
       
-      Dr. Ramit Debnath studies smart city planning:
-      * Preparing AI frameworks for smart cities
-      * Including vulnerable groups in urban planning
-      * Integrating social justice into policy design
-      * Estimating solar potential through city-scale simulation
+      AI algorithms can reduce complexity in building construction through smart joint analysis and ML optimization, reducing joint types, building comprehensive datasets, and achieving 15% efficiency gains...
     textPosition: bottom
     duration: 8000
 
-  - id: amelia-jabry
+  - id: frame-1735599426628
     viewBox:
-      x: 2750
-      y: 400
-      width: 800
-      height: 450
+      x: 52
+      y: 1797
+      width: 743
+      height: 350
     content: |
-      ### Tracking Climate Change Through Social Networks
+      ### Future of Building Design
       
-      Ms. Amelia Jabry examines social aspects of climate change:
-      * Analyzing climate change perceptions through networked intelligence
-      * Studying social media promotion of climate awareness
-      * Investigating algorithmic behavior change
-      * Visualizing environmental influences through network analysis
+      AI algorithms can reduce complexity in building construction through smart joint analysis and ML optimization, reducing joint types, building comprehensive datasets, achieving 15% efficiency gains, and revolutionizing sustainable construction practices. #AIConstruction #Sustainability
     textPosition: bottom
     duration: 8000
 
-  - id: scribey-sense
+  # Ms. Ana Gatoo's Column
+  - id: frame-1735599471269
     viewBox:
-      x: 3100
-      y: 2300
+      x: 787
+      y: 430
+      width: 662
+      height: 249
+    content: |
+      ### Sustainable Construction Solutions
+      
+      Tackling concrete's 8% global emissions through AI-driven material innovation...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599511470
+    viewBox:
+      x: 792
+      y: 633
+      width: 662
+      height: 238
+    content: |
+      ### Human-Machine Collaboration
+      
+      Tackling concrete's 8% global emissions through AI-driven material innovation and human-machine collaborative design processes...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599521144
+    viewBox:
+      x: 793
+      y: 822
+      width: 657
+      height: 242
+    content: |
+      ### Material Innovation Process
+      
+      Tackling concrete's 8% global emissions through AI-driven material innovation, human-machine collaborative design, and sustainable rigid panel development...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599534221
+    viewBox:
+      x: 786
+      y: 996
+      width: 674
+      height: 337
+    content: |
+      ### Advanced Material Testing
+      
+      Tackling concrete's 8% global emissions through AI-driven material innovation, human-machine collaborative design, sustainable rigid panel development, and rigorous environmental testing...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599574413
+    viewBox:
+      x: 788
+      y: 1316
+      width: 668
+      height: 802
+    content: |
+      ### Sustainable Material Implementation
+      
+      Tackling concrete's 8% global emissions through AI-driven material innovation, human-machine collaborative design, sustainable rigid panel development, rigorous environmental testing, and real-world implementation strategies. #SustainableConstruction #MaterialInnovation
+    textPosition: bottom
+    duration: 8000
+
+  # Dr. Darshil Shah's Column
+  - id: frame-1735599596866
+    viewBox:
+      x: 1462
+      y: 433
+      width: 635
+      height: 204
+    content: |
+      ### Biomaterial Innovation
+      
+      Using AI to accelerate sustainable material development through intelligent design...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599604202
+    viewBox:
+      x: 1455
+      y: 623
+      width: 648
+      height: 181
+    content: |
+      ### Chemical Innovation
+      
+      Using AI to accelerate sustainable material development through intelligent design and chemical synthesis optimization...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599613869
+    viewBox:
+      x: 1461
+      y: 804
+      width: 643
+      height: 411
+    content: |
+      ### Testing and Implementation
+      
+      Using AI to accelerate sustainable material development through intelligent design, chemical synthesis optimization, and advanced testing protocols...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599628155
+    viewBox:
+      x: 1464
+      y: 1218
+      width: 638
+      height: 895
+    content: |
+      ### Circular Design Implementation
+      
+      Using AI to accelerate sustainable material development through intelligent design, chemical synthesis optimization, advanced testing protocols, and circular economy principles. #Biomaterials #CircularEconomy
+    textPosition: bottom
+    duration: 8000
+
+  # Dr. Ramit Debnath's Column
+  - id: frame-1735599638227
+    viewBox:
+      x: 2108
+      y: 436
+      width: 626
+      height: 241
+    content: |
+      ### Smart Cities and AI
+      
+      Developing AI frameworks for sustainable and socially inclusive smart cities...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599656322
+    viewBox:
+      x: 2111
+      y: 682
+      width: 620
+      height: 344
+    content: |
+      ### Social Justice in Urban Planning
+      
+      Developing AI frameworks for sustainable and socially inclusive smart cities, focusing on vulnerable communities...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599662847
+    viewBox:
+      x: 2117
+      y: 1033
+      width: 621
+      height: 294
+    content: |
+      ### Urban Heat Analysis
+      
+      Developing AI frameworks for sustainable and socially inclusive smart cities, focusing on vulnerable communities and urban heat management...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599671770
+    viewBox:
+      x: 2112
+      y: 1333
+      width: 637
+      height: 511
+    content: |
+      ### Smart City Implementation
+      
+      Developing AI frameworks for sustainable and socially inclusive smart cities, focusing on vulnerable communities, urban heat management, and energy optimization...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599685735
+    viewBox:
+      x: 2114
+      y: 1849
+      width: 627
+      height: 257
+    content: |
+      ### Future Urban Planning
+      
+      Developing AI frameworks for sustainable and socially inclusive smart cities, focusing on vulnerable communities, urban heat management, energy optimization, and equitable future planning. #SmartCities #SocialJustice
+    textPosition: bottom
+    duration: 8000
+
+  # Ms. Amelia Jabry's Column
+  - id: frame-1735599694795
+    viewBox:
+      x: 2758
+      y: 460
+      width: 644
+      height: 309
+    content: |
+      ### Climate Change and Social Networks
+      
+      Understanding climate change through the lens of networked intelligence...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599700147
+    viewBox:
+      x: 2758
+      y: 774
+      width: 650
+      height: 293
+    content: |
+      ### Social Media and Climate Awareness
+      
+      Understanding climate change through networked intelligence and social media analysis...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599705711
+    viewBox:
+      x: 2745
+      y: 1018
+      width: 664
+      height: 289
+    content: |
+      ### Behavioral Change Analysis
+      
+      Understanding climate change through networked intelligence, social media analysis, and behavioral pattern recognition...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599711761
+    viewBox:
+      x: 2741
+      y: 1300
+      width: 666
+      height: 242
+    content: |
+      ### Network Analysis Methods
+      
+      Understanding climate change through networked intelligence, social media analysis, behavioral patterns, and influence mapping...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599719390
+    viewBox:
+      x: 2761
+      y: 1526
+      width: 662
+      height: 281
+    content: |
+      ### Environmental Influence Networks
+      
+      Understanding climate change through networked intelligence, social media analysis, behavioral patterns, influence mapping, and communication pathways...
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-1735599725414
+    viewBox:
+      x: 2762
+      y: 1792
+      width: 659
+      height: 319
+    content: |
+      ### Future of Climate Communication
+      
+      Understanding climate change through networked intelligence, social media analysis, behavioral patterns, influence mapping, communication pathways, and predictive modeling for environmental action. #ClimateChange #NetworkedIntelligence
+    textPosition: bottom
+    duration: 8000
+
+  - id: frame-scribeysense
+    viewBox:
+      x: 3107
+      y: 2327
       width: 400
       height: 200
     content: |
-      ### Visualised by
+      ### Visualized by
       
       Visual notes captured by Scribey Sense
     textPosition: bottom
