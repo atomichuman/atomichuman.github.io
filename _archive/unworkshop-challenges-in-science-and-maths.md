@@ -78,30 +78,24 @@ document.addEventListener('DOMContentLoaded', function() {
     {
       id: 'yang-hui-he',
       viewBox: { x: 150, y: 450, width: 800, height: 300 },
-      content: `<h3 class="text-xl font-bold mb-2">String Theory and Machine Learning</h3>
-                <p>Professor Yang-Hui He discusses the intersection of string theory and machine learning,
-                exploring how AI can help unlock mathematical patterns in theoretical physics.</p>`,
+      content: `<h3>String Theory and Machine Learning</h3>
+                <p>Professor Yang-Hui He's work bridges the gap between string theory
+                and machine learning, exploring how AI can help uncover mathematical patterns
+                in theoretical physics.</p>`,
       duration: 8000
     },
     {
       id: 'virginie-uhlmann',
-      viewBox: { x: 1800, y: 450, width: 900, height: 300 },
-      content: `<h3 class="text-xl font-bold mb-2">Biology Meets Computer Vision</h3>
-                <p>Dr. Virginie Uhlmann presents on the application of computer vision techniques
-                to biological imaging, demonstrating how AI can enhance our understanding of cellular structures.</p>`,
-      duration: 8000
-    },
-    {
-      id: 'overview',
-      viewBox: { x: 0, y: 0, width: 3508, height: 2000 },
-      content: `<h3 class="text-xl font-bold mb-2">Workshop Overview</h3>
-                <p>The Challenges in Science and Maths workshop brought together researchers from various disciplines
-                to explore how AI and machine learning are transforming scientific research.</p>`,
+      viewBox: { x: 1800, y: 450, width: 900, height: 350 },
+      content: `<h3>Biology Meets Computer Vision</h3>
+                <p>Dr. Virginie Uhlmann's research combines computer vision and 
+                machine learning techniques to analyze biological imagery and understand
+                complex cellular processes.</p>`,
       duration: 8000
     }
   ];
   
-  const storyteller = new ImageStoryteller(container, {
+  new ImageStoryteller(container, {
     imageSrc: '/assets/images/2021-11-19_challenges-in-science-and-maths-original.jpg',
     sections: sections,
     transitionDuration: 1000
