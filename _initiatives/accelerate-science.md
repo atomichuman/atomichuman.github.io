@@ -26,10 +26,19 @@ contributed_by:
     tool: Claude
     version: 3.5
     notes: Asked Claude to connect the image and post to the purpose,people,projects,principles, process.
+  - date: 2024-12-30
+    type: machine
+    tool: Claude
+    version: 3.5
+    notes: Proof read from Claude.
+  - date: 2024-12-30
+    type: human
+    person_id: Neil D. Lawrence
+    notes: Fixes made from proof read suggestions.
 featured_image: /assets/images/2021-11-19_accelerate-science-symposium.png
 ---
 
-The potential for machine learning in the sciences is now widely discussed, particularly with the advent of this year's Nobel prizes. But the foundation of this work has much deeper rootes. The biological sciences have undergone a quantitative transformation over the last two decades with the emergence of large scale biological sequencing and tools for transcriptomic analysis. 
+The potential for machine learning in the sciences is now widely discussed, especially in the light of this year's Nobel prizes. But the foundation of this work has much deeper roots. The biological sciences have undergone a quantitative transformation over the last two decades with the emergence of large scale biological sequencing and tools for transcriptomic analysis. 
 
 In 2019 when I moved from Amazon back to academia, I accepted a position at the University of Cambridge and a Senior AI Fellowship from the Alan Turing Institute. I was also asked if I would lead a new Schmidt Sciences funded initiative, "Accelerate Science".
 
@@ -54,7 +63,7 @@ Our first summit summarised the approaches when Ann Copestake (who as Head of De
 
 ### Interactive Map from the 2021 Accelerate Science Summit
 
-<center>Click on the relevant are of the image to find out more about a concept or unworkshop!</center>
+<center>Click on the relevant area of the image to find out more about a concept or unworkshop!</center>
 
 <div class="image-container">
 
@@ -122,12 +131,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 The *purpose* of Accelerate Science was already provided, a step change in Science at the University of Cambridge, alongside our summit and the unworkshops we built a programme of educational activities to enable that step change. Just like Data Science Africa we made sure that the community was built on *people* and their *projects*. The 2021's summit showcased some projects, but Accelerate Science also [funds projects at the interface of AI and science](https://science.ai.cam.ac.uk/news/2024-05-20-accelerate-c2d3-funding-call-for-novel-applications-of-ai-for-research-and-innovation-2024.html), organises ['AI cafés'](https://science.ai.cam.ac.uk/events/ai-café-large-language-models.html) and builds capabilities through [workshops, courses and tutorials](https://docs.science.ai.cam.ac.uk/training/). Our focus on the interface is represented by the bridge shown in the image. 
 
-The spectrum of projects in AI for Science goes all the way from supporting a PhD or Masters student with our Machine Learning Clinics to the Nobel Prizes. We  interviewed Pushmeet Kohli who leads the science team at DeepMind that had recently published AlphaFold that went on to win this year's prize in chemistry.
+The spectrum of projects in AI for Science goes all the way from supporting a PhD or Masters student with our Machine Learning Clinics to the Nobel Prizes. We  interviewed Pushmeet Kohli who leads the science team at DeepMind that had recently published AlphaFold that went on to win this year's prize in chemistry. You can find the [full video of the chat here](https://www.youtube.com/watch?v=g6lTLp65VmY).
 
 <center>
 <img src="/assets/images/2021-11-19_accelerate-science-fireside-chat-neil-pushmeet.png">
 
-<i>Summary of Fireside Chat between Pushmeet and Neil. You can find the [full video of the chat here](https://www.youtube.com/watch?v=g6lTLp65VmY).</i>
+<i>Summary of Fireside Chat between Pushmeet and Neil.</i>
 </center>
 
 
