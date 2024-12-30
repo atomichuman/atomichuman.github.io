@@ -1,3 +1,4 @@
+
 class ImageStoryteller {
   constructor(config) {
     this.config = {

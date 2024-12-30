@@ -73,7 +73,27 @@ document.addEventListener('DOMContentLoaded', function() {
     sections: [
       {
         id: 'yang-hui-he',
-        viewBox: { x: 100, y: 500, width: 1600, height: 520 },
+        viewBox: { x: 0, y: 500, width: 1800, height: 520 },
+        content: `<h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-weight: bold;">String Theory and Machine Learning</h3>
+                  <p>Professor Yang-Hui He's work bridges the gap between string theory
+                  and machine learning, exploring how AI can help uncover mathematical patterns
+                  in theoretical physics.</p>`,
+	    textPosition: 'bottom',
+        duration: 8000
+      },
+      {
+        id: 'yang-hui-he-1',
+        viewBox: { x: 0, y: 1050, width: 1800, height: 520 },
+        content: `<h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-weight: bold;">String Theory and Machine Learning</h3>
+                  <p>Professor Yang-Hui He's work bridges the gap between string theory
+                  and machine learning, exploring how AI can help uncover mathematical patterns
+                  in theoretical physics.</p>`,
+	    textPosition: 'bottom',
+        duration: 8000
+      },
+      {
+        id: 'yang-hui-he-2',
+        viewBox: { x: 0, y: 1600, width: 1800, height: 520 },
         content: `<h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-weight: bold;">String Theory and Machine Learning</h3>
                   <p>Professor Yang-Hui He's work bridges the gap between string theory
                   and machine learning, exploring how AI can help uncover mathematical patterns
@@ -83,14 +103,44 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         id: 'virginie-uhlmann',
-        viewBox: { x: 1750, y: 500, width: 1600, height: 520 },
+        viewBox: { x: 1650, y: 500, width: 1800, height: 520 },
         content: `<h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-weight: bold;">Biology Meets Computer Vision</h3>
                   <p>Dr. Virginie Uhlmann's research combines computer vision and 
                   machine learning techniques to analyze biological imagery and understand
                   complex cellular processes.</p>`,
 	    textPosition: 'bottom',
         duration: 8000
-      }
+      },
+      {
+        id: 'virginie-uhlmann-1',
+        viewBox: { x: 1650, y: 1050, width: 1800, height: 520 },
+        content: `<h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-weight: bold;">Biology Meets Computer Vision</h3>
+                  <p>Dr. Virginie Uhlmann's research combines computer vision and 
+                  machine learning techniques to analyze biological imagery and understand
+                  complex cellular processes.</p>`,
+	    textPosition: 'bottom',
+        duration: 8000
+      },
+      {
+        id: 'virginie-uhlmann-2',
+        viewBox: { x: 1650, y: 1600, width: 1800, height: 520 },
+        content: `<h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-weight: bold;">Biology Meets Computer Vision</h3>
+                  <p>Dr. Virginie Uhlmann's research combines computer vision and 
+                  machine learning techniques to analyze biological imagery and understand
+                  complex cellular processes.</p>`,
+	    textPosition: 'bottom',
+        duration: 8000
+      },
+      {
+        id: 'scribey-sense',
+        viewBox: { x: 3150, y: 2300, width: 400, height: 200 },
+        content: `<h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-weight: bold;">Visualised by ...</h3>
+                  <p> ... Scribey Sense</p>`,
+	    textPosition: 'bottom',
+        duration: 8000
+      },
+	  
+	  
     ],
     transitionDuration: 1000,
 	originalWidth: 3508
