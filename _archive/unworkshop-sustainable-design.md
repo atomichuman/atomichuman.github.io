@@ -1,9 +1,9 @@
 ---
-title: "Unworkshop: Challenges in Science and Maths"
+title: "Unworkshop: Sustainable Design"
 date: 2021-11-19
 toggle_machine_commentary: true
 description: |
-  On November 11th 2021 we had our first Accelerate Science summit. Alongside keynotes we had unworkshops on different topics. In a discussion about the interaction between machine learning and the physical world, we heard about applications of AI to analyse climate data, agricultural data, clinical data, and biochemical data, with a focus on the challenges that affect practitioners across a range of disciplines and sectors. Steering AI-enabled analysis using insights from domain experts is central to the success of these projects; such insights help define relevant research questions and interrogate the outputs from AI systems. In the process, AI experts play an important role in guiding expectations about what AI can (and can’t) do, and in creating mechanisms for testing and validating the effectiveness of AI systems.
+  On November 11th 2021 we had our first Accelerate Science summit. Alongside keynotes we had unworkshops on different topics. In a session on sustainability, we heard how AI can be used to support the design of complex building structures with a lower environmental footprint, the creation of novel biomaterials that can be used in sustainable construction, and the development of more effective policy interventions to encourage low-carbon behaviours.
 contributor:
   initial:
     type: human
@@ -28,7 +28,7 @@ featured_image: /assets/images/2021-11-19_sustainable-design-original.jpg
 }
 </style>
 
-### Interactive Map from the 2021 Challenges in Science and Maths Unworkshop
+### Interactive Map from the 2021 Sustainable Design Unworkshop
 
 
 <center>Click on the relevant are of the image to find out more</center>
