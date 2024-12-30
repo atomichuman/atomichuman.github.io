@@ -7,7 +7,7 @@ image:
   path: /assets/images/2021-11-19_sustainable-design-original.jpg
   width: 3508
   height: 2471
-
+transition_duration: 500
 areas:
   - title: Antiopi Koronaki
     alt: Antiopi Koronaki
@@ -80,7 +80,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599035112
     viewBox:
       x: 53
@@ -90,7 +90,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599343673
     viewBox:
       x: 53
@@ -100,7 +100,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599405898
     viewBox:
       x: 54
@@ -110,7 +110,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599426628
     viewBox:
       x: 52
@@ -120,7 +120,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599471269
     viewBox:
       x: 787
@@ -130,7 +130,7 @@ story_sections:
     content: |
       ### Ms Ana Gatoo
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599511470
     viewBox:
       x: 792
@@ -140,7 +140,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599521144
     viewBox:
       x: 793
@@ -150,7 +150,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599534221
     viewBox:
       x: 786
@@ -160,7 +160,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599574413
     viewBox:
       x: 788
@@ -170,7 +170,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599596866
     viewBox:
       x: 1462
@@ -180,7 +180,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599604202
     viewBox:
       x: 1455
@@ -190,7 +190,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599613869
     viewBox:
       x: 1461
@@ -200,7 +200,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599628155
     viewBox:
       x: 1464
@@ -210,7 +210,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599638227
     viewBox:
       x: 2108
@@ -220,7 +220,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599656322
     viewBox:
       x: 2111
@@ -230,7 +230,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599662847
     viewBox:
       x: 2117
@@ -240,7 +240,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599671770
     viewBox:
       x: 2112
@@ -250,7 +250,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599685735
     viewBox:
       x: 2114
@@ -260,7 +260,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599694795
     viewBox:
       x: 2758
@@ -270,7 +270,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599700147
     viewBox:
       x: 2758
@@ -280,7 +280,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599705711
     viewBox:
       x: 2745
@@ -290,7 +290,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599711761
     viewBox:
       x: 2741
@@ -300,7 +300,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599719390
     viewBox:
       x: 2761
@@ -310,7 +310,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735599725414
     viewBox:
       x: 2762
@@ -320,7 +320,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
 
   - id: frame-scribeysense
     viewBox:

@@ -3,6 +3,7 @@ title: Unworkshop on ML and the Physical World 2021
 date: 2021-11-19
 include_js:
 - /assets/js/image-storyteller.js
+transition_duration: 500
 image:
   path: /assets/images/2021-11-19_physical-world-original.jpg
   width: 3508
@@ -66,7 +67,7 @@ story_sections:
       * Seeing how charge affects force
       * Optimizing data flow from real experiments to simulations
     textPosition: bottom
-    duration: 8000
+    duration: 4000
 story_sections:
   - id: frame-1735601179440
     viewBox:
@@ -77,7 +78,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601189668
     viewBox:
       x: 783
@@ -87,7 +88,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601201579
     viewBox:
       x: 1373
@@ -97,7 +98,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601224561
     viewBox:
       x: 1829
@@ -107,7 +108,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601250697
     viewBox:
       x: 2145
@@ -117,7 +118,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601268311
     viewBox:
       x: 2965
@@ -127,7 +128,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601277021
     viewBox:
       x: 89
@@ -143,7 +144,7 @@ story_sections:
       * Developing systems that support rather than replace human expertise
       * Building fair clinical models with context-aware AI      
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601284805
     viewBox:
       x: 768
@@ -153,7 +154,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601302968
     viewBox:
       x: 1050
@@ -163,7 +164,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601315549
     viewBox:
       x: 1361
@@ -173,7 +174,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601332321
     viewBox:
       x: 1962
@@ -183,7 +184,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601340625
     viewBox:
       x: 2676
@@ -193,7 +194,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601348784
     viewBox:
       x: 2980
@@ -203,7 +204,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601360360
     viewBox:
       x: 88
@@ -220,7 +221,7 @@ story_sections:
       * Volume, velocity, and harmonized data re-analysis
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601375131
     viewBox:
       x: 768
@@ -230,7 +231,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601393157
     viewBox:
       x: 1034
@@ -240,7 +241,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601414817
     viewBox:
       x: 1345
@@ -250,7 +251,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601423086
     viewBox:
       x: 2103
@@ -260,7 +261,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601431445
     viewBox:
       x: 2426
@@ -270,7 +271,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601450239
     viewBox:
       x: 2669
@@ -280,7 +281,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601460857
     viewBox:
       x: 95
@@ -297,7 +298,7 @@ story_sections:
       * Identifying areas where ML and physics can complement each other
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601472801
     viewBox:
       x: 791
@@ -307,7 +308,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601482125
     viewBox:
       x: 1021
@@ -317,7 +318,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601495554
     viewBox:
       x: 1362
@@ -327,7 +328,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601503745
     viewBox:
       x: 1848
@@ -337,7 +338,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601510837
     viewBox:
       x: 2467
@@ -347,7 +348,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: frame-1735601521023
     viewBox:
       x: 3046
@@ -357,9 +358,7 @@ story_sections:
     content: |
       
     textPosition: bottom
-    duration: 8000
-    textPosition: bottom
-    duration: 8000
+    duration: 4000
   - id: discussion-leads
     viewBox:
       x: 1600
@@ -371,7 +370,7 @@ story_sections:
       
       The unworkshop was led by Markus Kaiser and Ieva Kazlauskaitė, bringing together expertise in machine learning and its applications to physical world problems.
     textPosition: bottom
-    duration: 8000
+    duration: 2000
 
   - id: scribey-sense
     viewBox:
