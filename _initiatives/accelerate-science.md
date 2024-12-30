@@ -29,9 +29,9 @@ contributed_by:
 featured_image: /assets/images/2021-11-19_accelerate-science-symposium.png
 ---
 
-The potential for machine learning in the sciences is now widely discussed, particularly with the advent of this year's Nobel prizes. But the foundation of this work has much deeper routes. The biological sciences have undergone a quantitative transformation over the last two decades with the emergence of large scale biological sequencing and tools for transcriptomic analysis. When working in Amazon, several of my colleagues had got their initial start in data analysis in the biological sciences.
+The potential for machine learning in the sciences is now widely discussed, particularly with the advent of this year's Nobel prizes. But the foundation of this work has much deeper rootes. The biological sciences have undergone a quantitative transformation over the last two decades with the emergence of large scale biological sequencing and tools for transcriptomic analysis. 
 
-In 2019 I moved from Amazon back to academia, I accepted a position at the University of Cambridge and a Senior AI Fellowship from the Alan Turing Institute. I was also asked if I would lead a new Schmidt Sciences funded initiative, "Accelerate Science".
+In 2019 when I moved from Amazon back to academia, I accepted a position at the University of Cambridge and a Senior AI Fellowship from the Alan Turing Institute. I was also asked if I would lead a new Schmidt Sciences funded initiative, "Accelerate Science".
 
 The aim was to bring about a step change in the sciences through AI. Our approach borrowed a lot from lessons from Data Science Africa, but also combined them with Cambridge's history of supporting scientific innovation through computing. 
 
@@ -120,7 +120,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-We also interviewed Pushmeet Kohli who leads the science team at DeepMind that had recently published AlphaFold.
+The *purpose* of Accelerate Science was already provided, a step change in Science at the University of Cambridge, alongside our summit and the unworkshops we built a programme of educational activities to enable that step change. Just like Data Science Africa we made sure that the community was built on *people* and their *projects*. The 2021's summit showcased some projects, but Accelerate Science also funds projects at the interface of AI and science and builds capabilities through workshops, courses and tutorials. Our focus on the interface is represented by the bridge shown in the image. 
+
+The spectrum of projects in AI for Science goes all the way from supporting a PhD or Masters student with our Machine Learning Clinics to the Nobel Prizes. We  interviewed Pushmeet Kohli who leads the science team at DeepMind that had recently published AlphaFold that went on to win this year's prize in chemistry.
 
 <center>
 <img src="/assets/images/2021-11-19_accelerate-science-fireside-chat-neil-pushmeet.png">
