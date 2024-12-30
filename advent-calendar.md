@@ -167,7 +167,7 @@ title: Advent Calendar - The Atomic Human
       <td data-date="27"><a href="/initiatives/data-science-africa-i/">27</a></td>
       <td data-date="28"><a href="/initiatives/data-science-africa-ii/">28</a></td>
       <td data-date="29"><a href="/reflections/why-amazon/"></a>29</td>
-      <td data-date="30">30</td>
+      <td data-date="30"><a href="/initiatives/accelerate-science/">30</a></td>
     </tr>
     <tr>
       <td data-date="31">31</td>
