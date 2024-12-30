@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div id="story-container" class="w-full h-[600px] mb-8"></div>
 
+<script src="/assets/js/image-storyteller.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const container = document.getElementById('story-container');
@@ -78,39 +79,23 @@ document.addEventListener('DOMContentLoaded', function() {
     {
       id: 'yang-hui-he',
       viewBox: { x: 0, y: 0, width: 800, height: 600 },
-      content: `
-        <h3 class="text-xl font-bold mb-2">String Theory and Machine Learning</h3>
-        <p>
-          Prof. Yang Hui He's work exemplifies the intersection of theoretical physics and 
-          machine learning, connecting to The Atomic Human's discussion of how AI can help 
-          tackle complex mathematical problems while maintaining human intuition and creativity.
-        </p>
-      `,
+      content: `<h3>String Theory and Machine Learning</h3>...`,
       duration: 8000
     },
     {
       id: 'virginie-uhlmann',
       viewBox: { x: 800, y: 0, width: 800, height: 600 },
-      content: `
-        <h3 class="text-xl font-bold mb-2">Biology Meets Computer Vision</h3>
-        <p>
-          Dr. Uhlmann's research bridges biology and computer vision, reflecting the book's 
-          themes about human-machine interfaces and the importance of domain expertise in 
-          AI applications. This connects to the broader Accelerate Science goal of enabling 
-          cross-disciplinary collaboration.
-        </p>
-      `,
+      content: `<h3>Biology Meets Computer Vision</h3>...`,
       duration: 8000
     }
   ];
   
-  new ImageStoryteller(container, {
-    imageSrc: '/assets/images/2021-11-19_challenges-in-science-and-maths-original.jpg',
+  const storyteller = new ImageStoryteller(container, {
+    imageSrc: '/assets/images/accelerate-science-symposium-2021.png',
     sections: sections,
     transitionDuration: 1000
   });
 });
 </script>
-
 
 
