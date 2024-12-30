@@ -13,6 +13,19 @@ contributor:
 featured_image: /assets/images/2021-11-19_challenges-in-science-and-maths-original.jpg
 ---
 
+<style>
+.image-container {
+  position: relative;
+  max-width: 1925px; /* original image width */
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+</style>
 
 ### Interactive Map from the 2021 Challenges in Science and Maths Unworkshop
 

@@ -13,6 +13,20 @@ contributor:
 featured_image: /assets/images/2021-11-19_physical-world-original.jpg
 ---
 
+<style>
+.image-container {
+  position: relative;
+  max-width: 1925px; /* original image width */
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+</style>
+
 
 ### Interactive Map from the 2021 ML and the Physical World Unworkshop
 
