@@ -63,19 +63,6 @@ Below the text display there is a previous, play/pause, next button that starts 
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Create an instance for each image map on the page
-  new ResponsiveImageMap({
-    imageId: 'science-maths-challenges-unworkshop-map',
-    mapName: 'science-maths-challenges-unworkshop-image-map',
-    originalWidth: 3508,
-    debug: true  // Set to false in production
-  });
-});
-</script>
-
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
   // Configuration for the science and maths workshop
   const scienceMathsStory = new ImageStoryteller({
     storyContainerId: 'story-container',

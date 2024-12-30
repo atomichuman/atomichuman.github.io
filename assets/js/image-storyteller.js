@@ -1,5 +1,3 @@
-// File: assets/js/image-storyteller.js
-
 class ImageStoryteller {
   constructor(config) {
     this.config = {
@@ -9,7 +7,8 @@ class ImageStoryteller {
       imageId: config.imageId,
       sections: config.sections,
       transitionDuration: config.transitionDuration || 1000,
-      originalWidth: config.originalWidth || 3508
+      originalWidth: config.originalWidth || 3508,
+      exactZoom: config.exactZoom || false // false means maintain full height (new default)
     };
 
     this.state = {
@@ -33,14 +32,17 @@ class ImageStoryteller {
       return;
     }
 
-    // Create SVG wrapper
+    // Store the original image map if it exists
+    const mapName = originalImg.getAttribute('usemap')?.substring(1);
+    this.originalMap = mapName ? document.querySelector(`map[name="${mapName}"]`) : null;
+
+    // Setup SVG wrapper
     this.setupSVGWrapper(originalImg);
     this.setupControls();
     this.startStory();
   }
 
   setupSVGWrapper(originalImg) {
-    // Wait for the original image to load to get its dimensions
     if (originalImg.complete) {
       this.createSVGWrapper(originalImg);
     } else {
@@ -70,13 +72,74 @@ class ImageStoryteller {
     svgImage.setAttribute("x", "0");
     svgImage.setAttribute("y", "0");
 
-    // Copy original image's usemap attribute if it exists
-    if (originalImg.getAttribute("usemap")) {
-      svgImage.setAttribute("usemap", originalImg.getAttribute("usemap"));
-    }
-
     // Add image to SVG
     svg.appendChild(svgImage);
+
+    // If we have an image map, create clickable areas in the SVG
+    if (this.originalMap) {
+      const areas = Array.from(this.originalMap.getElementsByTagName('area'));
+      areas.forEach(area => {
+        const coords = area.getAttribute('coords').split(',').map(Number);
+        const shape = area.getAttribute('shape');
+        const href = area.getAttribute('href');
+        const title = area.getAttribute('title');
+        
+        let svgElement;
+        if (shape === 'poly') {
+          // Create path for polygon
+          svgElement = document.createElementNS(svgNS, 'path');
+          const pathData = 'M ' + coords.reduce((acc, coord, i) => {
+            if (i % 2 === 0) {
+              return acc + (i > 0 ? ' L ' : '') + coord;
+            }
+            return acc + ' ' + coord;
+          }, '') + ' Z';
+          svgElement.setAttribute('d', pathData);
+        } else if (shape === 'rect') {
+          // Create rectangle
+          svgElement = document.createElementNS(svgNS, 'rect');
+          svgElement.setAttribute('x', coords[0]);
+          svgElement.setAttribute('y', coords[1]);
+          svgElement.setAttribute('width', coords[2] - coords[0]);
+          svgElement.setAttribute('height', coords[3] - coords[1]);
+        }
+        
+        if (svgElement) {
+          svgElement.setAttribute('fill', 'transparent');
+          svgElement.setAttribute('stroke', 'transparent');
+          svgElement.setAttribute('cursor', 'pointer');
+          svgElement.setAttribute('pointer-events', 'all');
+          
+          // Add hover effect
+          svgElement.addEventListener('mouseenter', () => {
+            svgElement.setAttribute('fill', 'rgba(255, 255, 255, 0.2)');
+            svgElement.setAttribute('stroke', 'white');
+          });
+          
+          svgElement.addEventListener('mouseleave', () => {
+            svgElement.setAttribute('fill', 'transparent');
+            svgElement.setAttribute('stroke', 'transparent');
+          });
+          
+          // Add click handler
+          svgElement.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (href) {
+              window.open(href, '_blank');
+            }
+          });
+          
+          // Add tooltip
+          if (title) {
+            const titleElement = document.createElementNS(svgNS, 'title');
+            titleElement.textContent = title;
+            svgElement.appendChild(titleElement);
+          }
+          
+          svg.appendChild(svgElement);
+        }
+      });
+    }
 
     // Replace original image with SVG
     originalImg.parentNode.replaceChild(svg, originalImg);
@@ -85,6 +148,11 @@ class ImageStoryteller {
     this.svg = svg;
     this.svgImage = svgImage;
     this.viewBoxHeight = viewBoxHeight;
+    
+    // Remove the original map since we're now using SVG elements
+    if (this.originalMap) {
+      this.originalMap.remove();
+    }
   }
 
   setupControls() {
@@ -172,7 +240,28 @@ class ImageStoryteller {
       this.textContainer.innerHTML = '<h3>Overview</h3><p>Click play to start the tour, or click on areas of interest in the image.</p>';
     } else {
       const section = this.config.sections[index];
-      this.animateViewBox(section.viewBox);
+      
+      let targetViewBox;
+      if (this.config.exactZoom) {
+        // Use exact viewBox from section
+        targetViewBox = { ...section.viewBox };
+      } else {
+        // Calculate new viewBox that maintains proportional height to width
+        const originalAspectRatio = this.viewBoxHeight / this.config.originalWidth;
+        const targetWidth = section.viewBox.width;
+        const targetHeight = targetWidth * originalAspectRatio;
+        const targetX = section.viewBox.x;
+        const targetY = Math.max(0, section.viewBox.y - (targetHeight - section.viewBox.height) / 2);
+        
+        targetViewBox = {
+          x: targetX,
+          y: targetY,
+          width: targetWidth,
+          height: targetHeight
+        };
+      }
+      
+      this.animateViewBox(targetViewBox);
       this.textContainer.innerHTML = section.content;
     }
   }
