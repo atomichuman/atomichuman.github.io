@@ -1,12 +1,12 @@
 ---
 title: Unworkshop on Challenges in Science and Maths
 date: 2021-11-19
+include_js:
+- /assets/js/image-storyteller.js
 image:
   path: /assets/images/2021-11-19_challenges-in-science-and-maths-original.jpg
   width: 3508
   height: 3000
-include_js:
-- /assets/js/image-storyteller.js
 areas:
   - title: Yang Hui He
     alt: Yang Hui He
