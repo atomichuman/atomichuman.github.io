@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   <p>Professor Yang-Hui He's work bridges the gap between string theory
                   and machine learning, exploring how AI can help uncover mathematical patterns
                   in theoretical physics.</p>`,
+	    textPosition: 'bottom',
         duration: 8000
       },
       {
@@ -87,6 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   <p>Dr. Virginie Uhlmann's research combines computer vision and 
                   machine learning techniques to analyze biological imagery and understand
                   complex cellular processes.</p>`,
+	    textPosition: 'bottom',
         duration: 8000
       }
     ],

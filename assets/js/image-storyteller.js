@@ -5,7 +5,10 @@ class ImageStoryteller {
       textContainerId: config.textContainerId,
       controlContainerId: config.controlContainerId,
       imageId: config.imageId,
-      sections: config.sections,
+      sections: config.sections.map(section => ({
+        ...section,
+        textPosition: section.textPosition || 'center' // Default to center if not specified
+      })),
       transitionDuration: config.transitionDuration || 1000,
       originalWidth: config.originalWidth || 3508,
       exactZoom: config.exactZoom || false
@@ -18,6 +21,7 @@ class ImageStoryteller {
       isTextVisible: true
     };
 
+    // Initialize after setting up config and state
     this.initialize();
   }
 
@@ -79,70 +83,9 @@ class ImageStoryteller {
     // Add image to SVG
     svg.appendChild(svgImage);
 
-    // If we have an image map, create clickable areas in the SVG
+    // Handle image map if it exists
     if (this.originalMap) {
-      const areas = Array.from(this.originalMap.getElementsByTagName('area'));
-      areas.forEach(area => {
-        const coords = area.getAttribute('coords').split(',').map(Number);
-        const shape = area.getAttribute('shape');
-        const href = area.getAttribute('href');
-        const title = area.getAttribute('title');
-        
-        let svgElement;
-        if (shape === 'poly') {
-          // Create path for polygon
-          svgElement = document.createElementNS(svgNS, 'path');
-          const pathData = 'M ' + coords.reduce((acc, coord, i) => {
-            if (i % 2 === 0) {
-              return acc + (i > 0 ? ' L ' : '') + coord;
-            }
-            return acc + ' ' + coord;
-          }, '') + ' Z';
-          svgElement.setAttribute('d', pathData);
-        } else if (shape === 'rect') {
-          // Create rectangle
-          svgElement = document.createElementNS(svgNS, 'rect');
-          svgElement.setAttribute('x', coords[0]);
-          svgElement.setAttribute('y', coords[1]);
-          svgElement.setAttribute('width', coords[2] - coords[0]);
-          svgElement.setAttribute('height', coords[3] - coords[1]);
-        }
-        
-        if (svgElement) {
-          svgElement.setAttribute('fill', 'transparent');
-          svgElement.setAttribute('stroke', 'transparent');
-          svgElement.setAttribute('cursor', 'pointer');
-          svgElement.setAttribute('pointer-events', 'all');
-          
-          // Add hover effect
-          svgElement.addEventListener('mouseenter', () => {
-            svgElement.setAttribute('fill', 'rgba(255, 255, 255, 0.2)');
-            svgElement.setAttribute('stroke', 'white');
-          });
-          
-          svgElement.addEventListener('mouseleave', () => {
-            svgElement.setAttribute('fill', 'transparent');
-            svgElement.setAttribute('stroke', 'transparent');
-          });
-          
-          // Add click handler
-          svgElement.addEventListener('click', (e) => {
-            e.preventDefault();
-            if (href) {
-              window.open(href, '_blank');
-            }
-          });
-          
-          // Add tooltip
-          if (title) {
-            const titleElement = document.createElementNS(svgNS, 'title');
-            titleElement.textContent = title;
-            svgElement.appendChild(titleElement);
-          }
-          
-          svg.appendChild(svgElement);
-        }
-      });
+      this.handleImageMap(svg, svgNS);
     }
 
     // Replace original image with SVG
@@ -159,6 +102,82 @@ class ImageStoryteller {
     }
   }
 
+  handleImageMap(svg, svgNS) {
+    const areas = Array.from(this.originalMap.getElementsByTagName('area'));
+    areas.forEach(area => {
+      const coords = area.getAttribute('coords').split(',').map(Number);
+      const shape = area.getAttribute('shape');
+      const href = area.getAttribute('href');
+      const title = area.getAttribute('title');
+      
+      let svgElement;
+      if (shape === 'poly') {
+        svgElement = this.createPolygon(svgNS, coords);
+      } else if (shape === 'rect') {
+        svgElement = this.createRectangle(svgNS, coords);
+      }
+      
+      if (svgElement) {
+        this.setupSVGElement(svgElement, svgNS, href, title);
+        svg.appendChild(svgElement);
+      }
+    });
+  }
+
+  createPolygon(svgNS, coords) {
+    const svgElement = document.createElementNS(svgNS, 'path');
+    const pathData = 'M ' + coords.reduce((acc, coord, i) => {
+      if (i % 2 === 0) {
+        return acc + (i > 0 ? ' L ' : '') + coord;
+      }
+      return acc + ' ' + coord;
+    }, '') + ' Z';
+    svgElement.setAttribute('d', pathData);
+    return svgElement;
+  }
+
+  createRectangle(svgNS, coords) {
+    const svgElement = document.createElementNS(svgNS, 'rect');
+    svgElement.setAttribute('x', coords[0]);
+    svgElement.setAttribute('y', coords[1]);
+    svgElement.setAttribute('width', coords[2] - coords[0]);
+    svgElement.setAttribute('height', coords[3] - coords[1]);
+    return svgElement;
+  }
+
+  setupSVGElement(svgElement, svgNS, href, title) {
+    svgElement.setAttribute('fill', 'transparent');
+    svgElement.setAttribute('stroke', 'transparent');
+    svgElement.setAttribute('cursor', 'pointer');
+    svgElement.setAttribute('pointer-events', 'all');
+    
+    // Add hover effect
+    svgElement.addEventListener('mouseenter', () => {
+      svgElement.setAttribute('fill', 'rgba(255, 255, 255, 0.2)');
+      svgElement.setAttribute('stroke', 'white');
+    });
+    
+    svgElement.addEventListener('mouseleave', () => {
+      svgElement.setAttribute('fill', 'transparent');
+      svgElement.setAttribute('stroke', 'transparent');
+    });
+    
+    // Add click handler
+    if (href) {
+      svgElement.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.open(href, '_blank');
+      });
+    }
+    
+    // Add tooltip
+    if (title) {
+      const titleElement = document.createElementNS(svgNS, 'title');
+      titleElement.textContent = title;
+      svgElement.appendChild(titleElement);
+    }
+  }
+
   setupControls() {
     // Create wrapper div for SVG
     const svgWrapper = document.createElement('div');
@@ -172,11 +191,21 @@ class ImageStoryteller {
       parent.appendChild(svgWrapper);
     }
 
-    // Position text container as overlay
+    // Set up text container styles
+    this.setupTextContainer();
+
+    // Create and setup all control buttons
+    this.setupControlButtons(svgWrapper);
+
+    // Add styles
+    this.addStyles();
+
+    // Move text container into SVG wrapper for proper positioning
+    svgWrapper.appendChild(this.textContainer);
+  }
+
+  setupTextContainer() {
     this.textContainer.style.position = 'absolute';
-    this.textContainer.style.left = '50%';
-    this.textContainer.style.top = '50%';
-    this.textContainer.style.transform = 'translate(-50%, -50%)';
     this.textContainer.style.zIndex = '10';
     this.textContainer.style.maxWidth = '80%';
     this.textContainer.style.background = 'rgba(255, 255, 255, 0.9)';
@@ -184,7 +213,49 @@ class ImageStoryteller {
     this.textContainer.style.borderRadius = '8px';
     this.textContainer.style.fontSize = '16px';
     this.textContainer.style.boxShadow = '0 2px 6px rgba(0, 0, 0, 0.1)';
+  }
 
+  updateTextPosition(position) {
+    // Reset all positioning styles
+    this.textContainer.style.left = '';
+    this.textContainer.style.right = '';
+    this.textContainer.style.top = '';
+    this.textContainer.style.bottom = '';
+    this.textContainer.style.transform = '';
+
+    switch (position) {
+      case 'top':
+        this.textContainer.style.left = '50%';
+        this.textContainer.style.top = '20px';
+        this.textContainer.style.transform = 'translateX(-50%)';
+	this.textContainer.style.width='100%';
+        break;
+      case 'bottom':
+        this.textContainer.style.left = '50%';
+        this.textContainer.style.bottom = '20px';
+        this.textContainer.style.transform = 'translateX(-50%)';
+	this.textContainer.style.width='100%';
+        break;
+      case 'left':
+        this.textContainer.style.left = '20px';
+        this.textContainer.style.top = '50%';
+        this.textContainer.style.transform = 'translateY(-50%)';
+        break;
+      case 'right':
+        this.textContainer.style.right = '20px';
+        this.textContainer.style.top = '50%';
+        this.textContainer.style.transform = 'translateY(-50%)';
+        break;
+      case 'center':
+      default:
+        this.textContainer.style.left = '50%';
+        this.textContainer.style.top = '50%';
+        this.textContainer.style.transform = 'translate(-50%, -50%)';
+        break;
+    }
+  }
+
+  setupControlButtons(svgWrapper) {
     // Create toggle text button
     const toggleTextButton = document.createElement('button');
     toggleTextButton.innerHTML = '👁️ Hide Text';
@@ -229,8 +300,9 @@ class ImageStoryteller {
     // Add all elements to the control container
     this.controlContainer.appendChild(toggleTextButton);
     this.controlContainer.appendChild(navigationControls);
+  }
 
-    // Add basic styles
+  addStyles() {
     const style = document.createElement('style');
     style.textContent = `
       .story-control {
@@ -257,9 +329,6 @@ class ImageStoryteller {
       }
     `;
     document.head.appendChild(style);
-
-    // Move text container into SVG wrapper for proper positioning
-    svgWrapper.appendChild(this.textContainer);
   }
 
   toggleText() {
@@ -292,6 +361,7 @@ class ImageStoryteller {
         height: this.viewBoxHeight
       });
       this.textContainer.innerHTML = '<h3>Overview</h3><p>Click play to start the tour, or click on areas of interest in the image.</p>';
+      this.updateTextPosition('center');
     } else {
       const section = this.config.sections[index];
       
@@ -315,6 +385,7 @@ class ImageStoryteller {
       
       this.animateViewBox(targetViewBox);
       this.textContainer.innerHTML = section.content;
+      this.updateTextPosition(section.textPosition);
     }
   }
 
