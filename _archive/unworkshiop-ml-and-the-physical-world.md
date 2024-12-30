@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   function scaleImageMap() {
     const scale = img.offsetWidth / originalWidth;
-    const areas = document.querySelectorAll('map[name="accelerate-science-image-map"] area');
+    const areas = document.querySelectorAll('map[name="ml-physical-unworkshop-image-map"] area');
     
     areas.forEach(area => {
       // Store original coordinates if not already stored
