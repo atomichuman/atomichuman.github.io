@@ -68,7 +68,7 @@ The aim was to bring about a step change in the sciences through AI. Our approac
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const img = document.getElementById('accelerate-sciences-initiatives-map');
+  const img = document.getElementById('accelerate-science-initiatives-map');
   const originalWidth = 1925; // Original image width from your coordinates
   
   function scaleImageMap() {
