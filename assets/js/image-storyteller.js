@@ -8,13 +8,14 @@ class ImageStoryteller {
       sections: config.sections,
       transitionDuration: config.transitionDuration || 1000,
       originalWidth: config.originalWidth || 3508,
-      exactZoom: config.exactZoom || false // false means maintain full height (new default)
+      exactZoom: config.exactZoom || false
     };
 
     this.state = {
       currentSectionIndex: -1,
       isPlaying: false,
-      timeoutId: null
+      timeoutId: null,
+      isTextVisible: true
     };
 
     this.initialize();
@@ -31,6 +32,9 @@ class ImageStoryteller {
       console.error('Required elements not found');
       return;
     }
+
+    // Make container position relative for absolute positioning
+    this.container.style.position = 'relative';
 
     // Store the original image map if it exists
     const mapName = originalImg.getAttribute('usemap')?.substring(1);
@@ -156,7 +160,42 @@ class ImageStoryteller {
   }
 
   setupControls() {
-    // Create control buttons
+    // Create wrapper div for SVG
+    const svgWrapper = document.createElement('div');
+    svgWrapper.className = 'svg-wrapper';
+    svgWrapper.style.position = 'relative';
+    
+    // Move SVG into wrapper
+    if (this.svg) {
+      const parent = this.svg.parentNode;
+      svgWrapper.appendChild(this.svg);
+      parent.appendChild(svgWrapper);
+    }
+
+    // Position text container as overlay
+    this.textContainer.style.position = 'absolute';
+    this.textContainer.style.left = '50%';
+    this.textContainer.style.top = '50%';
+    this.textContainer.style.transform = 'translate(-50%, -50%)';
+    this.textContainer.style.zIndex = '10';
+    this.textContainer.style.maxWidth = '80%';
+    this.textContainer.style.background = 'rgba(255, 255, 255, 0.9)';
+    this.textContainer.style.padding = '20px';
+    this.textContainer.style.borderRadius = '8px';
+    this.textContainer.style.fontSize = '16px';
+    this.textContainer.style.boxShadow = '0 2px 6px rgba(0, 0, 0, 0.1)';
+
+    // Create toggle text button
+    const toggleTextButton = document.createElement('button');
+    toggleTextButton.innerHTML = '👁️ Hide Text';
+    toggleTextButton.className = 'story-control toggle-text';
+    toggleTextButton.style.position = 'absolute';
+    toggleTextButton.style.top = '10px';
+    toggleTextButton.style.right = '10px';
+    toggleTextButton.style.zIndex = '20';
+    toggleTextButton.addEventListener('click', () => this.toggleText());
+    
+    // Create navigation buttons
     const prevButton = document.createElement('button');
     const playPauseButton = document.createElement('button');
     const nextButton = document.createElement('button');
@@ -165,33 +204,35 @@ class ImageStoryteller {
     playPauseButton.innerHTML = '⏵ Play';
     nextButton.innerHTML = 'Next ⏭';
 
-    // Add classes for styling
     prevButton.className = 'story-control';
     playPauseButton.className = 'story-control';
     nextButton.className = 'story-control';
 
-    // Add event listeners
     prevButton.addEventListener('click', () => this.previousSection());
     playPauseButton.addEventListener('click', () => this.togglePlayPause());
     nextButton.addEventListener('click', () => this.nextSection());
 
-    // Store reference to play/pause button
     this.playPauseButton = playPauseButton;
 
-    // Add buttons to control container
-    this.controlContainer.appendChild(prevButton);
-    this.controlContainer.appendChild(playPauseButton);
-    this.controlContainer.appendChild(nextButton);
+    // Create control container
+    const navigationControls = document.createElement('div');
+    navigationControls.className = 'navigation-controls';
+    navigationControls.style.display = 'flex';
+    navigationControls.style.justifyContent = 'center';
+    navigationControls.style.gap = '1rem';
+    navigationControls.style.marginTop = '1rem';
+    
+    navigationControls.appendChild(prevButton);
+    navigationControls.appendChild(playPauseButton);
+    navigationControls.appendChild(nextButton);
+
+    // Add all elements to the control container
+    this.controlContainer.appendChild(toggleTextButton);
+    this.controlContainer.appendChild(navigationControls);
 
     // Add basic styles
     const style = document.createElement('style');
     style.textContent = `
-      #${this.config.controlContainerId} {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-        margin-top: 1rem;
-      }
       .story-control {
         padding: 0.5rem 1rem;
         border: 1px solid #ccc;
@@ -202,35 +243,34 @@ class ImageStoryteller {
       .story-control:hover {
         background: #f0f0f0;
       }
-      #${this.config.textContainerId} {
-        margin: 1rem 0;
-        padding: 1rem;
-        background: rgba(255, 255, 255, 0.9);
-        border-radius: 4px;
-        position: relative;
-        font-size: 16px;
-        line-height: 1.5;
-        width: 100%;
-        box-sizing: border-box;
+      .toggle-text {
+        opacity: 0.9;
       }
-      
       #${this.config.textContainerId} h3 {
         font-size: 1.5rem;
-        margin-bottom: 1rem;
+        margin: 0 0 1rem 0;
       }
-      
       #${this.config.textContainerId} p {
         font-size: 1rem;
         margin: 0;
+        line-height: 1.5;
       }
     `;
     document.head.appendChild(style);
+
+    // Move text container into SVG wrapper for proper positioning
+    svgWrapper.appendChild(this.textContainer);
+  }
+
+  toggleText() {
+    this.state.isTextVisible = !this.state.isTextVisible;
+    this.textContainer.style.display = this.state.isTextVisible ? 'block' : 'none';
+    const toggleButton = this.controlContainer.querySelector('.toggle-text');
+    toggleButton.innerHTML = this.state.isTextVisible ? '👁️ Hide Text' : '👁️ Show Text';
   }
 
   startStory() {
-    // Show full image first
     this.showSection(-1);
-    // Start autoplay after a delay
     setTimeout(() => {
       this.togglePlayPause();
     }, 1000);
@@ -245,7 +285,6 @@ class ImageStoryteller {
     }
 
     if (index === -1) {
-      // Show full image
       this.animateViewBox({
         x: 0,
         y: 0,
@@ -258,10 +297,8 @@ class ImageStoryteller {
       
       let targetViewBox;
       if (this.config.exactZoom) {
-        // Use exact viewBox from section
         targetViewBox = { ...section.viewBox };
       } else {
-        // Calculate new viewBox that maintains proportional height to width
         const originalAspectRatio = this.viewBoxHeight / this.config.originalWidth;
         const targetWidth = section.viewBox.width;
         const targetHeight = targetWidth * originalAspectRatio;
@@ -284,9 +321,7 @@ class ImageStoryteller {
   animateViewBox(targetViewBox) {
     if (!this.svg) return;
 
-    // Get current viewBox
     const currentViewBox = this.svg.getAttribute('viewBox').split(' ').map(Number);
-
     const startTime = performance.now();
     const duration = this.config.transitionDuration;
 
@@ -294,12 +329,10 @@ class ImageStoryteller {
       const elapsed = currentTime - startTime;
       const progress = Math.min(elapsed / duration, 1);
 
-      // Ease function (ease-in-out)
       const eased = progress < 0.5
         ? 2 * progress * progress
         : 1 - Math.pow(-2 * progress + 2, 2) / 2;
 
-      // Interpolate viewBox values
       const currentX = currentViewBox[0] + (targetViewBox.x - currentViewBox[0]) * eased;
       const currentY = currentViewBox[1] + (targetViewBox.y - currentViewBox[1]) * eased;
       const currentWidth = currentViewBox[2] + (targetViewBox.width - currentViewBox[2]) * eased;
@@ -318,7 +351,7 @@ class ImageStoryteller {
   nextSection() {
     const nextIndex = this.state.currentSectionIndex + 1;
     if (nextIndex >= this.config.sections.length) {
-      this.showSection(-1); // Loop back to full image
+      this.showSection(-1);
     } else {
       this.showSection(nextIndex);
     }
