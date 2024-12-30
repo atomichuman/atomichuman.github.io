@@ -1,6 +1,6 @@
 ---
 layout: initiative
-title: Accelerate Science - I
+title: Accelerate Science
 date: 2024-12-30
 toggle_machine_commentary: true
 description: Accelerate Science is a Schmidt Sciences sponsored project to bring about a step change in Cambridge's science capabilities through AI.
@@ -28,8 +28,9 @@ The potential for machine learning in the sciences is now widely discussed, part
 
 In 2019 I moved from Amazon back to academia, I accepted a position at the University of Cambridge and a Senior AI Fellowship from the Alan Turing Institute. I was also asked if I would lead a new Schmidt Sciences funded initiative, "Accelerate Science".
 
-The aim was to bring about a step change in the sciences through AI. Our approach borrowed a lot from lessons from Data Science Africa.
+The aim was to bring about a step change in the sciences through AI. Our approach borrowed a lot from lessons from Data Science Africa, but also combined them with Cambridge's history of supporting scientific innovation through computing. 
 
+Our first summit summarised the approaches when Ann Copestake (who as Head of Department had designed the programme and led the bid for funding) opened the meeting.
 
 <style>
 .image-container {
@@ -47,7 +48,6 @@ The aim was to bring about a step change in the sciences through AI. Our approac
 
 
 ### Interactive Map from the 2021 Accelerate Science Summit
-
 
 <center>Click on the relevant are of the image to find out more about a concept or unworkshop!</center>
 
@@ -115,7 +115,13 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+We also interviewed Pushmeet Kohli who leads the science team at DeepMind that had recently published AlphaFold.
 
+<center>
+<img src="/assets/images/2021-11-19_accelerate-science-accelerate-science-fireside-chat-neil-pushmeet.png">
+
+<i>Summary of Fireside Chat between Pushmeet and Neil. You can find the [full video of the chat here](https://www.youtube.com/watch?v=g6lTLp65VmY).</i>
+</center>
 
 
 <div class="machine-commentary" markdown=1>
