@@ -70,7 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div id="story-container" class="w-full h-[600px] mb-8"></div>
 
-<script src="/assets/js/image-storyteller.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const container = document.getElementById('story-container');
