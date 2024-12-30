@@ -13,6 +13,7 @@ contributor:
 featured_image: /assets/images/2021-11-19_challenges-in-science-and-maths-original.jpg
 include_js: 
 - /assets/js/responsive-image-map.js
+- /assets/js/image-storyteller.js
 ---
 
 <style>
@@ -52,7 +53,6 @@ include_js:
 </map>
 </div>
 
-<!-- After your image map HTML -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Create an instance for each image map on the page
@@ -61,6 +61,53 @@ document.addEventListener('DOMContentLoaded', function() {
     mapName: 'science-maths-challenges-unworkshop-image-map',
     originalWidth: 3508,
     debug: true  // Set to false in production
+  });
+});
+</script>
+
+
+# Accelerate Science Symposium
+
+<div id="story-container" class="w-full h-[600px] mb-8"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.getElementById('story-container');
+  
+  const sections = [
+    {
+      id: 'yang-hui-he',
+      viewBox: { x: 0, y: 0, width: 800, height: 600 },
+      content: `
+        <h3 class="text-xl font-bold mb-2">String Theory and Machine Learning</h3>
+        <p>
+          Prof. Yang Hui He's work exemplifies the intersection of theoretical physics and 
+          machine learning, connecting to The Atomic Human's discussion of how AI can help 
+          tackle complex mathematical problems while maintaining human intuition and creativity.
+        </p>
+      `,
+      duration: 8000
+    },
+    {
+      id: 'virginie-uhlmann',
+      viewBox: { x: 800, y: 0, width: 800, height: 600 },
+      content: `
+        <h3 class="text-xl font-bold mb-2">Biology Meets Computer Vision</h3>
+        <p>
+          Dr. Uhlmann's research bridges biology and computer vision, reflecting the book's 
+          themes about human-machine interfaces and the importance of domain expertise in 
+          AI applications. This connects to the broader Accelerate Science goal of enabling 
+          cross-disciplinary collaboration.
+        </p>
+      `,
+      duration: 8000
+    }
+  ];
+  
+  new ImageStoryteller(container, {
+    imageSrc: '/assets/images/2021-11-19_challenges-in-science-and-maths-original.jpg',
+    sections: sections,
+    transitionDuration: 1000
   });
 });
 </script>
