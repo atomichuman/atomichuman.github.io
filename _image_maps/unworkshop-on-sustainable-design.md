@@ -1,5 +1,5 @@
 ---
-title: Sustainable Design
+title: Unworkshop on Sustainable Design
 date: 2021-11-19
 include_js:
 - /assets/js/image-storyteller.js
@@ -71,7 +71,6 @@ areas:
 
 
 story_sections:
-  # Dr. Antiopi Koronaki's Column
   - id: frame-1735598943265
     viewBox:
       x: 34
@@ -79,12 +78,9 @@ story_sections:
       width: 747
       height: 325
     content: |
-      ### Computational Design & Building Complexity
       
-      AI algorithms can reduce complexity in building construction through smart joint analysis...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599035112
     viewBox:
       x: 53
@@ -92,12 +88,9 @@ story_sections:
       width: 722
       height: 490
     content: |
-      ### From Complex to Simple
       
-      AI algorithms can reduce complexity in building construction through smart joint analysis and ML optimization, reducing joint types...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599343673
     viewBox:
       x: 53
@@ -105,12 +98,9 @@ story_sections:
       width: 740
       height: 332
     content: |
-      ### Building Joint Analysis
       
-      AI algorithms can reduce complexity in building construction through smart joint analysis and ML optimization, reducing joint types, while building comprehensive datasets for future improvements...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599405898
     viewBox:
       x: 54
@@ -118,12 +108,9 @@ story_sections:
       width: 723
       height: 373
     content: |
-      ### Construction Optimization
       
-      AI algorithms can reduce complexity in building construction through smart joint analysis and ML optimization, reducing joint types, building comprehensive datasets, and achieving 15% efficiency gains...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599426628
     viewBox:
       x: 52
@@ -131,13 +118,9 @@ story_sections:
       width: 743
       height: 350
     content: |
-      ### Future of Building Design
       
-      AI algorithms can reduce complexity in building construction through smart joint analysis and ML optimization, reducing joint types, building comprehensive datasets, achieving 15% efficiency gains, and revolutionizing sustainable construction practices. #AIConstruction #Sustainability
     textPosition: bottom
     duration: 8000
-
-  # Ms. Ana Gatoo's Column
   - id: frame-1735599471269
     viewBox:
       x: 787
@@ -145,12 +128,9 @@ story_sections:
       width: 662
       height: 249
     content: |
-      ### Sustainable Construction Solutions
-      
-      Tackling concrete's 8% global emissions through AI-driven material innovation...
+      ### Ms Ana Gatoo
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599511470
     viewBox:
       x: 792
@@ -158,12 +138,9 @@ story_sections:
       width: 662
       height: 238
     content: |
-      ### Human-Machine Collaboration
       
-      Tackling concrete's 8% global emissions through AI-driven material innovation and human-machine collaborative design processes...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599521144
     viewBox:
       x: 793
@@ -171,12 +148,9 @@ story_sections:
       width: 657
       height: 242
     content: |
-      ### Material Innovation Process
       
-      Tackling concrete's 8% global emissions through AI-driven material innovation, human-machine collaborative design, and sustainable rigid panel development...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599534221
     viewBox:
       x: 786
@@ -184,12 +158,9 @@ story_sections:
       width: 674
       height: 337
     content: |
-      ### Advanced Material Testing
       
-      Tackling concrete's 8% global emissions through AI-driven material innovation, human-machine collaborative design, sustainable rigid panel development, and rigorous environmental testing...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599574413
     viewBox:
       x: 788
@@ -197,13 +168,9 @@ story_sections:
       width: 668
       height: 802
     content: |
-      ### Sustainable Material Implementation
       
-      Tackling concrete's 8% global emissions through AI-driven material innovation, human-machine collaborative design, sustainable rigid panel development, rigorous environmental testing, and real-world implementation strategies. #SustainableConstruction #MaterialInnovation
     textPosition: bottom
     duration: 8000
-
-  # Dr. Darshil Shah's Column
   - id: frame-1735599596866
     viewBox:
       x: 1462
@@ -211,12 +178,9 @@ story_sections:
       width: 635
       height: 204
     content: |
-      ### Biomaterial Innovation
       
-      Using AI to accelerate sustainable material development through intelligent design...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599604202
     viewBox:
       x: 1455
@@ -224,12 +188,9 @@ story_sections:
       width: 648
       height: 181
     content: |
-      ### Chemical Innovation
       
-      Using AI to accelerate sustainable material development through intelligent design and chemical synthesis optimization...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599613869
     viewBox:
       x: 1461
@@ -237,12 +198,9 @@ story_sections:
       width: 643
       height: 411
     content: |
-      ### Testing and Implementation
       
-      Using AI to accelerate sustainable material development through intelligent design, chemical synthesis optimization, and advanced testing protocols...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599628155
     viewBox:
       x: 1464
@@ -250,13 +208,9 @@ story_sections:
       width: 638
       height: 895
     content: |
-      ### Circular Design Implementation
       
-      Using AI to accelerate sustainable material development through intelligent design, chemical synthesis optimization, advanced testing protocols, and circular economy principles. #Biomaterials #CircularEconomy
     textPosition: bottom
     duration: 8000
-
-  # Dr. Ramit Debnath's Column
   - id: frame-1735599638227
     viewBox:
       x: 2108
@@ -264,12 +218,9 @@ story_sections:
       width: 626
       height: 241
     content: |
-      ### Smart Cities and AI
       
-      Developing AI frameworks for sustainable and socially inclusive smart cities...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599656322
     viewBox:
       x: 2111
@@ -277,12 +228,9 @@ story_sections:
       width: 620
       height: 344
     content: |
-      ### Social Justice in Urban Planning
       
-      Developing AI frameworks for sustainable and socially inclusive smart cities, focusing on vulnerable communities...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599662847
     viewBox:
       x: 2117
@@ -290,12 +238,9 @@ story_sections:
       width: 621
       height: 294
     content: |
-      ### Urban Heat Analysis
       
-      Developing AI frameworks for sustainable and socially inclusive smart cities, focusing on vulnerable communities and urban heat management...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599671770
     viewBox:
       x: 2112
@@ -303,12 +248,9 @@ story_sections:
       width: 637
       height: 511
     content: |
-      ### Smart City Implementation
       
-      Developing AI frameworks for sustainable and socially inclusive smart cities, focusing on vulnerable communities, urban heat management, and energy optimization...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599685735
     viewBox:
       x: 2114
@@ -316,13 +258,9 @@ story_sections:
       width: 627
       height: 257
     content: |
-      ### Future Urban Planning
       
-      Developing AI frameworks for sustainable and socially inclusive smart cities, focusing on vulnerable communities, urban heat management, energy optimization, and equitable future planning. #SmartCities #SocialJustice
     textPosition: bottom
     duration: 8000
-
-  # Ms. Amelia Jabry's Column
   - id: frame-1735599694795
     viewBox:
       x: 2758
@@ -330,12 +268,9 @@ story_sections:
       width: 644
       height: 309
     content: |
-      ### Climate Change and Social Networks
       
-      Understanding climate change through the lens of networked intelligence...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599700147
     viewBox:
       x: 2758
@@ -343,12 +278,9 @@ story_sections:
       width: 650
       height: 293
     content: |
-      ### Social Media and Climate Awareness
       
-      Understanding climate change through networked intelligence and social media analysis...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599705711
     viewBox:
       x: 2745
@@ -356,12 +288,9 @@ story_sections:
       width: 664
       height: 289
     content: |
-      ### Behavioral Change Analysis
       
-      Understanding climate change through networked intelligence, social media analysis, and behavioral pattern recognition...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599711761
     viewBox:
       x: 2741
@@ -369,12 +298,9 @@ story_sections:
       width: 666
       height: 242
     content: |
-      ### Network Analysis Methods
       
-      Understanding climate change through networked intelligence, social media analysis, behavioral patterns, and influence mapping...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599719390
     viewBox:
       x: 2761
@@ -382,12 +308,9 @@ story_sections:
       width: 662
       height: 281
     content: |
-      ### Environmental Influence Networks
       
-      Understanding climate change through networked intelligence, social media analysis, behavioral patterns, influence mapping, and communication pathways...
     textPosition: bottom
     duration: 8000
-
   - id: frame-1735599725414
     viewBox:
       x: 2762
@@ -395,9 +318,7 @@ story_sections:
       width: 659
       height: 319
     content: |
-      ### Future of Climate Communication
       
-      Understanding climate change through networked intelligence, social media analysis, behavioral patterns, influence mapping, communication pathways, and predictive modeling for environmental action. #ClimateChange #NetworkedIntelligence
     textPosition: bottom
     duration: 8000
 
