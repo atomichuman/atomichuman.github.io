@@ -207,6 +207,21 @@ class ImageStoryteller {
         padding: 1rem;
         background: rgba(255, 255, 255, 0.9);
         border-radius: 4px;
+        position: relative;
+        font-size: 16px;
+        line-height: 1.5;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      
+      #${this.config.textContainerId} h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      
+      #${this.config.textContainerId} p {
+        font-size: 1rem;
+        margin: 0;
       }
     `;
     document.head.appendChild(style);
