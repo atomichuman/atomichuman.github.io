@@ -36,6 +36,8 @@ contributed_by:
     person_id: Neil D. Lawrence
     notes: Fixes made from proof read suggestions.
 featured_image: /assets/images/2021-11-19_accelerate-science-symposium.png
+include_js: 
+- /assets/js/responsive-image-map.js
 ---
 
 The potential for machine learning in the sciences is now widely discussed, especially in the light of this year's Nobel prizes. But the foundation of this work has much deeper roots. The biological sciences have undergone a quantitative transformation over the last two decades with the emergence of large scale biological sequencing and tools for transcriptomic analysis. 
@@ -49,7 +51,7 @@ Our first summit summarised the approaches when Ann Copestake (who as Head of De
 <style>
 .image-container {
   position: relative;
-  max-width: 1925px; /* original image width */
+  max-width: 2000px; /* original image width */
   overflow: hidden;
   margin: 0 auto;
 }
@@ -91,43 +93,18 @@ Our first summit summarised the approaches when Ann Copestake (who as Head of De
 </map>
 </div>
 
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const img = document.getElementById('accelerate-science-initiatives-map');
-  const originalWidth = 1925; // Original image width from your coordinates
-  
-  function scaleImageMap() {
-    const scale = img.offsetWidth / originalWidth;
-    const areas = document.querySelectorAll('map[name="accelerate-science-image-map"] area');
-    
-    areas.forEach(area => {
-      // Store original coordinates if not already stored
-      const originalCoords = area.getAttribute('data-original-coords') || area.getAttribute('coords');
-      if (!area.getAttribute('data-original-coords')) {
-        area.setAttribute('data-original-coords', originalCoords);
-      }
-      
-      // Scale coordinates
-      const scaledCoords = originalCoords.split(',').map(coord => 
-        Math.round(parseInt(coord) * scale)
-      ).join(',');
-      
-      area.setAttribute('coords', scaledCoords);
-    });
-  }
-  
-  // Scale on load
-  if (img.complete) {
-    scaleImageMap();
-  } else {
-    img.onload = scaleImageMap;
-  }
-  
-  // Scale on window resize
-  window.addEventListener('resize', scaleImageMap);
+  // Create an instance for each image map on the page
+  new ResponsiveImageMap({
+    imageId: 'accelerate-science-initiatives-map',
+    mapName: 'accelerate-science-image-map',
+    originalWidth: 2000,
+    debug: true  // Set to false in production
+  });
 });
 </script>
+
 
 The *purpose* of Accelerate Science was already provided, a step change in Science at the University of Cambridge, alongside our summit and the unworkshops we built a programme of educational activities to enable that step change. Just like Data Science Africa we made sure that the community was built on *people* and their *projects*. The 2021's summit showcased some projects, but Accelerate Science also [funds projects at the interface of AI and science](https://science.ai.cam.ac.uk/news/2024-05-20-accelerate-c2d3-funding-call-for-novel-applications-of-ai-for-research-and-innovation-2024.html), organises ['AI cafés'](https://science.ai.cam.ac.uk/events/ai-café-large-language-models.html) and builds capabilities through [workshops, courses and tutorials](https://docs.science.ai.cam.ac.uk/training/). Our focus on the interface is represented by the bridge shown in the image. 
 

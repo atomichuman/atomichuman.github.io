@@ -11,12 +11,14 @@ contributor:
     notes: Original blog post
     date: 2024-12-30
 featured_image: /assets/images/2021-11-19_physical-world-original.jpg
+include_js: 
+- /assets/js/responsive-image-map.js
 ---
 
 <style>
 .image-container {
   position: relative;
-  max-width: 1925px; /* original image width */
+  max-width: 3508px; /* original image width */
   overflow: hidden;
   margin: 0 auto;
 }
@@ -54,40 +56,12 @@ featured_image: /assets/images/2021-11-19_physical-world-original.jpg
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const img = document.getElementById('ml-physical-unworkshop-map');
-  const originalWidth = 1925; // Original image width from your coordinates
-  
-  function scaleImageMap() {
-    const scale = img.offsetWidth / originalWidth;
-    const areas = document.querySelectorAll('map[name="ml-physical-unworkshop-image-map"] area');
-    
-    areas.forEach(area => {
-      // Store original coordinates if not already stored
-      const originalCoords = area.getAttribute('data-original-coords') || area.getAttribute('coords');
-      if (!area.getAttribute('data-original-coords')) {
-        area.setAttribute('data-original-coords', originalCoords);
-      }
-      
-      // Scale coordinates
-      const scaledCoords = originalCoords.split(',').map(coord => 
-        Math.round(parseInt(coord) * scale)
-      ).join(',');
-      
-      area.setAttribute('coords', scaledCoords);
-    });
-  }
-  
-  // Scale on load
-  if (img.complete) {
-    scaleImageMap();
-  } else {
-    img.onload = scaleImageMap;
-  }
-  
-  // Scale on window resize
-  window.addEventListener('resize', scaleImageMap);
+  // Create an instance for each image map on the page
+  new ResponsiveImageMap({
+    imageId: 'ml-physical-design-unworkshop-map',
+    mapName: 'ml-physical-unworkshop-image-map',
+    originalWidth: 3508,
+    debug: true  // Set to false in production
+  });
 });
 </script>
-
-
-
