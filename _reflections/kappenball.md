@@ -10,6 +10,10 @@ contributed_by:
     date: "2024-12-15"
     notes: "Written and approved for publication."
 featured_image: /assets/images/kappenball.png
+include_js:
+- /assets/js/ballworld.js
+- /assets/js/kappenball.js
+
 ---
 
 <!-- style for kappenball canvas-->
