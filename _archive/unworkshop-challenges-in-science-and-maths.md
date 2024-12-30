@@ -50,41 +50,18 @@ featured_image: /assets/images/2021-11-19_challenges-in-science-and-maths-origin
 </map>
 </div>
 
+<script src="/assets/js/responsive-image-map.js"></script>
 
+<!-- After your image map HTML -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const img = document.getElementById('science-maths-challenges-unworkshop-map');
-  const originalWidth = 1925; // Original image width from your coordinates
-  
-  function scaleImageMap() {
-    const scale = img.offsetWidth / originalWidth;
-    const areas = document.querySelectorAll('map[name="science-maths-challenges-unworkshop-image-map"] area');
-    
-    areas.forEach(area => {
-      // Store original coordinates if not already stored
-      const originalCoords = area.getAttribute('data-original-coords') || area.getAttribute('coords');
-      if (!area.getAttribute('data-original-coords')) {
-        area.setAttribute('data-original-coords', originalCoords);
-      }
-      
-      // Scale coordinates
-      const scaledCoords = originalCoords.split(',').map(coord => 
-        Math.round(parseInt(coord) * scale)
-      ).join(',');
-      
-      area.setAttribute('coords', scaledCoords);
-    });
-  }
-  
-  // Scale on load
-  if (img.complete) {
-    scaleImageMap();
-  } else {
-    img.onload = scaleImageMap;
-  }
-  
-  // Scale on window resize
-  window.addEventListener('resize', scaleImageMap);
+  // Create an instance for each image map on the page
+  new ResponsiveImageMap({
+    imageId: 'science-maths-challenges-unworkshop-map',
+    mapName: 'science-maths-challenges-unworkshop-image-map',
+    originalWidth: 1925,
+    debug: true  // Set to false in production
+  });
 });
 </script>
 
