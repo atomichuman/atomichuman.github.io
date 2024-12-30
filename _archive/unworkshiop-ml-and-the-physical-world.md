@@ -31,6 +31,7 @@ featured_image: /assets/images/2021-11-19_physical-world-original.jpg
     <area target="_blank" alt="Harry Blakiston-Houston" title="Harry Blakiston-Houston" href="https://www.linkedin.com/in/harry-blakiston-houston/" coords="308,1795,361,1841,377,1925,321,2003,302,2012,392,2031,423,2046,401,2120,265,2099,203,2102,122,2136,98,2062,197,2009,132,1969,119,1869,156,1804,234,1779" shape="poly">
     <area target="_blank" alt="Markus Kaiser" title="Markus Kaiser" href="https://mlatcl.github.io/people/markus-kaiser.html" coords="1613,344,1765,347,1917,344,1929,391,1604,409" shape="poly">
     <area target="_blank" alt="Ieva Kazlauskaitė" title="Ieva Kazlauskaitė" href="https://www.lse.ac.uk/statistics/people/ieva-kazlauskait%C4%97" coords="1976,335,2050,341,2193,344,2344,341,2344,400,1963,400" shape="poly">
+    <area target="_blank" alt="Scribey Sense" title="Scribey Sense" href="https://scribeysense.com" coords="3451,2471,3286,2468,3135,2474,3122,2368,3153,2319,3367,2316,3460,2334" shape="poly">
 </map>
 
 
