@@ -30,18 +30,18 @@ contributed_by:
 featured_image: /assets/images/bridging-domain-experts-to-ai.png
 ---
 
-<!-- Consider stronger opening - perhaps start with the bicycle example which is more engaging -->
-One consistent misrepresentation I hear around AI, particularly from those who are creating it is "no one understands this technology". 
 
-Strictly speaking it might be true, but only in the same way that "no one understands Microsoft Word" or "no one understands how a Ford Focus works". 
-
-<!-- Good example but could be more concisely worded -->
-These systems are very complex, but even for simple systems this is true. Most people aren't aware that to initiate a right turn on a bicycle you first turn the wheel left.[^1] This leads to a suspicion that what people really mean by "no one understands this technology" is "it's really poorly designed". 
-
+You may not be aware that to turn right on a bicycle the first thing you need to do is to turn the wheel to the left. At least you may not be consciously aware of it, but if you can ride a bicycle you instinctively know it.[^1]
 
 [^1]: This is to maintain balance, to make a right turn the bike needs to lean to the right for balance, but to lean a bike to the right you have to turn left. So even though most of us aren't aware of it we naturally make a small left turn before we turn right to get the bike's lean correct.
 
+This shows how we can understand systems in different ways. An intellectual understanding is different from the pragmatic understanding that comes from experience.
+
+The difference between these two forms of understanding surfaces when we hear simplistic statements like "no one understands this artificial intelligence". Is this meant in the intellectual sense or the empirical sense? 
+
 We don't need to know how a car or a bicycle works to learn how to drive or ride them. We need the technology to perform in a predictable manner that responds to our interventions.
+
+This is the same for digital systems. We don't need to know how a digital system works to use it. We need the system to perform in a predictable manner that responds to our interventions.
 
 <center>
 <img src="/assets/images/bridging-domain-experts-to-ai.png" alt="Bridging domain experts to AI capability" width="90%">
@@ -55,7 +55,6 @@ This relates to the way our decisions pan out across different time frames. The 
 ame, but the feel for our a friend or a sister pans out over a longer time frame. I think the most relevant word here is [*affordances*](/themes/affordances/). The book focuses on constraints (or limitations) of human intelligence that in combination with our environment change our affordances. This limits not only what we can do but what we imagine we can do. 
 
 The bicycle is adapted to our capabilities, a minimalist tool that extends our affordances. The way digital systems are deployed often has the opposite effect.
-
 In the [Horizon scandal](/history/horizon-scandal.md), a digital accounting system was deployed that undermined the subpostmasters it was supposed to support. It also undermined the institutions that should have protected the subpostmasters: the legal and the accounting professions. Digital systems can undermine both individual and institutional affordances. 
 
 In the ITV dramatisation of the [Horizon scandal](/history/horizon-scandal.md), the actor playing Jo Hamilton[^3] asks campaigner Alan Bates
@@ -65,12 +64,13 @@ In the ITV dramatisation of the [Horizon scandal](/history/horizon-scandal.md), 
 
 [^3]: [Jo Hamilton](https://en.wikipedia.org/wiki/Jo_Hamilton_(subpostmaster)) was charged with theft and wrongly convicted of false accounting. She was forced to pay the Post Office £36,000.
 
-<!-- Consider rephrasing for clarity -->
-Incompetence and evil are both problems. But a third alternative isn't considered. The system undermined the affordances of both its creators, consumers and the institutions that depend on it. Although as Alan Bates suggests: it comes to the same thing as evil or incompetence in the end.
+There is a devil here, but it's not just incompetence or evil intent. The Horizon system undermined the affordances of both its creators, the subpostmasters and the institutions that we depend on to protect us. Horizon created an *affordance gap* between the decision making and its wider societal context.
 
-Both the Horizon software scandal and the contemporary [Lorenzo Scandal](/history/lorenzo-scandal-and-the-nhs-national-programme-for-it/)[^4] predate the deeper understanding of how to build and deploy software systems that was [developed at Amazon](/reflections/why-amazon/). But as my experience there shows, the problem of the affordance gap hasn't been solved for digital systems. And [*intellectual debt*](/themes/intellectual-debt/) means that the companies themselves also experience an affordance gap in their system deployment. 
+Both the Horizon software scandal and the contemporary [Lorenzo Scandal](/history/lorenzo-scandal-and-the-nhs-national-programme-for-it/)[^4] predate the deeper understanding of how to build and deploy software systems that was [developed at Amazon](/reflections/why-amazon/). But as my experience there shows, the problem of the affordance gap still hasn't been solved for digital systems. The challenge of [*intellectual debt*](/themes/intellectual-debt/) means that even big tech companies experience affordance gaps  in their system deployment.[^5] 
 
 [^4]: The Lorenzo scandal was a software project to digitise the UK's national health service. It was cancelled at a cost of over £10 billion. But given what happened to the subpostermasters in the Horizon scandal we can be grateful it was cancelled.
+
+[^5]: Examples from the book include [the FBLearner deployment](/history/facebooks-fblearner-deployment/) and [Microsoft's Tay chatbot](/history/microsofts-tay-chatbot/).
 
 Analysis of the failures shows a repeated failure to integrate mechanisms of *feedback* in the deployment of the technology. True feedback would integrate both the aspirations of citizens (subpostmasters for Horizon, nurses, doctors for Lorenzo) as well as the immediate needs. Too often digital systems bring inconvenience to individuals (such as increased bureaucracy) without delivering benefits. Where the benefits are found they are distributed centrally. This means that the feel of these systems is closer to enslavement rather than empowerment, an idea that was expressed by [Samuel Butler](/people/samuel-butler/) in his [letter to the Press](/bibliography/darwin-among-the-machines/) in 1863.
 
