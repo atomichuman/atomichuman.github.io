@@ -29,14 +29,20 @@ I think the most relevant word here is [*affordances*](/themes/affordances/). Th
 
 The bicycle is adapted to our capabilities, a minimalist tool that extends our affordances. The way digital systems are deployed often has the opposite effect.
 
-In the [Horizon scandal](/history/horizon-scandal.md), Digital systems are at the opposite end of the spectrum, they are produced for the convenience of It's like we're being presented with bicycles but not being taught how to ride
+In the [Horizon scandal](/history/horizon-scandal.md), a digital accounting system was deployed that undermined the subpostmasters it was suppoed to support. It also undermined the institutions that should have protected the subpostmasters: the legal and the accounting professions. Digital systems can undermine both individual and institutional affordances. 
 
-In the ITV dramatisation of the [Horizon scandal](/history/horizon-scandal.md), spoken by the actor playing Jo Holloway, who was wrongfully imprisoned based on evidence derived from faulty data from the Horizon software, says that she doesn't understand whether the Post Office were incompetent or evil. 
+In the ITV dramatisation of the [Horizon scandal](/history/horizon-scandal.md), the actor playing Jo Hamilton[^3] asks campaigner Alan Bates
 
-Both the Horizon scandal and the contemporary [Lorenzo Scandal](/history/lorenzo-scandal-and-the-nhs-national-programme-for-it/)[^3] predate the deeper understanding of how to build and deploy software systems that was [developed at Amazon](/reflections/why-amazon/), but as my experience there shows, the problem of the affordance gap hasn't been solved for digital systems. And [*intellectual debt*](/themes/intellectual-debt/) means that the companies themselves also experience an affordance gap in their system deployment. 
+> Jo Hamilton : Are they just incompetent, Alan, or just evil?
+> Alan Bates : Well, y'know... it comes to the same thing in the end.
 
-[^3]: The Lorenzo scandal was a software project to digitise the UK's national health service. It was cancelled at a cost of over £10 billion. But given what happened to the subpostermasters in the Horizon scandal we can be grateful it was cancelled.
+[^3]: [Jo Hamilton](https://en.wikipedia.org/wiki/Jo_Hamilton_(subpostmaster)) was charged with theft and wrongly convicted of false accounting. She was forced to pay the Post Office £36,000.
 
+The third alternative that the system undermined the affordances of both its creators, consumers and the institutions that depend on it isn't discussed but as the dialogue from the dramatisation suggests, it still comes to the same thing in the end.
+
+Both the Horizon software scandal and the contemporary [Lorenzo Scandal](/history/lorenzo-scandal-and-the-nhs-national-programme-for-it/)[^4] predate the deeper understanding of how to build and deploy software systems that was [developed at Amazon](/reflections/why-amazon/). But as my experience there shows, the problem of the affordance gap hasn't been solved for digital systems. And [*intellectual debt*](/themes/intellectual-debt/) means that the companies themselves also experience an affordance gap in their system deployment. 
+
+[^4]: The Lorenzo scandal was a software project to digitise the UK's national health service. It was cancelled at a cost of over £10 billion. But given what happened to the subpostermasters in the Horizon scandal we can be grateful it was cancelled.
 
 Analysis of the failures shows a repeated failure to integrate mechanisms of *feedback* in the deployment of the technology. True feedback would integrate both the aspirations of citizens (subpostmasters for Horizon, nurses, doctors for Lorenzo) as well as the immediate needs. Too often digital systems bring inconvenience to individuals (such as increased bureaocracy) without delivering benefits. Where the benefits are found they are distributed centrally. This means tha the feel of these systems is closer to enslavement rather than empowerment, an idea that was expressed by [Samuel Butler in his letter to the Press](/history/samuel-butler-letter-to-the-press/) in Tk.
 
