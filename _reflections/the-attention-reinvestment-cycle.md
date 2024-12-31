@@ -22,4 +22,10 @@ Attention reinvestment cycle
 \
 <i>The attention reinvestment cycle.</i>
 
-</center>
+</center>\
+\
+<div class="machine-commentary" markdown=1>\
+\
+\
+\
+</div>
