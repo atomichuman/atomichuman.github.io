@@ -26,6 +26,6 @@ Attention reinvestment cycle
 \
 <div class="machine-commentary" markdown=1>\
 \
-\
+## Machine Commentary\
 \
 </div>
