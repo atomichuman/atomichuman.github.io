@@ -8,7 +8,7 @@ contributed_by:
     type: human
     person_id: Neil D. Lawrence
     notes: Create page stub
-featured_image: /assets/images/2021-11-19_accelerate-science-symposium.png
+featured_image: /assets/images/bridging-domain-experts-to-ai.png
 ---
 
 One consistent misrepresentation I hear around AI, particularly from those who are creating it is "no one understands this technology". 

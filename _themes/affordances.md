@@ -18,7 +18,7 @@ themes:
 
 ## Machine Summary
 
-"Affordances" describes the latent possibilities for action or meaning that emerge from the relationship between an agent and properties of their environment, whether physical, digital, social or linguistic [Chemero (2003)](/bibliography/an-outline-theory-of-affordances). In *The Atomic Human*, this concept provides a crucial framework for understanding how intelligence emerges from the interaction between agents and their environment [Gibson (1979)](/bibliography/the-ecological-approach-to-visual-perception), with particular focus on the differences between human and artificial intelligence [Norman (1988)](/bibliography/the-psychology-of-everyday-things).
+"Affordances" describes the latent possibilities for action or meaning that emerge from the relationship between an agent and properties of their environment, whether physical, digital, social or linguistic \[[Chemero (2003)](/bibliography/an-outline-theory-of-affordances)]. In *The Atomic Human*, this concept provides a crucial framework for understanding how intelligence emerges from the interaction between agents and their environment \[[Gibson (1979)](/bibliography/the-ecological-approach-to-visual-perception)], with particular focus on the differences between human and artificial intelligence \[[Norman (1988)](/bibliography/the-psychology-of-everyday-things)].
 
 ### Relationality
 
