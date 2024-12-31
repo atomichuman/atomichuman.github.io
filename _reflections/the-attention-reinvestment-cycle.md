@@ -1,7 +1,7 @@
 ---
 title: The Attention Reinvestment Cycle
 date: 2025-01-05T16:31:42.780Z
-toggle_machine_commentary: false
+toggle_machine_commentary: true
 contributed_by:
   initial:
     date: 2024-12-31T16:31:42.791Z
