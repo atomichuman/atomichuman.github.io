@@ -170,7 +170,7 @@ title: Advent Calendar - The Atomic Human
       <td data-date="30"><a href="/initiatives/accelerate-science/">30</a></td>
     </tr>
     <tr>
-      <td data-date="31">31</td>
+      <td data-date="31"><a href="/reflections/bridging-from-domain-experts-to-ai-capability/">31</a></td>
       <td data-date="1">1</td>
       <td data-date="2">2</td>
       <td data-date="3">3</td>
