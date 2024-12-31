@@ -25,3 +25,6 @@ We don't need to know how a car or a bicycle works to learn how to drive or ride
 
 In *The Atomic Human* I try to avoid using terms like consciousness or sentience that are poorly defined. But I do use the word "feel" a lot in a way that isn't very well defined. I'm using this word in the sense of "getting a feel for something" but it has a different sense as in "search your feelings Luke", or when something makes us "feel bad". 
 
+I think the most relevant word here is [*affordances*](/themes/affordances/). The book focuses on constraints (or limitations) of human intelligence that in combination with our environment change our affordances. 
+
+In the ITV dramatisation of the Horizon scandal, spoken by the actor playing Jo Holloway, who was wrongfully imprisoned based on faulty data from the system, says that she doesn't understand whether the Post Office were incompetent or evil. 
