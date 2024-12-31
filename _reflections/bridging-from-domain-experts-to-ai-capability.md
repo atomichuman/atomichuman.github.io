@@ -76,6 +76,7 @@ In the [Horizon scandal](/history/horizon-scandal.md), a digital accounting syst
 In the ITV dramatisation of the [Horizon scandal](/history/horizon-scandal.md), the actor playing Jo Hamilton[^3] asks campaigner Alan Bates
 
 > Jo Hamilton : Are they just incompetent, Alan, or just evil?
+>
 > Alan Bates : Well, y'know... it comes to the same thing in the end.
 
 [^3]: [Jo Hamilton](https://en.wikipedia.org/wiki/Jo_Hamilton_(subpostmaster)) was charged with theft and wrongly convicted of false accounting. She was forced to pay the Post Office £36,000.
