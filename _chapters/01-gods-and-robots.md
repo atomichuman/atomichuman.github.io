@@ -23,6 +23,7 @@ contributed_by:
     date: 2024-12-07
     notes: Removed incorrect themes etc and deleted themes from site that aren't relevant.
 themes:
+  - Affordances
   - Diverse Voices
   - Wisdom in Diversity
   - Power Asymmetries

@@ -14,6 +14,7 @@ contributed_by:
     date: 2024-12-02
     notes: Moving computer allocated categories to separate technology and media and to merge reflections.
 themes:
+  - Affordances
   - The Open Society
   - Separation of Concerns
   - Wisdom in Diversity
