@@ -32,16 +32,16 @@ The **AI Council** was an independent advisory group providing insights into AI 
 
 ---
 
-## **AI Council Key Publications**
+## AI Council Key Publications
 
-### **1. Large Language Models Opportunity (Dec 2022)**
+### 1. Large Language Models Opportunity (Dec 2022)
 
 - Advocated **national and sovereign capability** in LLMs to prevent dependency on foreign companies and mitigate vulnerabilities.  
 - Recommended **investment in compute resources**, **R&D infrastructure**, and **public-private partnerships**.  
 - Outlined **potential use cases** in **education**, **healthcare**, and **cybersecurity** while stressing the need for **responsible regulation**.  
 - [Read Full Memo](https://mlatcl.github.io/papers/ai-council-llm-memo.pdf)
 
-### **2. Foundation Models Policy Paper (Apr 2023)**
+### 2. Foundation Models Policy Paper (Apr 2023)
 
 - Proposed a **two-pronged strategy**:  
   1. **AI Policy Frameworks** – Create governance systems for safe AI development and deployment.  
@@ -50,21 +50,21 @@ The **AI Council** was an independent advisory group providing insights into AI 
 - [Read Full Paper](https://mlatcl.github.io/papers/ai-council-foundation-models-policy-paper.pdf)
 
 
-### **Commentary: The NACA Model and the 5 Ps Framework**
+### Commentary: The NACA Model and the 5 Ps Framework
 
-#### **NACA Model Overview**
+#### NACA Model Overview
 
 The policy paper proposes an **AI proving ground** inspired by the **National Advisory Committee for Aeronautics (NACA)**—a precursor to **NASA**. This approach emphasizes:  
 1. **National profile** – A central hub for AI testing and development.  
 2. **Separation of roles** – Focused on **testing and refining** technologies rather than building them.  
 3. **Tight integration of research and practice** – Bridging **academia, industry, and government** to solve deployment challenges.  
 
-### **Connections to *The Atomic Human***  
+### Connections to *The Atomic Human*  
 - *The Atomic Human* explores **technological dependence** and the need to **preserve human agency**.  
 - The NACA model mirrors this by creating a **structured process** to test and **evaluate AI tools**, ensuring alignment with **human values** before deployment.  
 - Both emphasize **systems thinking**, where AI is integrated into society through **collaboration and checks** rather than unrestricted growth.
 
-### **Alignment with the 5 Ps Model**  
+### Alignment with the 5 Ps Model  
 
 | **5 Ps**         | **Connection to NACA Model**                                                                                      |
 |------------------|------------------------------------------------------------------------------------------------------------------|
@@ -76,16 +76,16 @@ The policy paper proposes an **AI proving ground** inspired by the **National Ad
 
 ---
 
-## **Neil Lawrence’s Personal Commentary and Publications**
+## Neil Lawrence’s Personal Commentary and Publications
 
-### **1. Sunday Times Article (June 2023)**
+### 1. Sunday Times Article (June 2023)
 
 - Critiqued **alarmist narratives** about AI as an **existential threat**, arguing that **current harms** from Big Tech dominance deserve **immediate attention**.  
 - Highlighted **data manipulation**, **misinformation**, and **lack of regulation** as urgent challenges.  
 - Advocated for **pragmatic solutions** through **transparency standards** and **regulatory frameworks**.  
 - [Read the Article](https://www.thetimes.com/business-money/technology/article/our-lives-may-be-enhanced-by-ai-but-big-tech-just-sees-dollar-signs-2g5xcsk35)  
 
-### **2. Letter Warning About Simplistic Narratives (June 2023)**
+### 2. Letter Warning About Simplistic Narratives (June 2023)
 
 - Responded to debates dominated by **existential fears**, urging focus on **practical interventions** to manage AI risks.  
 - Supported the **AI White Paper** and tools like the **Online Safety Bill** to regulate AI responsibly.  
@@ -94,27 +94,27 @@ The policy paper proposes an **AI proving ground** inspired by the **National Ad
 
 ---
 
-## **Key Themes and Connections**
+## Key Themes and Connections
 
-### **Purpose**
+### Purpose
 - Build **national capability** to reduce reliance on foreign AI infrastructure and establish **technological sovereignty**.  
 
-### **People**
+### People
 - Engage **diverse stakeholders** (academia, industry, and civil society) to ensure **inclusive development** of AI systems.  
 
-### **Projects**
+### Projects
 - Develop **AI proving grounds** for testing and refining AI models.  
 - Create **regulatory sandboxes** and scale **public-private partnerships**.  
 
-### **Principles**
+### Principles
 - Promote **transparency**, **accountability**, and **ethical innovation** to tackle **bias**, **security threats**, and **misinformation**.  
 
-### **Process**
+### Process
 - Adopt **adaptive policies** that evolve with technological advancements while maintaining **public trust** and **international competitiveness**.  
 
 ---
 
-## **Relevance to *The Atomic Human***
+## Relevance to *The Atomic Human*
 
 These responses reflect themes from *The Atomic Human* on **human-machine interaction**, **AI governance**, and **distributed responsibility**. Both stress:  
 
@@ -124,7 +124,7 @@ These responses reflect themes from *The Atomic Human* on **human-machine intera
 
 ---
 
-## **Further Reading**
+## Further Reading
 
 - **AI Council Archive:** [AI Council Overview](https://mlatcl.github.io/archive/ai-council/)
 - **LLM Opportunity Memo:** [December 2022 Memo](https://mlatcl.github.io/papers/ai-council-llm-memo.pdf)
@@ -133,4 +133,4 @@ These responses reflect themes from *The Atomic Human* on **human-machine intera
 
 ---
 
-</dv>
+</div>
