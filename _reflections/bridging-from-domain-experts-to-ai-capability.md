@@ -25,6 +25,14 @@ We don't need to know how a car or a bicycle works to learn how to drive or ride
 
 In *The Atomic Human* I try to avoid using terms like consciousness or sentience that are poorly defined. But I do use the word "feel" a lot in a way that isn't very well defined. I'm using this word in the sense of "getting a feel for something" but it has a different sense as in "search your feelings Luke", or when something makes us "feel bad". 
 
-I think the most relevant word here is [*affordances*](/themes/affordances/). The book focuses on constraints (or limitations) of human intelligence that in combination with our environment change our affordances. 
+I think the most relevant word here is [*affordances*](/themes/affordances/). The book focuses on constraints (or limitations) of human intelligence that in combination with our environment change our affordances. This limits not only what we can do but what we imagine we can do. 
 
-In the ITV dramatisation of the Horizon scandal, spoken by the actor playing Jo Holloway, who was wrongfully imprisoned based on faulty data from the system, says that she doesn't understand whether the Post Office were incompetent or evil. 
+The bicycle is adapted to our capabilities, a minimalist tool that extends our affordances. The way digital systems are deployed often has the opposite effect.
+
+In the [Horizon scandal](/history/horizon-scandal.md), Digital systems are at the opposite end of the spectrum, they are produced for the convenience of It's like we're being presented with bicycles but not being taught how to ride
+
+In the ITV dramatisation of the [Horizon scandal](/history/horizon-scandal.md), spoken by the actor playing Jo Holloway, who was wrongfully imprisoned based on faulty data from the system, says that she doesn't understand whether the Post Office were incompetent or evil. 
+
+Both the Horizon scandal and the contemporary [Lorenzo Scandal](/history/lorenzo-scandal-and-the-nhs-national-programme-for-it/)[^3] predate the deeper understanding of how to build and deploy software systems that was [developed at Amazon](/reflections/why-amazon/), but as my experience there shows, the problem of the affordance gap hasn't been solved for digital systems. And [*intellectual debt*](/themes/intellectual-debt/) means that the companies themselves also experiene an affordance gap in their system deployment.
+
+[^3]: The Lorenzo scandal was a software project to digitise the UK's national health service. It was cancelled at a cost of over £10 billion. But given what happened to the subpostermasters in the Horizon scandal we can be grateful it was cancelled.
