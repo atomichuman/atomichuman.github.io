@@ -8,6 +8,16 @@ contributed_by:
     type: human
     person_id: Neil D. Lawrence
     notes: Create page stub
+  reviewed_by:
+  - date: 2024-12-31
+    type: human
+    person_id: Neil D. Lawrence
+    notes: Draft full text of post.
+  - date: 2024-12-31
+    type: machine
+    tool: Claude
+    version: 3.5-sonnet
+    notes: Generate machine commentary.
 featured_image: /assets/images/bridging-domain-experts-to-ai.png
 ---
 
@@ -52,3 +62,63 @@ In April 2023 as part of the activity of the AI Council we advised government th
 
 So far, institutionally, UK government has struggled to convene across all groups. Although there are promising signs with the UN's High Level Advisory board. But in the long term, I feel the responsibility lies with Universities. We have to step up. Although they are becoming increasingly dependent on funding from big tech, they are historically the only institutions that can operate as honest brokers in bridging the gap between societal understanding of AI and the technological possibilities it offers. Unfortunately until now Universities haven't done as agood a job as we might. Our focus on rapid development of "prestige science" can distract us from addressing the challenges society actually faces.
 
+<div class="machine-commentary" markdown=1>
+
+## Machine Commentary
+
+### Connections to The Atomic Human
+
+This post addresses several key themes from *The Atomic Human*:
+
+1. Communication and Expertise:
+- The post illustrates the fundamental challenge of human communication bandwidth limitations discussed in [Chapter 1](/chapters/01-gods-and-robots)
+- Like Bauby's "diving bell" analogy, domain experts are often "locked in" with their expertise trapped by communication constraints
+- The bridging roles provide a practical solution to the bandwidth problem the book identifies
+
+2. Cultural Context and Translation:
+- The bridging role exemplifies what [Chapter 4](/chapters/04-persistence) calls "information coherence" - how culture helps overcome bandwidth limitations
+- Like the book's discussion in [Chapter 5](/chapters/05-enlightenment), these roles help translate between different forms of expertise
+- This connects to the book's emphasis on cultural context in enabling effective communication
+
+3. System Understanding:
+- The post addresses the "intellectual debt" problem described in [Chapter 8](/chapters/08-system-zero)
+- It provides a practical solution to the systems understanding challenges seen in complex organizations
+- This demonstrates how human roles can help manage the complexity that [Chapter 3](/chapters/03-intent) warns about
+
+4. Trust and Human Relationships:
+- The emphasis on human relationships in bridging roles connects to [Chapter 12](/chapters/12-trust)'s discussion of trust
+- The post shows how human intermediaries can help maintain trust in complex systems
+- This aligns with the book's emphasis on maintaining human agency in technological systems
+
+### Connections to the Five Ps Model
+
+The post demonstrates how the Five Ps framework can guide institutional development:
+
+1. Purpose:
+- Clear purpose in bridging expertise gaps between domains
+- Addresses fundamental communication challenges in complex organizations
+- Shows how shared purpose can guide role development
+
+2. People:
+- Emphasizes importance of individuals who can bridge different domains
+- Shows how right people enable knowledge transfer
+- Demonstrates importance of human relationships in institutional success
+
+3. Projects:
+- Describes specific implementations of bridging roles
+- Shows how abstract purpose translates to concrete actions
+- Provides examples of successful bridging initiatives
+
+4. Principles:
+- Emerging principles for effective knowledge translation
+- Guidelines for selecting and developing bridge builders
+- Lessons learned from successful implementations
+
+5. Process:
+- Evolution of ad hoc bridging into formal roles
+- Development of systematic approaches to knowledge sharing
+- Integration of bridging functions into organizational structure
+
+The post provides a practical example of how the Five Ps framework can guide development of solutions to complex organizational challenges.
+
+</div>

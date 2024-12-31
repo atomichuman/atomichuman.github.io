@@ -1,0 +1,11 @@
+Here's a summary of the Prologue:
+
+The book opens at a pivotal moment in December 2013 at the Neural Information Processing Systems conference in Nevada, when the field of machine learning began transforming into "artificial intelligence." During a meeting in Mark Zuckerberg's penthouse suite, Facebook announced its plans to establish an AI research lab under Yann LeCun, following a breakthrough in computer vision using deep learning that had been acquired by Google.
+
+The author notes this marked a significant shift, as the term "artificial intelligence" had previously been associated with failed logical reasoning approaches rather than the more successful machine learning techniques. The announcement came as Facebook sought to catch up with Google in the AI race, with Google soon after acquiring DeepMind for $500 million.
+
+The author views this moment as the beginning of a major transformation in his field. The conference grew from 2,000 delegates in 2013 to 13,000 by 2019, reflecting the explosive growth of AI's importance in society. Many of his academic colleagues, including Zoubin Ghahramani and Max Welling, moved into senior industry roles at major tech companies, and he himself spent time leading an Amazon machine learning division.
+
+The prologue raises key questions about the nature of intelligence and artificial intelligence, suggesting that like Henry Ford's customers asking for "a faster horse," we might be mistakenly thinking of AI in terms of "a smarter human." The author indicates he prefers the term "machine intelligence" to avoid the cultural baggage associated with "artificial intelligence."
+
+The passage establishes the author as an insider who witnessed firsthand the transformation of machine learning into modern AI, setting up an exploration of what intelligence really means and how this shapes our understanding of artificial intelligence.

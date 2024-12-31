@@ -1,0 +1,564 @@
+379
+Notes
+1. Gods and Robots
+1 See e.g. B. Singler (2020), ‘The AI creation meme: a case study of the
+new visibility of religion’, in Artificial Intelligence Discourse: Religions,
+11(253); https://doi.org/10.3390/rel11050253
+2 The English title refers to a diving bell, but a more accurate translation
+of scaphandre would be an old-fashioned diving suit, one of the type
+that Tintin and Captain Haddock used during their hunt for Red Rack-
+ham’s treasure.
+3 See United Nations, Department of Economic and Social Affairs,
+Population Division (2019). World Urbanization Prospects: The 2018
+Revision (ST/ESA/SER.A/420). New York: United Nations; https://
+population.un.org/wup/Publications/Files/WUP2018-Report.pdf
+4 See e.g. E. E. Greenwald, L. Baltiansky and O. Feinerman, ‘Individual
+crop loads provide local control for collective food intake in ant colo-
+nies’, eLife, 16 March 2018; https://doi.org/10.7554/eLife.31730
+5 See M. Beekman and F. L. W. Ratnieks (2000), ‘Long-range foraging by
+the honey-bee, Apis mellifera L.’, in Functional Ecology, 14: 490–96;
+https://doi.org/10.1046/j.1365-2435.2000.00443.x
+6 Nick Bostrom, Superintelligence: Paths, Dangers, Strategies (Oxford:
+Oxford University Press, 2014), p. 22
+7 I. J. Good, ‘Speculations concerning the first ultraintelligent machine’,
+Advances in Computers, vol. 6, 1965. https://doi.org/10.1016/S0065-
+2458(08)60418-0
+8 At the Web Summit conference in Lisbon, Portugal; https://www.
+cnbc.com/2017/11/06/stephen-hawking-ai-could-be-worst-event-in-
+civilization.html
+9 Arthur R. Miller, The Assault on Privacy (Ann Arbor: The University of
+Michigan Press, 1971) p. 12
+9780241625248_TheAtomicHuman_TXT.indd 379 4/20/24 3:08:27 AM
+
+380
+Notes to pp. 45–78
+2. Automatons
+1 T. H. Flowers, ‘D-Day at Bletchley Park’, Chapter 6 of Colossus: The
+Secrets of Bletchley Park’s Codebreaking Computers, ed. B, J. Copeland
+(Oxford: Oxford University Press, 2006), p. 81.
+2 Michael Smith, The Debs of Bletchley Park (Aurum Press, 2015), p. 12.
+3 Common sense would say that a machine that does nothing is not a
+machine at all. But machines and mathematics don’t share in our
+‘sense of the common’, so defining the nothing machine turns out to
+be important to make everything work.
+3. Intent
+1 A. Conan Doyle, A Study in Scarlet (London: Ward Lock & Co., 1888),
+Chapter 2.
+2 Richard E. Susskind, Expert Systems in Law: A Jurisprudential Inquiry
+(Oxford: Clarendon Press, 1987).
+3 G. E. P. Box (Dec. 1976), ‘Science and statistics’, Journal of the American
+Statistical Association, 71(356), 791–99; https://doi.org/10.2307/22868416
+4 This is only partially true. At the time we were talking to Ferrari,
+racing cars were using their engine’s exhaust to improve their aero-
+dynamic performance in something called a ‘blown diffuser’. But the
+effect of the blown diffuser could also be re-created in the model with-
+out including a full engine.
+5 In a Vernam cipher the two streams are compared. If the binary digits
+are different, then the locked message encodes a 1. If they are the
+same, the locked message gives a 0. The message then encodes ‘how it
+was originally different’ from the key. If you have the key, and you
+know how the original message was different from the key, then you
+can decode the original message.
+6 In the US such machines are known as Rube Goldberg machines after
+a cartoonist who drew similar machines.
+7 See J. Dunn, ‘Introducing FBLearner Flow: Facebook’s AI backbone’,
+Facebook Engineering Blog, 9 May 2016; https://engineering.
+9780241625248_TheAtomicHuman_TXT.indd 380 4/20/24 3:08:27 AM
+
+381
+Notes to pp. 91–104
+f b.com/2016/05/09/core-infra/introducing-f blearner-flow-facebook-
+s-ai-backbone/
+4. Persistence
+1 Barley was domesticated around 10,000 years ago in the Levant. See e.g.
+A. Badr et al. (April 2000), ‘On the origin and domestication history
+of barley (Hordeum vulgare)’, Molecular Biology and Evolution, 17(4),
+499–510; https://doi.org/10.1093/oxfordjournals.molbev.a026330.
+2 P. Lee, ‘Learning from Tay’s introduction’, Official Microsoft Blog, 25
+March 2016; https://blogs.microsoft.com/blog/2016/03/25/learning-
+tays-introduction/#sm.00000gjdpwwcfcus11t6oo6dw79gw
+3 The quote is from an 1871 essay on strategy by Graf von Moltke. The
+original German quote can be found in Moltke’s Militärische Werke: II.
+Die Thätigkeit als Chef des Generalstabes der Armee im Frieden (Berlin:
+Ernst Siegfried Mittler und Sohn, 1906), p. 291.
+4 Each brick is a chemical compound called a nucleobase. The four
+nucleobases in DNA are called guanine, adenine, cytosine and thy-
+mine and their first letters give us their representation as G, A, C and
+T respectively.
+5 This estimate is the current estimate of the mutation rate of the
+human germline: see e.g. A. Scally, ‘Mutation rates and the evolution
+of germline structure’, Philosophical Transactions of the Royal Society of
+London: B, Biological Sciences, 19 July 2016, 371(1699):20150137; doi:
+10.1098/rstb.2015.0137. PMID: 27325834; PMCID: PMC4920338.
+6 Charles Babbage, On the Economy of Machinery and Manufactures
+(London: Charles Knight, 1832), Chapter 19, p. 131.
+7 Of course, this is just my subjective opinion. To properly rank these
+two extraordinary achievements, I would have to convert the term
+‘extraordinary’ into objective measures. One reason I find it more
+extraordinary is because it is helpful in communicating the message of
+this chapter to do so. So the objective measures I would be tempted to
+create turn out to be subjective in origin.
+9780241625248_TheAtomicHuman_TXT.indd 381 4/20/24 3:08:27 AM
+
+382
+Notes to pp. 111–33
+5. Enlightenment
+1 Isaac Newton, Philosophiae Naturalis Principia Mathematica (London:
+Royal Society, 1687)
+2 Isaac Newton Letter to Robert Hooke, on 2 February 1675. Simon
+Gratz collection, Permanent ID: 9792. Available from https://
+digitallibrary.hsp.org/index.php/Detail/objects/9792
+3 The appointment lasted for only six weeks; Napoleon complained in
+his memoir that Laplace didn’t see the subtleties of administration,
+and Laplace was replaced with Napoleon’s brother. Perhaps the famil-
+ial relationship of his replacement is a better explanation for the
+replacement than Laplace’s administration skills.
+4 Pierre-Simon Laplace, Essai philosophique sur les probabilités (1814),
+translated as A Philosophical Essay on Probabilities, 1902, p. 4.
+5 Matthew Boulton, letter to James Watt, 28 May 1788, The Library of
+Birmingham: Birmingham Archives and Heritage, Boulton & Watt
+Collection, MS 3147/3/12.
+6 This engine, Boulton and Watt’s Tyger, known as the Lap Engine, was
+an engine powered by steam and controlled by the fly-ball governor. It
+is the oldest Watt engine to survive and can be seen at the London Sci-
+ence Museum.
+7 Elon Musk, quoted from the Code Conference 2016; https://www.
+youtube.com/embed/wsixsRI-Sz4?start=4678
+8 In the United States, Benjamin Franklin is famous for his interest in
+electricity. Some of Franklin’s experiments were conducted with Mat-
+thew Boulton during visits to England in 1758 and 1760. The members
+of the Lunar Society were socially liberal, making them kindred polit-
+ical spirits to Franklin and the Founding Fathers of the US.
+9 Valentino Braitenberg, Vehicles: Experiments in Synthetic Psychology
+(Cambridge, Mass: MIT Press, 1984), p. 20.
+10 My colleagues Timnit Gebru, Meg Mitchell and Emily Bender refer to
+the chatbot version of these models as stochastic parrots in acknowl-
+edgment of this. See E. M. Bender et al. (2021), ‘On the dangers
+of stochastic parrots: can language models be too big? 
+’, Proceedings
+of the 2021 ACM Conference on Fairness, Accountability, and
+9780241625248_TheAtomicHuman_TXT.indd 382 4/20/24 3:08:27 AM
+
+383
+Notes to pp. 134–61
+Transparency (FAccT ‘21). Association for Computing Machinery,
+New York, NY, USA, 610–23; https://doi.org/10.1145/3442188.3445922
+11 N. Wiener, Ex-Prodigy: My Childhood and Youth (Cambridge, Mass: MIT
+Press, 1953), p. 194.
+12 Bertrand Russell, and Alfred North Whitehead. Principia Mathematica
+(Cambridge: Cambridge University Press, 1910, 1912, 1913)
+13 Bertrand Russell, quoting G. H. Hardy in a letter to Lady Ottoline
+Morrell on 2 May 1912. Letter held in the Bertrand Russell Collection
+at McMaster University. Document no. 000435 Box no. 2.58.
+14 The new word is just a contraction of the words Not and And.
+15 Dermot Turing, quoting Tommy Flowers in an interview with Brian
+Randell in 1975 in Prof: Alan Turing Decoded (Stroud: The History Press,
+2015), p. 176.
+16 ‘General Eisenhower and British Prime Minister Churchill review
+101st Airborne Division troops in England during World War II.’ Video
+clip 65675076988 from Critical Past. See https://www.criticalpast.com/
+video/65675076988_101st-Airborne-Division_Dwight-Eisenhower_
+Winston-Churchill_Maxwell-D-Taylor
+17 Note from General Dwight Eisenhower, evening of 5 June 1944, Eisen-
+hower’s Pre-Presidential Papers, Principal File, Box 168, Butcher Diary
+June 28–July 14, 1944 (2); NAID #186470
+6. The Gremlin of Uncertainty
+1 Stephen Hawking A Brief History of Time: From Big Bang to Black Holes
+(London: Bantam, 1988), Chapter 12.
+2 Tetris is a computer game where the objective is to build a wall by
+dropping blocks so that they intersect with each other.
+3 https://conwaylife.com/wiki/Main_Page
+4 Douglas Adams, The Hitchhiker’s Guide to the Galaxy (London: Pan,
+1979), Chapter 27.
+5 Ibid., Chapter 28.
+6 A. A. Milne as Winnie-the-Pooh in The House at Pooh Corner (1928),
+Chapter 6.
+9780241625248_TheAtomicHuman_TXT.indd 383 4/20/24 3:08:27 AM
+
+384
+Notes to pp. 161–78
+7 Oral history interview with Rommel’s son Manfred, from the United
+States Holocaust Memorial Museum. Accession Number: 2017.295.20
+| RG Number: RG-50.957.0019 available from https://collections.
+ushmm.org/search/catalog/irn562437
+8 Pierre-Simon Laplace, Essai philosophique sur les probabilités, 1814, trans-
+lated as A Philosophical Essay on Probabilities (New York, John Wiley &
+Sons, 1902) p. 6.
+9 Ibid., p. 6.
+10 Sources for Cavallo’s career as described here include the NASA
+Headquarters NACA Oral History Project. Edited Oral History Tran-
+script Stefan A. Cavallo interviewed by Sandra Johnson, 30 Sept. 2005,
+https://historycollection.jsc.nasa.gov/JSCHistoryPortal/history/oral_
+histories/NACA/CavalloSA_9-30-05.htm, and ’Parishioner Spotlight’ on
+Cavallo from St Francis de Sales Church, NYC, https://www.youtube.
+com/watch?v=NST4dPqniBA, and an interview with Cavallo by his
+son from 2019, https://www.youtube.com/watch?v=0S_QousMTW8.
+11 Donald S. Lopez Sr, Deputy Director of the US National Air and Space
+Museum and Second World War P-40 and P-51 pilot, speaking while
+introducing Cavallo at the National Air and Space Museum; https://
+www.youtube.com/watch?v=bYL_l18J1-s
+12 Stefan Cavallo, Bailout, available from https://stefancavallo.com/wp-
+content/uploads/2022/09/Bailout-Final-Version.pdf
+13 Donald S. Lopez, Into the Teeth of the Tiger (Washington, DC: Smithso-
+nian Books, 1997), p. 9.
+14 Richard Price in the introduction to Thomas Bayes’s ‘An essay towards
+solving a problem in the doctrine of chances’, 1763, p. 374.
+15 Ibid., p. 374.
+16 If you did study them directly from the Principia, then please do get in
+touch; I would love to hear your story. But even if you didn’t study
+them directly from the Principia, you studied the laws that came from
+there.
+17 See p. 21 of ‘An interview with John Pinkerton’, 23 Aug. 1988, where
+Pinkerton states, ‘It was true that since 1951 a small job had been run
+regularly. This was a bakery sales analysis; originally it ran extremely
+slowly when we had a single teleprinter for output.’ Available from
+9780241625248_TheAtomicHuman_TXT.indd 384 4/20/24 3:08:27 AM
+
+385
+Notes to pp. 190–207
+https://conservancy.umn.edu/bitstream/handle/11299/107600/oh149
+jmp.pdf
+18 Socrates quoted in Plato’s Apology, (c. 399 bce), trans. Henry Cary, in
+Plato’s Apology, Crito and Phaedo of Socrates (New York: Arthur Hinds &
+Company, 1892).
+7. It’s Not Rocket Science or Brain Surgery
+1 The first hominid in space was not a human but a chimpanzee named
+Ham. He was used to test the survival systems of the Mercury cap-
+sule. Yuri Gagarin became the second hominid to reach space when he
+launched ten weeks later. See also Christopher Kraft, Flight: My Life in
+Mission Control (Boston, MA: E. P. Dutton, 2001), p. 92. Kraft docu-
+ments the origin of the expression ‘Spam in a can’ as coming from the
+Society of Experimental Test Pilots.
+2 Donald S. Lopez, Into the Teeth of the Tiger (Washington, DC: Smithso-
+nian Books, 1997), p. 43.
+3 Robert R. Gilruth, ‘Requirements for satisfactory flying qualities of
+airplanes’, NACA Report NACA-TR-755, 1 Jan. 1943.
+4 After the war Cavallo was asked, like Chuck Yeager in The Right Stuff, to
+go to Muroc air base to fly the X1. But as a father to a young family, with
+his parents running a furniture business in New York, he turned
+down the opportunity and headed back home to help in his parents’
+business.
+5 The term ‘unknown unknowns’ is often credited to Donald Rumsfeld
+from a press conference in February 2002. But Kraft’s use of it predates
+Rumsfeld’s: his autobiography was published in 2001.
+6 Christopher Kraft, Flight: My Life in Mission Control (Boston, MA: E. P.
+Dutton, 2001), pp. 92–3.
+7 Ibid., p. 102.
+8 Amelia Earhart, The Fun of It: Random Records of My Own Flying and of
+Women in Aviation (New York: Brewer, Warren & Putnam, 1932).
+9 David A. Mindell, Digital Apollo: Human and Machine in Spaceflight
+(Cambridge: Mass MIT, 2011), p. 222.
+9780241625248_TheAtomicHuman_TXT.indd 385 4/20/24 3:08:27 AM
+
+386
+Notes to pp. 221–52
+10 This notion is explored by Tor Nørretranders in Mærk verden (1991),
+published in English as The User Illusion: Cutting Consciousness Down to
+Size, trans. J. Sydenham (New York: Viking, 1998).
+11 Although a humorous study in the British Medical Journal on these
+professions found no significant differences between them and the wider
+human population. See I. Usher et al. (2021), ‘“It’s not rocket science”
+and “It’s not brain surgery” – “It’s a walk in the park” ’ : prospective com-
+parative study BMJ 2021; 375 :e067883 doi:10.1136/bmj-2021-067883
+12 For a video see https://www.youtube.com/watch?v=7j6OsP7zL6w
+8. System Zero
+1 W. Youyou, M. Kosinski and D. Stillwell (2015), ‘Computer-based per-
+sonality judgments are more accurate than those made by humans’,
+Proceedings of the National Academy of Sciences, 112 (4): 1036–40.
+2 Cathy O’Neil, Weapons of Math Destruction: How Big Data Increases
+Inequality and Threatens Democracy (New York: Crown, 2016).
+3 Shoshana Zuboff, The Age of Surveillance Capitalism: The Fight for a
+Human Future at the New Frontier of Power (London: Profile Books, 2019).
+4 See e.g. https://www.york.ac.uk/depts/maths/histstat/lies.htm
+5 Expert Scientific Group on Phase One Clinical Trials, 30 Nov. 2006 available
+from https://webarchive.nationalarchives.gov.uk/ukgwa/20130107105354/
+http://www.dh.gov.uk/prod_consum_dh/groups/dh_digitalassets/@
+dh/@en/documents/digitalasset/dh_073165.pdf
+6 Donald M. MacKay and Valerie MacKay, Behind the Eye (The 1986
+Gifford Lectures) (Oxford: Basil Blackwell, 1991), p. 40.
+7 Ibid, p. 40.
+8 Ibid
+9 J. Kevin O’Regan, Why Red Doesn’t Sound Like a Bell: Understanding the
+Feel of Conciousness (Oxford: Oxford University Press, 2011).
+10 Of course, this analogy is very unfair on chimps, who are extremely
+sophisticated social creatures with a mental capacity that is far beyond
+anything we are close to creating today.
+11 J. Haidt, The Happiness Hypothesis (New York: Basic Books, 2006).
+9780241625248_TheAtomicHuman_TXT.indd 386 4/20/24 3:08:27 AM
+
+387
+Notes to pp. 254–77
+9. A Design for a Brain
+1 A. M. Turing (1950), ‘Computing machinery and intelligence’, Mind 49:
+433–60.
+2 Although the Wi-Fi human doesn’t exist, brain–computer interfaces
+are an active area of research. The field is long established but came to
+popular attention when Elon Musk’s company Neuralink was set up.
+3 For the full results see https://www.olympedia.org/results/58578
+4 Quotes from an interview between the journalist Pat Butcher and J. F.
+‘Peter’ Harding, Secretary of Walton AC, in ‘Road Breaker’, Runner’s
+World, Sept. 1999, pp. 56–9.
+5 W. Ross Ashby, Design for a Brain (New York: Wiley, 1952), p. 59.
+6 On 14 October 1946, Ashby expresses this idea in his journal: ‘So in the
+conditioned reflex (or in every other physiological “business”) no
+matter what it may look like outside, the business inside must be “staying
+moderate”. So I am impelled to believe that the business outside is
+matched by no change inside. The more the outer changes, the more
+the inside doesn’t.’ Available from the W. Ross Ashby Digital Archive;
+https://ashby.info/journal/page/2064.html
+7 Alan Turing in a letter to W. Ross Ashby, 19 Nov. 1946. See https://
+ashby.info/letters/turing.html
+8 J. K. O’Regan (1992), ‘Solving the “real” mysteries of visual perception:
+the world as an outside memory’, Canadian Journal of Psychology/Revue
+Canadienne de Psychologie, 46(3), 461–88.
+9 Konrad Lorenz, Behind the Mirror: A Search for a Natural History of
+Human Knowledge (New York: Harper, 1978), p. 127,
+10 Warren S. McCulloch and Walter Pitts (1943), ‘A logical calculus of the
+ideas immanent in nervous activity’, Bulletin of Mathematical Biophys-
+ics, 5, 115–33.
+11 Samuel Butler, ‘Darwin among the machines’, a letter to the editor of
+The Press, 1863. See http://nzetc.victoria.ac.nz/tm/scholarly/tei-But-
+Fir-t1-g1-t1-g1-t4-body.html
+12 While machines can’t (yet) design themselves, we are finding new
+ways the machine can help with the design, for example by making
+programming easier.
+9780241625248_TheAtomicHuman_TXT.indd 387 4/20/24 3:08:27 AM
+
+388
+Notes to pp. 254–77
+10. Gaslighting
+1 Recorded on 1 February 1999. Available from United States Holocaust
+Memorial Museum at https://collections.ushmm.org/search/cata-
+log/irn562437; relevant section is from 22:55 to 30:20.
+2 Letter from Max Planck to Adolf Hitler, written 25 Oct. 1944.
+3 Albert Einstein in a letter to Max Born in 1926.
+4 Max Planck, Scientific Autobiography and Other Papers (New York: Philo-
+sophical Library, 1949)
+5 John McCarthy et al. (1955), ‘A proposal for the Dartmouth Summer
+Research Project on Artificial Intelligence’; http://www-formal.stanford.
+edu/jmc/history/dartmouth/dartmouth.html
+6 For more on this story and Wiener’s extraordinary vision, personality
+and life, see Flo Conway and Jim Siegelman, Dark Hero of the Informa-
+tion Age: In Search of Norbert Wiener, the Father of Cybernetics, (New
+York: Basic Books), 2005.
+7 Norbert Wiener in a letter to his father. ‘Correspondence, 1913’ 25
+October 1913. Norbert Wiener papers (MC-0022). Massachusetts Insti-
+tute of Technology. Libraries. Department of Distinctive Collections,
+https://dome.mit.edu/bitstream/handle/1721.3/193611/abdb8ade94cb
+cee6440f04d4b5e56d98.pdf
+8 Yossarian on ‘evasive action’ in Joseph Heller, Catch-22 (1961), p. 56.
+9 http://matharts.aalto.fi/HintonCubes.pdf
+10 W. Ross Ashby, Design for a Brain (New York: Wiley, 1952).
+11 Thomas S. Kuhn, The Structure of Scientific Revolutions (3rd edn, 1996)
+(Chicago, IL: University of Chicago Press, 1st edn 1962).
+12 Ibid., Ch. II, p. 10.
+13 Nick Chater, The Mind is Flat: The Illusion of Mental Depth and the Impro-
+vised Mind (London: Allen Lane, 2018), p. 21.
+14 Konrad Lorenz, Behind the Mirror: A Search for a Natural History of
+Human Knowledge (New York: Harper, 1978), p. 128.
+15 This quote comes to me from my colleague Bernhard Schölkopf, who
+in his lectures on causality summarizes it more pithily as ‘thinking is
+acting in an imagined space’.
+9780241625248_TheAtomicHuman_TXT.indd 388 4/20/24 3:08:27 AM
+
+389
+Notes to pp. 277–307
+16 George Orwell, Nineteen Eighty-Four (1949)
+17 Article 27 (1) of the 1974 constitution of the German Democratic Repub-
+lic, trans. from Wikisource at https://en.m.wikisource.org/wiki/
+Translation:Constitution_of_the_German_Democratic_Republic_(1974).
+This article had remained in the constitution since the original 1949 ver-
+sion, where it was Article 9.
+18 John O. Koehler, Stasi: The Untold Story of the East German Secret Police
+(New York: Basic Books, 2000).
+19 Vera Lengsfeld, I Wanted to be Free: The Wall, the Stasi, the Revolution
+(Munich, Germany: Herbig, 2011). Original text in German Vera
+Lengsfeld, Ich wollte frei sein: Die Mauer, die Stasi, die Revolution. Quotes
+here are machine-translated from the original German.
+20 Norbert Wiener, I Am a Mathematician: The Later Life of a Prodigy (Cam-
+bridge, MA: MIT Press, 1956), pp. 323, 324.
+11. Human–Analogue Machines
+1 J. L. McClelland, David E. Rumelhart and Geoffrey E. Hinton, The
+Appeal of Parallel Distributed Processing in Parallel Distributed Processing,
+Volume 1, Rumelhart and McClelland (eds.) (Cambridge, MA: MIT
+Press), p. 3.
+2 From ‘Discussion on making all things equal’, Chapter 2 of Zhuangzi:
+Basic Writings, trans. Burton Watson (New York: Columbia University
+Press, 2003), p. 44.
+3 For example, the Mark 1 Fire Control Computer, which was a mechan-
+ical computer used during the Second World War to track targets that
+were represented by gear positions in the machine. See this YouTube
+video to learn more about its inner mechanism: https://www.youtube.
+com/watch?v=x9YEPw7_YTk.
+4 http://yann.lecun.com/exdb/mnist/
+5 Sir David Attenborough in The Private Life of Plants: ‘Travelling’, BBC,
+first broadcast 11 Jan. 1995.
+6 See https://www.youtube.com/watch?v=ZNKV7dY5PbE
+9780241625248_TheAtomicHuman_TXT.indd 389 4/20/24 3:08:27 AM
+
+390
+Notes to pp. 316–36
+7 F. Heider and M. Simmel (1944), ‘An experimental study of apparent
+behavior’, American Journal of Psychology, 57, 243–59; https://doi.
+org/10.2307/1416950
+8 F. Heider, The Psychology of Interpersonal Relations (Hoboken, NJ: John
+Wiley, 1958).
+9 Quote taken from Dave Gershgorn, ‘The data that transformed AI
+research – and possibly the world’, 26 July 2017, Quartz; https://
+qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-
+possibly-the-world/
+10 Highway Accident Report: Collision between vehicle controlled by
+developmental automated driving system and pedestrian, Tempe, Ari-
+zona, March 18, 2018. NTSB Report Number HWY18MH010.
+Available from https://data.ntsb.gov/Docket?ProjectID=96894
+11 Highway Accident Report: Collision between a car operating with
+automated vehicle control systems and a tractor-semitrailer truck near
+Williston, Florida, May 7, 2016, NTSB Number HWY16FH018. Avail-
+able from https://data.ntsb.gov/Docket?ProjectID=93548
+12 Highway Accident Brief: Collision between car operating with partial
+driving automation and truck-tractor semitrailer, Delray Beach, Flor-
+ida, March 1, 2019. NTSB Number HWY19FH008. Available from
+https://data.ntsb.gov/Docket?ProjectID=99043
+13 Highway Accident Report: Collision between a sport utility vehicle oper-
+ating with partial driving automation and a crash attenuator, Mountain
+View, California, March 23, 2018, NTSB Number HWY18FH011. Avail-
+able from https://data.ntsb.gov/Docket?ProjectID=96932
+14 ‘YOS 18, 114 Artifact Entry.’ Cuneiform Digital Library Initiative
+(CDLI). 20 December 2001; https://cdli.ucla.edu/P142508.
+15 Cuneiform tablet of unknown scribe written between 1250 and 1200
+bce, found in Ur, trans. Jonathan Tenney. The text is known as ‘UET 7,
+0011’. It was excavated at the ancient city of Ur and now rests in the
+Iraq Museum in Baghdad. Oliver R. Gurney (1974), ‘Middle Babylonian
+legal documents and other texts’, Ur Excavations. Texts 7 (London:
+The Trustees of the Two Museums). For more details on the tablet see
+https://cdli.mpiwg-berlin.mpg.de/artifacts/346976
+9780241625248_TheAtomicHuman_TXT.indd 390 4/20/24 3:08:27 AM
+
+391
+Notes to pp. 336–9
+16 In Akkadian, names invoke gods and have meanings we can only
+summarize in sentences. Negal was the god of war and plague;
+Nergal-aha-iddina means ‘Nergal gave me a brother’. Today lots of
+Hindi names share this characteristic, for example Subramanian
+means ‘dear to Brahmam’, and Ramanujan means ‘younger brother
+of Rama’.
+17 Sin was the god of the Moon, and Sin-bununi means ‘Sin is our
+goodness’.
+18 Siyatu’s name is shorter, indicating that it’s either the shortening of a
+longer name or a foreign name.
+19 Adad was a god of storms. Adad-šuma-usur is ‘O Adad, safeguard the
+offspring’.
+20 ‘A gift of Yeho’, where Yeho is the name of a later Levantine god who
+gained popularity from the Iron Age and eventually supplanted Jupiter
+for the Romans.
+21 John F. Kennedy, ‘Address at Rice University on the nation’s space
+effort’, 12 Sept. 1962.
+22 Simon Blackburn, Think: A Compelling Introduction to Philosophy
+(Oxford: Oxford University Press, 2001), p. 39.
+23 K. E. Stager, ‘The role of olfaction in food location by the turkey vul-
+ture (Cathartes aura)’, Contributions in Science, 81, 30 June 1964, 1–63;
+https://gwern.net/doc/biology/1964-stager.pdf
+12. Trust
+1 Peter Strawson, Freedom and Resentment, and Other Essays (London:
+Routledge, 1962), p. 6.
+2 The most important work on the theory of steam engines was pub-
+lished by French engineer Sadi Carnot in 1824. Its title is Réflexions sur
+la puissance motrice du feu, translated as Reflections on the Motive Power of
+Fire, which reminds us nicely of the fact that for all its sophistication
+the modern internal combustion engine is just a sophisticated way of
+exploiting the motive power of fire.
+9780241625248_TheAtomicHuman_TXT.indd 391 4/20/24 3:08:27 AM
+
+392
+Notes to pp. 341–74
+3 J. Hasell and M. Roser, ‘How do we know the history of extreme pov-
+erty?’, Our World in Data, 5 Feb. 2019; https://ourworldindata.org/
+extreme-history-methods
+4 A book that has a wonderful endorsement by Douglas Adams on
+its front cover: ‘Knowledgeable, argumentative and entertaining,
+Nicholas Negroponte writes about the future with the authority of
+someone who has spent a great deal of time there.’
+5 The website Quote Investigator provides a nice history of this quote:
+https://quoteinvestigator.com/2017/07/16/product/
+6 Sylvie Delacroix and Neil D. Lawrence (2019), ‘Bottom-up data trusts:
+disturbing the “one size fits all” approach to data governance’, Inter-
+national Data Privacy Law, 10.
+7 John F. Kennedy, ‘Address at Rice University’ on the nation’s space effort.
+8 This is the motto of ai@cam, the University of Cambridge’s flagship
+mission on AI, which I lead with Jess Montgomery. The vision can
+be found at https://www.cam.ac.uk/system/files/aicam_review_
+april22.pdf
+Epilogue
+1 Karl Popper, The Open Society and its Enemies (London: Routledge &
+Kegan Paul Ltd, 1945)
+2 Francis Galton, Hereditary genius: An inquiry into its laws and conse-
+quences. (London: Macmillan and Co., 1869) doi:10.1037/13474-000.
+3 Sara Lyons, Assessing Intelligence: The Bildungsroman and the Politics of
+Human Potential in England, 1860–1910 (Edinburgh: Edinburgh University
+Press, October 2022)
+4 See Chapter 8 and https://www.theguardian.com/media-network/
+2015/mar/05/digital-oligarchy-algorithms-personal-data
+5 See e.g. ‘Colonization and Companies’ Encyclopedia of Western Colo-
+nialism since 1450. Encyclopedia.com. 21 Feb. 2024 https://www.
+encyclopedia.com. For how these issues translate into AI see e.g.
+Mohamed, S., Png, MT. & Isaac, W. ‘Decolonial AI: Decolonial Theory
+9780241625248_TheAtomicHuman_TXT.indd 392 4/20/24 3:08:27 AM
+
+393
+Notes to pp. 374–6
+as Sociotechnical Foresight in Artificial Intelligence’, Philos. Technol. 33,
+659–684 (2020). https://doi.org/10.1007/s13347-020-00405-8
+6 See Roger Piezle, Jr., The Honest Broker: Making Sense of Science in Policy
+and Politics (Cambridge: Cambridge University Press, 2007). Piezle’s focus
+is on the role of the honest broker in scientific advice; here we’re also
+thinking of how universities can play that role institutionally.
+7 See the announcement from ai@cam here: https://ai.cam.ac.uk/news/
+university-of-cambridge-announces-research-challenges-to-showcase-
+its-new-approach-to-artificial-intelligence
+8 C. West Churchman. ‘Wicked Problems’, Management Science. 14 (4):
+B-141–B-146. doi:10.1287/mnsc.14.4.B141. December 1967
+9 See chapter 4.
+10 See e.g. Claire Craig How Does Government Listen to Scientists? (Palgrave
+Macmillan Cham, July 2018) https://doi.org/10.1007/978-3-319-96086-9
+for examples of how government can convene diverse groups to solve
+challenging problems.
+11 See for example ‘How Africa can benefit from the data revolution’,
+published 25 August 2015 in The Guardian. https://www.theguardian.
+com/media-network/2015/aug/25/
+africa-benefit-data-science-information
+12 The report can be found at https://www.who.int/publications/i/
+item/9789241505390 and e.g. this press summary from Forbes https://
+www.forbes.com/sites/timworstall/2013/03/23/more-people-have-
+mobile-phones-than-toilets/
+13 For details of the activities of the programme, see here: http://
+acceleratescience.github.io
+14 The fellowships are funded by the UKRI, which manages the coun-
+try’s research funding. The fellowships are convened by the Turing
+Institute. See https://www.turing.ac.uk/news/welcoming-world-class-
+turing-ai-fellows-institute. For more details of this project see https://
+mlatcl.github.io/projects/autoai.html
+15 Sculley, D., Holt, G., Golovin, D., Davydov, E., Phillips, T., Ebner, D.,
+Chaudhary, V., Young, M., Crespo, J.-F., Dennison, D., 2015. Hidden tech-
+nical debt in machine learning systems, in: Cortes, C., Lawrence, N.D.,
+9780241625248_TheAtomicHuman_TXT.indd 393 4/20/24 3:08:27 AM
+
+Notes to pp. 376–8
+Lee, D.D., Sugiyama, M., Garnett, R. (Eds.), Advances in Neural Infor-
+mation Processing Systems 28. Curran Associates, Inc., pp. 2503–2511.
+16 See Cabrera, C., Paleyes, A., and Lawrence, N.D., 2024. Self-sustaining
+Software Systems (S4): Towards Improved Interpretability and Adap-
+tation. In the 1st International Workshop on New Trends in Software
+Architecture (SATrends). See https://arxiv.org/abs/2401.11370.
+17 Lawrence, N.D., 2016. Data trusts could allay our privacy fears. See this
+Guardian article: https://www.theguardian.com/media-network/
+2016/jun/03/data-trusts-privacy-fears-feudalism-democracy
+18 Delacroix, S., Lawrence, N.D., 2018. Disturbing the ‘one size fits all’
+approach to data governance: Bottom-up data trusts. SSRN. https://
+doi.org/10.1093/idpl/ipz01410.2139/ssrn.3265315
+19 See https://datatrusts.uk for an overview of the work of the Data
+Trusts Initiative including research papers, workshop convening and
+descriptions of the three data trusts pilots.
+20 See https://www.adalovelaceinstitute.org/report/legal-mechanisms-
+data-stewardship/
+21 See https://www.c-span.org/video/?287832-1/40th-anniversary-apollo-
+11-flight
