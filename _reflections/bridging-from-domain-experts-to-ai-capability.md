@@ -32,6 +32,16 @@ contributed_by:
     tool: Claude
     version: 3.5-sonnet
     notes: Suggest edits in role of subeditor.
+  - date: 2024-12-31
+    type: human
+    person_id: Neil D. Lawrence
+    notes: Deal with second round of edits
+  - date: 2024-12-31
+    type: machine
+    tool: Claude
+    version: 3.5-sonnet
+    notes: Suggest edits in role of subeditor.
+
 featured_image: /assets/images/bridging-domain-experts-to-ai.png
 ---
 
@@ -67,7 +77,6 @@ In the ITV dramatisation of the [Horizon scandal](/history/horizon-scandal.md), 
 
 > Jo Hamilton : Are they just incompetent, Alan, or just evil?
 > Alan Bates : Well, y'know... it comes to the same thing in the end.
-<!-- Consider using proper dialogue formatting -->
 
 [^3]: [Jo Hamilton](https://en.wikipedia.org/wiki/Jo_Hamilton_(subpostmaster)) was charged with theft and wrongly convicted of false accounting. She was forced to pay the Post Office £36,000.
 
@@ -84,7 +93,6 @@ Analysis of the failures shows a repeated failure to integrate mechanisms of *fe
 Too often digital systems bring inconvenience to individuals (such as increased bureaucracy) without delivering benefits. Where the benefits are found they are distributed centrally. This means that the feel of these systems is closer to enslavement rather than empowerment, an idea that was expressed by [Samuel Butler](/people/samuel-butler/) in his [letter to the Press](/bibliography/darwin-among-the-machines/) in 1863.
 
 So how do we prevent ourselves being enslaved by this latest wave of digital technology?
-
 
 In April 2023, as part of the activity of the AI Council, [we advised the UK government](/archive/ai-council-response-to-llms/) that there was a need to *tightly integrate research and practice* – Bridging **academia, industry, and government** to solve deployment challenges. So far we've not seen the bridging of these capabilities at national level, but at local level we continue to ensure that the affordance gap is bridged by bringing AI technologists together with domain experts. 
 
