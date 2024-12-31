@@ -31,13 +31,18 @@ The bicycle is adapted to our capabilities, a minimalist tool that extends our a
 
 In the [Horizon scandal](/history/horizon-scandal.md), Digital systems are at the opposite end of the spectrum, they are produced for the convenience of It's like we're being presented with bicycles but not being taught how to ride
 
-In the ITV dramatisation of the [Horizon scandal](/history/horizon-scandal.md), spoken by the actor playing Jo Holloway, who was wrongfully imprisoned based on faulty data from the system, says that she doesn't understand whether the Post Office were incompetent or evil. 
+In the ITV dramatisation of the [Horizon scandal](/history/horizon-scandal.md), spoken by the actor playing Jo Holloway, who was wrongfully imprisoned based on evidence derived from faulty data from the Horizon software, says that she doesn't understand whether the Post Office were incompetent or evil. 
 
 Both the Horizon scandal and the contemporary [Lorenzo Scandal](/history/lorenzo-scandal-and-the-nhs-national-programme-for-it/)[^3] predate the deeper understanding of how to build and deploy software systems that was [developed at Amazon](/reflections/why-amazon/), but as my experience there shows, the problem of the affordance gap hasn't been solved for digital systems. And [*intellectual debt*](/themes/intellectual-debt/) means that the companies themselves also experience an affordance gap in their system deployment. 
+
+[^3]: The Lorenzo scandal was a software project to digitise the UK's national health service. It was cancelled at a cost of over £10 billion. But given what happened to the subpostermasters in the Horizon scandal we can be grateful it was cancelled.
+
+
+Analysis of the failures shows a repeated failure to integrate mechanisms of *feedback* in the deployment of the technology. True feedback would integrate both the aspirations of citizens (subpostmasters for Horizon, nurses, doctors for Lorenzo) as well as the immediate needs. Too often digital systems bring inconvenience to individuals (such as increased bureaocracy) without delivering benefits. Where the benefits are found they are distributed centrally. This means tha the feel of these systems is closer to enslavement rather than empowerment, an idea that was expressed by [Samuel Butler in his letter to the Press](/history/samuel-butler-letter-to-the-press/) in Tk.
 
 So what's the solution?
 
 In April 2023 as part of the activity of the AI Council we advised government that there was a need to *tightly integrate research and practice* – Bridging **academia, industry, and government** to solve deployment challenges. So far we've not seen the bridging of these capabilities at national level, but at local level we continue to ensure that the affordance gap is bridged by bringing AI technologists together with domain experts. 
 
+So far, institutionally, UK government has struggled to convene across all groups. Although there are promising signs with the UN's High Level Advisory board. But in the long term, I feel the responsibility lies with Universities. We have to step up. Although they are becoming increasingly dependent on funding from big tech, they are historically the only institutions that can operate as honest brokers in bridging the gap between societal understanding of AI and the technological possibilities it offers. Unfortunately until now Universities haven't done as agood a job as we might. Our focus on rapid development of "prestige science" can distract us from addressing the challenges society actually faces.
 
-[^3]: The Lorenzo scandal was a software project to digitise the UK's national health service. It was cancelled at a cost of over £10 billion. But given what happened to the subpostermasters in the Horizon scandal we can be grateful it was cancelled.
