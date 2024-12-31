@@ -25,6 +25,8 @@ technology:
   - Ross Ashby and Homeostasis
   - Neural Network Foundations
   - Colossus
+bibliography:
+  - Darwin Among the Machines
 people:
   - Alan Turing
   - W. Ross Ashby

@@ -22,6 +22,6 @@ contributed_by:
 
 Butler's prescient letter, published under the pseudonym Cellarius, applies Darwinian evolutionary theory to machines, warning that mechanical evolution could eventually lead to machines superseding humans as the dominant "species." The piece represents one of the earliest philosophical explorations of machine intelligence and technological evolution.
 
-In The Atomic Human, Butler's letter is referenced in Chapter 9 in the context of early thinking about machine intelligence and self-improving systems. His evolutionary perspective on technology provides historical context for modern discussions about AI development and the relationship between human and machine intelligence. The letter's themes about machines potentially surpassing their creators resonate with contemporary debates about artificial general intelligence and superintelligence.
+In The Atomic Human, Butler's letter is referenced in [Chapter 9](/chapters/09-a-design-for-a-brain) in the context of early thinking about machine intelligence and self-improving systems. His evolutionary perspective on technology provides historical context for modern discussions about AI development and the relationship between human and machine intelligence. The letter's themes about machines potentially surpassing their creators resonate with contemporary debates about artificial general intelligence and superintelligence.
 
 </div>
