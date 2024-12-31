@@ -78,7 +78,7 @@ story_sections:
       width: 747
       height: 325
     content: |
-      
+      Antiopi Koronaki
     textPosition: bottom
     duration: 4000
   - id: frame-1735599035112
