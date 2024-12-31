@@ -33,6 +33,11 @@ In the [Horizon scandal](/history/horizon-scandal.md), Digital systems are at th
 
 In the ITV dramatisation of the [Horizon scandal](/history/horizon-scandal.md), spoken by the actor playing Jo Holloway, who was wrongfully imprisoned based on faulty data from the system, says that she doesn't understand whether the Post Office were incompetent or evil. 
 
-Both the Horizon scandal and the contemporary [Lorenzo Scandal](/history/lorenzo-scandal-and-the-nhs-national-programme-for-it/)[^3] predate the deeper understanding of how to build and deploy software systems that was [developed at Amazon](/reflections/why-amazon/), but as my experience there shows, the problem of the affordance gap hasn't been solved for digital systems. And [*intellectual debt*](/themes/intellectual-debt/) means that the companies themselves also experiene an affordance gap in their system deployment.
+Both the Horizon scandal and the contemporary [Lorenzo Scandal](/history/lorenzo-scandal-and-the-nhs-national-programme-for-it/)[^3] predate the deeper understanding of how to build and deploy software systems that was [developed at Amazon](/reflections/why-amazon/), but as my experience there shows, the problem of the affordance gap hasn't been solved for digital systems. And [*intellectual debt*](/themes/intellectual-debt/) means that the companies themselves also experience an affordance gap in their system deployment. 
+
+So what's the solution?
+
+In April 2023 as part of the activity of the AI Council we advised government that there was a need to *tightly integrate research and practice* – Bridging **academia, industry, and government** to solve deployment challenges. So far we've not seen the bridging of these capabilities at national level, but at local level we continue to ensure that the affordance gap is bridged by bringing AI technologists together with domain experts. 
+
 
 [^3]: The Lorenzo scandal was a software project to digitise the UK's national health service. It was cancelled at a cost of over £10 billion. But given what happened to the subpostermasters in the Horizon scandal we can be grateful it was cancelled.
