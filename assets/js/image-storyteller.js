@@ -346,50 +346,61 @@ class ImageStoryteller {
     }, 1000);
   }
 
-  showSection(index) {
+showSection(index) {
     this.state.currentSectionIndex = index;
 
     if (!this.svg) {
-      console.error('SVG not initialized');
-      return;
+        console.error('SVG not initialized');
+        return;
     }
 
     if (index === -1) {
-      this.animateViewBox({
-        x: 0,
-        y: 0,
-        width: this.config.originalWidth,
-        height: this.viewBoxHeight
-      });
-      this.textContainer.innerHTML = '<h3>Overview</h3><p>Click play to start the tour, or click on areas of interest in the image.</p>';
-      this.updateTextPosition('center');
+        this.animateViewBox({
+            x: 0,
+            y: 0,
+            width: this.config.originalWidth,
+            height: this.viewBoxHeight
+        });
+        this.textContainer.innerHTML = '<h3>Overview</h3><p>Click play to start the tour, or click on areas of interest in the image.</p>';
+        this.updateTextPosition('center');
     } else {
-      const section = this.config.sections[index];
-      
-      let targetViewBox;
-      if (this.config.exactZoom) {
-        targetViewBox = { ...section.viewBox };
-      } else {
-        const originalAspectRatio = this.viewBoxHeight / this.config.originalWidth;
-        const targetWidth = section.viewBox.width;
-        const targetHeight = targetWidth * originalAspectRatio;
-        const targetX = section.viewBox.x;
-        const targetY = Math.max(0, section.viewBox.y - (targetHeight - section.viewBox.height) / 2);
+        const section = this.config.sections[index];
         
-        targetViewBox = {
-          x: targetX,
-          y: targetY,
-          width: targetWidth,
-          height: targetHeight
-        };
-      }
-      
-      this.animateViewBox(targetViewBox);
-      this.textContainer.innerHTML = section.content;
-      this.updateTextPosition(section.textPosition);
+        let targetViewBox;
+        if (this.config.exactZoom) {
+            targetViewBox = { ...section.viewBox };
+        } else {
+            // Fixed aspect ratio (height:width) from original image
+            const FIXED_RATIO = this.viewBoxHeight / this.config.originalWidth;
+            
+            // Calculate scale needed for both width and height
+            const scaleWidth = section.viewBox.width;
+            const scaleHeight = section.viewBox.height / FIXED_RATIO;
+            
+            // Use the larger scale to ensure section fits
+            const scale = Math.max(scaleWidth, scaleHeight);
+            
+            // Calculate viewBox dimensions using the fixed ratio
+            const viewBoxWidth = scale;
+            const viewBoxHeight = scale * FIXED_RATIO;
+            
+            // Center on the section
+            const viewBoxX = section.viewBox.x + (section.viewBox.width / 2) - (viewBoxWidth / 2);
+            const viewBoxY = section.viewBox.y + (section.viewBox.height / 2) - (viewBoxHeight / 2);
+            
+            targetViewBox = {
+                x: Math.max(0, Math.min(viewBoxX, this.config.originalWidth - viewBoxWidth)),
+                y: Math.max(0, Math.min(viewBoxY, this.viewBoxHeight - viewBoxHeight)),
+                width: viewBoxWidth,
+                height: viewBoxHeight
+            };
+        }
+        
+        this.animateViewBox(targetViewBox);
+        this.textContainer.innerHTML = section.content;
+        this.updateTextPosition(section.textPosition);
     }
-  }
-
+}    
   animateViewBox(targetViewBox) {
     if (!this.svg) return;
 
