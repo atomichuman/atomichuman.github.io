@@ -23,6 +23,10 @@ contributed_by:
     tool: Claude
     version: 3.5-sonnet
     notes: Suggest edits in role of subeditor.
+  - date: 2024-12-31
+    type: human
+    person_id: Neil D. Lawrence
+    notes: Deal with first round of edits
 featured_image: /assets/images/bridging-domain-experts-to-ai.png
 ---
 
