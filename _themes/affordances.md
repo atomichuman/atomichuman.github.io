@@ -52,7 +52,7 @@ Understanding these constraints helps explain fundamental differences between ev
 
 ### Implications
 
-These three aspects of affordances - relationality, potentiality, and constraint - illuminate key themes:
+These three aspects of affordances - *relationality*, *potentiality*, and *constraint* - illuminate key themes:
 - Why human intelligence can't be reduced to computation alone
 - How System Zero exploits human affordances for manipulation 
 - The importance of maintaining appropriate human-machine interfaces
