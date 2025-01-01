@@ -60,7 +60,6 @@ The solution to model blinkers is to take a step back from the problem and consi
 <i>[William Blake's "Newton"](/images/william-blake-newton/) captures the great scientist with his model blinkers on. Newton's focus on the simple shapes in front of him distract him from the beauty and complexity of the world around him.</i>
 </center>
 
-<!-- Consider introducing this section with a clearer topic sentence about the decomposition approach -->
 The x-risk narrative tells of machines which obtain great power and decide upon our fate. We can understand the problem it describes and decompose the concepts into two separate components.
 
 The first component is [*concentration of power*](/themes/power-asymmetries/). This machine has somehow obtained great power. In society concentration of power enables us to bring resources together to solve problems. That can make us more efficient for specific tasks, but it comes with the risk of undermining the diversity of opinion in society that keeps us robust to unforeseen challenges. Society already has mechanisms for maintaining the balance between these challenges. We already regulate to deal with power asymmetries that arise from governments, corporations and individuals. Much of this regulation also applies to decision-making machines. 
