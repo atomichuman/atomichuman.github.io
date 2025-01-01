@@ -1,8 +1,5 @@
 ---
 layout: reflection
-# Consider changing layout to 'reflection' since this appears to be a reflection piece
-# Title is clear but could be more specific about the decomposition approach
-# Description could be tightened to focus more on the decomposition framework being proposed
 title: "X-Risk Decomposed: Power and Automation"
 date: 2025-01-01
 toggle_machine_commentary: true
@@ -27,6 +24,15 @@ contributed_by:
     type: human
     person_id: Neil D. Lawrence
     notes: Review first round of machine driven subediting.
+  - date: 2025-01-01
+    type: machine
+    tool: Claude (via Cursor)
+    version: 3.5-sonnet
+    notes: Request to operate like a subeditor marking up potential changes in the post.
+  - date: 2025-01-01
+    type: human
+    person_id: Neil D. Lawrence
+    notes: Review second round of machine driven subediting.
 featured_image: /assets/images/1280px-Newton-WilliamBlake.jpg
 ---
 
