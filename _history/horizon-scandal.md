@@ -13,7 +13,7 @@ contributed_by:
     tool: "Claude"
     version: "3.5"
     date: "2024-12-31"
-	notes: Total rewrite of original stub by ChatGPT using Claude.
+    notes: Total rewrite of original stub by ChatGPT using Claude.
 ---
 
 <div class="machine-commentary" markdown=1>
