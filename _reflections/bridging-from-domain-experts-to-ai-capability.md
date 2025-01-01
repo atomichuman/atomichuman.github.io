@@ -41,7 +41,10 @@ contributed_by:
     tool: Claude
     version: 3.5-sonnet
     notes: Suggest edits in role of subeditor.
-
+  - date: 2024-12-31
+    type: human
+    person_id: Neil D. Lawrence
+    notes: Remove 5Ps connections as they were mostly not correct.
 featured_image: /assets/images/bridging-domain-experts-to-ai.png
 ---
 
@@ -129,35 +132,5 @@ This post addresses several key themes from *The Atomic Human*:
 - The post shows how human intermediaries can help maintain trust in complex systems
 - This aligns with the book's emphasis on maintaining human agency in technological systems
 
-### Connections to the Five Ps Model
-
-The post demonstrates how the Five Ps framework can guide institutional development:
-
-1. Purpose:
-- Clear purpose in bridging expertise gaps between domains
-- Addresses fundamental communication challenges in complex organizations
-- Shows how shared purpose can guide role development
-
-2. People:
-- Emphasizes importance of individuals who can bridge different domains
-- Shows how right people enable knowledge transfer
-- Demonstrates importance of human relationships in institutional success
-
-3. Projects:
-- Describes specific implementations of bridging roles
-- Shows how abstract purpose translates to concrete actions
-- Provides examples of successful bridging initiatives
-
-4. Principles:
-- Emerging principles for effective knowledge translation
-- Guidelines for selecting and developing bridge builders
-- Lessons learned from successful implementations
-
-5. Process:
-- Evolution of ad hoc bridging into formal roles
-- Development of systematic approaches to knowledge sharing
-- Integration of bridging functions into organizational structure
-
-The post provides a practical example of how the Five Ps framework can guide development of solutions to complex organizational challenges.
 
 </div>
