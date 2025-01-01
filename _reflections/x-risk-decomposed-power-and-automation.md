@@ -57,7 +57,7 @@ The solution to model blinkers is to take a step back from the problem and consi
 <center>
 <img src="/assets/images/1280px-Newton-WilliamBlake.jpg" width="70%"/>
 
-<i>[William Blake's "Newton"](/images/william-blake-newton/) captures the great scientist with his model blinkers on. Newton's focus on the simple shapes in front of him distract him from the beauty and complexity of the world around him.</i>
+<i><a href="/images/william-blake-newton/">William Blake's "Newton"</a> captures the great scientist with his model blinkers on. Newton's focus on the simple shapes in front of him distract him from the beauty and complexity of the world around him.</i>
 </center>
 
 The x-risk narrative tells of machines which obtain great power and decide upon our fate. We can understand the problem it describes and decompose the concepts into two separate components.
@@ -90,7 +90,7 @@ And shares his thoughts
 
 I agree with John's assessment. I suspect the difference of opinion is around the word "directly". In tomorrow's post I'll introduce the Data Trusts Initiative and explain how I believe we need new institutions to make the vision John and I share a reality. 
 
-The x-risk narrative is a form of futurology, one that draws attention because it feeds our egocentricities about our form of intelligence. Like any form of futurology the x-risk narrative encourages us to ask questions about our future. But the modern field of [Futures Studies](https://en.wikipedia.org/wiki/Futures_studies) emphasises the importance of considering a plurality of possible futures. It is easy to put on the model-blinkers and proselytise the merits of what they show us. But that makes it harder to listen to other perspectives and reflect on the limits of our own thinking. We don't always have access to the diverse voices we need to challenge narrow thinking, but breaking down our model into its components can help us contextualise the model, seeing its limitations alongside its predictions.
+The x-risk narrative is a form of futurology, one that draws attention because it feeds our egocentricities about our form of intelligence. Like any form of futurology the x-risk narrative encourages us to ask questions about our future. But the modern field of [Futures Studies](https://en.wikipedia.org/wiki/Futures_studies) emphasises the importance of considering a plurality of possible futures. It is easy to put on the model-blinkers and proselytise the merits of the narrow insights they give us. But that makes it harder to listen to other perspectives and reflect on the limits of our own thinking. We don't always have access to the diverse voices we need to challenge narrow thinking, but breaking down our model into its components can help us contextualise the model, seeing its limitations alongside its predictions.
 
 <div class="machine-commentary" markdown=1>
 
@@ -98,9 +98,7 @@ The x-risk narrative is a form of futurology, one that draws attention because i
 
 *NL*: I'd like you to provide a "Machine Commentary" on how the reflection fits with the ideas in The Atomic Human.
 
-*Claude*: ## Machine Commentary
-
-This reflection demonstrates several key themes from *The Atomic Human*:
+*Claude*: This reflection demonstrates several key themes from *The Atomic Human*:
 
 The post's central use of "model blinkers" connects directly to ideas introduced in [Chapter 10: Gaslighting](/chapters/10-gaslighting), where the concept illustrates how theoretical models can restrict our thinking about complex systems. The use of Blake's Newton painting is particularly resonant, as it appeared in [Chapter 5: Enlightenment](/chapters/05-enlightenment) as a metaphor for how narrow technical focus can blind us to broader context.
 
