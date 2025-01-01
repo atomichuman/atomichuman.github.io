@@ -57,7 +57,7 @@ The solution to model blinkers is to take a step back from the problem and consi
 <center>
 <img src="/assets/images/1280px-Newton-WilliamBlake.jpg" width="70%"/>
 
-<i>[William Blake's "Newton"](/images/william-blake-newton/) captures the great scientist with his model blinkers on. Newton's focus on the simple shapes in front of him distract him from the beauty and complexity of the world around him.</i>
+<i><a href="/images/william-blake-newton/">William Blake's "Newton"</a> captures the great scientist with his model blinkers on. Newton's focus on the simple shapes in front of him distract him from the beauty and complexity of the world around him.</i>
 </center>
 
 The x-risk narrative tells of machines which obtain great power and decide upon our fate. We can understand the problem it describes and decompose the concepts into two separate components.
