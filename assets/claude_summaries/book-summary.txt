@@ -1,0 +1,3586 @@
+File: 00-toc.txt
+
+
+Contents
+Prologue 1
+1. Gods and Robots 7
+2. Automatons 33
+3. Intent 63
+4. Persistence 89
+5. Enlightenment 106
+6. The Gremlin of Uncertainty 150
+7. It’s Not Rocket Science or Brain Surgery 182
+8. System Zero 211
+9. A Design for a Brain 248
+10. Gaslighting 273
+11. Human–Analogue Machines 313
+12. Trust 346
+Epilogue 371
+Notes 379
+Acknowledgements 395
+Index 399
+
+
+================================================
+
+File: 01-prologue-summary.txt
+
+
+Here's a summary of the Prologue:
+
+The book opens at a pivotal moment in December 2013 at the Neural Information Processing Systems conference in Nevada, when the field of machine learning began transforming into "artificial intelligence." During a meeting in Mark Zuckerberg's penthouse suite, Facebook announced its plans to establish an AI research lab under Yann LeCun, following a breakthrough in computer vision using deep learning that had been acquired by Google.
+
+The author notes this marked a significant shift, as the term "artificial intelligence" had previously been associated with failed logical reasoning approaches rather than the more successful machine learning techniques. The announcement came as Facebook sought to catch up with Google in the AI race, with Google soon after acquiring DeepMind for $500 million.
+
+The author views this moment as the beginning of a major transformation in his field. The conference grew from 2,000 delegates in 2013 to 13,000 by 2019, reflecting the explosive growth of AI's importance in society. Many of his academic colleagues, including Zoubin Ghahramani and Max Welling, moved into senior industry roles at major tech companies, and he himself spent time leading an Amazon machine learning division.
+
+The prologue raises key questions about the nature of intelligence and artificial intelligence, suggesting that like Henry Ford's customers asking for "a faster horse," we might be mistakenly thinking of AI in terms of "a smarter human." The author indicates he prefers the term "machine intelligence" to avoid the cultural baggage associated with "artificial intelligence."
+
+The passage establishes the author as an insider who witnessed firsthand the transformation of machine learning into modern AI, setting up an exploration of what intelligence really means and how this shapes our understanding of artificial intelligence.
+
+
+================================================
+
+File: chapter-01-summary.txt
+
+
+ere's a summary of Chapter 1: Gods and Robots
+
+This chapter explores the fundamental differences between human and machine intelligence through several key themes:
+
+1. Human Communication Limitations:
+- Humans have severely limited communication bandwidth compared to machines (humans can share ~2,000 bits/minute vs machines' 60 billion bits/minute)
+- This creates a "locked-in" state similar to Bauby's diving bell analogy, where our thoughts are free but our ability to share them is constrained
+- The author introduces the "embodiment factor" - the ratio between computational ability and communication ability
+
+2. Different Forms of Intelligence:
+- Questions the notion of "superintelligence" and one-dimensional views of intelligence
+- Compares intelligence to Top Trumps card game - different types have different strengths and weaknesses
+- Discusses distributed intelligence (like ant colonies) vs centralized intelligence (like human brains)
+- Explores examples like Amazon's supply chain AI and immune systems as different forms of intelligence
+
+3. Human Intelligence Characteristics:
+- Relies heavily on cultural context and shared understanding for communication
+- Involves constant "second-guessing" of other humans due to communication limitations
+- Tends to anthropomorphize and embody other forms of intelligence (like God in the Sistine Chapel or the Terminator)
+
+4. AI Development and Society:
+- Traces automation from printing press to modern AI
+- Notes how public fascination with AI often conflates intelligence as a property vs an entity
+- Discusses potential benefits and risks of AI deployment in society
+- Questions whether there's an "atomic" core to human intelligence that can't be replicated by machines
+
+5. Future Implications:
+- Argues for using AI as a mirror to better understand human intelligence
+- Emphasizes need to balance technological progress with human needs
+- Suggests focusing on practical applications rather than science fiction scenarios
+
+The chapter sets up the book's exploration of human intelligence through the lens of artificial intelligence, aiming to understand what makes us uniquely human in an age of increasing automation.
+
+
+
+================================================
+
+File: chapter-02-summary.txt
+
+
+Here's a summary of Chapter 2: Automatons
+
+Key themes:
+
+1. Information Flow and Military Command:
+- Follows Fred Lawrence (author's grandfather) during D-Day preparations
+- Explores how military command structures handle information flow
+- Contrasts centralized command with devolved authority
+- Introduces concept of "information topography" - how information moves through organizations
+
+2. Decision Making and Authority:
+- Compares Eisenhower's military command to Bezos's corporate leadership at Amazon
+- Explains how large organizations must devolve authority while maintaining control
+- Uses bicycle riding analogy: leaning back provides stability but reduces direct control
+- Shows how culture and shared values enable devolved decision-making
+
+3. Origins of Automated Decision-Making:
+- Traces development at Bletchley Park during WWII
+- Details how human "computers" like Diana Russell-Clarke processed information
+- Explains development of mechanical computers to automate code-breaking
+- Shows how tasks requiring pure logic could be automated, while judgment remained human
+
+4. Cryptography and Information Processing:
+- Describes German Enigma machine and Allied code-breaking efforts
+- Explains concepts of "cribs" (educated guesses) in breaking codes
+- Shows how work was broken down into automated and human components
+- Introduces mathematical concepts behind encryption and computing
+
+5. Machine vs Human Intelligence:
+- Contrasts rigid automation with flexible human judgment
+- Shows how early computers were purpose-built for specific tasks
+- Explains how complex problems were broken down into smaller automatable parts
+- Establishes distinction between tasks requiring judgment versus pure computation
+
+The chapter demonstrates how modern AI and automated decision-making have roots in WWII code-breaking efforts, while highlighting the historical divide between tasks that could be automated and those requiring human judgment.
+
+
+================================================
+
+File: chapter-03-summary.txt
+
+
+Here's a summary of Chapter 3: Intent
+
+Key themes:
+
+1. Personal Experience and Expert Systems:
+- Author describes work as field engineer measuring rock formations
+- Observes how geologists make complex decisions based on context and experience 
+- Attempts to capture expertise in logical rules reveals limitations of expert systems
+- Shows gap between human judgment and automated decision-making
+
+2. Logic and Decision Making:
+- Contrasts Sherlock Holmes's deductive logic with real-world complexity
+- Explains why logic-based expert systems failed in 1980s
+- Demonstrates need for context and judgment beyond pure rules
+- Shows limitations of complete information requirement
+
+3. Machine Learning Emergence:
+- Describes shift from expert systems to machine learning approaches
+- Author transitions from oil industry to AI research
+- Shows how neural networks offered new way to capture expertise
+- Explains difference between programmed rules and learned patterns
+
+4. Facebook's Information Infrastructure: 
+- Details Joaquin Candela's development of FBLearner system
+- Contrasts continuous deployment with centralized planning
+- Shows how automated decision-making scaled to billions
+- Reveals vulnerabilities of automated systems to manipulation
+
+5. Risks and Manipulation:
+- Describes how Internet Research Agency exploited Facebook
+- Details Cambridge Analytica scandal and data privacy concerns
+- Shows dangers of delegating decisions to algorithms without context
+- Explains concept of "digital oligarchy" and its lack of control
+
+The chapter demonstrates how automated decision-making has evolved from simple expert systems to complex machine learning infrastructures, while highlighting the risks of removing human judgment and context from these systems.
+
+
+================================================
+
+File: chapter-04-summary.txt
+
+
+Based on the chapter text, here's a summary of Chapter 4: Persistence
+
+Key Themes:
+
+1. Selection Bias and Persistence:
+- Uses Pantheon example to explain selection bias - surviving buildings/species don't represent typical examples
+- Persistence is a key quality of surviving buildings, species, and intelligence
+- Human intelligence emerged through persistence rather than design
+- Evolution works through "selective destruction" rather than optimization
+
+2. Evolution and Intelligence:
+- Human intelligence evolved in a "locked-in" form with limited communication bandwidth
+- Second-guessing and social intelligence emerged as adaptations
+- Humans tend to anthropomorphize ("anthrox") other forms of intelligence
+- Contrasts evolved intelligence with designed/artificial intelligence
+
+3. Artificial vs Natural Selection:
+- Artificial selection (like selective breeding) produces fragile systems
+- Natural selection produces resilient systems that persist
+- Examples of Microsoft's Tay chatbot failure shows fragility of designed systems
+- Evolution has no grand plan or designer, unlike artificial systems
+
+4. Information Processing in Life:
+- Details how cells process information through DNA, RNA, and proteins
+- Compares cellular information processing to Bletchley Park code-breaking
+- Explains how biological information transfer is much slower than digital
+- Shows how collaboration and competition drive evolution
+
+5. Culture and Information Coherence:
+- Describes how humans use culture to overcome bandwidth limitations
+- Explains concept of "information coherence" in bacterial colonies and human groups
+- Shows how cultural artifacts (like Michelangelo's art) carry meaning across time
+- Positions computers/AI as new tools in human cultural evolution
+
+The chapter emphasizes how human intelligence emerged through evolutionary persistence rather than design, and how this creates fundamental differences between natural and artificial intelligence systems. It also establishes culture as a crucial component of human intelligence that helps overcome our inherent communication limitations.
+
+Let me know if you would like me to clarify or expand on any part of this summary.
+
+
+================================================
+
+File: chapter-05-summary.txt
+
+
+Here's a summary of Chapter 5: Enlightenment
+
+Key themes:
+
+1. Historical Context and Cultural Transformation:
+- Set during transformative period at Queens' College, Cambridge (1448)
+- Parallels drawn between printing press revolution and modern computer revolution
+- Shows how information technology changes reshape society
+- Demonstrates role of cultural context in shaping intelligence
+
+2. Scientific Revolution and the Principia:
+- Details Newton's development of Principia and calculus
+- Shows how printing press enabled spread of scientific ideas
+- Explains shift from religious/feudal to scientific worldview
+- Introduces concept of mathematical modeling of nature
+
+3. Mechanical Intelligence and Steam Power:
+- Describes Watt's governor as early form of automated control
+- Shows how mechanical feedback systems can exhibit intelligence
+- Explains relationship between sensing, computation and control
+- Demonstrates physical implementation of decision-making
+
+4. Logic and Boolean Algebra: 
+- Traces development of mathematical logic through Boole, Russell, etc.
+- Explains how truth tables and logic gates enable computation
+- Shows how feedback in logic circuits creates memory
+- Introduces concept of universal computation
+
+5. Intelligence and Cultural Context:
+- Argues intelligence emerges from interaction with environment
+- Shows how cultural artifacts enable information coherence
+- Explains role of shared context in communication
+- Contrasts human vs machine forms of intelligence
+
+The chapter demonstrates how developments in information technology (printing press, computers) transform society by changing how ideas are shared and processed, while emphasizing the crucial role of cultural context in human intelligence.
+
+
+================================================
+
+File: chapter-06-summary.txt
+
+
+Here's a summary of Chapter 6: The Gremlin of Uncertainty (up to page 177)
+
+Key themes:
+
+1. Uncertainty and Prediction:
+- Opens with D-Day story of Rommel's absence due to weather forecast
+- Explains weather forecasting through interpolation vs extrapolation
+- Demonstrates limitations of prediction even with good data
+- Introduces concept of "Laplace's gremlin" - unavoidable uncertainty
+
+2. Models and Reality:
+- Uses Conway's Game of Life to show emergent complexity from simple rules
+- Explains why even perfect knowledge doesn't guarantee prediction
+- Shows how computers enable numerical solutions to intractable problems
+- Demonstrates gap between theoretical models and practical reality
+
+3. Proxy-Truths vs Perfect Knowledge:
+- Introduces concept of "proxy-truths" - practical understanding vs theoretical perfection
+- Shows how humans learn from observation rather than first principles
+- Uses test pilot examples to show importance of direct experience
+- Explains emergence of probability theory as response to uncertainty
+
+4. Evolution of Computing and Prediction:
+- Traces development from human computers to electronic machines
+- Shows how computers enabled numerical weather prediction
+- Explains role of abstraction in making calculations manageable
+- Demonstrates limitations even with modern computing power
+
+5. Practical Intelligence vs Theoretical Models:
+- Contrasts mechanistic models with how intelligence actually works
+- Shows how human intelligence relies on experience rather than calculation
+- Explains why Laplace's demon isn't practical for everyday decisions
+- Introduces importance of environmental interaction in intelligence
+
+The chapter establishes fundamental tension between theoretical perfect prediction and practical handling of uncertainty, setting up later discussions of machine vs human intelligence.
+
+
+================================================
+
+File: chapter-07-summary.txt
+
+
+Here's a summary of Chapter 7: It's Not Rocket Science or Brain Surgery
+
+Key Themes:
+
+1. Fast vs Slow Decision Making:
+- Opens with bicycle accident story showing distinction between reflexive (fast) and reflective (slow) reactions
+- Demonstrates how retrospective narrative creates illusion of conscious control
+- Explains how time pressure forces reliance on reflexive systems
+- Shows how memory reconstructs events differently from real-time experience
+
+2. Devolved Decision Making:
+- Compares nervous system to Mission Control's hierarchy of decision making
+- Shows how different decisions are delegated to different parts of system based on time pressure and context
+- Explains "Eisenhower illusion" - feeling of control despite actual devolution of decisions
+- Demonstrates how reflexes bypass conscious thought for speed
+
+3. Motor Intelligence:
+- Describes evolution of motor control systems
+- Shows how practice and training tune reflexive responses
+- Explains role of spine and interneurons in coordinating movement
+- Highlights gap between human/animal and machine motor capabilities
+
+4. Apollo Program and Human-Machine Interaction:
+- Details development of Apollo guidance computer
+- Shows balance between automated systems and human control
+- Describes critical moment when computer overloaded during moon landing
+- Demonstrates importance of both human judgment and automated systems
+
+5. Integration of Systems:
+- Shows how reflexive and reflective systems work together
+- Explains role of culture in shaping both fast and slow responses
+- Demonstrates how training and simulation prepare both humans and machines
+- Highlights importance of both individual achievement and collaborative effort
+
+The chapter uses the moon landing and bicycle accident as parallel examples to explore how human intelligence emerges from interaction between fast reflexive systems and slower reflective thinking, while highlighting the crucial role of training and cultural context in shaping both types of response.
+
+
+================================================
+
+File: chapter-08-summary.txt
+
+
+Here's a summary of Chapter 8: System Zero
+
+Key Themes:
+
+1. The Harrow Drug Trial as Metaphor:
+- Opens with parallel between drug trials and testing new technologies
+- Shows how failures occur even with careful testing protocols
+- Demonstrates risks of systemic interventions without full understanding
+- Uses medical trial as metaphor for society's experiment with AI systems
+
+2. Immune System vs Nervous System Intelligence:
+- Contrasts decentralized immune system with centralized nervous system
+- Shows how different types of intelligence coexist in human body
+- Explains immune system's role in Covid-19 response
+- Demonstrates importance of diversity in intelligent systems
+
+3. Sensorimotor Intelligence:
+- Explains O'Regan's sensorimotor approach to intelligence
+- Shows how humans actively probe and interact with environment
+- Contrasts with passive data collection by artificial systems
+- Demonstrates importance of feedback loops in intelligence
+
+4. System Zero:
+- Introduces concept of "System Zero" - AI systems that manipulate through data
+- Shows how it bypasses both System 1 (fast) and System 2 (slow) thinking
+- Explains how it exploits human bandwidth limitations
+- Demonstrates risks of unregulated automated decision-making
+
+5. Personal Data and Control:
+- Shows how personal data enables System Zero's manipulation
+- Argues for importance of individual control over personal data
+- Draws parallel with NASA's decision to give astronauts control
+- Emphasizes need for trust-based sharing of personal information
+
+The chapter introduces System Zero as a new form of machine intelligence that operates below human consciousness by exploiting personal data, while arguing for the importance of maintaining human control and agency in technological systems.
+
+
+================================================
+
+File: chapter-09-summary.txt
+
+
+Here's a summary of Chapter 9: A Design for a Brain
+
+Key Themes:
+
+1. The Turing Test and Human Communication:
+- Opens with discussion of Turing's famous imitation game/Turing Test
+- Explores Turing's belief in telepathy based on statistical evidence
+- Shows how humans communicate through non-verbal cues rather than telepathy
+- Explains concept of "Wi-Fi humans" and why they don't exist
+- Demonstrates how facial expressions and social cues enable human coordination
+
+2. Social Intelligence vs Technical Intelligence:
+- Contrasts Turing's mathematical brilliance with his social challenges
+- Shows how running provided Turing emotional release from work stress
+- Explores difference between technical and social forms of intelligence
+- Demonstrates how humans read each other's minds through empathy and understanding
+- Highlights importance of trust and teamwork in human collaboration
+
+3. Brain Models and Computing:
+- Details Turing's correspondence with W. Ross Ashby about brain simulation 
+- Explains Ashby's concept of homeostasis in biological systems
+- Shows how digital computers could potentially simulate neural networks
+- Introduces McCulloch-Pitts model of neurons as logical units
+- Demonstrates how threshold logic could represent decision making
+
+4. Nervous Networks and Logic:
+- Explains how McCulloch-Pitts neurons could be composed into networks
+- Shows how weighted connections could represent personality differences
+- Details development of threshold logic and neural networks
+- Demonstrates link between logical gates and neural processing
+- Explains how synapses could implement logical operations
+
+5. Early AI Development:
+- Traces development of cybernetics and brain modeling
+- Shows tension between analog and digital approaches to computing
+- Explains role of Ratio Club in developing ideas about machine intelligence
+- Details Turing's tragic end and loss to the field
+- Highlights enduring challenge of machines that communicate without human constraints
+
+The chapter demonstrates how early attempts to model the brain led to fundamental insights about computing and intelligence, while highlighting the crucial differences between human social intelligence and machine information processing.
+
+
+================================================
+
+File: chapter-10-summary.txt
+
+
+Based on the provided text of Chapter 10 (Gaslighting), here are the key themes:
+
+1. Human Vulnerability and Trust:
+- Opens with stories of personal betrayal during WWII (Rommel forced to commit suicide, Planck's son executed)
+- Shows how trust can be manipulated at both personal and societal levels
+- Demonstrates how humans are vulnerable due to our need to trust others
+- Highlights the emotional bonds between family members that create vulnerabilities
+
+2. Scientific Paradigms and Model-Blinkers:
+- Details Planck/Einstein's quantum mechanics discoveries challenging classical physics
+- Introduces concept of "model-blinkers" - when theories/models restrict broader thinking
+- Shows how digital computers led to overly narrow focus on logic in AI
+- Explains how paradigm shifts occur in science through new generations
+
+3. Manipulation and Surveillance:
+- Describes "gaslighting" - psychological manipulation to alter perception of reality
+- Details East German Stasi surveillance state as example of systemic manipulation
+- Shows how digital data collection enables modern surveillance capitalism
+- Explains how System Zero exploits human psychological vulnerabilities
+
+4. Human Intelligence vs Machine Intelligence:
+- Contrasts human intelligence's reliance on cultural context with machine approaches
+- Shows how human intelligence requires interaction with external environment
+- Explains why machines cannot truly empathize or share human vulnerabilities
+- Warns about risks of delegating consequential decisions to machines
+
+5. Power and Control:
+- Examines how power centralizes through surveillance and data control
+- Shows how both states and corporations can exploit human vulnerabilities
+- Highlights tension between individual autonomy and systemic control
+- Demonstrates dangers of concentrating decision-making power
+
+The chapter argues that human intelligence's reliance on trust and cultural context makes us vulnerable to manipulation, while warning that AI systems (lacking these human vulnerabilities) should not be trusted with consequential decisions that affect human lives.
+
+
+================================================
+
+File: chapter-11-summary.txt
+
+
+Here's a summary of Chapter 11: Human-Analogue Machines
+
+Key Themes:
+
+1. Neural Networks and Modern AI:
+- Opens with Geoffrey Hinton's influential work on neural networks
+- Shows evolution of connectionist approach to AI
+- Explains how backpropagation and hidden layers enable learning
+- Details importance of large datasets like ImageNet
+- Demonstrates role of GPUs in enabling modern deep learning
+
+2. Errors and Vulnerabilities:
+- Introduces concept of "Sedolian voids" - gaps in AI systems' knowledge
+- Details fatal autonomous vehicle accidents due to classification errors
+- Shows how adversarial attacks can exploit AI weaknesses
+- Contrasts machine vs human handling of uncertainty
+- Demonstrates dangers of deploying flawed systems
+
+3. Historical Context of Communication:
+- Traces development of writing in ancient Mesopotamia
+- Shows how cities required new forms of information management
+- Details early legal systems and decision-making
+- Explains emergence of specialized scribes/literacy
+- Draws parallel between ancient scribes and modern programmers
+
+4. Human-Analogue Machines (HAMs):
+- Introduces concept of machines that mirror human thinking
+- Shows how large language models like ChatGPT work by analogy
+- Explains convergent evolution in both nature and technology
+- Demonstrates how HAMs inherit human flaws and biases
+- Warns about misrepresenting HAM capabilities as infallible
+
+5. Interface Between Human and Machine:
+- Proposes HAMs as potential interface to digital systems
+- Compares to historical human-machine interfaces (planes, Apollo)
+- Shows promise for expanding digital literacy
+- Warns about risks of manipulation and misinformation
+- Emphasizes need to understand both capabilities and limitations
+
+The chapter introduces HAMs as a new paradigm for human-machine interaction while warning about the risks of mistaking their human-like errors for machine-like infallibility.
+
+
+================================================
+
+File: chapter-12-summary.txt
+
+
+Based on the provided text of Chapter 12 (Trust), here are the key themes:
+
+1. Artificial vs Natural:
+- Opens with Radiohead's "Fake Plastic Trees" as metaphor for AI
+- Compares artificial plants to artificial intelligence - superficially similar but fundamentally different
+- Shows how HAMs (Human-Analogue Machines) learn by shortcuts rather than evolution
+- Demonstrates limitations of artificial systems compared to natural ones
+
+2. Evolution of HAMs:
+- Explains how neural networks learn feature landscapes
+- Shows how machines learn by consuming human cultural data
+- Contrasts machine learning with biological evolution
+- Highlights missing aspects of human intelligence in HAMs
+
+3. Social Context and Integration:
+- Compares HAMs to new students arriving at school
+- Shows how machines lack evolved social context
+- Explains risks of System Zero exploiting human vulnerabilities
+- Warns about manipulation through social media and artificial engagement
+
+4. Power and Control:
+- Discusses risks of digital oligarchy
+- Explains need for regulation of personal data
+- Shows importance of human control over consequential decisions
+- Argues for institutional accountability
+
+5. Future Human-Machine Relationship:
+- Proposes carefully curated interface between humans and machines
+- Emphasizes maintaining human authorship and agency
+- Shows how technology offers opportunity for self-understanding
+- Argues for computer as tool rather than replacement for humans
+
+The chapter concludes the book by arguing that human vulnerability rather than capability defines the "atomic human" that cannot be replaced by machines, while emphasizing the need to maintain human control over technology's development.
+
+
+================================================
+
+File: epilogue-summary.txt
+
+
+Let me summarize the Epilogue of "The Atomic Human":
+
+Key Themes:
+
+1. The Sorcerer's Apprentice Analogy:
+- Uses Goethe's poem as metaphor for current tech situation
+- Shows how tech companies, like the apprentice, can't control their creations
+- Explains concept of "intellectual and technical debt" in complex systems
+- Demonstrates dangers of systems no individual fully understands
+
+2. Threats to Open Society:
+- References Popper's "The Open Society and its Enemies"
+- Warns about information totalitarianism from digital oligarchy
+- Shows how tech companies undermine existing institutions
+- Explains need for pragmatic solutions over "great man" thinking
+
+3. Response to AI Challenges:
+- Details University of Cambridge's ai@cam initiative
+- Argues for universities as "honest brokers" in AI debates
+- Emphasizes need for diverse voices and institutions
+- Shows importance of empowering domain experts over software engineers
+
+4. Practical Solutions:
+- Describes Data Science Africa as model for empowerment
+- Explains AutoAI project to address technical/intellectual debt
+- Details concept of data trusts to return power to individuals
+- Shows need for balance between innovation and control
+
+5. Future Direction:
+- Calls for defense of "atomic human" and diverse cultures
+- Emphasizes obligation to those who fought totalitarianism
+- Argues for inclusive approach to building information society
+- Shows need for multiple perspectives in steering technology
+
+The epilogue brings together the book's themes while offering practical solutions to challenges posed by AI and arguing for institutional engagement to maintain human agency in technological development.
+
+
+================================================
+
+File: index.txt
+
+
+399
+Index
+NDL indicates Neil D. Lawrence.
+abstraction: algebra and 136–7;
+Bernoulli’s use of 173, 175, 176;
+clockwork universe and 113;
+computer and 19, 124, 173–4, 215,
+216–17; counterfactual simulation
+and 215, 216–17; effective physics
+and 275–6; feature landscape
+abstraction, artificial neural
+networks and 283, 316, 317, 319, 321,
+323; Laplace’s demon and 112, 113,
+124; logic and 65–6, 134, 136;
+models and 65, 66, 112, 113, 124,
+134, 176; Perceptron and 295;
+problem of 317; projectile flight
+and 175; telephone exchange
+model and 134; weather models
+and 175, 176
+academia: culture of 42, 114–17,
+279–80; tech companies funding of
+14, 69–70, 279–80
+Adad-šuma-usur, King of Babylon
+338, 339
+Adams, Douglas: The Hitchhiker’s
+Guide to the Galaxy 155–7, 159, 161–2,
+165, 173, 319, 348, 352
+adversarial attack 334
+advertising 2, 82, 360
+aerodynamics 66, 160
+affordances 240, 350, 359; affordance
+gap 256–7
+Afrika Korps 50, 51
+afterthought 104, 147, 182, 185, 195,
+199, 242, 290, 308
+Albion Mill, River Thames 117–19, 121,
+265, 356, 357; fly-ball mechanism
+117–19, 122–30, 132–3, 140, 145, 152,
+177, 180–81, 183–4, 206, 228, 231,
+256–7, 263–4, 265, 329
+Aldinger, Hermann 273, 275
+Aldrin, Buzz 198, 200–201, 203–4, 227,
+230, 246, 322, 367
+algebra: Boolean 135–45, 199, 294;
+linear 333
+algorithms: accountability,
+algorithmic 221–3; ‘AI fallacy’ and
+257; AlphaGo 323; Amazon 32, 55;
+Facebook 55, 71–2, 78, 80–81, 83, 87,
+226–7; Formula One and 31;
+ImageNet 332; intractable
+equations and 172; Laplace’s
+demon and 113, 363; machine-
+learning 55, 71–2, 78, 80–81, 83, 87,
+226–7; social media 15; System
+Zero and 243, 309–10; wide
+deployment of 4
+AlphaGo 322–3, 333–4, 336
+Amari, Shun’ichi 315
+Amazon (online retailer): corporate
+culture within 39–40, 42–3, 57, 87,
+102, 107; counterfactual simulation
+and 215, 216; machine-learning
+division 5, 14, 17, 55, 114;
+9780241625248_TheAtomicHuman_TXT.indd 399 4/20/24 3:08:27 AM
+
+400
+Index
+Mechanical Turk 330; supply-chain
+17–19, 20, 24, 30, 32, 33–4, 39, 46–8,
+50, 182–3, 214–15, 216, 221
+analogue: computers 231–4, 256, 266,
+269–72, 294–5, 316, 318, 343; human-
+analogue machines (HAMs) 343–5,
+346–7, 358–9, 365–8. See also
+human-analogue machines
+(HAMs)
+analysis: Braitenberg’s law and 132–3,
+146; Laplace’s demon and 112–13,
+123, 172; tractability of 156, 172–4,
+177, 288
+analytical engine 113, 124, 173
+animism 327, 337–8, 342
+anthropomorphization (‘anthrox’)
+30–31, 90–91, 93–4, 100, 132, 148, 153,
+163, 216–17, 239, 276, 326, 342
+ants 16–18, 42
+apex intelligence 362–4
+Apollo programme 184–7, 197–210, 315,
+321, 367; Apollo 1 200; Apollo 8 202;
+Apollo 11 198–200, 202–10, 246, 250,
+321–2, 340, 344, 366, 367; Apollo 17
+367; Columbia command module
+200, 202, 204, 227, 228, 230; Eagle
+lunar module 198, 200, 202, 203–4,
+207, 210, 227, 228, 230, 322, 340, 366;
+guidance computer 188–204, 230, 315
+appendix, human 218–19, 220
+Apple 87, 351
+Aristotle 135, 162
+Armstrong, Neil 198, 200–201, 203–4,
+205, 207, 208, 209–10, 246, 322, 340,
+344, 366, 367, 377
+artificial intelligence: Amazon and see
+Amazon; atomic weaponry,
+comparison to 354; classical AI
+approaches 2, 14, 277–80, 301, 302,
+306–7, 320, 357; creation of viewed
+with trepidation 21, 25, 152–3,
+240–41, 257; cybernetics and see
+cybernetics; decision-making and
+see decision-making; Deep Blue and
+see Deep Blue; DeepMind and see
+DeepMind; defined 8, 23, 46, 368;
+digital computer and see computer;
+diversity in ideas and thinkers, loss
+of 277–80; diversity of solutions
+required for 181; dystopia 257, 350,
+364; ecology and see ecology; errors/
+Sedolian voids 323, 333–6, 351–2;
+existential threat from 25, 152–3,
+240–41, 309, 354, 361–2, 364; Facebook
+and see Facebook; fallacy 257, 258,
+356–7; fascination with 246; foods,
+artificial and 360–61; general
+underlying principles and 341–2;
+generative 83, 132, 246, 258, 334, 347;
+Google and see Google; HAMs and
+see human-analogue machine
+(HAMs); Hawking warns against
+25, 152–3, 240–41; image recognition
+see images; immune systems and see
+immune systems; intelligence and
+see intelligence; Laplace’s demon
+and see Laplace’s demon; large-
+language models and see
+large-language models; logic and see
+logic; machine learning and see
+machine learning; Microsoft and see
+Microsoft; neural networks and see
+neural networks; origins of 277–80,
+306; positives of 15; self-awareness
+of 221–3; singularity 245, 268, 361–2;
+term 2–3, 20–21, 278–9, 356;
+Terminator image embodies 7, 9,
+12, 13, 21, 30, 31, 216, 220, 257, 333, 353;
+transhumanism movement and
+Amazon (online retailer) – cont’d.
+9780241625248_TheAtomicHuman_TXT.indd 400 4/20/24 3:08:27 AM
+
+401
+Index
+25–6; trust and see trust; utopia 257,
+350, 357; variation/uncertainty/
+doubt, failure of AI community to
+incorporate 301–8
+artificial selection 91–3
+artillery/gunnery 53, 173–7, 187, 233,
+287–9
+Ashby, W. Ross 253–6, 262, 264, 267,
+278, 280–81, 293, 295, 300, 316; Design
+for a Brain 254–5, 268–9, 281
+Atlantic, Battle of (1939–45) 50, 51, 58,
+150, 261
+atom 13–14, 111, 112, 113, 176, 358
+atomic weaponry, development of
+354. See also nuclear weapons
+atomism 13–14
+ATP (adenosine triphosphate) 254, 271
+Attenborough, Sir David 325, 341
+A-units (association units)/A-system,
+Perceptron 281–4
+Automatic Computing Engine (ACE)
+253–6, 262, 268
+automation: Amazon supply chain
+and see Amazon; artificial
+intelligence and 6, 24, 46, 47, 77–8,
+80, 81, 83, 85, 86, 87, 257, 314, 356–7,
+363–6, 368, 369; automatons 44, 83,
+85, 86, 87, 329; autonomous vehicles
+4, 125, 237, 334–6; autopilot 124–5,
+127, 188, 189, 190, 191–2, 198,
+199–200, 202, 221, 227–8, 265, 321–2,
+336; Bletchley Park and 46, 47, 48,
+53–8, 60, 61–2, 75, 76, 81; computer
+and see computer; context and 123,
+124, 125; decision-making and 6,
+24, 44, 46, 46–7, 48, 53–8, 60, 61–2,
+75, 76, 77–8, 80, 125, 244, 363, 364–5,
+369; digital oligarchy and 363,
+364–6; divide-and-conquer strategy
+and 103; Eisenhower and 44, 46,
+47, 54; Facebook and 77–8, 80, 81,
+83, 85, 86, 87; gun targeting and
+227–8, 230–31, 250–51; food
+production and 360–61; human
+adaptation to machine and 356–7;
+Industrial Revolution and 353,
+356–7; intellectual labour and 235,
+368; models and 66, 75; origins of
+7, 8, 9, 13, 24, 68, 75, 107–8, 110, 119,
+143, 145, 148, 149, 187, 206, 266, 317,
+341, 345, 349, 354–5; printing press
+and origins of see printing press;
+privacy and 364–6; societal
+inequalities and 24–5; space
+exploration and 190, 196–200,
+202–3; System Zero and 244;
+telephone exchanges and 61–2, 76;
+wealth and 24
+axon 126–7, 128, 133, 140, 256, 262, 264
+Babbage, Charles: analytical engine
+53, 113, 123–4, 174; Babbage principle
+53, 56, 58, 84, 103–4, 139, 199, 284; On
+the Economy of Machinery and
+Manufactures 56
+Babylonian empire 336–8, 349, 356
+backpropagation 316
+bacteria 89, 96–102, 108, 115, 147, 209,
+264, 270
+bag-of-words model 56
+Baker, Robert 165–6, 192, 211
+Balfour, Arthur 223
+bandwidth, communication: absence
+of information and 65–6; AlphaGo
+and 323, 334; analogies 10–11, 91,
+101, 133, 186, 213–14, 215–16, 217, 218,
+234, 240, 251, 256–7, 318; Bauby and
+10–11, 99, 214; bits, information and
+10–11, 30, 74, 98, 99, 158, 235, 358, 368;
+common purpose/context and 41;
+9780241625248_TheAtomicHuman_TXT.indd 401 4/20/24 3:08:27 AM
+
+402
+Index
+cultural ideas and 115; devolved-
+decision making and 34, 38, 196;
+digital oligarchy and 84; Flowers
+and 76; imagination and 214;
+information budgets and 11;
+information coherence and 149;
+knowledge asymmetry and 367;
+machine-intelligence systems and
+12, 44; model-blinkers and 302;
+nervous system and 16; personal
+data and 244; restricted human
+10–11, 12, 16, 21, 29, 31, 34, 38, 41, 44,
+65–6, 67, 76, 81, 90, 91, 104, 115, 149,
+196, 214, 216, 235, 237–8, 302, 334;
+second-guessing and see second-
+guessing; sensorimotor approach
+and 237–8; supply chain and 216;
+term 10–11; trust and 43, 81;
+validation and 81; visual system
+and 235; waste and 29
+Bankside Power Station 356
+Banner, Jeremy 352
+bathyscaphe 186, 188, 190
+Bauby, Jean-Dominique: affordance
+gap and 256–7; butterfly and
+diving suit analogies 101, 133, 186,
+213–14, 215–16, 217, 218, 234, 240, 251,
+256–7, 318; communication
+bandwidth 10–11, 99, 214; death
+368–9; Le Scaphandre et le papillon
+(The Diving Bell and the Butterfly) 9,
+10–11, 18, 90, 99, 101, 133, 186, 212–18,
+234, 240, 251, 256–7, 318, 368–9;
+locked-in syndrome 9, 90, 212, 368;
+projection and 369
+Bayes, Reverend Thomas 169–70, 307
+BBC 48–9
+beauty, defining 20–21
+bees 16, 17, 18, 42, 216, 324
+Bell Labs 2, 10, 130, 315
+Bell Telephone Company 10
+Berlin, Isaiah 305
+Bernoulli, Daniel: Bernoulli principle
+170–73, 175, 176, 286, 307;
+Hydrodynamica 170–73, 175
+Bernoulli family 117, 170–76, 286, 307
+Bernoulli, Johann 170
+Bernoulli, Niklaus 170
+Bezos, Jeff 34, 39, 40, 57, 85, 107, 330
+bits, information 10–11, 30, 74, 98, 99,
+158, 235, 358, 368
+Blackburn, Simon: Think 341, 362
+Blake, William 119; Elohim Creating
+Adam 121, 217–18, 300; Newton
+121–2, 123, 258, 260, 283, 284, 301,
+306; Songs of Experience 119–20;
+Songs of Innocence 119; ‘The Tyger’
+119–20
+Bletchley Park: automated decision-
+making origins and 47–8, 51–8, 62,
+68, 71, 83–4, 97; brute-force attack
+and 52–3, 54, 58, 62, 74, 232;
+Colossus (computer) and see
+Colossus (computer); competition
+drives innovation at 84, 95, 99, 101;
+composition and 140; context,
+understanding of and 55–6, 62, 82,
+83; cribs, use of within 52–7, 61, 71,
+97, 103, 140, 144; directed
+intelligence and 102–3;
+Eisenhower’s decision-making
+process and 35, 36, 46, 47–8, 54, 57,
+62, 72, 78, 85, 146–7; Enigma
+machine and see Enigma;
+exhaustive search approach at 103,
+320; failures of cryptography at,
+consequences of 51–2; Flowers and
+see Flowers, Tommy; ‘information
+complete’ tasks 56–8; information
+bandwidth, communication – cont’d.
+9780241625248_TheAtomicHuman_TXT.indd 402 4/20/24 3:08:27 AM
+
+403
+Index
+topography 56–8, 62, 68, 71, 97;
+Laplace’s demon and 145; Lorenz
+cipher and 72–4, 75, 78, 95, 134,
+141–2, 220, 266; natural/artificial
+systems and 102; origins of 35;
+Second World War, achievements
+at possibly shorten 228; telephone
+exchanges and 75, 76, 125;
+transcription and 97–8; Turing see
+Turing, Alan; women at 47–8, 51,
+52, 53–4, 56, 61, 98, 100, 173, 176, 288
+Blitzkrieg 35, 48
+blood glucose 254–5
+Blue Marble (photograph) 367
+bombes 54, 56, 61, 62, 71, 72, 74, 75,
+103, 140, 251
+Bonaparte, Napoleon 111, 329
+Boole, George 292, 314; An
+Investigation of the Laws of Thought
+on Which are Founded the
+Mathematical Theories of Logic and
+Probabilities/Boolean algebra
+136–45, 196, 292, 294–5, 308
+Boole, Mary Ellen 292, 314
+Boot, Henry 230
+Born, Max 276
+Boulton, Matthew 117–22, 125, 152,
+169, 228, 265, 356
+Bourbon Restoration 111
+Box, George 65
+brain: artificial neural networks,
+origins of and 68; Ashby’s model
+of see Ashby, W. Ross; cognitive
+capabilities 12, 25–6, 29;
+competition, evolution in 84;
+computer and see computer;
+connectionism and 280; HAMs
+and 350; Hinton’s interest in 313,
+314; hierarchy of operation 205;
+human understanding and 29–30,
+216–17; imagination and 205,
+214–17; immune system and
+213–14; improvising organ 297, 298;
+information coherence and 149,
+348–9; intelligence and 16, 31, 213;
+limitations of 156–7, 178, 225, 348;
+motor intelligence and 207–8;
+motor-control system and 207–8;
+neocortex 205; nervous system and
+126; neurons see neurons; outside
+memory and 259, 297; power usage
+333; stroke and 9, 90, 212; surgery
+206, 207; System 1 and System 2/
+reflexive or reflective reactions and
+20, 184–5, 204–6, 232, 234, 241–2,
+243, 246, 318, 347–8; size of 216;
+threshold functions 269; visual
+cortex/visual system and see visual
+cortex/visual system
+Braitenberg, Valentino 130–33;
+Braitenberg’s law 132–3, 143–8, 183,
+188, 239, 262–3, 269, 298, 358;
+Braitenberg squid 128–33, 143, 144,
+146, 147–8; Vehicles: Experiments in
+Synthetic Psychology 131–2
+Braun, Wernher von 188–9, 192
+Breiman, Leo 315
+brute-force attack 52–3, 54, 58, 62,
+74, 232
+Brown, Joshua 336
+Brown, Robert/Brownian motion
+285–7, 289, 289, 324
+bugs, computer 342–3
+Butler, Samuel 265–6, 267, 270;
+‘Darwin among the machines’
+353–4
+butterfly: Bauby’s analogy of diving
+suit and 9, 11, 31, 101, 133, 195, 213–16,
+217, 218, 234, 240, 243, 251, 256, 318,
+328; digital 320, 321, 322, 329;
+9780241625248_TheAtomicHuman_TXT.indd 403 4/20/24 3:08:27 AM
+
+404
+Index
+emergence of 324, 325; wings of,
+intelligence and 370; Zhuang Zhou
+and 317–18, 319, 350, 358
+calculus 114–17, 123–4, 135, 170, 290, 344
+calculus ratiocinator 123–4, 267
+Cambridge 73, 106–9, 116, 151, 282, 290
+Cambridge Analytica 82–3, 84, 221,
+222, 365
+Cambridge Psychometrics Centre 221
+Cambridge University. See University
+of Cambridge
+Candela, Joaquin 70–72, 77, 78, 83,
+86–7, 91, 100, 160, 176, 221
+Capsule Communication, or
+CapCom 194
+Carnap, Rudolf 261
+Carroll, Lewis: Alice’s Adventures in
+Wonderland 133, 134, 135
+Cartesian dualism 217
+Catholic Church 8, 109
+Cavallo, Stefan 164–8, 183, 189, 191,
+192, 193, 196, 200, 202, 211–12
+cavity magnetron 228, 230, 234, 235
+Caxton, William 108
+Cedar Forest 337, 356
+cell: ATP and 254, 271; cytokine 16, 218,
+220, 224–5, 320; dendrites 126–7, 256,
+262; DNA and 97–9, 104; eukaryotic
+254, 271; Game of Life and 153, 154,
+175; glucose and 254; hair 231;
+metabolites 101; mRNA transcripts
+98–9; neurons see neurons;
+organelles 103; photoreceptor 281;
+principles of evolutionary success
+and 95; protection of processes
+within 99–100, 101–2; soma 126;
+T-cells 218–21, 224, 225, 226–7, 236,
+237, 239, 270; weather maps and 175
+Census Bureau, US 319, 330
+central dogma 98–9, 104
+central processing unit (CPU) 332–3
+cephalopod 128
+Chaffee, Roger 200
+Challenger Deep 184
+ChatGPT 13, 23, 24, 25, 60, 258, 296–7,
+334, 343–4, 347
+Chater, Nick: The Mind is Flat 296–9
+Chaucer, Geoffrey 108
+chess 302, 306, 319–20, 329–30
+Chicheley Hall 321–2
+chicken and egg problem 328–9,
+342, 346
+Christian, Brian: The Most Human
+Human 248
+Church of England 169
+Churchill, Winston 37, 111, 146
+Cicero 21, 40, 208
+ciphertext 57, 59, 74
+ciphers. See individual cipher name
+cities: first 336–8; social intelligence
+and 17
+civilization, origins of 336–7
+Clarke, Arthur C. 198, 240–41
+clay tablet 349–50, 354
+cleromancy 163, 339, 351
+climbing frame/jungle gym 291
+clockwork universe 113, 161
+closed-loop controllers 123
+coal 120, 122, 285, 356
+code of Hammurabi 338–40, 351
+codes/codebreaking. See
+cryptography
+co-evolution 95, 207, 240, 325, 328, 346
+collaboration: artificial intelligence
+and 31, 370; co-evolution and 207,
+240, 328–9, 342, 346; command and
+control and 34; context/culture
+and 83–4, 107, 108, 110, 114, 209, 214;
+butterfly – cont’d.
+9780241625248_TheAtomicHuman_TXT.indd 404 4/20/24 3:08:27 AM
+
+405
+Index
+devolved autonomy and 79;
+embodiment factor and 79;
+evolution and/collaborative
+intelligence 83–4, 95, 99, 101;
+machine and human 340–41, 366,
+370; personal information and 52;
+teamwork 43, 64, 69, 160, 179, 250;
+trust/understanding and 249–50
+Collins, Michael 204
+Colossus (computer) 75–9, 91, 103, 108,
+124, 130, 142–3, 149, 173–4, 176, 199,
+203, 231–2, 251, 264, 267, 290
+Columbia command module, Apollo 11
+200, 202, 204, 227, 228, 230
+common purpose 40–41, 43–4, 50, 76,
+85–7, 100, 209
+communication: analogy and 91;
+anthroxing see
+anthropomorphization (‘anthrox’);
+chemical signalling and 16, 102, 218,
+224, 270–71; communication
+technology, cryptography and
+changes in 48; computational to
+human communication ability,
+ratio of see embodiment factor;
+computer and see computer; context
+and see context; culture and see
+culture; human-analogue machine
+(HAM) and see human-analogue
+machine (HAM); information
+theory and 10–11; intelligence and
+9; large-language models and 258,
+343; memory and 143–4; nervous
+system and see nervous system;
+printing press and see printing press;
+psychologically representation and
+326–7; radio see radio; rate see
+bandwidth, communication; WiFi
+and 249; writing, emergence of
+336–41, 354
+competition 28, 83–4, 95, 99
+complete information 62, 65–6
+composition, mathematical
+139–44, 262
+computation: animism and 327;
+artificial intelligence and 23, 24,
+180–81, 220–21, 323, 332–3; Bernoulli
+and 173–4, 176; brain and 12;
+computational models 66; Deep
+Thought and 155–7, 159, 161–2, 165,
+173, 319, 348, 352; Game of Life and
+155, 321; intractable equations
+172–4, 177, 288; Laplace’s demon
+and 113–14, 137, 155–7, 161–2, 176–7,
+225, 308, 321; ratio of computational
+to human communication ability
+see embodiment factor; statistical
+attack and 52; supply chains and
+47; Theory of Everything and 352;
+universal computation 77, 134;
+water and 232–3
+computer: Amazon supply chain and
+18–19, 20; analogue computer
+231–4, 256, 266, 269–72, 294–5, 316,
+318, 343; analytical engine 113, 124,
+173; Apollo programme and
+188–204, 230, 315, 366; brain and 12,
+270, 343; bugs 342–3; central
+processing unit (CPU) 322, 333;
+Colossus and see Colossus;
+computer-generated imagery
+(CGI) 7, 9, 12, 13, 21, 31, 325–7, 333,
+353; counterfactual simulation see
+counterfactual simulation; deep
+learning and see deep learning;
+Deep Thought see Deep Thought;
+digital computer 60, 113, 130–31,
+198, 202, 203, 231–4, 251, 253–4, 256,
+267, 269–72, 280, 283, 293, 299, 300,
+301, 302, 306, 308, 315, 316, 319–20,
+9780241625248_TheAtomicHuman_TXT.indd 405 4/20/24 3:08:27 AM
+
+406
+Index
+331, 332, 333, 343, 344; EDSAC see
+EDSAC; ENIAC see ENIAC;
+expert systems and 65; games
+215–16; graphics processing units
+(GPUs) 333; human-analogue
+machine (HAM) see human-
+analogue machine (HAM); human
+computer 48, 53–4, 61, 173, 174, 176,
+231, 288; IBM DeepBlue 306,
+319–20; IBM 701 280; IBM 704 293,
+294, 300; image recognition see
+images; information bandwidth
+and 11, 12, 84, 99, 222, 307–8;
+integrated circuit and 130–31,
+198–9, 230, 280, 315, 332, 333;
+intellectual debt and 365; invention
+of 53–4, 75–7, 78–9, 108, 113, 124, 130,
+134, 141, 142–3, 145, 149, 154, 173–6,
+199, 231–4, 251, 252, 255–6, 261, 267,
+268, 272, 277, 290, 293, 294, 300, 306,
+314, 319–20; LEO see LEO; logic
+gates and see logic gates; machine
+learning and 39, 56, 60, 68;
+Manchester Mark I 268;
+mechanical computer 53, 123;
+MONIAC see MONIAC; neural
+networks and see neural networks;
+programming 25, 39, 57, 58, 62, 65,
+67, 68–9, 75, 113, 142, 155–6, 159, 200,
+203–4, 233, 252, 267, 278, 300, 315–16,
+322, 329, 330, 334, 342, 357; solid-state
+semiconductors and 176;
+separation of concerns and 139–40;
+social fabric and 108; software
+68–70, 78, 84, 86, 139, 204, 267, 268,
+342–3, 349, 357; tool, as a simple
+370; transistor and 130–31, 176,
+198–9, 204, 280; Turing Test and 23,
+104–5; universal computer 77, 134,
+145, 154, 199, 252, 255–6, 261, 267,
+268, 272, 277, 300, 314; weather
+forecasting and 12, 174–7, 233,
+293, 315
+Conan Doyle, Arthur 134–5; A Study
+in Scarlet 64–5
+Congreve rockets 188
+connectionism 280–81, 314–19
+context: AI and 83, 86, 149, 221, 239,
+244, 247, 260, 347, 359–60, 366;
+automation and 123, 124, 125;
+Braitenberg’s vehicles and 239;
+children and social 359;
+communication and 30–31, 41–3, 90,
+260; cryptography and 54–8, 82, 83;
+cultural 29–30, 70, 107, 108, 109, 110,
+115, 148, 297, 299, 300–301, 359; data
+and 55–6, 62, 67, 82, 83; decision-
+making and 43, 189–90; diversity of
+experience and 70; expert systems
+and 66–7; HAMs and 359;
+information theory and 10–11, 30,
+270, 363; intelligence and 3, 28–9, 90,
+93, 94, 106–7, 148; interneurons and
+281, 283–4; reflexes and 130, 184–5;
+social, automated decision-making
+systems and 239, 244, 247, 260,
+359–60, 366; System Zero and 244;
+textbooks and 297; understanding
+humans and 21–2
+continuous deployment 69–70
+Convention for the Protection of
+Individuals with regard to
+Automatic Processing of Personal
+Data (1981) 365
+convergent evolution 344
+conversation 29, 104–5, 250, 251, 255,
+260, 269–70, 330, 341, 360, 367
+Conway, John Horton: Game of Life
+153–6, 157, 161, 175, 321
+computer – cont’d.
+9780241625248_TheAtomicHuman_TXT.indd 406 4/20/24 3:08:27 AM
+
+407
+Index
+Copernican Revolution 296
+Cornell University 280, 282, 293
+Council of Europe 365
+counterfactual simulation 215–18,
+222, 234, 300, 358
+Covid-19 pandemic 212–13, 218, 223–4,
+225, 226, 303, 320
+cribs 52–7, 61, 71, 97, 103, 140, 144
+cross wiring 144
+crosswords 4, 53, 54, 299
+cryptography: automated decision-
+making origins and 47–8, 51–8, 62,
+68, 71, 83–4, 97; Bletchley Park
+codebreakers see Bletchley Park;
+brute-force attack and 52–3, 54, 58,
+62, 74, 232; ciphertext 57, 59, 74;
+competition drives innovation in
+84, 95, 99, 101; composition and
+140; Colossus and see Colossus;
+context, understanding of and
+54–8, 82, 83; cribs and 52–7, 61, 71,
+97, 103, 140, 144; crosswords and 4,
+53, 54, 299; Cybernetics:
+Communication and Control in the
+Human and Animal and 131; defined
+49; Enigma machine 57–61, 72, 73,
+74, 75, 80–81, 95, 97, 140, 141, 226,
+227, 251, 253; failures of wartime
+51–2; First World War 48; Lorenz
+cipher 73–4, 75, 78, 95, 134, 141–2,
+220, 266; mathematical
+combination locks 49, 52, 61, 73, 74;
+plaintext 57, 59, 60, 73; PIN code
+49, 52; women and 47–8, 51, 52,
+53–4, 56, 61, 98, 100, 173, 176, 288
+culture: academic 42, 114–17, 279–80;
+AI and 149, 209, 279–80, 329, 359,
+363, 368; animism as cultural
+proxy-truth 327; artefacts 148–9,
+299, 301–2, 359, 365; atomic human
+leverages external cultural ideas to
+overcome limited communication
+bandwidth 115; bacteria colony/
+natural systems and 100, 101–2;
+Bletchley Park/artificial systems
+and 100, 101, 102–3; children and
+359; collaboration and 209–10;
+communication and 30;
+communication technologies/
+printing press and 104–5, 106–8;
+corporate 39–40, 42–3, 69, 70–71,
+86, 100, 102–3, 114, 160, 161, 179;
+cultural agility 70, 71; cultural
+context 29–30, 70, 107, 108, 109, 110,
+115, 148, 297, 299, 300–301, 359;
+diversity of 209; guidance and 88;
+HAMs and 359; individual
+behaviour and 148; information
+coherence and 110, 115; information
+theory and 260; intelligence and
+21–2; memory, shared cultural
+147–8; military 45; Newton and
+109–10; origins of 88, 100; stores
+learnings of humankind 104;
+System Zero and 329, 363;
+textbooks and cultural context
+296, 297, 298, 299, 365; term 21;
+truth, brains absorb cultural
+artefacts as form of 301–2;
+understanding humans and 21–2
+cumulonimbus clouds 164, 167–8, 212
+‘curve described by a simple molecule
+of air or vapour’, Laplace’s demon
+and 161, 170, 276, 285, 289, 290
+customer satisfaction 360
+cybernetics movement 130–31, 133,
+143, 234–5, 250, 264, 267, 277–80, 306,
+314, 315
+Cyber Service Unit 130–31
+cyberspace 131
+9780241625248_TheAtomicHuman_TXT.indd 407 4/20/24 3:08:27 AM
+
+408
+Index
+cycling 38, 40, 46, 49, 73, 182–5, 190,
+191, 205–6, 208–9, 236, 238, 243, 278,
+334, 335, 347
+cytokine 16, 218, 220, 224–5, 320
+d’Alembert, Jean-Baptiste 117
+DALL-E 25, 105
+Dartmouth Summer Project (1956)
+277–80, 302, 308, 315, 330
+Darwin, Charles 89, 253, 353; On the
+Origin of Species 265, 355
+Darwin, Charles Galton 253–4, 255, 268
+data: Amazon supply chain and 46–7,
+48, 216, 221; artificial intelligence,
+large datasets and emergence of 12,
+23, 24, 39, 55, 56, 66, 132, 180–81, 216,
+220–22; context, understanding of
+and 55–6, 62, 67, 82, 83; D-Day and
+weather data 152, 202, 225, 287;
+digital surveillance and 303–4,
+309–10; errors and 223–7; Facebook
+and see Facebook; Laplace’s demon
+and 112–13, 123, 177, 225, 318; Game
+of Life and 155; ‘great AI fallacy’
+and 257; large-language models
+and 343, 347; manipulation of 82,
+83, 84, 221–3, 226–7, 243–7, 257, 303–4,
+309–10, 350, 361, 363; neural
+networks and 319, 330–34, 343;
+personal data/personal data rights
+82–4, 216, 221, 222, 242–4, 246, 257,
+309, 363–5; smartphone and 235;
+statistical surveillance and 303;
+statistical survey and 223–5; System
+Zero and 243–7, 309, 350, 361, 363,
+364; Theory of Everything and 156
+D-Day (5 June 1944): common
+purpose/personal values and
+40–41, 44; cryptography/Bletchley
+Park and Bletchley Park and
+cryptography; devolution of
+authority and 38–9, 50, 57, 62, 76,
+140, 183, 185, 189–90, 206, 213, 214,
+250, 349; Eisenhower and see
+Eisenhower, Dwight D.; human
+judgement and 46, 54, 62, 348;
+information topography and 33–8,
+45; interpolation and 150–52, 171;
+phantom Allied army, Kent 36, 45,
+46, 49; reflective self and 146–7;
+uncertainty and 150–52, 158, 160,
+163–4, 171; weather forecasts and
+45, 54, 150–52, 171, 176, 201, 202, 225,
+282, 287
+Democritus 13
+dead reckoning 201, 204
+decision-making: algorithmic
+accountability and 222; Amazon
+supply chain and 17, 18–20, 24, 43,
+46–7, 214–15; apex intelligence and
+364; artificial intelligence as
+automation of 8, 24, 46, 348;
+automated, origins of 47–62;
+automated, perils of 340, 348–9,
+351–2, 363–6, 369; cell and 218;
+cleromancy and 163; consequential/
+inconsequential 46, 311, 327, 340,
+351–2, 363, 364–6; context and see
+context; counterfactual simulations
+and 215; culture and see culture;
+D-Day and see D-Day and
+Eisenhower, Dwight D.; devolved
+see devolved authority; digital
+oligarchy and 84, 85, 86, 87; epoché
+(suspension of judgement) and
+179–80, 183, 348; errors and see
+errors; evolution and 89–90;
+externalities and 101; Facebook and
+automated 77–8, 80, 81, 82–3, 84, 85,
+86, 87; fast and slow solutions and
+9780241625248_TheAtomicHuman_TXT.indd 408 4/20/24 3:08:27 AM
+
+409
+Index
+19–20, 146–7, 185, 191, 204–6, 239,
+241–3, 246, 309; imagination and
+214–17, 240, 249, 349; immune
+systems and 16, 213; information
+topography and 34, 47; intelligence
+and 18, 24, 28–9; judgement and 21,
+46, 54, 56–7, 62, 66, 179–80, 181, 183,
+222, 339, 340, 348; Laplace’s demon
+and 178, 179; logic as model for 65–7
+see also logic; models for 65–7;
+System Zero 243–4, 245, 246; trial
+by ordeal and 339–40, 363
+decomposition 58, 79
+deduction 2–3, 54, 56–7, 64–7, 74, 136
+deep learning 1–2, 284
+DeepMind 4, 14, 321–3, 333
+Deep Thought (The Hitchhiker’s Guide
+to the Galaxy) 155–7, 159, 161–2, 165,
+173, 319, 348, 352
+dendrites 126–7, 256, 262
+Descartes, René 217
+determinism 161, 306–7, 352
+devolved authority: Amazon and
+39–40, 43, 87, 183; artificial
+intelligence and 8, 24, 46, 70–71, 77,
+78, 80, 81, 82–3, 84, 85, 86, 87, 124,
+222, 244, 245, 333–45, 348–9, 351–2,
+363–6, 369; automation and 46, 47,
+56–7, 62, 81, 122, 124; Bletchley Park
+and 56–7, 62, 76, 81, 100, 101; D-Day
+and 38–9, 50, 87, 183, 189–90;
+devolved autonomy 43, 44, 50, 62,
+70, 76, 79, 86, 87, 100, 101; Facebook
+and 70–71, 77, 78, 80, 81, 82–3, 84,
+85, 86, 87, 244; Mission Control
+Center and 193–6, 207; senses,
+intelligence devolved across 205,
+207, 208, 213; System Zero and 306;
+trust and 43, 79, 100
+dexamethasone 224, 303
+differential equations 111, 114, 123, 128
+differential programming 315
+digital cameras 330
+digital oligarchy 84–6, 95, 244, 245,
+360, 363, 364
+digital surveillance 303–4
+directed intelligence 58, 102–3,
+118, 143
+distributed intelligence 16
+divide and conquer strategy 56,
+84–5, 103
+division of labour 84–5, 102–4, 139,
+199, 250, 265, 284
+DNA 97–9, 103, 104, 107, 143, 144,
+324, 329
+Doctor Who 131
+Dodgson, Charles 135–6
+Dokett, Andrew 106–9, 112
+double helix 97–8
+doubt 162, 170
+Downfall (film) 73
+drift 201–2, 245
+Duff, Sir Gordon 224
+duplication event 129
+Eagle lunar module 198, 200, 202,
+203–4, 207, 210, 227, 228, 230, 322,
+340, 366
+Earhart, Amelia 200–205, 300, 320,
+344, 366
+Earth, first successful orbit of
+(1962) 245
+Echo (Greek mountain nymph) 229
+echo location 227–31, 301
+École Militaire 111
+ecology 94, 326, 327, 328, 329, 338, 342,
+344, 354, 356, 368
+EDSAC 174–6, 231, 233, 280
+effective physics 176, 275–6
+Eggers, Dave: The Circle 86
+9780241625248_TheAtomicHuman_TXT.indd 409 4/20/24 3:08:27 AM
+
+410
+Index
+Einstein, Albert 275–6, 280, 285,
+286–7, 295
+Eisenhower, General Dwight D.:
+Bletchley Park and 35, 36, 46, 47–8,
+54, 57, 62, 72, 78, 85, 146–7;
+composition and 140; devolved
+authority and 33–4, 35, 36, 37, 38, 39,
+57, 183, 185, 189–90, 206, 213, 349;
+Eisenhower illusion 183, 185,
+189–90, 206, 213, 349; fast-reacting
+reflexive decisions/slow-reacting
+reflective decisions and 146–7, 214;
+information topography and 45–8,
+62; intellectual debt and 85;
+judgement and 46, 54, 62, 348;
+Lorenz cipher and 72–3, 78;
+NASA, launches 189, 197;
+President, elected (1952) 189; radio
+and 107; teams and 250; wartime
+objective 50; weather forecasts and
+45, 150, 171
+electricity 125, 126, 233, 275, 296, 356
+elephants 94, 241–3, 349
+embodied intelligence 50; artificial
+intelligence and 25, 216;
+assumptions and 326–7; common
+purpose and 87; conflating
+different forms of intelligence and
+29; counterfactual simulation and
+217; culture and 86, 105;
+embodiment factor 13, 29, 35, 79,
+87, 105, 197, 216, 217, 249, 269, 327,
+353, 363, 369; God/Terminator
+images and 7–10, 12–13, 21, 22, 30,
+31, 75, 90–91, 105, 106, 121–2, 151, 153,
+206, 216, 220, 257, 283, 300, 333, 350,
+353; information theory and 269;
+information topography and 35,
+44; isolates atomic human 353;
+locked-in state and 50, 369;
+misleading nature of 14; pilots and
+197; reflective systems and 298;
+System Zero and 363; trust and 79;
+WiFi humans and 249
+emerged intelligences 91–2
+emmer 91
+empathy 55, 244, 251, 260, 311, 327, 357
+encryption. See cryptography
+energy quanta 275
+ENIAC 53, 174, 175–6, 231, 290
+Enigma 57–61, 72, 73, 74, 75, 80–81, 95,
+97, 140, 141, 226, 227, 251, 253
+Enkidu 337, 356
+Enlightenment 8, 110–12, 116, 119, 145,
+149, 168, 169, 275, 301, 341, 344
+ensemble approach 226
+ensemble of molecules 171
+Epic of Gilgamesh 115, 337–8, 350,
+356, 360
+Epimetheus 104, 199, 242
+epoché (suspension of judgement)
+179, 183, 348
+Erasmus: Adagia 305
+errors: abstraction of a feature
+landscape and 323; Apollo
+programme and 204; bugs 342–3;
+consequences of, machine and 340,
+365–6; cryptography and 73–4; data
+and 223–7; drift 201–2; Hawking’s
+artificial intelligence warning as 25;
+hooshing 157–8, 160, 165, 166, 178,
+215, 258, 276, 282, 317, 321, 323, 342,
+348; imagination and 225, 365–6;
+intelligent accountability and 363–4;
+Sedolian voids 319–23, 333–6;
+selection bias 89; Theralizumab
+trial 211–13, 220, 223–6, 247;
+transcription and translation and
+98–9; type I, or a false positive
+219–20, 225–6; type II 219–20
+9780241625248_TheAtomicHuman_TXT.indd 410 4/20/24 3:08:27 AM
+
+411
+Index
+ethology 259
+eugenics 94
+eukaryotic cell 254, 271
+Euler, Leonhard 117, 170
+Euphrates 336–8
+European squid 127–8, 133, 140
+evolution 89–105; artificial selection
+and 91–3; Babbage principle and
+103; cephalopod 128, 129, 133;
+co-evolution 207, 240, 328–9, 342,
+346; collaboration and 83–4, 95,
+99–101, 326, 370; competition and
+83–4, 94–5, 99; convergent
+evolution 344; culture and 104,
+148, 149, 353, 359, 370; design and 91;
+digital oligarchy and 95; eugenics
+and 93–4; evolved intelligence,
+directed intelligence and 102–3;
+food and 360–61; genome and
+98–9, 1091, 103–4, 242–3; geological
+deep time and 96–7, 324, 325;
+information coherence and 104;
+intelligence and 29, 81, 83–4,
+89–90, 97, 102–3, 208, 212, 213, 242,
+361; misinterpreting/anthroxing
+91–4; nervous system and 207–8,
+212, 213, 214, 221, 234, 239, 240, 249,
+348; neurons and 197; origins/
+definition of 89–91; System Zero
+and 309; teamwork and 250
+experience, human reasoning and
+342, 343
+expert systems 65–8, 319
+externalities 101, 174, 311
+extrapolation 152, 176, 201–3, 287, 289,
+290, 322
+eyes 128–9, 183–5, 204–6, 209, 235–9,
+249, 255, 260–61, 268, 269, 294, 301,
+324, 330; saccade 236, 238, 259, 260,
+297, 301
+Facebook 55, 160, 221; Cambridge
+Analytica and 82–3, 84, 221, 222,
+365; culture/goals within 69–71,
+78–87, 100, 102–3, 107, 114; digital
+oligarchy and 84; fake news and
+15; FBLearner 70–72, 77–8, 79–83,
+86–7, 91, 221, 236; fined 1.2 billion
+euros for transgressions of
+European privacy law 365; Haugen
+and 85; Internet Research Agency
+(IR A) and 80–83, 84; Neural
+Information Processing Systems
+machine-learning conference
+(2013)/AI lab origins 1–5, 16, 24, 29,
+86, 137, 332; newsfeed ranking 81,
+226–7, 236; separation of concerns
+140; software engineers and 349;
+US Presidential election (2016) and
+79–83, 84, 221, 222, 226–7, 236, 302,
+349, 365
+factory 53, 57, 78, 92, 103, 117, 264–5, 357
+fake news 15, 49, 80, 81
+Fan Hui 322, 323
+Farkas, Kempelen 329
+farming 15, 184, 265, 337–8, 360
+fast-reacting systems 133, 146, 183, 206,
+207, 212, 217, 221–2, 225, 228, 231–2,
+234, 238, 246, 256, 279, 309, 328
+Fawley catalytic cracker 179–80
+feature landscapes 282–3, 291, 295,
+316, 319, 322, 323, 332, 346, 347, 368
+feed back signals 143
+Fei-Fei Li 331–2
+fell 184
+Fellbaum, Christiane 331
+fell-running 184
+Fermat’s Last Theorem 314
+Ferranti 280
+Ferrari 26, 27; Formula One racing
+team 159–60, 178–80, 226
+9780241625248_TheAtomicHuman_TXT.indd 411 4/20/24 3:08:27 AM
+
+412
+Index
+feudal system 107
+fire 121, 356
+first principles 295, 342, 343
+First World War (1914–18) 48, 172–3,
+274, 276, 288
+flip-flop 144
+Flowers, Tommy 75–9, 83, 87, 91, 100,
+101, 104, 108, 126, 130, 134, 145, 149,
+176, 177, 203, 231, 261, 264, 277,
+324, 326
+fly-ball mechanism 117–19, 122–30,
+132–3, 140, 145, 152, 177, 180–81, 183–4,
+206, 228, 231, 256–7, 263–4, 265, 329
+foods, artificial 360–61
+Ford, Henry 3–4, 16, 27, 28, 53, 84–5, 92
+forethought 104, 113, 199, 242, 290
+Formula One 12, 31, 66, 112, 159–60,
+165, 178–9
+Fort McHenry 188
+Fourier, Joseph 117
+Foyles 44–5
+fragility, artificial selection and 92
+French Revolution (1789) 111
+frequency analysis 59, 61
+Freud, Sigmund 241
+fruit fly 183–4
+function, mathematical 59–60, 74,
+119, 139, 140, 141, 262
+Game of Life 153–6, 157, 161, 175, 321
+games: chance/gambling,
+uncertainty and 168; chess 302,
+306, 319–20, 329–30; computer
+games 215–16; Game of Life 153–6,
+157, 161, 175, 321; Go 319–23, 333–5,
+336; imitation see Turing Test; top
+trumps 26–8, 30, 42
+Garden of Eden 350–51
+Garman, Jack 199, 204–5, 208–9,
+210, 227
+Gas Light (play)/gaslighting 302–3,
+304, 305, 363
+Gates, Bill 23
+Gatsby Foundation 314–15
+GCHQ 72
+Gemini VIII 200
+genetics 97–9, 242–3, 270, 325, 328–9,
+353; DNA 97–9, 103, 104, 107, 143,
+144, 324, 329
+geology 15–16, 64–8, 96–7, 296, 324,
+325, 354
+German Democratic Republic (GDR)
+304–5, 309–10, 365
+Ghahramani, Zoubin 3, 321, 362
+Gibbs, Willard J. 307
+Gilgamesh 115, 337-8, 350, 356, 360
+Gilruth, Bob 190–92, 202, 238, 250
+Glenn, John 245
+Glider 154–5, 157
+glucose 254–5
+Go 319–23, 333–5, 336
+God: Elohim Creating Adam/Blake’s
+image of 121, 217–18, 300;
+Enlightenment and 168–70;
+knowing the mind of, Hawking on
+152–3, 154, 155, 168; Sistine Chapel
+depiction of 7, 12–13, 31, 90, 131, 216
+Goebbels, Joseph 65
+Goldberg, Rude 74
+Good, Jack 22–3, 47, 74, 75, 76, 100,
+104, 142, 227, 235, 261, 266, 267, 268,
+270, 361–2
+Google 1, 2, 4, 14, 15, 87, 349, 362;
+DeepMind 4, 14, 321–3
+grains 337
+graphics processing units (GPUs) 333
+gratitude 353
+gravity 109, 148, 166, 168, 200, 206, 276
+Greece, ancient 13–14, 20, 118, 131,
+134–5, 162, 170, 179, 261, 290, 306, 317,
+9780241625248_TheAtomicHuman_TXT.indd 412 4/20/24 3:08:27 AM
+
+413
+Index
+341; mythology 94, 104, 163, 168,
+223, 229, 327
+gremlin of uncertainty. See
+uncertainty
+Grissom, Gus 200
+Guardian 222–3
+guidance systems, automated
+188–204, 230, 315
+guilds 342–3, 349
+Gullfaks C oil installation 286
+gunpowder 187
+gut 218–19, 251, 339
+Gutenberg, Johannes 107, 108, 345, 354
+Guy, Richard 154
+Haidt, Jonathan: The Righteous Mind
+241, 349
+HAL (fictional guidance computer)
+198, 204
+Ham (chimpanzee) 190, 211
+Hammurabi 338–40, 351
+hand-eye coordination 205
+Harding, Peter 252, 258
+Hardy, G. H. 134, 137, 172, 285, 289
+Harrow clinic 211–13, 220, 223,
+225, 247
+Hassabis, Demis 321
+Haugen, Frances 85
+Hawking, Stephen 23, 25, 152–3, 154,
+155, 156, 168, 240, 302, 353; A Brief
+History of Time 153
+‘Heath Robinson’ machine 74–5
+Heider, Fritz 326–7
+Heller, Joseph: Catch-22 288
+Hemingway, Ernest 369
+Hera (Greek goddess) 229
+Hercules (Greek mythological hero)
+104, 115
+Herzberg, Elaine 334–6
+hidden layers 316–17, 346, 347
+high-dimensional landscape 291, 295,
+323, 347
+high-fructose corn syrup 81, 360
+Hilbert, David 172, 289
+Hillary, Edmund 186
+Hinton, Charles Howard 291–2, 294
+Hinton, Geoffrey Everest 313–15, 316,
+361–3
+Hinton, James 292
+Hinton, Sebastian 291
+Hitler, Adolf 37, 45, 50–51, 73, 74, 134,
+150, 273–5, 300
+Hodgkin, Alan 128, 140
+Holmes, Sherlock (fictional
+character) 2–3, 64–7, 134–5, 136–9,
+173, 308
+homeostasis 254, 255–6, 264–5, 268
+Homer 341, 350
+honeybee 17, 216
+Hooke, Robert 110
+hooshing, Pooh’s law of 157–8, 160,
+165, 166, 178, 215, 258, 276, 282, 317,
+321, 323, 342, 348
+Huang, Walter 336
+human-analogue machine (HAMs)
+343–5, 346–7, 358–9, 365–8
+human intelligence task (HIT) 330
+Hummer 131, 158, 283
+Huxley, Andrew 128, 140
+hyperplanes 291, 334
+hypothesis 327–8
+IBM 280; DeepBlue 306, 319–20; 701
+280; 704 293, 294, 300
+ideals, common 41–2, 110, 116
+identity function 59
+ignorance: HAMs and 347; Laplace’s
+demon and 161–2, 168, 308;
+manipulation of human
+intelligences and 309; mathematics
+9780241625248_TheAtomicHuman_TXT.indd 413 4/20/24 3:08:27 AM
+
+414
+Index
+of 172; Socrates’ awareness of 178;
+Wiener’s theory of 285, 290, 307–8
+ImageNet 331–2
+images: ChatGPT and 26, 60;
+computer recognition of, origins of
+1–2, 60, 83, 314–15, 316, 319, 330–34, 332,
+347; convolutional neural network
+and 314–15, 316, 319, 330, 332, 347;
+embodied intelligence and 7–10,
+12–13, 21, 22, 30, 31, 75, 90–91, 105, 106,
+121–2, 151, 153, 206, 216, 220, 257, 283,
+300, 333, 350, 353; information
+topography and 29; labels and 60
+imagination: brain and 205, 214–17;
+decision-making and 214–17, 240,
+249, 349; error and 225, 365–6;
+machine and 221; imagined space
+249, 253, 256–7, 272, 280, 293,
+297–300, 310–11, 315, 319, 320,
+321, 327
+immune system 16, 17–18, 211–14,
+218–21, 223–7, 235–6, 237, 239, 240,
+243, 246–7
+improvisation 147, 159–60, 162, 167,
+178–81, 226, 258, 297
+inconsequential decisions 364
+individual responsibility 352
+indulgences 8, 108
+Industrial Revolution 56, 119, 353, 356
+infinitesimal, calculus of 114–15,
+117, 170
+information age 119
+information assembly line 57–8, 79
+information budget 11, 19, 222
+information coherence 100, 101, 104,
+110, 115, 148, 149, 174–5, 250, 289,
+348–9
+information theory 10, 30, 98, 134, 149,
+242, 269–70, 306
+information topography 34–9, 43–8,
+57, 62, 104, 115–16, 127, 140, 192, 196,
+199, 291, 334
+integrated circuit 130–31, 198–9, 230,
+280, 315, 332, 333
+intellectual debt 84, 85, 349–50, 365
+intelligence: apex intelligence 362–4;
+artificial see artificial intelligence;
+automation and see automation;
+best, notion of 3, 28–9, 89–90, 93,
+94, 106–7, 148, 361; brain and see
+brain; Braitenberg’s law and 131–3;
+communication as fundamental
+difference between human and
+machine 30–31; communication
+bandwidth and see bandwidth,
+communication; competitive
+intransitivity of 28–9; context and
+see context; culture and see culture;
+defined 3, 20–21, 363; devolved
+across senses 205; different natures
+to different intelligences 26–7;
+directed intelligence 58, 102–3, 118,
+143; distributed intelligence 16–17;
+diversity of intelligences 26–30;
+embodied see embodied
+intelligence; emerged intelligences
+91–2; entity, as a 18, 25, 28–9, 32,
+102; etymology 357; evolution of/
+evolved intelligence 29, 89–92,
+102–3, 208, 213, 241–2, 328;
+fascination with 20–25; HAMs and
+see human-analogue machine
+(HAMs); immune system and see
+immune system; intelligent
+accountability 352, 363; locked-in
+see locked-in intelligence; logic and
+see logic; manipulation of see
+manipulation; motor intelligence
+207–8, 212, 242; neural-networks
+ignorance – cont’d.
+9780241625248_TheAtomicHuman_TXT.indd 414 4/20/24 3:08:27 AM
+
+415
+Index
+and see neural-network;
+particularity of human 27–30;
+property, as a 25, 28–9, 32, 102;
+second-guessing see second-
+guessing; Sedol’s achievement 323;
+sensorimotor approach and 236–40,
+242, 251, 262–3, 299; social
+intelligence 17, 21, 101, 214, 251–2;
+solving 4, 16; supply chains and
+17–20; term 3, 14, 357; Turing
+and see Turing, Alan;
+ultraintelligence 22–3, 26, 47, 74, 90,
+222, 266, 270, 361; unthinking
+intelligence 124–5, 130, 256–7;
+unwieldy and beautiful 370; Watt’s
+governor/feed back signals and
+124, 131, 143, 256–7
+interface 218–19, 257–8, 330, 344, 355,
+357, 358, 366, 367, 369–70
+International Court of Justice in the
+Hague 85
+internet 13, 39, 44, 45, 105, 131, 303,
+330, 361
+Internet Research Agency (IR A)
+80–82, 84, 227, 244, 365
+interneuron 183–5, 236, 281–4, 316
+interpolation, mathematical 151–3,
+171, 176, 282, 289, 347
+intractable equations 172–4, 177, 288
+intuitions, social 249–50, 251, 258,
+260, 298
+Irvine, Sandy 185
+Isaac Newton Institute for
+Mathematical Studies, Cambridge
+313, 314, 316
+‘it goes without saying’ 40–41
+J. Lyons & Co. 174
+jellyfish 148
+jerk forces 164–5, 168, 170
+Jordan, Mike 315
+Jurassic Park (film) 153
+Kahneman, Daniel: Thinking, Fast and
+Slow 19–20, 232, 241–3, 246, 301
+Kasparov, Garry 319–20, 329
+Kennedy, John F. 186–7, 197, 198, 203,
+204, 340–41, 367–8
+kinetic theory of gases 170, 285, 286
+Kingdom of Plants, The (TV series)
+325–6, 327
+knee-jerk reaction 130
+Kraft, Chris 192–6, 199, 205, 206, 207,
+208, 246, 250; Flight 192–3
+Kubrick, Stanley 198, 240
+Kuhn, Thomas: The Structure of
+Scientific Revolutions 295–6, 297,
+298, 299, 311, 365
+Kursk, Battle of (1943) 51, 74, 220
+Kurzweil, Ray 26, 28, 32
+labels, machine-learning 60, 331–2
+Laplace, Pierre-Simon 110–12, 115, 117,
+134; ‘A philosophical essay on
+probabilities’ 111–13, 161–2, 285; as
+greatest scientist of the
+Enlightenment 110–11; Laplace’s
+demon see Laplace’s demon
+Laplace’s demon: Bletchley Park and
+145; Boole and 308; Brownian
+motion and 285, 287; calculus
+ratiocinator and 123–4; classical
+approach to AI and 137, 306–7;
+computational challenge of 113, 147,
+156–7, 161–2, 168, 169, 170, 171, 172,
+176–7, 307–8, 363, 365; connectionist
+movement and 318–19; ‘curve
+described by a simple molecule of
+air or vapour’ 161, 170, 276, 285, 289,
+290; Deep Thought and 156, 352;
+9780241625248_TheAtomicHuman_TXT.indd 415 4/20/24 3:08:27 AM
+
+416
+Index
+deterministic universe and 161;
+errors and 225; fast-reacting
+intelligences and 207, 208, 219;
+Game of Life and 152–3, 154, 155, 321;
+HAMs and 344, 346; hooshing and
+157; ignorance and 161–2, 168, 308;
+individual responsibility and 352;
+information theory and 270; origins
+of 111–13, 161–2, 285; recipe 113;
+statistical ensemble and 307; T-cells
+and 219; Theory of Everything and
+112, 157, 352; triumph of 365; Turing
+and 300; uncertainty and 178, 179,
+181, 183, 276, 285, 287, 288
+Laplace’s gremlin 161, 178, 179, 181, 276,
+287, 288, 306, 307, 308, 344, 363, 368
+large-language models 13, 24, 55, 60,
+258, 343, 344
+Lawrence, Fred (grandfather of
+NDL) 33–4, 36–41, 45, 46, 49, 75, 76,
+78–9, 83, 87, 97, 106, 140, 146, 150,
+152, 158, 189–90, 209, 353
+Lawrence, Garth (father of NDL)
+33, 38, 158–9, 160, 162, 178–80, 181, 226
+Lawrence, Mark (brother of NDL)
+159, 160, 162, 178–81, 226
+LeCun, Yann 2, 3, 10, 29, 70, 137,
+314–16, 319, 330, 332
+Lee, Peter 92
+Legendre, Adrien-Marie 117
+Leibniz, Wilhelm 115–17, 123–4, 135,
+170, 267, 290, 344
+Lengsfeld, Vera 304–5, 309–11, 365
+LEO 174, 175–6, 280
+life expectancy 356
+Lifewiki 154
+Lindbergh, Charles 164
+linear algebra 333
+literacy 8, 342–3, 345, 349
+Loafer 155, 157, 321
+locked-in intelligence: Amazon
+supply chain and 43, 50; atomic
+human and 21, 31; Bauby and 9–11,
+101, 368–9; bottlenecks and 40;
+butterfly and diving suit, analogies
+of 101, 240; common purpose and
+87; communication bandwidth and
+10–11; community of locked-in
+intelligences 359; computer
+intelligence and 12; devolved-
+decision making and 196, 197, 210;
+early reflexive intelligences and
+132–3, 146, 251; Industrial
+Revolution and 119; information
+coherence and 104; information
+theory and 269; overcoming 21;
+projecting intelligence on to other
+intelligences and 216; second-
+guessing and 18, 19, 29–30, 41, 90,
+93, 217, 222, 228, 243, 249; simple
+ideas, sharing of 57; Wiener and
+307; WiFi humans and 249
+Loebner Prize 248
+logic: abstraction and 65–6, 134, 136;
+artificial intelligence, emergence
+of and 2–3, 301–8; Bletchley Park
+and 134; Boolean algebra and
+135–45, 199, 294; computation first
+mapped on to digital logic 233;
+complete information and 62,
+65–6; computer and 68, 233, 267;
+decision-making, as model for
+65–7; deduction and 2–3, 54, 56–7,
+64–7, 74, 136; expert system,
+logic-based 66–7; history of 134–5;
+logic gates 141–5, 176, 203, 231, 262,
+267; as model for knowledge,
+weaknesses of as 280, 295, 301–8;
+neuron, logical model of 261–4,
+Laplace’s demon – cont’d.
+9780241625248_TheAtomicHuman_TXT.indd 416 4/20/24 3:08:27 AM
+
+417
+Index
+267; Perceptron and 294–5, 300;
+Russell and Whitehead’s Principia
+lays out fundamentals of
+mathematics through 133–7;
+telephone exchanges and 61–2,
+134, 140; threshold logic 261–4;
+truth tables/Wittgenstein and see
+truth tables
+Lopez, Donald S. 163–4, 167–8, 185,
+189, 190–91, 195, 202, 218, 238, 250,
+251, 259, 278
+Lorenz cipher 73–4, 75, 78, 95, 134,
+141–2, 220, 266
+Lorenz, Konrad: Behind the Mirror
+256, 259–60, 297, 298–9, 309, 321,
+327, 350
+Louis XVIII, King 111
+Lovers, The (film) 21
+Lunar Society 119
+Luther, Martin 108
+machina ratiocinatrix (the rational
+machine) 267
+machine learning: Amazon and 39,
+47, 55; artificial neural networks
+and 68, 256; bag-of-words model
+56; benchmark datasets and 319;
+ensemble approach and 226;
+Facebook adopts 24, 55, 69, 70–72,
+77–8, 79–83, 86–7, 91, 221, 236;
+family of methods 181; fatal errors
+336; Formula One teams and 160;
+immune system and 221, 243;
+interpolation and 152; labels 60,
+331–2; large-language models see
+large–language models; machines
+implementing mathematical
+functions at core of 59–60; Neural
+Information Processing Systems
+machine-learning conference (2013)
+1–5, 16, 29, 86, 137, 332; personal data
+and 246; reinforcement learning
+and 322; Royal Society Machine
+Learning review (2017) 25;
+sensitive models/specific models
+and 220; term 59–60; uncertainty
+and 180–81
+MacKay, Donald 227–8, 230–37, 250,
+267–8, 269–70, 278, 287, 294, 301,
+315, 319, 330, 343; Behind the Eye 268,
+270, 316
+magnetron 228, 230, 234, 235
+Makerere University 15
+Mallory, George 185–6, 187, 340–41
+Manchester Baby 231
+Manchester Guardian 223
+Manchester Mark I 268
+manipulation 240; apex intelligence
+and 362–3; Cambridge Analytica
+and 82–3, 84, 221, 222, 365;
+Facebook and 79–83, 84, 85, 87, 227,
+302–3, 311, 365; gaslighting and
+302–3, 363; HAMs and 358–60,
+362–3, 365, 366, 368; Internet
+Research Agency (IR A) 80–82, 84,
+227, 244, 365; state surveillance and
+302–6; surveillance capitalism and
+222–3, 302–6, 309; System Zero and
+243, 244, 257; US election (2016) and
+79–83, 84, 85, 302–3, 311, 365
+manufacturing 19, 58, 66, 79, 80, 85,
+113, 120, 121, 139
+Marconi, Guglielmo 48–9
+market economics 360
+Mars (planet) 186
+MARS conference 39
+Martin, Neil 160
+Massachusetts Institute of
+Technology 250; Instrumentation
+Laboratory 198
+9780241625248_TheAtomicHuman_TXT.indd 417 4/20/24 3:08:27 AM
+
+418
+Index
+mathematics: Boolean algebra 135–45,
+199, 294; combination locks,
+mathematical 49, 50, 52, 74;
+composition, mathematical
+139–44, 262; deep learning and 1;
+exponential progression 320;
+Fermat’s Last Theorem 314;
+function, mathematical 59–60, 74,
+119, 139, 140, 141, 262; information
+theory and 10; interpolation,
+mathematical 151–3, 171, 176, 282,
+289, 347; Laplace and 112–13; linear
+algebra 333; models, mathematical
+or computational 31, 66, 68, 114,
+140; notation, mathematical 116–17,
+135, 136, 140; Principia, Newton’s
+and 109–10, 114, 116–17, 133;
+Principia Mathematica and 133–4;
+statistics, mathematical 223–4;
+uncertainty, mathematically
+characterizing 168–75; universal
+computation and 77; Wiener
+develops feel for 258–60, 297;
+Wiener process 287–90
+Matrix, The (film) 244
+Max Planck Institute for Biological
+Cybernetics, Tübingen 130
+McCarthy, John 277–8, 279, 280, 301,
+306, 330
+McCulloch, Warren 261–4, 267–8,
+269, 278–80, 282, 294–5, 311
+McLaren 160, 178–9, 226
+mechanical computer 53, 123
+mechanistic model 176
+memory 143–5, 147; outside memory
+259, 260, 297, 299, 318
+Mercury, Project/Mercury
+programme 189–98, 211, 223, 245
+metabolites 101
+Met Office, UK 12, 45
+Michelangelo 7–10, 22, 30, 31, 75,
+90–91, 105, 106, 121–2, 151, 153, 206,
+216, 283, 300, 350
+Michie, Donald 74, 76
+Microsoft 5, 68–72, 92–3, 114, 349
+Miller, Arthur: The Assault on Privacy
+27, 82, 84, 365
+Ming dynasty 187
+misinformation 80, 81, 85, 345
+Mission Control Center 192, 195–6
+models: bag-of-words 56; closed-loop
+controllers 123; counterfactual
+simulation 215; decision-making
+65–7; dual-process model,
+cognition 20, 241, 246; geocentric
+296; Laplace’s demon and 112–14,
+123–4, 225, 318–19; large-language
+models see large-language models;
+logic as model for knowledge see
+logic; mechanistic 176; model-
+blinkers 301–2, 308; nervous-net
+263–5, 268, 280, 282; neural-
+network 68, 294, 315–17, 322, 330,
+334, 346, 348; sensitive models/
+specific models and 220; term 65
+‘Molecules’, Brown and 285–7, 289
+Moltke, Field Marshal Helmuth von
+93, 160, 348
+MONIAC 232–3, 266, 343
+Moon 110, 184–8, 197–210, 227, 230,
+246, 321, 340, 366
+Moore School of Engineering 174
+motion: Brownian motion 286–7,
+289–90, 324; Newton’s laws of 114,
+125, 164, 168, 170, 172, 177, 201–2, 212,
+275–6, 287
+motor intelligence 207–8, 212, 242
+mRNA transcripts 98
+multiple discovery 115–16
+Muroc Air Base 190
+9780241625248_TheAtomicHuman_TXT.indd 418 4/20/24 3:08:27 AM
+
+419
+Index
+Musk, Elon 23, 125, 131
+mutation 98–9, 242–3
+Myanmar 85
+Mysore, Sultan of 187, 188
+Nagorwski, Andrew 273
+NAND gates 144, 145
+narcissism 20, 32, 229, 246, 298
+Narcissus 20, 229, 298
+NASA 189, 192, 197, 198, 200, 207, 209,
+245, 250
+National Advisory Committee on
+Aeronautics (NACA), US 163–8,
+189, 192–3, 200, 202, 211, 238–9, 366
+National Institute of Standards and
+Technology, US 330
+National Physical Laboratory (NPL),
+London 252–6, 268
+Natural History Museum, London
+355–6
+Nature 23–4
+Navier-Stokes equations 175, 321
+Negroponte, Nicholas: Being
+Digital 358
+neocortex 205
+Nergal-aha-iddina 338–9
+nervous system: active sensing
+approach 236; AI solutions and
+220, 243; brain and 16, 31, 212, 240;
+Braitenberg squid/Braitenberg’s
+law and 128–33, 143, 147–8;
+cybernetics and 130; European
+squid and 127–8; evolution of 249;
+fast electrical signals 16, 218, 224,
+234; feedback systems and 250–51;
+homeostasis and 254, 255, 264, 268;
+immune system and 212–14, 218,
+224, 240, 243, 246; intelligence and
+143, 212–14; motor-control system
+and 207–8; NASA and 192;
+nervous nets and 262–4;
+Perceptron and 281, 348; reflex arcs
+and 129–30, 183, 184, 191, 203, 205,
+208, 231, 281, 298; Wiener on 307
+Neural Information Processing
+Systems machine-learning
+conference (2013) 1–5, 16, 29, 86,
+137, 332
+neural networks 44–5, 68; adversarial
+attack and 334; AlphaGo and
+322–3, 333–4, 336; autonomous
+vehicles and 334–6; brain and 68;
+ChatGPT see ChatGPT;
+convolutional 314–15, 316, 319, 330,
+332, 347; cybernetics and 315;
+feature landscapes and 282–3, 291,
+295, 316, 319, 322, 323, 332, 346, 347,
+368; general underlying principles
+and 341; graphics processing units
+(GPUs) and 333–4; hidden layers
+316–17, 346, 347; Hinton and 313,
+314; human-analogue machines
+and see human-analogue machine;
+image detection and 330–31, 332,
+333–4, 346, 347; large-language
+models see large-language models;
+McCulloch and Pitts describe
+representation of logic in 262;
+origins of 256, 262, 272, 291, 294,
+315, 319, 348; Perceptron and 291,
+294, 295, 314, 330, 332, 348;
+reinforcement learning and 322;
+Sedolian voids and 323, 334–6;
+transformers and 41–2; Turing and
+256, 272, 315, 319
+neurons 12, 16, 126–30, 132, 142, 148,
+197, 209, 228, 234, 251, 256, 280–84;
+interneuron 183–5, 236, 281–4, 316;
+McCulloch-Pitts 261–4, 269, 280,
+294–5
+9780241625248_TheAtomicHuman_TXT.indd 419 4/20/24 3:08:27 AM
+
+420
+Index
+Newcomen, Thomas/Newcomen
+engine 120, 122
+Newman, Max 74–7, 174, 268
+Newton, Isaac 8, 134, 136, 268; calculus
+114–17, 123, 135, 176, 290, 344;
+Cambridge, first arrives in 108–9;
+gravity, laws of 109–10, 168, 206;
+intractable equations 172–4, 177, 288;
+Kennedy on 187; Leibniz and 115–17,
+123, 135, 176, 290, 344; motion, laws of
+109–10, 114, 125, 164, 168, 170, 172, 173,
+174, 177, 201–2, 212, 275–6, 285–7, 288;
+Newton (Blake) 121–2, 258, 260, 283,
+284, 301, 306; Newtonian paradigm
+295; Philosophiæ Naturalis Principia
+Mathematica (Principia) 109–10, 111,
+112, 114–17, 119, 133, 145, 149, 168, 169,
+172, 173, 174, 196, 212, 296, 299, 301, 342
+New York Times 245, 246, 332
+New York University 2
+Nippur 338
+Nobel Prize 2, 256, 275, 297
+Norgay, Tenzing 186
+North Africa 50–51, 115, 146, 150, 261–2
+notation, mathematical 116–17, 135,
+136, 140
+nuclear fission 275
+nuclear weapons 174, 189, 320, 354
+numbers, function and 59–60
+objectives 29, 36, 83–4, 148, 149, 179,
+244, 308, 309
+observer bias 318, 358
+oil rigs 15, 44, 63–4, 67, 68, 314
+oligarchy, digital 84–6, 95, 244, 245,
+360, 363, 364
+O’Neil, Cathy 222: Weapons of Math
+Destruction 222, 244
+O’Neill, Baroness Onora: ‘A question
+of trust’ lecture series (2002) 352, 363
+OpenAI 105
+Opper, Manfred 315
+optic nerve 205, 235
+Oracle at Delphi 178
+oral histories 354
+orang-utan 259–60, 298–9, 321, 350
+organelles 103
+O’Regan, Kevin 236–40, 259, 262–3,
+297, 299; Why Red Doesn’t Sound
+Like a Bell 239–40, 250
+Orwell, George: Nineteen Eighty-Four
+303, 304, 305, 308–9, 310
+outside memory 259, 260, 297, 299, 318
+outside world 146
+oxygen 171, 254
+P–51 Mustang 163–5, 167–8, 183, 192,
+196, 211
+Pangaea 96, 324, 325, 356
+Pantheon, Rome 89–91, 94, 98
+paradigm shifts 295–301, 311, 365
+Parallel Distributed Processing 315–16
+parameters, system 80, 118–19, 206,
+263–4, 315
+patellar reflex 130
+Patton, General George S. 36
+Perceptron 280–84, 290–95, 299–300,
+312, 314, 315, 316, 330–31, 332, 347, 348
+Perona, Pietro 331
+persistence 89–105, 128, 154, 242, 254,
+269, 309; anthroxing evolution and
+91–3; artificial selection and 92;
+Babbage principle and 103;
+competition and 94–5; culture/
+information coherence and 99–105;
+directed intelligence/evolved
+intelligence and 102–3; evolution
+of intelligence and 89–90;
+property of 89; transcription/
+translation and 97–9, 101, 103–4
+9780241625248_TheAtomicHuman_TXT.indd 420 4/20/24 3:08:27 AM
+
+421
+Index
+personal data 82, 83, 84, 216, 222, 244,
+246, 257, 309, 363, 364–5
+Peters, Steve: The Chimp Paradox 241
+phase-three trials 223, 247
+Phillips, Bill 232
+photoelectric effect 275
+physical combination locks 49, 52
+physical determinism 161
+Piccard, Auguste 186, 188, 190
+Piccard, Jacques 186
+PIN code 49, 52
+Pitts, Walter 260–4, 269, 279, 280,
+282, 294–5
+placebo effect 211, 240
+plaintext 57, 59, 60, 73
+Planck, Emma 276
+Planck, Erwin 274–5, 276, 301
+Planck, Grete 276
+Planck, Karl 276
+Planck, Marie 276
+Planck, Max 130, 274–7, 295–6, 300, 353
+planning approach 158–62, 178–9,
+181, 226
+Plato 177–8
+Plexiglas 186
+Popper, Karl: Conjectures and
+Refutations 327–8
+poverty 356, 366
+power asymmetries 363, 364, 366, 369
+Pratt, Brigadier General Don 146, 147,
+160, 164
+prediction: abstraction and 173, 175;
+AI and 306–8, 363; common
+purpose and 40–41; counterfactual
+simulations 215; cryptography and
+55–6, 71–2; FBLearner and 78;
+foresight and 109–10; hypothesis
+and 327; Laplace’s demon and 113,
+123, 145, 156–7, 168, 171, 176–7, 178,
+225, 306, 308, 318, 363; Perceptron
+and 291; second-guessing and 30;
+supply chains and 19, 30, 182, 215,
+216; Theory of Everything and 352;
+weather forecast and see weather
+forecast
+prejudice 244
+presidential election, US (2016)
+79–80, 226, 302, 311
+Press, The 265
+pressure, barometric 150–52, 175, 201,
+225, 282–3, 287, 322
+Price, Richard 169–70
+Princeton University 153, 314, 331,
+332; Institute of Advanced
+Study 280
+printing press 8, 9, 13, 24, 68, 75,
+107–8, 110, 119, 143, 145, 148, 149, 187,
+206, 266, 317, 341, 345, 349, 354–5
+privacy 27, 82, 84, 365
+Private Life of Plants, The
+(documentary) 325
+probability 111, 136, 161, 162, 168–70,
+269, 285, 290, 306, 307, 308
+processes, intelligent accountability
+and 352
+production line 16, 17, 53, 57, 58, 68, 86
+programming, computer 25, 39, 57, 58,
+62, 65, 67, 68–9, 75, 113, 142, 155–6,
+159, 200, 203–4, 233, 252, 267, 278, 300,
+315–16, 322, 329, 330, 334, 342, 357
+Prometheus 21, 104, 113, 121, 199,
+218, 242
+propaganda 35, 49, 279
+Protestant Reformation 8, 108
+proxy-truths 148, 157–8, 167, 225,
+266–7, 275–6, 295, 317, 327,
+339, 347
+psychological manipulation 304–6
+psychological representation 326–9,
+344–5, 353, 361, 367
+9780241625248_TheAtomicHuman_TXT.indd 421 4/20/24 3:08:27 AM
+
+422
+Index
+psychometric profile 82
+Pyrrho 162, 179, 309
+Pyrrhonian philosophers 179, 309
+Qualcomm 4
+quantum mechanics 276, 295
+Queens’ College, Cambridge 106–7, 134
+radar 131, 200, 202, 204, 219, 227,
+229–31, 234, 235, 250, 268, 269, 270,
+287, 289, 301, 336
+radio 15, 35–7, 40, 47, 48–9, 52, 54–5, 57,
+71, 75, 82, 98, 107, 140, 227, 229–30,
+248–9
+Radiohead: ‘Fake Plastic Trees’ 346
+Randall, John 230
+Randell, Brian 142
+random walk 286–7
+Ratio Club 267–9, 314
+RCA 48
+reciprocal function 59
+RECOVERY trial 224, 303
+reductionism 112, 119, 121, 122, 149,
+168, 212, 219, 280, 301, 327
+reflective intelligence: AI solutions
+and 220–21; Bauby’s analogy of
+butterfly trapped in diving suit and
+9, 11, 31, 101, 133, 195, 213–16, 217, 218,
+234, 240, 243, 251, 256, 318, 320, 321,
+322, 325, 328, 329; computer and
+228, 231–2; counterfactual
+simulations/imaginative decision-
+making and 214, 234; culture/
+social context and 208, 239;
+dual-process model of cognition
+and 20; embodied nature of 251,
+298; illusion of control and 205–6;
+information coherence and 349;
+Mercury programme and 192–3,
+195–6; nervous system and 125–6,
+133, 146–7, 183–5, 208–9, 212, 214,
+239, 243, 348; observer bias and 318;
+retrospective mental illusion and
+183; System Zero and 245, 246;
+time pressure and 205–6
+reflexive intelligence: autopilot and
+188, 190, 191–2; brain and 232, 255;
+cavity magnetron and 228, 230,
+234, 235; centrifugal governor and
+124; culture and 209; decision-
+making and 146, 183, 184–5, 190–92,
+203, 205–6, 208, 209, 212, 214, 243,
+347–8; diving suit analogy 9, 31, 101,
+186, 217, 240; eye and 205; illusion
+of control and 205–6; nervous
+system and 125–6, 129–30, 133, 146,
+183, 184–5, 188, 190, 191–2, 212, 234,
+243, 251, 347; origins of 251; patellar
+reflex 130; reflex arcs 129–30, 183,
+184, 191, 203, 205, 208, 231, 281, 298;
+retrospective mental illusion and
+183; System Zero and 243, 244,
+245–6; time pressure and 183, 205–6
+reinforcement learning 321–2
+relays (switches) 61–2, 68, 75, 126
+resentment 352, 353
+resonator 230
+response units (R-units) 282–4, 292
+Rice Stadium, US 186–7, 197
+rider and the elephant 349
+‘right approach’ 159–62
+Right Stuff, The (film) 190
+Robinson, Heath 74, 75, 141
+rockets 187–210
+Rolls-Royce Merlin engine 165
+Rommel, Erwin 33–4, 35, 45–6, 50–51,
+115, 134, 150–52, 158, 201–2, 225,
+261–2, 273–5, 353
+Rommel, Lucia 158
+Rommel, Manfred 158, 273–5, 301,
+9780241625248_TheAtomicHuman_TXT.indd 422 4/20/24 3:08:27 AM
+
+423
+Index
+Rosenblatt, Frank 280–84, 290–95, 300,
+314, 315, 316, 319, 330–31, 332, 347, 348
+Royal Navy 230, 267
+Royal Society 73, 321; Machine
+Learning review (2017) 25
+Russell, Bertrand 133, 135, 172, 260–61,
+264, 284–5, 307, 308; Principia
+Mathematica 133–4, 135, 137, 258, 261,
+264, 301–2, 342
+Russell-Clarke, Diana 47–8, 51, 52,
+53–4, 56, 61, 100, 173, 176, 288
+saccade 236, 238, 259, 260, 297, 301
+saccharin 360
+Sale, Margaret 72
+Sale, Tony 73, 77
+scepticism 79, 83, 149, 162, 179, 264
+Schlumberger 63
+Schölkopf, Bernhard 362
+Schoolman, Carlota Fay 360
+Schroepfer, Mike 2
+sciatic nerve 127, 184
+scientific exceptionalism 306
+scientific rationalism 119, 301
+Scientific Revolution 110, 114, 149
+second-guessing 18, 19, 29–30, 41, 90,
+93, 217, 222, 228, 243, 249
+Second World War (1939–45) 33–8;
+artillery/gunnery targeting 53,
+173–7, 187, 233, 287–9; Bletchley Park
+see Bletchley Park; cavity
+magnetron and 228; competition
+drives technological development
+in 94–5, 163, 235; D-Day see D-Day;
+Eisenhower and see Eisenhower,
+General Dwight D.; Fred Lawrence
+and see Lawrence, Fred
+(grandfather of NDL); information
+topography and 25; information
+war see cryptography
+Sedol, Lee/Sedolian voids 321, 322,
+323, 333–6
+selection bias 89, 145
+selective breeding 91–2, 94, 218
+self-awareness 122–3, 124, 144, 221–3,
+234, 270, 350
+semiconductors 176
+senses: intelligence devolved across
+205, 207, 208, 213; trusting 309
+sensorimotor system 197, 205–6,
+236–40, 242, 251, 262–3, 299
+separate condenser 120, 121, 122
+separation of concerns 84–5, 103,
+139–40, 199
+Serra, Richard 360
+shakannakku 338–9, 351–2, 363
+Shannon, Claude 10, 30, 61, 74, 98, 126,
+134, 140, 143, 149, 260, 264, 269–70,
+277, 315, 358, 363
+Shepard, Alan 196, 197, 198, 211
+Silicon Valley, US 1, 89, 332
+Simmel, Marianne 326–7
+Sin-bununi 338–41, 351
+Sistine Chapel, Rome 7, 9, 31, 91, 105,
+106, 121, 153, 206, 216, 350
+Siyatu, trial of 338–43, 349, 351
+slavery 266, 353–4
+smartphone 15, 213
+Smith, Michael: The Debs of Bletchley
+Park 47–8
+social animals, humans as 90, 104,
+107, 108, 216–17, 239, 249–51, 361
+social context, automated decision-
+making systems and 239, 244, 247,
+260, 359–60, 366
+social cues, face and 249–50, 255,
+271–2
+social insects 16–18, 337
+social intelligence 17, 21, 101, 214,
+251–3
+9780241625248_TheAtomicHuman_TXT.indd 423 4/20/24 3:08:27 AM
+
+424
+Index
+social media 15, 80, 81, 86, 108, 226, 243,
+244, 245, 247, 359, 360, 362, 364
+social networks 61–2, 77, 81, 140
+social revolution 106, 119
+social truths 149
+social validation 81, 82, 363
+Socrates 177–9, 317, 336–7, 341
+Socratic method 341
+software 68–70, 78, 84, 86, 139, 204,
+267, 268, 342–3, 349, 357
+Soho manufactory 120, 121
+solid-state semiconductors 176
+soma 126
+Soviet Union 48, 51, 189, 279, 304, 305
+space exploration 39, 182–210, 211, 221,
+223, 227, 228, 230, 238, 240–41, 245,
+246, 250, 315, 321–2, 340–41, 344, 366,
+367; Apollo programme see Apollo
+programme
+Spaceships, Game of Life 154–5
+speed of light 275
+splashdown 197–8
+S-points, Perceptron 281, 282
+Sputnik satellite 189
+squareness 283
+Stasi 304–6, 310, 352
+state surveillance 303–6, 308–11, 352
+statistics 23, 24, 55, 244; data and 112;
+mathematical statistics 223–4;
+selection bias error 89; statistical
+attacks 52, 54, 59, 61, 74; statistical
+ensemble 290, 307; statistical
+notions of recognition 282;
+statistical separability 282, 283,
+292, 295; statistical surveillance
+303; statistical survey 223–4, 243;
+System Zero and 243; Turing Test
+and 248, 249
+steam engine 24, 117–25, 221, 228, 231,
+265, 329, 341
+Steve (bicycle crash) 182–5, 191, 205–6,
+208–9, 236, 238, 243, 347
+Stewart, Potter 20–21, 341, 362
+stochastic processes 289–90, 307
+stories: emergence of 337–8; HAMs
+and 346
+Strawson, Peter: ‘Freedom and
+resentment’ 352–3
+substitution cipher 59, 61, 74
+sub-tasks 103
+sugar, refined 360–61
+Sumerian language 337, 354
+superintelligence 22–3, 26, 27–8, 369
+surveillance capitalism 222, 244, 257,
+306
+symbiotic relationship 325
+synapse 126, 127, 264, 280, 316
+synthetic psychology 131–2, 145, 239
+System 1 and System 2, fast-thinking
+and slow-thinking systems 20, 232,
+241–2, 243, 246
+System Zero 242–7, 306, 309, 329, 350,
+355, 359, 361, 363, 364
+Tang dynasty 187
+Tay chatbot 92–3, 349
+T-cell 218–21, 224, 225, 226–7, 236, 237,
+239, 270
+technological singularity 26, 27
+teleological perspective 112
+telepathy 248–50
+telephone 10, 53, 61, 75, 76, 125–7, 134,
+140, 152, 228, 269–70
+Television Delivers People (video art
+project) 360
+Tempe, Arizona 334–5
+Tenney, Jonathan 338, 339
+Terminator (movie character) 7, 9, 12,
+13, 21, 30, 31, 216, 220, 257, 333, 353
+Terminator (film) 333, 361, 369
+9780241625248_TheAtomicHuman_TXT.indd 424 4/20/24 3:08:27 AM
+
+425
+Index
+Terminator 2 (film) 333
+Tesla 131, 336
+tesseract 291, 294
+test pilot 163–8, 189, 190, 192–3, 196,
+197, 200, 211, 245
+textbooks 295–6, 297, 299
+thalamus 205
+Theoretical Physics 315
+theory-induced blindness 301. See also
+model-blinkers
+Theralizumab trial 211–13, 220,
+223–6, 247
+thermionic valve 35–7, 48, 75–6,
+79, 199
+Theory of Everything, The 112,
+152–4, 155, 156, 157, 276–7, 302, 321,
+323, 352, 353
+threshold logic 262–3
+thymus 218, 219, 237
+time pressure 182–3, 196, 253
+Titans 327
+tonsils 218–19, 220
+top trumps 26–8, 30, 42
+topography, information 34–9, 43–8,
+57, 62, 104, 115–16, 127, 140, 192, 196,
+199, 291, 334, 354-5
+translation 97–9, 103–4
+transatlantic telegraph cable 265–6
+transcription 97–9, 101, 103–4
+transformer 42, 347
+transhumanism 25–6
+transistors 130–31, 176, 198–9, 204,
+280; transistor computer, first 280
+tree of life 325–6
+trial by ordeal 338–41
+Trident XIV drilling rig 95–7, 128,
+130, 324
+Trieste 186, 190
+Trinity College, Cambridge 73, 133–4
+Trump, Donald 79–80
+trust: ‘A question of trust’ lecture
+series (2002) 352–3; bidirectional
+366–7; corporate culture and 38, 49,
+43, 71; devolved authority and 38,
+40, 43, 71, 195–6, 199; Flowers and
+76, 79, 100, 149; human
+collaboration reliance on 249;
+intelligence evolution and 83, 149;
+loss of 278, 305, 309, 310–12, 338, 352,
+361, 363, 366; manipulation and
+305–6, 309, 310–12, 362–3; Mercury
+programme and 195–6, 199, 246;
+senses and 309; System Zero and
+305–6, 309; validation and 81
+truth 94, 105, 110–11, 134; convenient
+truths 348–9; cultural artefacts as
+form of 301–2; proxy-truths 148–9,
+158, 167, 225, 266, 275, 295, 317, 327,
+347; social truths 149; truth tables
+137–45, 199, 233, 263, 267
+tuning the controller 118
+Turing, Alan 23, 115, 248–62; Ashby
+and 262, 267, 280, 293, 300;
+Automatic Computing Engine
+(ACE) and 253–6, 262, 268;
+Bletchley Park and 47, 54, 61, 62,
+72–3, 75–6, 100; bombes and 54, 61,
+62, 71, 72–3, 75–6; Colossus and
+142, 267; death 271–2, 277, 280, 301;
+Enigma machine and 72–3, 75–6;
+MacKay and 227, 235, 238;
+Manchester Mark I and 268;
+marathon runner 252–3, 258;
+McCarthy and 277, 280, 301;
+nervous nets and 262; neural
+networks and 256–7, 272, 315, 319;
+prosecuted for ‘gross indecency’
+270–71; social intelligence 252–3,
+255–6, 271–2; telepathy and 248–50,
+251, 255; ‘The chemical origin of
+9780241625248_TheAtomicHuman_TXT.indd 425 4/20/24 3:08:27 AM
+
+426
+Index
+biological form’ (1952) 270;
+universal computation/universal
+computer and 77, 134, 145, 154, 199,
+252, 255–6, 261, 267, 268, 272, 277,
+300, 314
+Turing Award (2019) 2
+Turing Test 4, 23, 104–5, 248–51
+Turk, The 329–30
+Tutte, W. T. 73–4, 100, 104, 142
+Twitter 92
+2001: A Space Odyssey (film) 198,
+240–41, 245
+Tyson, Mike 92–3, 130, 193, 217, 225,
+328, 348
+Uber Advanced Technology Group 335
+Uganda 15, 24
+ultraintelligence 22–3, 26, 47, 74,
+222, 270
+Umma 337
+uncertainty: AI errors/Sedolian
+voids and 319–23, 333–6, 340, 344,
+363, 368; automation and 264–5;
+classical AI community and
+306–7, 308; devolved-decision
+making and 196; diversity of
+approaches and 162–3, 180;
+Earhart and 202; gremlins of,
+origins 163–8, 191; gunnery and
+288–9; HAMs and 344;
+improvisation and 159–60, 162,
+167, 178–81, 226, 258, 297; Kraft and
+193–5; Laplace’s demon and 111,
+113, 178, 179, 219, 271, 276, 287, 288,
+306–8, 344, 363, 368; machine
+learning and 180–81; medicine
+and 212; Moltke and 93, 160, 348;
+planning approach and 158–63,
+178–9, 181, 226; probability theory
+and 168–70, 340, 348, 357;
+propagating through information-
+processing pipelines 72; quantum
+mechanics and 276; suspension of
+judgement and 179, 180, 348; test
+pilots/jerk forces and 163–8, 189,
+190, 192–3, 196, 197, 200, 202, 211,
+238–9, 245, 366; Turing’s death and
+271; Tyson’s maxim and 92–3, 130,
+193, 217, 225, 328, 348; Wiener
+process and 287, 288, 289–90,
+290, 307–8
+universal computation/universal
+computer 77, 134, 145, 154, 199, 252,
+255–6, 261, 267, 268, 272, 277, 300, 314
+universal gate 144–5, 199, 262
+University of Amsterdam 3
+University of Birmingham 230
+University of Cambridge 3, 14, 23, 42,
+53, 106–9, 116, 128, 133–4, 135, 137, 153,
+174–5, 227, 233, 261, 285, 305, 314, 362
+University of Chicago 261
+University of Manchester 174, 268, 280
+University of Munich Stable
+Diffusion 105
+University of Oxford 22, 135, 352
+University of Sheffield 69, 184, 224
+unthinking intelligence 124–5,
+256–7
+Uruk 336–7, 341
+US Army: Aberdeen Proving
+Ground, Maryland 173; Army Air
+Force Langley Field proving
+ground 163–8; First Army Group
+36; 101st Airborne Division 146,
+160; Ordnance Corps 188
+vaccination 218, 224
+Vapnik, Vladimir 315
+variation, strategy 227
+Turing – cont’d.
+9780241625248_TheAtomicHuman_TXT.indd 426 4/20/24 3:08:27 AM
+
+427
+Index
+Vergeltungswaffe 2, or V-2 187, 188
+Vernam cipher 74, 141–2
+visual cortex/visual system 204–6,
+209, 230, 235–9, 249, 250, 255, 259,
+260, 268, 269, 270, 281, 294, 297, 301,
+324, 330; eyes 128–9, 183–5, 204–6,
+209, 235–9, 249, 255, 260–61, 268,
+269, 294, 301, 324, 330; saccade 236,
+238, 259, 260, 297, 301
+voyages of exploration 183–6
+vulnerabilities 226–7, 305, 310–11, 340,
+359, 360, 363, 366, 369, 370
+vultures 344
+Walsh, Don 184, 186, 190
+Walton Athletic Club 252, 253, 258
+water: computation and 232–3, 266;
+Einstein’s model of 286–7
+Watt, James 117–25, 152, 170, 228, 265,
+329, 356; centrifugal governor or
+Watt’s governor 122–5, 127, 131, 143,
+144, 184, 198, 202–3, 206, 207, 221,
+231, 234, 251, 254, 256–7, 263
+weather forecasting: Bernoulli and
+170, 171, 175, 176; computers and 12,
+174–7, 233, 293, 315; D-Day and 45,
+54, 150–52, 171, 179, 193, 201, 202, 225,
+282–3, 287; extrapolation 152, 202;
+interpolation and 151, 171; Navier-
+Stokes equations and 175, 321;
+numerical weather model as
+mechanistic model 176–7;
+pressure, barometric 150–52, 175,
+201, 225, 282–3, 287, 322; simulations
+and 221
+weighting, nervous nets and 263–4,
+280–81, 283, 286, 292, 315, 316
+Welling, Max 3
+Wells, H. G.: The Time Machine 313–14
+‘what if’ questions 215, 240
+White, Ed 200
+Whitehead, Alfred North: Principia
+Mathematica 133–4, 258–9, 261
+Wiener, Barbara 278
+Wiener, Leo 135, 281–4
+Wiener, Norbert 270; background 135;
+cybernetics founded by 131, 143, 306;
+Cybernetics: Communication and
+Control in the Human and Animal 131,
+234–5, 250–51, 264, 267, 277–8;
+Dartmouth University Summer
+Project and 278, 279, 280, 301;
+drafted into US army 172–3;
+Einstein’s Brownian motion paper
+and 285, 287; feed back signals and
+143, 144, 234–5, 250–51; Gibbs and
+307; gun targeting and 173, 174, 176,
+250–51, 287, 288–9; Hardy and 172,
+285, 289; Hilbert and 172, 289–90;
+human computer 173, 174, 176, 288;
+mathematics, develops feel for
+258–60, 297; McCulloch and 278,
+279, 311; Russell and 133–4, 135, 137,
+172, 260–61, 264, 284–5; theory of
+ignorance 285, 290, 307, 377; Wiener
+process 287–90, 307
+Wi-Fi humans 248–9, 272
+Wiles, Andrew 314
+Winnie-the-Pooh (fictional character)
+157–8, 160, 161, 165, 168, 178, 215, 225,
+256, 258, 276, 282, 317, 321, 323, 342,
+348
+Wittgenstein, Ludwig: Tractacus
+Logico-Philosophicus 137–8, 199, 233,
+263, 308
+Wollenberger, Knud 310
+women: at Bletchley Park 47–8, 51, 52,
+53–4, 56, 61, 98, 100, 173, 176, 288;
+universal machine programming
+and 267
+9780241625248_TheAtomicHuman_TXT.indd 427 4/20/24 3:08:27 AM
+
+Index
+WordNet 331
+Wrens (women from the UK’s Royal
+Navy) 267
+Wright, Orville 164, 257–8, 366
+Wright, Wilbur 257–8, 366
+writing, emergence of
+336–41, 354
+X-15 rocket plane 200
+XOR gate 141–2
+Yeager, Chuck 190
+Zeus (Greek god) 104, 218
+Zhuang Zhou 317–18
+Zittrain, Jonathan 84, 365
+Zuboff, Shoshana: Surveillance
+Capitalism 222, 244, 257, 306
+Zuckerberg, Mark 1, 2, 3–4, 29, 32, 69,
+79–86, 100, 107, 137, 302, 332
+Zuse, Konrad 53
+
+
+================================================
+
+File: notes.txt
+
+
+379
+Notes
+1. Gods and Robots
+1 See e.g. B. Singler (2020), ‘The AI creation meme: a case study of the
+new visibility of religion’, in Artificial Intelligence Discourse: Religions,
+11(253); https://doi.org/10.3390/rel11050253
+2 The English title refers to a diving bell, but a more accurate translation
+of scaphandre would be an old-fashioned diving suit, one of the type
+that Tintin and Captain Haddock used during their hunt for Red Rack-
+ham’s treasure.
+3 See United Nations, Department of Economic and Social Affairs,
+Population Division (2019). World Urbanization Prospects: The 2018
+Revision (ST/ESA/SER.A/420). New York: United Nations; https://
+population.un.org/wup/Publications/Files/WUP2018-Report.pdf
+4 See e.g. E. E. Greenwald, L. Baltiansky and O. Feinerman, ‘Individual
+crop loads provide local control for collective food intake in ant colo-
+nies’, eLife, 16 March 2018; https://doi.org/10.7554/eLife.31730
+5 See M. Beekman and F. L. W. Ratnieks (2000), ‘Long-range foraging by
+the honey-bee, Apis mellifera L.’, in Functional Ecology, 14: 490–96;
+https://doi.org/10.1046/j.1365-2435.2000.00443.x
+6 Nick Bostrom, Superintelligence: Paths, Dangers, Strategies (Oxford:
+Oxford University Press, 2014), p. 22
+7 I. J. Good, ‘Speculations concerning the first ultraintelligent machine’,
+Advances in Computers, vol. 6, 1965. https://doi.org/10.1016/S0065-
+2458(08)60418-0
+8 At the Web Summit conference in Lisbon, Portugal; https://www.
+cnbc.com/2017/11/06/stephen-hawking-ai-could-be-worst-event-in-
+civilization.html
+9 Arthur R. Miller, The Assault on Privacy (Ann Arbor: The University of
+Michigan Press, 1971) p. 12
+9780241625248_TheAtomicHuman_TXT.indd 379 4/20/24 3:08:27 AM
+
+380
+Notes to pp. 45–78
+2. Automatons
+1 T. H. Flowers, ‘D-Day at Bletchley Park’, Chapter 6 of Colossus: The
+Secrets of Bletchley Park’s Codebreaking Computers, ed. B, J. Copeland
+(Oxford: Oxford University Press, 2006), p. 81.
+2 Michael Smith, The Debs of Bletchley Park (Aurum Press, 2015), p. 12.
+3 Common sense would say that a machine that does nothing is not a
+machine at all. But machines and mathematics don’t share in our
+‘sense of the common’, so defining the nothing machine turns out to
+be important to make everything work.
+3. Intent
+1 A. Conan Doyle, A Study in Scarlet (London: Ward Lock & Co., 1888),
+Chapter 2.
+2 Richard E. Susskind, Expert Systems in Law: A Jurisprudential Inquiry
+(Oxford: Clarendon Press, 1987).
+3 G. E. P. Box (Dec. 1976), ‘Science and statistics’, Journal of the American
+Statistical Association, 71(356), 791–99; https://doi.org/10.2307/22868416
+4 This is only partially true. At the time we were talking to Ferrari,
+racing cars were using their engine’s exhaust to improve their aero-
+dynamic performance in something called a ‘blown diffuser’. But the
+effect of the blown diffuser could also be re-created in the model with-
+out including a full engine.
+5 In a Vernam cipher the two streams are compared. If the binary digits
+are different, then the locked message encodes a 1. If they are the
+same, the locked message gives a 0. The message then encodes ‘how it
+was originally different’ from the key. If you have the key, and you
+know how the original message was different from the key, then you
+can decode the original message.
+6 In the US such machines are known as Rube Goldberg machines after
+a cartoonist who drew similar machines.
+7 See J. Dunn, ‘Introducing FBLearner Flow: Facebook’s AI backbone’,
+Facebook Engineering Blog, 9 May 2016; https://engineering.
+9780241625248_TheAtomicHuman_TXT.indd 380 4/20/24 3:08:27 AM
+
+381
+Notes to pp. 91–104
+f b.com/2016/05/09/core-infra/introducing-f blearner-flow-facebook-
+s-ai-backbone/
+4. Persistence
+1 Barley was domesticated around 10,000 years ago in the Levant. See e.g.
+A. Badr et al. (April 2000), ‘On the origin and domestication history
+of barley (Hordeum vulgare)’, Molecular Biology and Evolution, 17(4),
+499–510; https://doi.org/10.1093/oxfordjournals.molbev.a026330.
+2 P. Lee, ‘Learning from Tay’s introduction’, Official Microsoft Blog, 25
+March 2016; https://blogs.microsoft.com/blog/2016/03/25/learning-
+tays-introduction/#sm.00000gjdpwwcfcus11t6oo6dw79gw
+3 The quote is from an 1871 essay on strategy by Graf von Moltke. The
+original German quote can be found in Moltke’s Militärische Werke: II.
+Die Thätigkeit als Chef des Generalstabes der Armee im Frieden (Berlin:
+Ernst Siegfried Mittler und Sohn, 1906), p. 291.
+4 Each brick is a chemical compound called a nucleobase. The four
+nucleobases in DNA are called guanine, adenine, cytosine and thy-
+mine and their first letters give us their representation as G, A, C and
+T respectively.
+5 This estimate is the current estimate of the mutation rate of the
+human germline: see e.g. A. Scally, ‘Mutation rates and the evolution
+of germline structure’, Philosophical Transactions of the Royal Society of
+London: B, Biological Sciences, 19 July 2016, 371(1699):20150137; doi:
+10.1098/rstb.2015.0137. PMID: 27325834; PMCID: PMC4920338.
+6 Charles Babbage, On the Economy of Machinery and Manufactures
+(London: Charles Knight, 1832), Chapter 19, p. 131.
+7 Of course, this is just my subjective opinion. To properly rank these
+two extraordinary achievements, I would have to convert the term
+‘extraordinary’ into objective measures. One reason I find it more
+extraordinary is because it is helpful in communicating the message of
+this chapter to do so. So the objective measures I would be tempted to
+create turn out to be subjective in origin.
+9780241625248_TheAtomicHuman_TXT.indd 381 4/20/24 3:08:27 AM
+
+382
+Notes to pp. 111–33
+5. Enlightenment
+1 Isaac Newton, Philosophiae Naturalis Principia Mathematica (London:
+Royal Society, 1687)
+2 Isaac Newton Letter to Robert Hooke, on 2 February 1675. Simon
+Gratz collection, Permanent ID: 9792. Available from https://
+digitallibrary.hsp.org/index.php/Detail/objects/9792
+3 The appointment lasted for only six weeks; Napoleon complained in
+his memoir that Laplace didn’t see the subtleties of administration,
+and Laplace was replaced with Napoleon’s brother. Perhaps the famil-
+ial relationship of his replacement is a better explanation for the
+replacement than Laplace’s administration skills.
+4 Pierre-Simon Laplace, Essai philosophique sur les probabilités (1814),
+translated as A Philosophical Essay on Probabilities, 1902, p. 4.
+5 Matthew Boulton, letter to James Watt, 28 May 1788, The Library of
+Birmingham: Birmingham Archives and Heritage, Boulton & Watt
+Collection, MS 3147/3/12.
+6 This engine, Boulton and Watt’s Tyger, known as the Lap Engine, was
+an engine powered by steam and controlled by the fly-ball governor. It
+is the oldest Watt engine to survive and can be seen at the London Sci-
+ence Museum.
+7 Elon Musk, quoted from the Code Conference 2016; https://www.
+youtube.com/embed/wsixsRI-Sz4?start=4678
+8 In the United States, Benjamin Franklin is famous for his interest in
+electricity. Some of Franklin’s experiments were conducted with Mat-
+thew Boulton during visits to England in 1758 and 1760. The members
+of the Lunar Society were socially liberal, making them kindred polit-
+ical spirits to Franklin and the Founding Fathers of the US.
+9 Valentino Braitenberg, Vehicles: Experiments in Synthetic Psychology
+(Cambridge, Mass: MIT Press, 1984), p. 20.
+10 My colleagues Timnit Gebru, Meg Mitchell and Emily Bender refer to
+the chatbot version of these models as stochastic parrots in acknowl-
+edgment of this. See E. M. Bender et al. (2021), ‘On the dangers
+of stochastic parrots: can language models be too big? 
+’, Proceedings
+of the 2021 ACM Conference on Fairness, Accountability, and
+9780241625248_TheAtomicHuman_TXT.indd 382 4/20/24 3:08:27 AM
+
+383
+Notes to pp. 134–61
+Transparency (FAccT ‘21). Association for Computing Machinery,
+New York, NY, USA, 610–23; https://doi.org/10.1145/3442188.3445922
+11 N. Wiener, Ex-Prodigy: My Childhood and Youth (Cambridge, Mass: MIT
+Press, 1953), p. 194.
+12 Bertrand Russell, and Alfred North Whitehead. Principia Mathematica
+(Cambridge: Cambridge University Press, 1910, 1912, 1913)
+13 Bertrand Russell, quoting G. H. Hardy in a letter to Lady Ottoline
+Morrell on 2 May 1912. Letter held in the Bertrand Russell Collection
+at McMaster University. Document no. 000435 Box no. 2.58.
+14 The new word is just a contraction of the words Not and And.
+15 Dermot Turing, quoting Tommy Flowers in an interview with Brian
+Randell in 1975 in Prof: Alan Turing Decoded (Stroud: The History Press,
+2015), p. 176.
+16 ‘General Eisenhower and British Prime Minister Churchill review
+101st Airborne Division troops in England during World War II.’ Video
+clip 65675076988 from Critical Past. See https://www.criticalpast.com/
+video/65675076988_101st-Airborne-Division_Dwight-Eisenhower_
+Winston-Churchill_Maxwell-D-Taylor
+17 Note from General Dwight Eisenhower, evening of 5 June 1944, Eisen-
+hower’s Pre-Presidential Papers, Principal File, Box 168, Butcher Diary
+June 28–July 14, 1944 (2); NAID #186470
+6. The Gremlin of Uncertainty
+1 Stephen Hawking A Brief History of Time: From Big Bang to Black Holes
+(London: Bantam, 1988), Chapter 12.
+2 Tetris is a computer game where the objective is to build a wall by
+dropping blocks so that they intersect with each other.
+3 https://conwaylife.com/wiki/Main_Page
+4 Douglas Adams, The Hitchhiker’s Guide to the Galaxy (London: Pan,
+1979), Chapter 27.
+5 Ibid., Chapter 28.
+6 A. A. Milne as Winnie-the-Pooh in The House at Pooh Corner (1928),
+Chapter 6.
+9780241625248_TheAtomicHuman_TXT.indd 383 4/20/24 3:08:27 AM
+
+384
+Notes to pp. 161–78
+7 Oral history interview with Rommel’s son Manfred, from the United
+States Holocaust Memorial Museum. Accession Number: 2017.295.20
+| RG Number: RG-50.957.0019 available from https://collections.
+ushmm.org/search/catalog/irn562437
+8 Pierre-Simon Laplace, Essai philosophique sur les probabilités, 1814, trans-
+lated as A Philosophical Essay on Probabilities (New York, John Wiley &
+Sons, 1902) p. 6.
+9 Ibid., p. 6.
+10 Sources for Cavallo’s career as described here include the NASA
+Headquarters NACA Oral History Project. Edited Oral History Tran-
+script Stefan A. Cavallo interviewed by Sandra Johnson, 30 Sept. 2005,
+https://historycollection.jsc.nasa.gov/JSCHistoryPortal/history/oral_
+histories/NACA/CavalloSA_9-30-05.htm, and ’Parishioner Spotlight’ on
+Cavallo from St Francis de Sales Church, NYC, https://www.youtube.
+com/watch?v=NST4dPqniBA, and an interview with Cavallo by his
+son from 2019, https://www.youtube.com/watch?v=0S_QousMTW8.
+11 Donald S. Lopez Sr, Deputy Director of the US National Air and Space
+Museum and Second World War P-40 and P-51 pilot, speaking while
+introducing Cavallo at the National Air and Space Museum; https://
+www.youtube.com/watch?v=bYL_l18J1-s
+12 Stefan Cavallo, Bailout, available from https://stefancavallo.com/wp-
+content/uploads/2022/09/Bailout-Final-Version.pdf
+13 Donald S. Lopez, Into the Teeth of the Tiger (Washington, DC: Smithso-
+nian Books, 1997), p. 9.
+14 Richard Price in the introduction to Thomas Bayes’s ‘An essay towards
+solving a problem in the doctrine of chances’, 1763, p. 374.
+15 Ibid., p. 374.
+16 If you did study them directly from the Principia, then please do get in
+touch; I would love to hear your story. But even if you didn’t study
+them directly from the Principia, you studied the laws that came from
+there.
+17 See p. 21 of ‘An interview with John Pinkerton’, 23 Aug. 1988, where
+Pinkerton states, ‘It was true that since 1951 a small job had been run
+regularly. This was a bakery sales analysis; originally it ran extremely
+slowly when we had a single teleprinter for output.’ Available from
+9780241625248_TheAtomicHuman_TXT.indd 384 4/20/24 3:08:27 AM
+
+385
+Notes to pp. 190–207
+https://conservancy.umn.edu/bitstream/handle/11299/107600/oh149
+jmp.pdf
+18 Socrates quoted in Plato’s Apology, (c. 399 bce), trans. Henry Cary, in
+Plato’s Apology, Crito and Phaedo of Socrates (New York: Arthur Hinds &
+Company, 1892).
+7. It’s Not Rocket Science or Brain Surgery
+1 The first hominid in space was not a human but a chimpanzee named
+Ham. He was used to test the survival systems of the Mercury cap-
+sule. Yuri Gagarin became the second hominid to reach space when he
+launched ten weeks later. See also Christopher Kraft, Flight: My Life in
+Mission Control (Boston, MA: E. P. Dutton, 2001), p. 92. Kraft docu-
+ments the origin of the expression ‘Spam in a can’ as coming from the
+Society of Experimental Test Pilots.
+2 Donald S. Lopez, Into the Teeth of the Tiger (Washington, DC: Smithso-
+nian Books, 1997), p. 43.
+3 Robert R. Gilruth, ‘Requirements for satisfactory flying qualities of
+airplanes’, NACA Report NACA-TR-755, 1 Jan. 1943.
+4 After the war Cavallo was asked, like Chuck Yeager in The Right Stuff, to
+go to Muroc air base to fly the X1. But as a father to a young family, with
+his parents running a furniture business in New York, he turned
+down the opportunity and headed back home to help in his parents’
+business.
+5 The term ‘unknown unknowns’ is often credited to Donald Rumsfeld
+from a press conference in February 2002. But Kraft’s use of it predates
+Rumsfeld’s: his autobiography was published in 2001.
+6 Christopher Kraft, Flight: My Life in Mission Control (Boston, MA: E. P.
+Dutton, 2001), pp. 92–3.
+7 Ibid., p. 102.
+8 Amelia Earhart, The Fun of It: Random Records of My Own Flying and of
+Women in Aviation (New York: Brewer, Warren & Putnam, 1932).
+9 David A. Mindell, Digital Apollo: Human and Machine in Spaceflight
+(Cambridge: Mass MIT, 2011), p. 222.
+9780241625248_TheAtomicHuman_TXT.indd 385 4/20/24 3:08:27 AM
+
+386
+Notes to pp. 221–52
+10 This notion is explored by Tor Nørretranders in Mærk verden (1991),
+published in English as The User Illusion: Cutting Consciousness Down to
+Size, trans. J. Sydenham (New York: Viking, 1998).
+11 Although a humorous study in the British Medical Journal on these
+professions found no significant differences between them and the wider
+human population. See I. Usher et al. (2021), ‘“It’s not rocket science”
+and “It’s not brain surgery” – “It’s a walk in the park” ’ : prospective com-
+parative study BMJ 2021; 375 :e067883 doi:10.1136/bmj-2021-067883
+12 For a video see https://www.youtube.com/watch?v=7j6OsP7zL6w
+8. System Zero
+1 W. Youyou, M. Kosinski and D. Stillwell (2015), ‘Computer-based per-
+sonality judgments are more accurate than those made by humans’,
+Proceedings of the National Academy of Sciences, 112 (4): 1036–40.
+2 Cathy O’Neil, Weapons of Math Destruction: How Big Data Increases
+Inequality and Threatens Democracy (New York: Crown, 2016).
+3 Shoshana Zuboff, The Age of Surveillance Capitalism: The Fight for a
+Human Future at the New Frontier of Power (London: Profile Books, 2019).
+4 See e.g. https://www.york.ac.uk/depts/maths/histstat/lies.htm
+5 Expert Scientific Group on Phase One Clinical Trials, 30 Nov. 2006 available
+from https://webarchive.nationalarchives.gov.uk/ukgwa/20130107105354/
+http://www.dh.gov.uk/prod_consum_dh/groups/dh_digitalassets/@
+dh/@en/documents/digitalasset/dh_073165.pdf
+6 Donald M. MacKay and Valerie MacKay, Behind the Eye (The 1986
+Gifford Lectures) (Oxford: Basil Blackwell, 1991), p. 40.
+7 Ibid, p. 40.
+8 Ibid
+9 J. Kevin O’Regan, Why Red Doesn’t Sound Like a Bell: Understanding the
+Feel of Conciousness (Oxford: Oxford University Press, 2011).
+10 Of course, this analogy is very unfair on chimps, who are extremely
+sophisticated social creatures with a mental capacity that is far beyond
+anything we are close to creating today.
+11 J. Haidt, The Happiness Hypothesis (New York: Basic Books, 2006).
+9780241625248_TheAtomicHuman_TXT.indd 386 4/20/24 3:08:27 AM
+
+387
+Notes to pp. 254–77
+9. A Design for a Brain
+1 A. M. Turing (1950), ‘Computing machinery and intelligence’, Mind 49:
+433–60.
+2 Although the Wi-Fi human doesn’t exist, brain–computer interfaces
+are an active area of research. The field is long established but came to
+popular attention when Elon Musk’s company Neuralink was set up.
+3 For the full results see https://www.olympedia.org/results/58578
+4 Quotes from an interview between the journalist Pat Butcher and J. F.
+‘Peter’ Harding, Secretary of Walton AC, in ‘Road Breaker’, Runner’s
+World, Sept. 1999, pp. 56–9.
+5 W. Ross Ashby, Design for a Brain (New York: Wiley, 1952), p. 59.
+6 On 14 October 1946, Ashby expresses this idea in his journal: ‘So in the
+conditioned reflex (or in every other physiological “business”) no
+matter what it may look like outside, the business inside must be “staying
+moderate”. So I am impelled to believe that the business outside is
+matched by no change inside. The more the outer changes, the more
+the inside doesn’t.’ Available from the W. Ross Ashby Digital Archive;
+https://ashby.info/journal/page/2064.html
+7 Alan Turing in a letter to W. Ross Ashby, 19 Nov. 1946. See https://
+ashby.info/letters/turing.html
+8 J. K. O’Regan (1992), ‘Solving the “real” mysteries of visual perception:
+the world as an outside memory’, Canadian Journal of Psychology/Revue
+Canadienne de Psychologie, 46(3), 461–88.
+9 Konrad Lorenz, Behind the Mirror: A Search for a Natural History of
+Human Knowledge (New York: Harper, 1978), p. 127,
+10 Warren S. McCulloch and Walter Pitts (1943), ‘A logical calculus of the
+ideas immanent in nervous activity’, Bulletin of Mathematical Biophys-
+ics, 5, 115–33.
+11 Samuel Butler, ‘Darwin among the machines’, a letter to the editor of
+The Press, 1863. See http://nzetc.victoria.ac.nz/tm/scholarly/tei-But-
+Fir-t1-g1-t1-g1-t4-body.html
+12 While machines can’t (yet) design themselves, we are finding new
+ways the machine can help with the design, for example by making
+programming easier.
+9780241625248_TheAtomicHuman_TXT.indd 387 4/20/24 3:08:27 AM
+
+388
+Notes to pp. 254–77
+10. Gaslighting
+1 Recorded on 1 February 1999. Available from United States Holocaust
+Memorial Museum at https://collections.ushmm.org/search/cata-
+log/irn562437; relevant section is from 22:55 to 30:20.
+2 Letter from Max Planck to Adolf Hitler, written 25 Oct. 1944.
+3 Albert Einstein in a letter to Max Born in 1926.
+4 Max Planck, Scientific Autobiography and Other Papers (New York: Philo-
+sophical Library, 1949)
+5 John McCarthy et al. (1955), ‘A proposal for the Dartmouth Summer
+Research Project on Artificial Intelligence’; http://www-formal.stanford.
+edu/jmc/history/dartmouth/dartmouth.html
+6 For more on this story and Wiener’s extraordinary vision, personality
+and life, see Flo Conway and Jim Siegelman, Dark Hero of the Informa-
+tion Age: In Search of Norbert Wiener, the Father of Cybernetics, (New
+York: Basic Books), 2005.
+7 Norbert Wiener in a letter to his father. ‘Correspondence, 1913’ 25
+October 1913. Norbert Wiener papers (MC-0022). Massachusetts Insti-
+tute of Technology. Libraries. Department of Distinctive Collections,
+https://dome.mit.edu/bitstream/handle/1721.3/193611/abdb8ade94cb
+cee6440f04d4b5e56d98.pdf
+8 Yossarian on ‘evasive action’ in Joseph Heller, Catch-22 (1961), p. 56.
+9 http://matharts.aalto.fi/HintonCubes.pdf
+10 W. Ross Ashby, Design for a Brain (New York: Wiley, 1952).
+11 Thomas S. Kuhn, The Structure of Scientific Revolutions (3rd edn, 1996)
+(Chicago, IL: University of Chicago Press, 1st edn 1962).
+12 Ibid., Ch. II, p. 10.
+13 Nick Chater, The Mind is Flat: The Illusion of Mental Depth and the Impro-
+vised Mind (London: Allen Lane, 2018), p. 21.
+14 Konrad Lorenz, Behind the Mirror: A Search for a Natural History of
+Human Knowledge (New York: Harper, 1978), p. 128.
+15 This quote comes to me from my colleague Bernhard Schölkopf, who
+in his lectures on causality summarizes it more pithily as ‘thinking is
+acting in an imagined space’.
+9780241625248_TheAtomicHuman_TXT.indd 388 4/20/24 3:08:27 AM
+
+389
+Notes to pp. 277–307
+16 George Orwell, Nineteen Eighty-Four (1949)
+17 Article 27 (1) of the 1974 constitution of the German Democratic Repub-
+lic, trans. from Wikisource at https://en.m.wikisource.org/wiki/
+Translation:Constitution_of_the_German_Democratic_Republic_(1974).
+This article had remained in the constitution since the original 1949 ver-
+sion, where it was Article 9.
+18 John O. Koehler, Stasi: The Untold Story of the East German Secret Police
+(New York: Basic Books, 2000).
+19 Vera Lengsfeld, I Wanted to be Free: The Wall, the Stasi, the Revolution
+(Munich, Germany: Herbig, 2011). Original text in German Vera
+Lengsfeld, Ich wollte frei sein: Die Mauer, die Stasi, die Revolution. Quotes
+here are machine-translated from the original German.
+20 Norbert Wiener, I Am a Mathematician: The Later Life of a Prodigy (Cam-
+bridge, MA: MIT Press, 1956), pp. 323, 324.
+11. Human–Analogue Machines
+1 J. L. McClelland, David E. Rumelhart and Geoffrey E. Hinton, The
+Appeal of Parallel Distributed Processing in Parallel Distributed Processing,
+Volume 1, Rumelhart and McClelland (eds.) (Cambridge, MA: MIT
+Press), p. 3.
+2 From ‘Discussion on making all things equal’, Chapter 2 of Zhuangzi:
+Basic Writings, trans. Burton Watson (New York: Columbia University
+Press, 2003), p. 44.
+3 For example, the Mark 1 Fire Control Computer, which was a mechan-
+ical computer used during the Second World War to track targets that
+were represented by gear positions in the machine. See this YouTube
+video to learn more about its inner mechanism: https://www.youtube.
+com/watch?v=x9YEPw7_YTk.
+4 http://yann.lecun.com/exdb/mnist/
+5 Sir David Attenborough in The Private Life of Plants: ‘Travelling’, BBC,
+first broadcast 11 Jan. 1995.
+6 See https://www.youtube.com/watch?v=ZNKV7dY5PbE
+9780241625248_TheAtomicHuman_TXT.indd 389 4/20/24 3:08:27 AM
+
+390
+Notes to pp. 316–36
+7 F. Heider and M. Simmel (1944), ‘An experimental study of apparent
+behavior’, American Journal of Psychology, 57, 243–59; https://doi.
+org/10.2307/1416950
+8 F. Heider, The Psychology of Interpersonal Relations (Hoboken, NJ: John
+Wiley, 1958).
+9 Quote taken from Dave Gershgorn, ‘The data that transformed AI
+research – and possibly the world’, 26 July 2017, Quartz; https://
+qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-
+possibly-the-world/
+10 Highway Accident Report: Collision between vehicle controlled by
+developmental automated driving system and pedestrian, Tempe, Ari-
+zona, March 18, 2018. NTSB Report Number HWY18MH010.
+Available from https://data.ntsb.gov/Docket?ProjectID=96894
+11 Highway Accident Report: Collision between a car operating with
+automated vehicle control systems and a tractor-semitrailer truck near
+Williston, Florida, May 7, 2016, NTSB Number HWY16FH018. Avail-
+able from https://data.ntsb.gov/Docket?ProjectID=93548
+12 Highway Accident Brief: Collision between car operating with partial
+driving automation and truck-tractor semitrailer, Delray Beach, Flor-
+ida, March 1, 2019. NTSB Number HWY19FH008. Available from
+https://data.ntsb.gov/Docket?ProjectID=99043
+13 Highway Accident Report: Collision between a sport utility vehicle oper-
+ating with partial driving automation and a crash attenuator, Mountain
+View, California, March 23, 2018, NTSB Number HWY18FH011. Avail-
+able from https://data.ntsb.gov/Docket?ProjectID=96932
+14 ‘YOS 18, 114 Artifact Entry.’ Cuneiform Digital Library Initiative
+(CDLI). 20 December 2001; https://cdli.ucla.edu/P142508.
+15 Cuneiform tablet of unknown scribe written between 1250 and 1200
+bce, found in Ur, trans. Jonathan Tenney. The text is known as ‘UET 7,
+0011’. It was excavated at the ancient city of Ur and now rests in the
+Iraq Museum in Baghdad. Oliver R. Gurney (1974), ‘Middle Babylonian
+legal documents and other texts’, Ur Excavations. Texts 7 (London:
+The Trustees of the Two Museums). For more details on the tablet see
+https://cdli.mpiwg-berlin.mpg.de/artifacts/346976
+9780241625248_TheAtomicHuman_TXT.indd 390 4/20/24 3:08:27 AM
+
+391
+Notes to pp. 336–9
+16 In Akkadian, names invoke gods and have meanings we can only
+summarize in sentences. Negal was the god of war and plague;
+Nergal-aha-iddina means ‘Nergal gave me a brother’. Today lots of
+Hindi names share this characteristic, for example Subramanian
+means ‘dear to Brahmam’, and Ramanujan means ‘younger brother
+of Rama’.
+17 Sin was the god of the Moon, and Sin-bununi means ‘Sin is our
+goodness’.
+18 Siyatu’s name is shorter, indicating that it’s either the shortening of a
+longer name or a foreign name.
+19 Adad was a god of storms. Adad-šuma-usur is ‘O Adad, safeguard the
+offspring’.
+20 ‘A gift of Yeho’, where Yeho is the name of a later Levantine god who
+gained popularity from the Iron Age and eventually supplanted Jupiter
+for the Romans.
+21 John F. Kennedy, ‘Address at Rice University on the nation’s space
+effort’, 12 Sept. 1962.
+22 Simon Blackburn, Think: A Compelling Introduction to Philosophy
+(Oxford: Oxford University Press, 2001), p. 39.
+23 K. E. Stager, ‘The role of olfaction in food location by the turkey vul-
+ture (Cathartes aura)’, Contributions in Science, 81, 30 June 1964, 1–63;
+https://gwern.net/doc/biology/1964-stager.pdf
+12. Trust
+1 Peter Strawson, Freedom and Resentment, and Other Essays (London:
+Routledge, 1962), p. 6.
+2 The most important work on the theory of steam engines was pub-
+lished by French engineer Sadi Carnot in 1824. Its title is Réflexions sur
+la puissance motrice du feu, translated as Reflections on the Motive Power of
+Fire, which reminds us nicely of the fact that for all its sophistication
+the modern internal combustion engine is just a sophisticated way of
+exploiting the motive power of fire.
+9780241625248_TheAtomicHuman_TXT.indd 391 4/20/24 3:08:27 AM
+
+392
+Notes to pp. 341–74
+3 J. Hasell and M. Roser, ‘How do we know the history of extreme pov-
+erty?’, Our World in Data, 5 Feb. 2019; https://ourworldindata.org/
+extreme-history-methods
+4 A book that has a wonderful endorsement by Douglas Adams on
+its front cover: ‘Knowledgeable, argumentative and entertaining,
+Nicholas Negroponte writes about the future with the authority of
+someone who has spent a great deal of time there.’
+5 The website Quote Investigator provides a nice history of this quote:
+https://quoteinvestigator.com/2017/07/16/product/
+6 Sylvie Delacroix and Neil D. Lawrence (2019), ‘Bottom-up data trusts:
+disturbing the “one size fits all” approach to data governance’, Inter-
+national Data Privacy Law, 10.
+7 John F. Kennedy, ‘Address at Rice University’ on the nation’s space effort.
+8 This is the motto of ai@cam, the University of Cambridge’s flagship
+mission on AI, which I lead with Jess Montgomery. The vision can
+be found at https://www.cam.ac.uk/system/files/aicam_review_
+april22.pdf
+Epilogue
+1 Karl Popper, The Open Society and its Enemies (London: Routledge &
+Kegan Paul Ltd, 1945)
+2 Francis Galton, Hereditary genius: An inquiry into its laws and conse-
+quences. (London: Macmillan and Co., 1869) doi:10.1037/13474-000.
+3 Sara Lyons, Assessing Intelligence: The Bildungsroman and the Politics of
+Human Potential in England, 1860–1910 (Edinburgh: Edinburgh University
+Press, October 2022)
+4 See Chapter 8 and https://www.theguardian.com/media-network/
+2015/mar/05/digital-oligarchy-algorithms-personal-data
+5 See e.g. ‘Colonization and Companies’ Encyclopedia of Western Colo-
+nialism since 1450. Encyclopedia.com. 21 Feb. 2024 https://www.
+encyclopedia.com. For how these issues translate into AI see e.g.
+Mohamed, S., Png, MT. & Isaac, W. ‘Decolonial AI: Decolonial Theory
+9780241625248_TheAtomicHuman_TXT.indd 392 4/20/24 3:08:27 AM
+
+393
+Notes to pp. 374–6
+as Sociotechnical Foresight in Artificial Intelligence’, Philos. Technol. 33,
+659–684 (2020). https://doi.org/10.1007/s13347-020-00405-8
+6 See Roger Piezle, Jr., The Honest Broker: Making Sense of Science in Policy
+and Politics (Cambridge: Cambridge University Press, 2007). Piezle’s focus
+is on the role of the honest broker in scientific advice; here we’re also
+thinking of how universities can play that role institutionally.
+7 See the announcement from ai@cam here: https://ai.cam.ac.uk/news/
+university-of-cambridge-announces-research-challenges-to-showcase-
+its-new-approach-to-artificial-intelligence
+8 C. West Churchman. ‘Wicked Problems’, Management Science. 14 (4):
+B-141–B-146. doi:10.1287/mnsc.14.4.B141. December 1967
+9 See chapter 4.
+10 See e.g. Claire Craig How Does Government Listen to Scientists? (Palgrave
+Macmillan Cham, July 2018) https://doi.org/10.1007/978-3-319-96086-9
+for examples of how government can convene diverse groups to solve
+challenging problems.
+11 See for example ‘How Africa can benefit from the data revolution’,
+published 25 August 2015 in The Guardian. https://www.theguardian.
+com/media-network/2015/aug/25/
+africa-benefit-data-science-information
+12 The report can be found at https://www.who.int/publications/i/
+item/9789241505390 and e.g. this press summary from Forbes https://
+www.forbes.com/sites/timworstall/2013/03/23/more-people-have-
+mobile-phones-than-toilets/
+13 For details of the activities of the programme, see here: http://
+acceleratescience.github.io
+14 The fellowships are funded by the UKRI, which manages the coun-
+try’s research funding. The fellowships are convened by the Turing
+Institute. See https://www.turing.ac.uk/news/welcoming-world-class-
+turing-ai-fellows-institute. For more details of this project see https://
+mlatcl.github.io/projects/autoai.html
+15 Sculley, D., Holt, G., Golovin, D., Davydov, E., Phillips, T., Ebner, D.,
+Chaudhary, V., Young, M., Crespo, J.-F., Dennison, D., 2015. Hidden tech-
+nical debt in machine learning systems, in: Cortes, C., Lawrence, N.D.,
+9780241625248_TheAtomicHuman_TXT.indd 393 4/20/24 3:08:27 AM
+
+Notes to pp. 376–8
+Lee, D.D., Sugiyama, M., Garnett, R. (Eds.), Advances in Neural Infor-
+mation Processing Systems 28. Curran Associates, Inc., pp. 2503–2511.
+16 See Cabrera, C., Paleyes, A., and Lawrence, N.D., 2024. Self-sustaining
+Software Systems (S4): Towards Improved Interpretability and Adap-
+tation. In the 1st International Workshop on New Trends in Software
+Architecture (SATrends). See https://arxiv.org/abs/2401.11370.
+17 Lawrence, N.D., 2016. Data trusts could allay our privacy fears. See this
+Guardian article: https://www.theguardian.com/media-network/
+2016/jun/03/data-trusts-privacy-fears-feudalism-democracy
+18 Delacroix, S., Lawrence, N.D., 2018. Disturbing the ‘one size fits all’
+approach to data governance: Bottom-up data trusts. SSRN. https://
+doi.org/10.1093/idpl/ipz01410.2139/ssrn.3265315
+19 See https://datatrusts.uk for an overview of the work of the Data
+Trusts Initiative including research papers, workshop convening and
+descriptions of the three data trusts pilots.
+20 See https://www.adalovelaceinstitute.org/report/legal-mechanisms-
+data-stewardship/
+21 See https://www.c-span.org/video/?287832-1/40th-anniversary-apollo-
+11-flight
