@@ -6,7 +6,8 @@ contributed_by:
     type: machine
     tool: Claude
     version: 3.5
-    date: 2024-12-25
+    date: 2025-01-01
+    notes: Initial theme description based on summaries of the book.
 themes:
 - Digital Oligarchy
 - System Zero
@@ -26,11 +27,11 @@ The book introduces power asymmetries through historical examples, from the prin
 
 ### Digital Oligarchy
 
-Chapter 3 examines how tech companies accumulate power through data collection and automated decision-making systems. The Facebook/Cambridge Analytica scandal serves as a key example of how power asymmetries in data access and processing capability can be exploited for manipulation.
+[Chapter 3](/chapters/03-intent/) examines how tech companies accumulate power through data collection and automated decision-making systems. The Facebook/Cambridge Analytica scandal serves as a key example of how power asymmetries in data access and processing capability can be exploited for manipulation.
 
 ### System Zero
 
-Chapters 8 and 10 introduce System Zero as a new form of power asymmetry, where automated systems exploit human psychological vulnerabilities while operating below conscious awareness. This represents a fundamental shift in how power can be exercised through technology.
+Chapters [8](/chapters/08-system-zero/) and [10](/chapters/10-gaslighting/) introduce System Zero as a new form of power asymmetry, where automated systems exploit human psychological vulnerabilities while operating below conscious awareness. This represents a fundamental shift in how power can be exercised through technology.
 
 ### Knowledge and Control
 

@@ -8,6 +8,12 @@ contributed_by:
     version: 3.5-sonnet
     date: 2025-01-01
     notes: Inital theme description based on summaries of the book.
+  reviewed_by:
+  - type: machine
+    tool: Claude
+    version: 3.5-sonnet
+    date: 2025-01-01
+    notes: Prompted to add relationship with Blake's image and connection to Kahneman's theory-induced blindness.
 themes:
 - Wiener's Theory of Ignorance
 - Wicked Problems
@@ -27,6 +33,22 @@ The concept is most explicitly developed in [Chapter 10](/chapters/10-gaslightin
 - Planck and Einstein's quantum mechanics discoveries challenged classical physics
 - Established scientists often struggled to accept new paradigms
 - The term describes how theoretical frameworks can act like horse blinkers, narrowing perception
+
+### Blake's Newton and Visual Metaphor
+
+William Blake's [image of Newton](/images/william-blake-newton/) provides a powerful visual metaphor for model blinkers:
+- Shows Newton focused intently on geometric measurements
+- Depicts him turning his back on the rich, colorful world behind him
+- Illustrates how mathematical models can blind us to broader reality
+- Captures tension between reductionist precision and holistic understanding
+
+### Relation to Theory-Induced Blindness
+
+While related to Kahneman's concept of theory-induced blindness, model blinkers differs in key ways:
+- Theory-induced blindness describes inability to see flaws in theories we've mastered
+- Model blinkers emphasizes how frameworks actively restrict our peripheral vision
+- Kahneman focuses on individual cognitive bias
+- Model blinkers addresses systematic limitations in scientific/technical approaches
 
 ### Historical Examples
 
