@@ -4,6 +4,7 @@ title: "X-Risk Decomposed: Power and Automation"
 date: 2025-01-01
 toggle_machine_commentary: true
 description: The UK AI policy conversation has been derailed by over-focus on the futurology of x-risk narratives. But can we decompose these sci-fi stories into a more productive route forward for policy?
+# Consider tightening description to be more specific about the decomposition approach
 contributed_by:
   initial:
     date: 2024-12-27
@@ -33,16 +34,23 @@ contributed_by:
     type: human
     person_id: Neil D. Lawrence
     notes: Review second round of machine driven subediting.
+  - date: 2025-01-01
+    type: machine
+    tool: Claude (via Cursor)
+    version: 3.5-sonnet
+    notes: Third round of subediting suggestions focusing on structure and clarity
 featured_image: /assets/images/1280px-Newton-WilliamBlake.jpg
 ---
 
 "Have you done principal components analysis yet?" is the gentle question I ask to every student who comes to my office keen to show me a set of results found by deploying the latest AI model. These models are powerful and exciting, but they are often misleading. Principal components analysis is a fundamental technique that decomposes a data set into different components. Visualising those components lets the students stand back from their complex model and reflect on whether they are asking the right questions and whether the data can answer those questions.
 
+<!-- Consider merging these two paragraphs to tighten the connection between model blinkers and the students' challenge -->
 In *The Atomic Human* I introduce the notion of [model blinkers](/themes/model-blinkers/) to describe the challenge these students are experiencing. Our models of the world can be so entrancing we sometimes forget to step back and ask whether they are valid or not. 
 
-There's a similar challenge with [the (technical) x-Risk community](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence). They are so focussed on their model of how future armagaeddon will emerge that they sometimes fail to acknowledge the wider societal context of the challenge they describe. 
+<!-- Consider rephrasing to avoid repetition of "challenge" -->
+There's a similar challenge with [the (technical) x-Risk community](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_general_intelligence). They are so focussed on their model of how future armagaeddon will emerge that they sometimes fail to acknowledge the wider societal context of the challenge they describe. 
 
-The solution to model blinkers is to take a step back from the problem and consider broader perspectives. This is where [wisdom in diversity](/themes/wisdom-in-diversity/) can help - my students are sanity checking their conclusions by coming to me for help. But we don't always have access to the diverse perspectives we need. Fortunately, we can borrow from the approach of principal components analysis and perform a conceptual decomposition of the x-risknarrative into its components.[^1]
+The solution to model blinkers is to take a step back from the problem and consider broader perspectives. This is where [wisdom in diversity](/themes/wisdom-in-diversity/) can help - my students are sanity checking their conclusions by coming to me for help. But we don't always have access to the diverse perspectives we need. Fortunately, we can borrow from the approach of principal components analysis and perform a conceptual decomposition of the x-risk narrative into its components.[^1]
 
 [^1]: Let's be careful though, principal components analysis is inspired by factor analysis, which is the very [technique that Spearman developed and used to support a single dimensional notion of "general intelligence"](https://en.wikipedia.org/wiki/Two-factor_theory_of_intelligence). This simple description of intelligence is a good example of a model blinker. Despite this, I like principal component analysis not because it is in any sense the best model, but it is one of (or perhaps the) first that should be applied to analysis of most high dimensional data sets. It allows the data scientist to step back from the problem and lift their thinking. 
 
@@ -52,25 +60,28 @@ The solution to model blinkers is to take a step back from the problem and consi
 <i>[William Blake's "Newton"](/images/william-blake-newton/) captures the great scientist with his model blinkers on. Newton's focus on the simple shapes in front of him distract him from the beauty and complexity of the world around him.</i>
 </center>
 
+<!-- Consider introducing this section with a clearer topic sentence about the decomposition approach -->
 The x-risk narrative tells of machines which obtain great power and decide upon our fate. This narrative decomposes into two (principal) conceptual components.
 
 The first component is [*concentration of power*](/themes/power-asymmetries/). This machine has somehow obtained great power. In society concentration of power enables us to bring resources together to solve problems. That can make us more efficient for specific tasks, but it comes with the risk of undermining the diversity of opinion in society that keeps us robust to unforeseen challenges. Society already has mechanisms for maintaining the balance between these challenges. We already regulate to deal with power asymmetries that arise from governments, corporations and individuals. Much of this regulation also applies to decision-making machines. 
 
-<!-- Consider parallel structure with previous paragraph -->
-The second component is automated decision-making [automated decision-making](/themes/automated-decision-making/). Using machine-implemented processes to make decisions for us. As societies have grown in size we have introduced processes (laws, regulations, etc.) to support us in our decisions. Increasingly we are making use of machines to automatically implement these processes. This can make some tasks more efficient, but it also runs the risk of ignoring wider human context which incorporates a broader range of cultural and individual learnings. 
+<!-- Consider restructuring to maintain parallel structure with previous paragraph -->
+The second component is [automated decision-making](/themes/automated-decision-making/). Using machine-implemented processes to make decisions for us. As societies have grown in size we have introduced processes (laws, regulations, etc.) to support us in our decisions. Increasingly we are making use of machines to automatically implement these processes. This can make some tasks more efficient, but it also runs the risk of ignoring wider human context which incorporates a broader range of cultural and individual learnings. 
 
-These two components offer a fresh view of the x-risk argument. While  we can immediately appreciate that any conflation of these two would present an existential threat regardless of whether or not we believe in the notion of artificial general intelligence. But the broader perspective also shows that we should be worried by individuals, governments, corporations and other institutions concentrating power.[^2] How do these components the inform AI policy? Let's look at two examples for UK AI policy: competition and consumer policy and "data protection".
+<!-- Consider breaking this paragraph into two for clarity -->
+These two components offer a fresh view of the x-risk argument. While we can immediately appreciate that any conflation of these two would present an existential threat regardless of whether or not we believe in the notion of artificial general intelligence. But the broader perspective also shows that we should be worried by individuals, governments, corporations and other institutions concentrating power.[^2] How do these components the inform AI policy? Let's look at two examples for UK AI policy: competition and consumer policy and "data protection".
 
 [^2]: This doesn't mean we should never consider a narrow model like those proposed in the x-risk community. We just need to ensure we move between the broad and narrow approaches, gaining the best of both worlds. 
 
+<!-- Consider restructuring this section to more clearly connect to the two components identified earlier -->
 Firstly, competition and consumer policy. This is a natural fit for the first component: it deals with regulatory frameworks that manage concentration of power in markets. To support the UK in addressing these challenges I joined the Digital Experts Group of the UK's Competition and Markets Authority (CMA). This group supports the CMA's Digital Markets Unit with technical advice.[^3]
 
 [^3]: As one example of how damaging a narrow obsession with particular risk can be, the [Digital Markets Competition and Consumer Act](https://bills.parliament.uk/bills/3453) which placed the digital markets unit on statutory footing only became law in the last parliament by the narrowest of margins. The UK early election meant that it was passed in the last parliamentary session and achieved Royal Assent on 24th May. For the UK this instrument will prove one of the most important tools in addressing these socio-technical risks. This nerve-wracking moment should have been avoided if attention had been focussed on the policy levers within government's control.[^4] 
 
 [^4]: See also [this letter to the Secretary of State from June 2023.](https://mlatcl.github.io/papers/sos-letter-simplistic-narratives.pdf).
 
-<!-- Consider restructuring this section to more clearly connect to earlier points about automated decision-making -->
-Secondly data protection, it may not be obvious how this fits with the framework, but it deals with both power asymmetries and automated decision-making. In the UK the Information Commisioner's Office is our data protection regulator. They recently celeberated their  [40th anniversary](https://ico.org.uk/for-the-public/ico-40/). Data protection is a poor name, in reality the legislation gives us personal data rights that give us some control of how our personal data can be used to make decisions about us. But it can also be used to redress power asymmetries behind automated decision-making. The UK's information commissioner, John Edwards, recently reviewed [*The Atomic Human* for *Data and Policy*](https://medium.com/data-policy/the-atomic-human-understanding-ourselves-in-the-age-of-ai-by-neil-lawrence-df97c47aaa74). His review builds on the vision laid out in *The Atomic Human* of data protection legislation as a critical regulatory tool for AI policy. He quotes the following passage from the book.
+<!-- Consider restructuring to more clearly show how data protection addresses both components -->
+Secondly data protection, it may not be obvious how this fits with the framework, but it deals with both power asymmetries and automated decision-making. In the UK the Information Commisioner's Office is our data protection regulator. They recently celeberated their [40th anniversary](https://ico.org.uk/for-the-public/ico-40/). Data protection is a poor name, in reality the legislation gives us personal data rights that give us some control of how our personal data can be used to make decisions about us. But it can also be used to redress power asymmetries behind automated decision-making. The UK's information commissioner, John Edwards, recently reviewed [*The Atomic Human* for *Data and Policy*](https://medium.com/data-policy/the-atomic-human-understanding-ourselves-in-the-age-of-ai-by-neil-lawrence-df97c47aaa74). His review builds on the vision laid out in *The Atomic Human* of data protection legislation as a critical regulatory tool for AI policy. He quotes the following passage from the book.
 
 > Unfortunately these regulations don't directly protect us regarding the "inconsequential" decisions that are made about us on a regular basis by social media platforms. Decisions about what posts to highlight in our social media news feed or what adverts to show us. This series of "inconsequential" decisions can accumulate to have a highly consequential effect on our lives and even our democracies. This is a new threat that isn't directly addressed by existing data rights" (p. 364)
 
@@ -80,6 +91,7 @@ And shares his thoughts
 
 I agree with John's assessment. I think the difference of opinion is around the word "directly". In tomorrow's post I'll introduce the Data Trusts Initiative and explain how I believe we need new institutions to make the vision John and I share a reality. 
 
+<!-- Consider merging these final two paragraphs for a stronger conclusion -->
 The x-risk narrative is a form of futurology, one that draws attention because it feeds our egocentricities about our form of intelligence. Like any form of futurology the x-risk narrative encourages us to ask questions about our future. But the modern field of [Futures Studies](https://en.wikipedia.org/wiki/Futures_studies) emphasises the importance of considering a plurality of possible futures. It is easy to put on the model-blinkers and proselytise the merits of what they show us. But that makes it harder to listen to other perspectives and reflect on the limits of our own thinking. 
 
 We don't always have access to the diverse voices we need to challenge narrow thinking, but breaking down our model into its components can help us contextualise the model, seeing its limitations alongside its predictions.
