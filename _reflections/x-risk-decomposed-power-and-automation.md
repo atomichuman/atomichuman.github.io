@@ -11,14 +11,23 @@ contributed_by:
     type: human
     person_id: Neil D. Lawrence
     notes: First stub of post.
+  reviewed_by:
+  - date: 2025-01-01
+    type: human
+    person_id: Neil D. Lawrence
+    notes: First full draft of post.
 featured_image: /assets/images/
 ---
 
 There's a common misconception among [the (technical) x-Risk community](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence) that there has been no thinking or legislation connected with their concerns. This is not true. But it can appear to be true to those who are focussed on a particular models of how such risk comes about.
 
-In the book I introduce the notion of [model blinkers](/themes/model-blinkers/) which captures our tendency to apply overly reductionist approaches to complex problems. The solution to model blinkers is to take a step back from the problem and consider broader perspectives. This is where [Wisdom in Diversity](/themes/wisdom-in-diversity/) can help. But there are other approaches. One is to look for a broader class of models that subsumes the specific case that is narrowing the focus.
+In the book I introduce the notion of [model blinkers](/themes/model-blinkers/). This concept captures our tendency to apply overly reductionist approaches to complex problems. We see this particularly in the x-risk community's thinking around artificial intelligence. 
 
-From a technical, data science perspective, my favourite model is principle component analysis. Not because it's the best model, but because it's one of (or perhaps the first) that should be applied to any high dimensional data. It allows the data scientist to step back from the problem and lift their thinking. 
+The solution to model blinkers is to take a step back from the problem and consider broader perspectives. This is where [Wisdom in Diversity](/themes/wisdom-in-diversity/) can help. But there are other techniques as individuals to help. One approach I use to lift my own thinking is to look for a broader class of models  that subsumes the specific example that is overly-narrowing the focus.
+
+The notion of existential threat from artificial general intelligence suffers from simplistic thinking about the nature of intelligence that originates in eugenics. One of my approaches to stepping back is inspired by one of my favourite mathematical models: principal component analysis.[^1] The idea is to decompose the data into its underlying "components". Stepping back from AI x-risk we can see that it conflates two important socio-technical challenges that do both need to be addressed. 
+
+[^1]: Let's be careful though, principal components analysis is inspired by factor analysis, which is the very [technique that Spearman developed and used to support a single dimensional notion of "general intelligence"](https://en.wikipedia.org/wiki/Two-factor_theory_of_intelligence). Despite this, I like principal component analysis not because its in any sense best model, but it's one of (or perhaps the) first that should be applied to analysis of most high dimensional data sets. It allows the data scientist to step back from the problem and lift their thinking. 
 
 <center>
 <image src="/assets/images/" width="70%"/>
@@ -26,24 +35,28 @@ From a technical, data science perspective, my favourite model is principle comp
 <i></i>
 </center>
 
-The model is for a data set, but conceptually I like to translate it into the socio-techical contexts that surround the process of institution building. 
+The first is challenge is over [*concentration of power*](/themes/power-asymmetries/). In society concentration of power enables us to bring resources together to solve problems. That can make us more efficient for specific tasks, but it comes with the risk of undermining the diversity of opinion in society that keeps us robust to unforeseen challenges. Society already has mechanisms for maintaining the balance between these challenges. We already regulate to deal with power asymmetries that arise from governments, corporations and  individuals. Much of this regulation also applies to decision-making machines. 
 
-The notion of existential threat from artificial general intelligence suffers from simplistic thinking about the nature of intelligence that originates in eugenics. But stepping back from it we can see that it conflates two important socio-technical risks that need to be addressed. I see these as the two principle components of the existential risk argument. The first is [*power asymmetry*](/themes/power-asymmetries/). The idea that there's an entity (here we can consider it to be a person, a government, a corporation or a decision making machine) that benefits from a concentration of power. The second is the challenge of [automated decision-making](/themes/automated-decision-making/). 
+The second challenge is that of [automated decision-making](/themes/automated-decision-making/). Like power concentration automated decision-making can allow us be more efficient at specific tasks, but it runs the risk of ignoring wider human context which may be less efficient for a given task but considers a broader range of cultural and individual learnings. 
 
-These two principle components offer a fresh view of the existential risk argument. A conflation of the two would be very worrying. But the broader perspective also shows that we should be worried by individuals, governments, corporations and machines concentrating power. These components remove the problematic notion of artificial general intelligence from the discussion. But the still allow for policy or legislation that accounts for the fears of the x-risk community. They simply require those fears to be grounded in a broader context. 
 
-The also allow us to place the policy arguments in a broader context that has dealt with these challenges in the past. For example, competition policy. It was striking, and shocking, to see how little acknowledgement the previous government made of potential the importance of the [Digital Markets Competition and Consumer Act](https://bills.parliament.uk/bills/3453) in dealing with power asymmetries that arise through the concentration of data (and more recently compute). For the UK this instrument will prove one of the most important tools in addressing these socio-technical risks.[^1] The early UK election also meant that the legislation almost didn't pass in time. It achieved Royal Assent on 24th May, 
+These two components offer a fresh view of the x-risk argument. And we can immediately appreciate that any conflation of these too would present an existential threat regardless of whether or not we believe in the notion of artificial general intelligence. But the broader perspective also shows that we should be worried by individuals, governments, corporations and other institutions concentrating power. Because it's within or by those entities that automated decision-making systems are being developed and deployed. The components also allow for policy or legislation that builds on existing practices but also accounts for the fears of the x-risk community. All this becomes possible when those fears are contextualised within a broader context.[^2]
 
-[^1]: I serve on the digital experts group for the Digital Markets Unit of the UK Competition and Markets Authority.
+[^2]: This doesn't mean we should never consider a narrow model like those proposed in the x-risk community. We just need to ensure we move between the broad and narrow approaches, gaining the best of both worlds. 
 
-Automated decision-making is also a challenge with a long history. I recently spoke at the [40th anniversary of the Information Commisioner's Office](https://ico.org.uk/for-the-public/ico-40/). The poorly named "data protection" legislation gives us pesonal data rights that give us some control of how our personal data can be used to make decisions about us. A better name might be "personal data rights" legislation. The UK's information commissioner, John Edwards, recently reviewed *The Atomic Human* for *Data and Policy*. Quoting from his review.
+So what is the existing legislation that can support us in addressing these challenges? For this post I have two examples. Firstly, competition and consumer policy. With this in mind for the last couple of years I've joined the Digital Experts Group of the UK's Competition and Markets Authority (CMA). This group supports the CMA's Digital Markets Unit with technical advice.[^3]
+
+[^3]: As one example of how damaging a narrow obsession with particular risk can be, the [Digital Markets Competition and Consumer Act](https://bills.parliament.uk/bills/3453) which placed the digital markets unit on statutory footing only became law in the last parliament by the narrowest of margins. The UK early election meant that it was passed in the last parliamentary session and achieved Royal Assent on 24th May. For the UK this instrument will prove one of the most important tools in addressing these socio-technical risks. This nerve-wracking moment should have been avoided if attention had been focussed on the policy levers within government's control (see also [this letter to the Secretary of State from June 2023.](https://mlatcl.github.io/papers/sos-letter-simplistic-narratives.pdf).
+
+Automated decision-making is also a challenge that has a long history in policy. I recently spoke at the [40th anniversary of the Information Commisioner's Office](https://ico.org.uk/for-the-public/ico-40/). The poorly named "data protection" legislation gives us pesonal data rights that give us some control of how our personal data can be used to make decisions about us. A better name might be "personal data rights" legislation. The UK's information commissioner, John Edwards, recently reviewed *The Atomic Human* for *Data and Policy*. Quoting from his review.
 
 > > Unfortunately these regulations don’t directly protect us regarding the “inconsequential” decisions that are made about us on a regular basis by social media platforms. Decisions about what posts to highlight in our social media news feed or what adverts to show us. This series of “inconsequential” decisions can accumulate to have a highly consequential effect on our lives and even our democracies. This is a new threat that isn’t directly addressed by existing data rights” (p. 364)
 >
 > I’m not sure I agree with that final conclusion. It is true that data protection legislation has not been deployed in that way, but it does not necessarily follow that it cannot be.
 
-I agree with John's assessment. It should be possible to deploy data protection law in this manner. And tomorrow's post will look at how Data Trusts aim to achieve that. 
+I agree with John's assessment. It should be possible to deploy data protection law in this manner. And tomorrow's post will look at how data trusts aim to achieve that. 
 
+The x-risk narrative is a form of futurology, one that can draw particular attention because it is associated with powerful narratives about our intelligence that we can see threaded throughout human history. Like any form of futurology it can be useful to think through the implications of the narrative, but modern [futures studies](https://en.wikipedia.org/wiki/Futures_studies) emphasises the importance of considering a plurality of possible futures. It is easy to put on the model-blinkers and proselytise the merits of what those blinkers show us. It is harder to listen to other perspectives and understand the limits of our own thinking. We don't always have access to the diverse voices we need to challenge narrow thinking, but breaking down our model into its compoents can help us contextualise the model, seeing its limitations alongside its predictions.
 
 
 <div class="machine-commentary" markdown=1>
