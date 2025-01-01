@@ -14,6 +14,14 @@ contributed_by:
 featured_image: /assets/images/
 ---
 
+There's a common misconception among [the (technical) x-Risk community](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence) that there has been no thinking or legislation connected with their concerns. This is not true. But it can appear to be true to those who are focussed on a particular models of how such risk comes about.
+
+In the book I introduce the notion of [model-blinkers](/themes/model-blinkers/)
+
+In [yesterday's post](/reflections/bridging-from-domain-experts-to-ai-capability/) I talked about the challenges of integrating [affordances](/themes/affordances) with digital technologies.
+
+Data Science Africa and Accelerate Science both empower through capability sharing. Both initiatives bridge from technical capability in AI to domain expertise that covers a broad spectrum from Ugandan crop surveys to  agriculture or heal
+
 <center>
 <image src="/assets/images/" width="70%"/>
 
