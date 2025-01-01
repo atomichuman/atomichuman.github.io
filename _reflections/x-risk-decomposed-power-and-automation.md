@@ -24,7 +24,7 @@ contributed_by:
     type: human
     person_id: Neil D. Lawrence
     notes: Review first round of machine driven subediting.
-featured_image: /assets/images/
+featured_image: /assets/images/1280px-Newton-WilliamBlake.jpg
 # Featured image path is incomplete 
 ---
 
@@ -39,10 +39,9 @@ The notion of existential threat from artificial general intelligence suffers fr
 [^1]: Let's be careful though, principal components analysis is inspired by factor analysis, which is the very [technique that Spearman developed and used to support a single dimensional notion of "general intelligence"](https://en.wikipedia.org/wiki/Two-factor_theory_of_intelligence). Despite this, I like principal component analysis not because it is in any sense the best model, but it is one of (or perhaps the) first that should be applied to analysis of most high dimensional data sets. It allows the data scientist to step back from the problem and lift their thinking. 
 
 <center>
-<img src="/assets/images/" width="70%"/>
-<!-- Image path needs to be completed -->
+<img src="/assets/images/1280px-Newton-WilliamBlake.jpg" width="70%"/>
 
-<i></i>
+<i>[William Blake's "Newton"](/images/william-blake-newton/) captures the great scientist with his model blinkers on. Newton's focus on the simple shapes in front of him distract him from the beauty and complexity of the world around him.</i>
 </center>
 
 The first challenge is over [*concentration of power*](/themes/power-asymmetries/). In society concentration of power enables us to bring resources together to solve problems. That can make us more efficient for specific tasks, but it comes with the risk of undermining the diversity of opinion in society that keeps us robust to unforeseen challenges. Society already has mechanisms for maintaining the balance between these challenges. We already regulate to deal with power asymmetries that arise from governments, corporations and individuals. Much of this regulation also applies to decision-making machines. 
