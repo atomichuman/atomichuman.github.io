@@ -46,6 +46,7 @@ featured_image: /assets/images/data-rights.png
 # Featured image path is incomplete - needs actual image filename
 ---
 
+
 The first draft of *The Atomic Human* was written in 2015.[^1] The last chapter was tentatively titled "A Data Democracy". It outlined a vision for a new type of institution, one that would rebalance the power asymmetry between data controllers and data subjects.
 
 [^1]: This draft was a very different book, see [The Atomic Human](/reflections/triple-cooked/) for more details.
@@ -62,12 +63,6 @@ Back in 2016 I wasn't aware of a phenomenon known as "trust-washing". Sometimes 
 
 This is an example of the type of power concentration mentioned in [yesterday's post](/reflections/x-risk-decomposed-power-and-automation/). For many existing interests, the easy route is not to engage with the data subjects, but to look for quick solutions that enable them to push forward with their core agenda.
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fWk4jrcVeC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<i>YouTube video summarising the idea of data trusts illustrated by Dan Andrews of Scribeysense.com</i>
-</center>
-
 To better clarify the purpose and role of a data trust I worked with Sylvie Delacroix on a [paper that emphasised the purpose of the trust as a means for enfranchising data subjects](/bibliography/bottom-up-data-trusts). 
 
 [The Data Trusts Initiative](https://datatrusts.uk/) followed on from this work and was funded by the Patrick J. McGovern Foundation. Together with [Jess Montgomery](/people/jessica-montgomery) and [Sylvie Delacroix](/people/sylvie-delacroix) we proposed an initiative that would fund pilot data trusts as well as build a community of practice around data trusts with supporting research and policy work. This enabled us to provide easily accessible information, e.g. on the EU's [Data Governance Act](https://datatrusts.uk/2021/01/29/data-trusts-and-the-draft-data-governance-act) or on the mandatability of data rights we receive under GDPR. We worked with the [Ada Lovelace Institute](https://www.adalovelaceinstitute.org/), the [AI Council](https://www.gov.uk/government/groups/ai-council), the [Open Data Institute](https://theodi.org/), and the [City of London Law Society](https://www.citysolicitors.org.uk/clls/) [to clarify the legal mechanisms behind data stewardship](https://datatrusts.uk/2021/03/04/legal-mechanisms-for-data-stewardship-the-role-of-data-trusts.html).
@@ -75,6 +70,14 @@ To better clarify the purpose and role of a data trust I worked with Sylvie Dela
 But the main objective of the initiative was to fund data trust pilots. The aim being to shift the conversation from perceptions of the challenges around data trusts to experience of the actual challenges. 
 
 The three pilot projects were the [Brixham Data Trust](https://datatrusts.uk/pilot-brixham), a place-based data trust led by [Pamela Charlick](/people/pamela-charlick) and [Natasha Nicholson](/people/natasha-nicholson) of charlick + nicholson architects. The [Born in Scotland Data Trust](https://datatrusts.uk/pilot-bis), focussed on supporting a birth cohort study, led by [Jessica Bell](/people/jessica-bell) from the University of Warwick and the [General Practitioners Data Trust](https://datatrusts.uk/pilot-projects-gpdata), led by [Sarah Devaney](/people/sarah-devaney) from the University of Manchester.
+
+This video from Dan Andrews of Scribeysense.com is our summary the work of the initiative. 
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fWk4jrcVeC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<i>YouTube video summarising the idea of data trusts illustrated by Dan Andrews of Scribeysense.com</i>
+</center>
 
 Progress on establishing data trusts has been slower than one might have hoped. There have certainly been challenges in the political landscape, but I think this also reflects the difficulty of creating new institutions that fulfil the expectations of society and can assimilate the complexity of the data systems that we have created.
 
