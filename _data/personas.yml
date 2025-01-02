@@ -502,4 +502,144 @@
   interests:
     - Scottish Healthcare
     - Health Inequality
-    - Community Medicine 
+    - Community Medicine
+
+- handle: ApprenticeBuilder
+  reads:
+    - Sun
+    - Construction Weekly
+    - TikTok News
+  background: Construction Apprentice
+  location: Leeds
+  age_range: 18-25
+  political_lean: Centre
+  interests:
+    - Housing Crisis
+    - Trade Skills
+    - Youth Employment
+
+- handle: BeautyBiz_2024
+  reads:
+    - Metro
+    - Cosmetics Business
+    - Instagram News
+  background: Salon Owner
+  location: Essex
+  age_range: 25-35
+  political_lean: Centre-Right
+  interests:
+    - Small Business
+    - Beauty Industry
+    - Social Media Marketing
+
+- handle: CareHome_Worker
+  reads:
+    - Mirror
+    - Care News
+    - Local Press
+  background: Care Assistant
+  location: Newcastle
+  age_range: 40-50
+  political_lean: Labour
+  interests:
+    - Social Care
+    - Workers Rights
+    - Elder Support
+
+- handle: MarketTrader_1
+  reads:
+    - Metro
+    - Local Press
+    - Trade Magazine
+  background: Market Stall Owner
+  location: Birmingham
+  age_range: 35-45
+  political_lean: Centre
+  interests:
+    - Local Business
+    - Community Trade
+    - Cost of Living
+
+- handle: Apprentice_Sparks
+  reads:
+    - The Sun
+    - Electrical Times
+    - YouTube News
+  background: Electrical Apprentice
+  location: Liverpool
+  age_range: 18-25
+  political_lean: Labour
+  interests:
+    - Trade Union Rights
+    - Green Energy
+    - Skills Training
+
+- handle: UniStudent_2024
+  reads:
+    - Guardian
+    - Vice
+    - Student Paper
+  background: University Student
+  location: Manchester
+  age_range: 18-25
+  political_lean: Left
+  interests:
+    - Student Politics
+    - Mental Health
+    - Housing Crisis
+
+- handle: ShopSupervisor
+  reads:
+    - Mirror
+    - Retail Weekly
+    - Metro
+  background: Retail Supervisor
+  location: Glasgow
+  age_range: 25-35
+  political_lean: SNP
+  interests:
+    - Workers Rights
+    - Customer Service
+    - Cost of Living
+
+- handle: DeliveryDriver_SE
+  reads:
+    - Sun
+    - Metro
+    - Transport News
+  background: Delivery Driver
+  location: South London
+  age_range: 30-40
+  political_lean: Centre-Right
+  interests:
+    - Gig Economy
+    - Fuel Prices
+    - Traffic Policy
+
+- handle: CollegeStudent_NE
+  reads:
+    - Mirror
+    - TikTok News
+    - Local Press
+  background: College Student (Business)
+  location: Middlesbrough
+  age_range: 16-20
+  political_lean: Centre
+  interests:
+    - Local Jobs
+    - Social Media
+    - Sports
+
+- handle: HotelReceptionist
+  reads:
+    - Metro
+    - Hospitality Today
+    - Local News
+  background: Hotel Staff
+  location: Edinburgh
+  age_range: 20-30
+  political_lean: SNP
+  interests:
+    - Tourism Industry
+    - Customer Service
+    - City Events 
