@@ -937,3 +937,143 @@
     - Community Work
     - Faith Groups
     - Social Care 
+
+- handle: RetiredPostie_Mids
+  reads:
+    - Daily Mail
+    - Local Press
+    - Saga Magazine
+  background: Retired Postal Worker
+  location: Derby
+  age_range: 65+
+  political_lean: Traditional Labour
+  interests:
+    - Pensions
+    - Community Change
+    - Local History
+
+- handle: WarehouseTeam_WM
+  reads:
+    - Sun
+    - Local Press
+    - Facebook News
+  background: Warehouse Operative
+  location: Wolverhampton
+  age_range: 45-55
+  political_lean: Centre
+  interests:
+    - Working Conditions
+    - Local Jobs
+    - Football
+
+- handle: GrandadGardener
+  reads:
+    - Express
+    - Garden News
+    - Local Paper
+  background: Retired Groundskeeper
+  location: Stoke
+  age_range: 70+
+  political_lean: Conservative
+  interests:
+    - Gardening
+    - Community Space
+    - Traditional Values
+
+- handle: Factory_Worker
+  reads:
+    - Mirror
+    - Facebook Groups
+    - Local Press
+  background: Production Line Worker
+  location: Coventry
+  age_range: 35-45
+  political_lean: Labour
+  interests:
+    - Job Security
+    - Union Rights
+    - Cost of Living
+
+- handle: CleaningSuper_EM
+  reads:
+    - Metro
+    - Local Press
+    - TikTok News
+  background: Cleaning Supervisor
+  location: Leicester
+  age_range: 50-60
+  political_lean: Centre
+  interests:
+    - Workers Rights
+    - Training
+    - Family Life
+
+- handle: MarketStall_Trader
+  reads:
+    - Sun
+    - Market Trade News
+    - Local Press
+  background: Market Trader
+  location: Nottingham
+  age_range: 55-65
+  political_lean: Centre-Right
+  interests:
+    - Small Business
+    - Local Economy
+    - Council Policy
+
+- handle: CafeOwner_Mids
+  reads:
+    - Metro
+    - Catering Today
+    - Local News
+  background: Small Business Owner
+  location: Worcester
+  age_range: 45-55
+  political_lean: Conservative
+  interests:
+    - High Street Business
+    - Staff Training
+    - Food Standards
+
+- handle: BakeryWorker_WM
+  reads:
+    - Mirror
+    - Instagram News
+    - Local Press
+  background: Bakery Assistant
+  location: Birmingham
+  age_range: 20-30
+  political_lean: Centre-Left
+  interests:
+    - Food Industry
+    - Cost of Living
+    - Youth Employment
+
+- handle: RetiredNurse_EM
+  reads:
+    - Daily Mail
+    - Parish Magazine
+    - Local Press
+  background: Retired NHS Nurse
+  location: Lincoln
+  age_range: 65+
+  political_lean: Conservative
+  interests:
+    - Healthcare
+    - Community Care
+    - Pension Rights
+
+- handle: FactoryMaintenance
+  reads:
+    - Sun
+    - Trade Magazines
+    - Local Press
+  background: Maintenance Engineer
+  location: Telford
+  age_range: 40-50
+  political_lean: Centre
+  interests:
+    - Industrial Safety
+    - Training
+    - Technical Skills 
