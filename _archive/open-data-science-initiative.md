@@ -1,6 +1,6 @@
 ---
 title: The Open Data Science Initiative
-date: 2014-07-01
+date: 2024-12-26
 toggle_machine_commentary: true
 description: |
   On July 1st 2014 I made this post that describes the philosophy I was suggesting we followed at the University of Sheffield to try an address the increasing need for data analysis. 
@@ -9,6 +9,7 @@ contributor:
     type: human
     name: Neil D. Lawrence
     notes: Original blog post
+    date: 2014-07-01
   reviewed_by:
   - type: machine
     tool: Claude

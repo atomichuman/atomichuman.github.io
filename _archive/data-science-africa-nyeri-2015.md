@@ -1,6 +1,6 @@
 ---
 title: "Data Science Africa: Nyeri 2015"
-date: 2015-06-12
+date: 2024-12-27
 toggle_machine_commentary: true
 description: |
   On June 14th 2015 we started the first official Data Science Africa in Nyeri, Kenya. This archive contains a blog post from the time, a link to an article written for the Guardian about the meeting and links to other blog posts written during the meeting.

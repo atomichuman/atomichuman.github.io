@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: The Information Barons Threaten Our Autonomy and Privacy
-date: 2015-11-16
+date: 2025-01-01
 toggle_machine_commentary: true
 description: |
   This archive documents an early warning about the risks of digital feudalism and data control, published in The Guardian. The article draws parallels between medieval power structures and modern tech companies, advocating for a "digital enlightenment" to protect individual data rights and autonomy.
@@ -10,6 +10,7 @@ contributed_by:
     type: human
     name: Neil D. Lawrence
     notes: Original Guardian article
+    date: 2015-11-16
   reviewed_by:
   - type: machine
     tool: Claude

@@ -1,6 +1,6 @@
 ---
 title: Deep Learning Workshop Panel Discussion - ICML 2015
-date: 2015-07-11
+date: 2024-12-24
 toggle_machine_commentary: true
 description: |
   On July 11th 2015 the two-day Deep Learning workshop at ICML ended with a panel session that is available on YouTube. 
@@ -19,6 +19,7 @@ contributor:
     type: human
     name:  Demis Hassabis, Yann LeCun, Yoshua Bengio, Kevin Murphy, Neil D. Lawrence, Juergen Schmidhuber, Max Welling
     notes: Panel organised by Diederik Kingma and Kyunghyun Cho
+    date: 2015-07-11
   reviewed_by:
   - type: machine
     tool: Claude

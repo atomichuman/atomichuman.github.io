@@ -1,13 +1,18 @@
 ---
 layout: archive
 title: AI Council and Neil Lawrence’s Response to Large Language Models (LLMs)
-date: 2023-06-11
+date: 2024-12-31
 toggle_machine_commentary: true
 description: |
   This archive documents the AI Council’s and Neil Lawrence’s responses to the emergence of Large Language Models (LLMs) and the associated policy debates. It covers strategies, warnings, and frameworks for managing AI technologies responsibly, with insights into ethical governance and national capability building.
 contributed_by:
   initial:
-    type: machine
+    type: human
+    name: Neil D. Lawrence
+    notes: Original material created
+    date: 2023-06-11
+  reviewed_by:
+  - type: machine
     tool: ChatGPT
     version: 4o1
     notes: Create initial archive description

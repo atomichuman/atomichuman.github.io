@@ -2,7 +2,7 @@
 layout: archive
 toggle_machine_commentary: true
 title: Royal Society Machine Learning Public Dialogue
-date: 2017-05-17
+date: 2024-12-26
 description: |
   As part of the machine learning working group, the Royal Society engaged in public dialogue to understand perspectives on machine learning technologies. The work took place across January and February 2016 and the results were published in April 2017.
 contributed_by:
@@ -10,11 +10,13 @@ contributed_by:
     type: human
     name: The Royal Society Machine Learning Working Group
     notes: Original report
+    date: 2017-05-17
   reviewed_by:
   - type: machine
     tool: Claude
     version: 3.5
     notes: Machine commentary provided in discussion with Claude.
+    date: 2024-12-26
 ---
 
 A press article associated with the release is [available from the Guardian here](https://www.theguardian.com/science/political-science/2017/may/15/from-chatbots-to-self-driving-cars-what-worries-people-about-machine-learning). 
