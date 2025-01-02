@@ -2,6 +2,10 @@
 layout: reflection
 title: Triple Cooked
 date: 2024-12-02
+redirect_from:
+  - /reflections/the-atomic-human/
+  - /reflections/the-atomic-human
+  - /reflections/the-atomic-human.html
 contributed_by:
   initial:
     type: "human"

@@ -20,8 +20,11 @@ visible: false
 featured_image: /assets/images/
 ---
 
+The first draft of *The Atomic Human* was wrtten in 2015.[^1] The last chapter was tentatively titled "A Data Democracy".
+
 Data protection law gives individuals a set of rights around their data. It also introduces the notion of a data-subject and a data-controller. The controller has responsibilities to the data subject in relation to those rights. In the last two posts we looked at *affordances* and a decomposition of x-risk into the components of *power concentration* and *automated decision making*. 
 
+[^1]: Although it was a very different book, see [The Atomic Human](/reflections/triple-cooked/) for more details.
 The interaction between our affordances, both immediate and aspirational, and the power concentration and automated processes behind lead to 
 
 <center>
