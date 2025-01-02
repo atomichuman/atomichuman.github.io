@@ -643,3 +643,157 @@
     - Tourism Industry
     - Customer Service
     - City Events 
+
+- handle: AutoTech_Senior
+  reads:
+    - Sun
+    - Motor Trade News
+    - Car Dealer Magazine
+  background: Garage Owner
+  location: Manchester
+  age_range: 40-50
+  political_lean: Centre
+  interests:
+    - Electric Vehicles
+    - Training Standards
+    - Business Regulation
+
+- handle: Apprentice_Motors
+  reads:
+    - Car Mechanic
+    - TikTok News
+    - Metro
+  background: Apprentice Mechanic
+  location: Leeds
+  age_range: 16-20
+  political_lean: Centre
+  interests:
+    - Electric Vehicles
+    - Training
+    - Car Culture
+
+- handle: SecurityPro_24
+  reads:
+    - Metro
+    - Professional Security
+    - Local News
+  background: Security Supervisor
+  location: Liverpool
+  age_range: 30-40
+  political_lean: Centre-Right
+  interests:
+    - Public Safety
+    - Workers Rights
+    - Night Economy
+
+- handle: FamilyGarage_NE
+  reads:
+    - Sun
+    - Automotive Management
+    - Local Press
+  background: Family Garage Owner
+  location: Newcastle
+  age_range: 50-60
+  political_lean: Conservative
+  interests:
+    - Family Business
+    - Apprenticeships
+    - Industry Changes
+
+- handle: NightSecurity_Ldn
+  reads:
+    - Evening Standard
+    - Security News
+    - Metro
+  background: Security Guard
+  location: East London
+  age_range: 25-35
+  political_lean: Labour
+  interests:
+    - Night Worker Rights
+    - Urban Safety
+    - Transport Policy 
+
+- handle: LocalShop_Owner
+  reads:
+    - Metro
+    - Retail Express
+    - Local Press
+  background: Independent Retailer
+  location: Birmingham
+  age_range: 45-55
+  political_lean: Centre-Right
+  interests:
+    - Small Business
+    - Community Safety
+    - Local Economy
+
+- handle: CabDriver_London
+  reads:
+    - Evening Standard
+    - TAXI Magazine
+    - Metro
+  background: Licensed Taxi Driver
+  location: London
+  age_range: 45-55
+  political_lean: Centre
+  interests:
+    - Transport Policy
+    - City Planning
+    - Tourism Industry
+
+- handle: TrainDriver_Union
+  reads:
+    - Mirror
+    - ASLEF Journal
+    - Rail News
+  background: Train Driver
+  location: York
+  age_range: 35-45
+  political_lean: Labour
+  interests:
+    - Rail Industry
+    - Union Rights
+    - Public Transport
+
+- handle: HGV_National
+  reads:
+    - The Road Haulier
+    - Sun
+    - Trucking Magazine
+  background: Long-distance Lorry Driver
+  location: Midlands
+  age_range: 40-50
+  political_lean: Centre-Right
+  interests:
+    - Transport Policy
+    - Fuel Prices
+    - Road Infrastructure
+
+- handle: BusDriver_Mcr
+  reads:
+    - Metro
+    - Route One
+    - Local Press
+  background: Bus Driver
+  location: Manchester
+  age_range: 30-40
+  political_lean: Labour
+  interests:
+    - Public Transport
+    - Urban Planning
+    - Worker Rights
+
+- handle: FreightOwner_SE
+  reads:
+    - Financial Times
+    - Motor Transport
+    - Commercial Motor
+  background: Transport Company Owner
+  location: Kent
+  age_range: 50-60
+  political_lean: Conservative
+  interests:
+    - Logistics Industry
+    - Business Regulation
+    - International Trade 
