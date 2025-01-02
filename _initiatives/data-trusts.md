@@ -31,6 +31,10 @@ contributed_by:
     tool: Claude
     version: 3.5-sonnet
     notes: Provide machine commentary on how data trusts fit with the The Atomic Human.
+  - date: 2025-01-02
+    type: human
+    person_id: Neil D. Lawrence
+    notes: Make rough connections to previous posts.
 featured_image: /assets/images/
 ---
 
