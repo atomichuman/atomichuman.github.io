@@ -797,3 +797,143 @@
     - Logistics Industry
     - Business Regulation
     - International Trade 
+
+- handle: RetiredTeacher_NI
+  reads:
+    - Belfast Telegraph
+    - Times Educational Supplement
+    - Irish News
+  background: Retired Secondary Teacher
+  location: Belfast
+  age_range: 65+
+  political_lean: Centre
+  interests:
+    - Education Policy
+    - Community Relations
+    - Local History
+
+- handle: Factory_Supervisor
+  reads:
+    - Daily Record
+    - Manufacturing Weekly
+    - Local Press
+  background: Manufacturing Supervisor
+  location: Sunderland
+  age_range: 50-60
+  political_lean: Traditional Labour
+  interests:
+    - Industrial Policy
+    - Apprenticeships
+    - Regional Development
+
+- handle: CouncilWorker_SW
+  reads:
+    - Western Morning News
+    - Local Government Chronicle
+    - Mirror
+  background: Local Authority Administrator
+  location: Plymouth
+  age_range: 55-65
+  political_lean: Centre-Left
+  interests:
+    - Public Services
+    - Local Community
+    - Council Housing
+
+- handle: SchoolCook_Mids
+  reads:
+    - Mirror
+    - Schools Week
+    - Local Press
+  background: School Catering Manager
+  location: Nottingham
+  age_range: 50-60
+  political_lean: Labour
+  interests:
+    - School Meals
+    - Child Poverty
+    - Food Standards
+
+- handle: HandymanServices
+  reads:
+    - Sun
+    - Trade Magazines
+    - Facebook Groups
+  background: Self-employed Maintenance
+  location: Hull
+  age_range: 55-65
+  political_lean: Centre-Right
+  interests:
+    - Small Business
+    - Housing Repairs
+    - Local Economy
+
+- handle: RetiredMiner_NUM
+  reads:
+    - Morning Star
+    - Local Press
+    - Mining Heritage Magazines
+  background: Former Coal Miner
+  location: South Wales
+  age_range: 65+
+  political_lean: Left
+  interests:
+    - Industrial Heritage
+    - Union History
+    - Community Support
+
+- handle: Hospital_Porter
+  reads:
+    - Mirror
+    - NHS Staff News
+    - Metro
+  background: Hospital Porter
+  location: Norwich
+  age_range: 45-55
+  political_lean: Labour
+  interests:
+    - NHS
+    - Worker Rights
+    - Healthcare Access
+
+- handle: BinCollector_Union
+  reads:
+    - Mirror
+    - Local Press
+    - Union News
+  background: Waste Management Worker
+  location: Southampton
+  age_range: 40-50
+  political_lean: Labour
+  interests:
+    - Public Services
+    - Health & Safety
+    - Environmental Issues
+
+- handle: PostOffice_Worker
+  reads:
+    - Metro
+    - Post Office News
+    - Local Press
+  background: Post Office Counter Staff
+  location: Swansea
+  age_range: 50-60
+  political_lean: Centre
+  interests:
+    - Public Services
+    - Community Banking
+    - Digital Inclusion
+
+- handle: ChurchAdmin_NI
+  reads:
+    - Church Times
+    - Belfast Newsletter
+    - Parish Magazine
+  background: Church Administrator
+  location: Derry
+  age_range: 60-70
+  political_lean: Centre
+  interests:
+    - Community Work
+    - Faith Groups
+    - Social Care 
