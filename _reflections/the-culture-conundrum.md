@@ -11,3 +11,9 @@ contributed_by:
 featured_image: /assets/images/img_0584.jpeg
 ---
 Across the three case studies we've looked at so far, Data Science Africa, Accelerate Science and the Data Trusts Initiative there's been one lurking lever that has led to the very different characters of each initiative. That is culture.
+
+Since the advent of AI, I do a lot of executive education. Business people want answers. What do they need to do to lead their organisations forwad in the presence of this disruptive technology. Unfortunately the right answer is also the hardest to address. You need to change your organsiational culture. "How?" is the response. And there are  two ways we can look at that question, the first is in what ways do I need to change my organisations culture and the second is how do I go about changing it?\
+\
+So far we've looked at three initiatives, Data Science Africa, Accelerate Science and the Data Trusts Initiative. The trick to the speed of deployment and growth of the first two initiatives is that they both started with a blank slate in terms of organisational culture. While the had purposes and objectives, both initiatives have had the freedom to convene the people who believe in the vision. That allows them to set new priorities and ways of working. The processes, purpose and principles that lead to a new culture.\
+\
+The Atpomic Human looks at culture as a
