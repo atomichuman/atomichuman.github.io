@@ -362,4 +362,144 @@
   interests:
     - Public Services
     - Education
-    - Social Justice 
+    - Social Justice
+
+- handle: HealthPolicy_Doc
+  reads:
+    - Times
+    - British Medical Journal
+    - Eastern Eye
+  background: Senior Medical Consultant
+  location: Birmingham
+  age_range: 45-55
+  political_lean: Centre
+  interests:
+    - Healthcare Policy
+    - Medical Education
+    - Community Health
+
+- handle: FinTech_Executive
+  reads:
+    - Financial Times
+    - TechCrunch
+    - Muslimah Media
+  background: Fintech Executive
+  location: London
+  age_range: 30-40
+  political_lean: Centre-Right
+  interests:
+    - Financial Innovation
+    - Women in Tech
+    - Startup Culture
+
+- handle: WelshArts_Voice
+  reads:
+    - Guardian
+    - Golwg
+    - BBC Cymru
+  background: Arts Administration
+  location: Cardiff
+  age_range: 35-45
+  political_lean: Welsh Nationalist
+  interests:
+    - Cultural Policy
+    - Arts Funding
+    - Language Rights
+
+- handle: StartupFounder_SW
+  reads:
+    - Times
+    - Wired
+    - gal-dem
+  background: Tech Company Founder
+  location: Bristol
+  age_range: 30-40
+  political_lean: Centre-Left
+  interests:
+    - Tech Diversity
+    - Entrepreneurship
+    - Youth Mentoring
+
+- handle: ClimateScientist_UK
+  reads:
+    - Guardian
+    - New Scientist
+    - Middle East Eye
+  background: Environmental Scientist
+  location: Sheffield
+  age_range: 25-35
+  political_lean: Progressive
+  interests:
+    - Climate Justice
+    - Environmental Policy
+    - Community Action
+
+- handle: NurseLeader_Scot
+  reads:
+    - Nursing Times
+    - Holyrood Magazine
+    - The Scotsman
+  background: Senior Nurse
+  location: Edinburgh
+  age_range: 35-45
+  political_lean: SNP Supporter
+  interests:
+    - Healthcare Policy
+    - Professional Development
+    - Public Health
+
+- handle: TechInclusion_Dev
+  reads:
+    - Guardian
+    - Pink News
+    - Tech Monthly
+  background: Software Developer
+  location: Manchester
+  age_range: 25-35
+  political_lean: Progressive
+  interests:
+    - Tech Inclusion
+    - Digital Rights
+    - Industry Culture
+
+- handle: FaithTech_Ethics
+  reads:
+    - Times
+    - Jewish Chronicle
+    - MIT Tech Review
+  background: Religious Leader & Tech Ethicist
+  location: North London
+  age_range: 45-55
+  political_lean: Centre
+  interests:
+    - AI Ethics
+    - Religious Philosophy
+    - Community Relations
+
+- handle: Construction_CEO
+  reads:
+    - Construction News
+    - Financial Times
+    - Asian Voice
+  background: Construction Company Owner
+  location: Leicester
+  age_range: 40-50
+  political_lean: Conservative
+  interests:
+    - Infrastructure
+    - Family Business
+    - Industry Diversity
+
+- handle: CommunityGP_Scot
+  reads:
+    - The Herald
+    - British Medical Journal
+    - The Voice
+  background: GP
+  location: Glasgow
+  age_range: 35-45
+  political_lean: SNP Supporter
+  interests:
+    - Scottish Healthcare
+    - Health Inequality
+    - Community Medicine 
