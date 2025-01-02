@@ -1,0 +1,365 @@
+- handle: CityAnalyst_1983
+  reads: 
+    - Times
+    - Financial Times
+  background: Investment Banking
+  location: London
+  age_range: 35-45
+  political_lean: Centre-Right
+  interests:
+    - Financial Markets
+    - Technology Impact
+    - Economic Policy
+
+- handle: RetiredDon_Oxford
+  reads:
+    - Times
+    - Telegraph
+  background: Academia (Classics)
+  location: Oxford
+  age_range: 65+
+  political_lean: Traditional Conservative
+  interests:
+    - Academic Standards
+    - Traditional Values
+    - University Politics
+
+- handle: TechLawyer_UK
+  reads:
+    - Times
+    - Financial Times
+    - Legal Gazette
+  background: Corporate Law
+  location: London
+  age_range: 40-50
+  political_lean: Centre
+  interests:
+    - Tech Regulation
+    - Digital Rights
+    - Corporate Compliance
+
+- handle: WestLondonMum
+  reads:
+    - Times
+    - Evening Standard
+  background: Tech Industry HR
+  location: London
+  age_range: 40-50
+  political_lean: Centre-Left
+  interests:
+    - Tech Industry Culture
+    - Workplace Diversity
+    - Education
+
+- handle: EthicalTechie
+  reads:
+    - Guardian
+    - New Scientist
+  background: Software Development
+  location: Manchester
+  age_range: 25-35
+  political_lean: Progressive
+  interests:
+    - Tech Ethics
+    - Social Justice
+    - Environmental Impact
+
+- handle: GreenActivist2024
+  reads:
+    - Guardian
+    - Independent
+  background: Environmental Science
+  location: Brighton
+  age_range: 30-40
+  political_lean: Left
+  interests:
+    - Climate Change
+    - Sustainable Tech
+    - Corporate Responsibility
+
+- handle: ProgressiveProfessor
+  reads:
+    - Guardian
+    - London Review of Books
+  background: Sociology
+  location: Leeds
+  age_range: 45-55
+  political_lean: Left
+  interests:
+    - Social Theory
+    - Tech Impact
+    - Inequality
+
+- handle: LocalCouncillor_NE
+  reads:
+    - Guardian
+    - Local Press
+  background: Local Government
+  location: Newcastle
+  age_range: 50-60
+  political_lean: Labour
+  interests:
+    - Local Economy
+    - Job Creation
+    - Community Impact
+
+- handle: HeritageDefender
+  reads:
+    - Telegraph
+    - Mail
+  background: Business Owner
+  location: Surrey
+  age_range: 55-65
+  political_lean: Conservative
+  interests:
+    - British Industry
+    - Traditional Values
+    - Free Market
+
+- handle: CityGent1960
+  reads:
+    - Telegraph
+    - Times
+  background: Banking (Retired)
+  location: Home Counties
+  age_range: 60-70
+  political_lean: Conservative
+  interests:
+    - British Economy
+    - National Pride
+    - Business
+
+- handle: InvestmentDir_London
+  reads:
+    - Telegraph
+    - Financial Times
+  background: Investment Banking
+  location: London
+  age_range: 45-55
+  political_lean: Free Market Conservative
+  interests:
+    - Market Competition
+    - Investment
+    - Innovation
+
+- handle: RetiredJudge
+  reads:
+    - Telegraph
+    - Times
+    - Law Gazette
+  background: Legal
+  location: Kent
+  age_range: 70+
+  political_lean: Traditional Conservative
+  interests:
+    - Legal Framework
+    - Judicial Process
+    - Governance
+
+- handle: TechPhilosopher_NYC
+  reads:
+    - New York Times
+    - The Atlantic
+  background: Academia
+  location: New York
+  age_range: 40-50
+  political_lean: Liberal
+  interests:
+    - Tech Ethics
+    - Social Impact
+    - Philosophy
+
+- handle: SiliconValleyVC
+  reads:
+    - New York Times
+    - TechCrunch
+  background: Venture Capital
+  location: San Francisco
+  age_range: 35-45
+  political_lean: Libertarian
+  interests:
+    - Tech Investment
+    - Innovation
+    - Startups
+
+- handle: BrooklynAcademic
+  reads:
+    - New York Times
+    - The New Yorker
+  background: Academia (Technology Studies)
+  location: New York
+  age_range: 35-45
+  political_lean: Progressive
+  interests:
+    - Tech Ethics
+    - Gender Studies
+    - Social Justice
+
+- handle: WestCoastDev
+  reads:
+    - New York Times
+    - Wired
+  background: Software Engineering
+  location: Seattle
+  age_range: 25-35
+  political_lean: Liberal
+  interests:
+    - AI Development
+    - Tech Ethics
+    - Industry Culture
+
+- handle: ProudBrit_52
+  reads:
+    - Mail
+    - Express
+  background: Small Business Owner
+  location: Essex
+  age_range: 50-60
+  political_lean: Right
+  interests:
+    - British Business
+    - Immigration
+    - Brexit
+
+- handle: CommonSenseSue
+  reads:
+    - Mail
+    - Local Press
+  background: Office Administration
+  location: Kent
+  age_range: 45-55
+  political_lean: Conservative
+  interests:
+    - Privacy
+    - Consumer Rights
+    - Family Values
+
+- handle: TraditionalistTom
+  reads:
+    - Mail
+    - Telegraph
+  background: Manufacturing
+  location: Midlands
+  age_range: 55-65
+  political_lean: Right
+  interests:
+    - British Industry
+    - Traditional Values
+    - National Pride
+
+- handle: HardworkingMum3
+  reads:
+    - Mail
+    - Mirror
+  background: Retail
+  location: Birmingham
+  age_range: 35-45
+  political_lean: Centre-Right
+  interests:
+    - Family
+    - Job Security
+    - Education
+
+- handle: FootballFanatic_88
+  reads:
+    - Sun
+    - Mirror
+  background: Construction
+  location: Manchester
+  age_range: 30-40
+  political_lean: Centre
+  interests:
+    - Sports
+    - Working Class Issues
+    - Local Community
+
+- handle: WorkingBloke
+  reads:
+    - Sun
+    - Local Press
+  background: Factory Worker
+  location: Yorkshire
+  age_range: 45-55
+  political_lean: Traditional Labour
+  interests:
+    - Workers Rights
+    - British Jobs
+    - Sport
+
+- handle: SimpleSolution
+  reads:
+    - Sun
+    - Metro
+  background: Retail
+  location: Leeds
+  age_range: 40-50
+  political_lean: Right
+  interests:
+    - Simple Politics
+    - Common Sense
+    - Traditional Values
+
+- handle: PatrioticPete
+  reads:
+    - Sun
+    - Express
+  background: Self-employed
+  location: Essex
+  age_range: 45-55
+  political_lean: Right
+  interests:
+    - British Values
+    - Immigration
+    - Jobs
+
+- handle: UnionRep2024
+  reads:
+    - Mirror
+    - Morning Star
+  background: Manufacturing
+  location: Liverpool
+  age_range: 40-50
+  political_lean: Left
+  interests:
+    - Workers Rights
+    - Union Activity
+    - Job Protection
+
+- handle: NorthernVoice
+  reads:
+    - Mirror
+    - Local Press
+  background: Public Sector
+  location: Newcastle
+  age_range: 35-45
+  political_lean: Labour
+  interests:
+    - Regional Inequality
+    - Public Services
+    - Northern Issues
+
+- handle: ConcernedNurse
+  reads:
+    - Mirror
+    - Guardian
+  background: Healthcare
+  location: Manchester
+  age_range: 30-40
+  political_lean: Left
+  interests:
+    - NHS
+    - Healthcare Tech
+    - Workers Rights
+
+- handle: LabourSupporter
+  reads:
+    - Mirror
+    - Guardian
+  background: Teaching
+  location: Liverpool
+  age_range: 45-55
+  political_lean: Labour
+  interests:
+    - Public Services
+    - Education
+    - Social Justice 
