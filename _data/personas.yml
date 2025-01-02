@@ -1077,3 +1077,87 @@
     - Industrial Safety
     - Training
     - Technical Skills 
+
+- handle: SecurityManager_50
+  reads:
+    - Telegraph
+    - Security Industry Authority News
+    - Police Federation Magazine
+  background: Security Operations Manager
+  location: West Midlands
+  age_range: 50-60
+  political_lean: Conservative
+  interests:
+    - Industry Standards
+    - Staff Training
+    - Public Safety
+
+- handle: TeachingAssist_24
+  reads:
+    - TES
+    - Instagram News
+    - Local Press
+  background: Teaching Assistant
+  location: Sheffield
+  age_range: 20-30
+  political_lean: Centre-Left
+  interests:
+    - Special Education
+    - Youth Mental Health
+    - Education Technology
+
+- handle: CouncilGrad_2024
+  reads:
+    - Guardian
+    - Local Government Chronicle
+    - LinkedIn News
+  background: Local Government Graduate Trainee
+  location: Bristol
+  age_range: 21-25
+  political_lean: Centre
+  interests:
+    - Public Policy
+    - Urban Planning
+    - Digital Government
+
+- handle: HeadTeacher_Sec
+  reads:
+    - Times Educational Supplement
+    - Schools Week
+    - Education Guardian
+  background: Secondary School Head
+  location: Leeds
+  age_range: 45-55
+  political_lean: Centre
+  interests:
+    - Education Policy
+    - School Leadership
+    - Youth Development
+
+- handle: ExServiceSecurity
+  reads:
+    - Sun
+    - Forces News
+    - Security Monthly
+  background: Security Trainer (Ex-Military)
+  location: Portsmouth
+  age_range: 40-50
+  political_lean: Centre-Right
+  interests:
+    - Veterans Affairs
+    - Training Standards
+    - Public Safety
+
+- handle: PrimaryTeacher_30
+  reads:
+    - Primary Times
+    - BBC News
+    - National Education Union Updates
+  background: Primary School Teacher
+  location: Cardiff
+  age_range: 30-40
+  political_lean: Centre-Left
+  interests:
+    - Early Years Education
+    - Child Development
+    - Teaching Methods 
