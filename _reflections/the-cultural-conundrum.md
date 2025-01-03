@@ -1,7 +1,7 @@
 ---
 layout: reflection
 title: The Cultural Conundrum
-date: 2025-01-03T18:42:42.818Z
+date: 2025-01-03
 toggle_machine_commentary: true
 contributed_by:
   initial:
