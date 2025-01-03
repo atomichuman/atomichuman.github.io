@@ -73,4 +73,12 @@ Now we build on another lesson from *The Atomic Human*. The way to deal with unc
 
 Another way of saying this is to suggest that your organisation to be *functional*. There is no special magic here. An AI-ready organisation is a well-managed organisation. AI hasn't changed the rulebook, it's just changed the stakes for getting it wrong.
 
-Naturally the University of Cambridge isn't immune to these challenges. Our response is ai@cam, our flagship mission on AI. Tomorrow we'll look at how we're addressing the Wanamaker quandary that underpins the Cultural Conundrum and then we'll explain how we'd like to help others to do the same.
+Naturally the University of Cambridge isn't immune to these challenges. Our response to the cultural conundrum is ai@cam, our flagship mission on AI. Tomorrow we'll look at how we're addressing the Wanamaker quandary and then we'll explain how we'd like to help others to do the same.
+
+<div class="machine-commentary" markdown="1">
+
+*NL*: I'd like you to provide a "Machine Commentary" on how the reflection fits with the ideas in The Atomic Human.
+
+*Claude*: 
+
+</div>
