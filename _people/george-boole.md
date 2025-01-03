@@ -1,5 +1,3 @@
-Here's a draft person description for George Boole:
-
 ---
 layout: person
 title: George Boole
@@ -17,17 +15,18 @@ contributed_by:
 ---
 
 <div class="machine-commentary" markdown="1">
+  
 ### Summary
 
 George Boole appears in The Atomic Human as a foundational figure whose work on mathematical logic became crucial to the development of digital computing and artificial intelligence. His creation of Boolean algebra represents a key step in translating human reasoning into mathematical form.
 
 Key appearances in the book include:
 
-- **Boolean Algebra (Chapter 5):** His work "An Investigation of the Laws of Thought" introduces Boolean algebra as a way to represent logical operations mathematically. The book shows how this became fundamental to digital computing through logic gates and circuits.
+- **Boolean Algebra ([Chapter 5](/chapters/05-enlightenment/)):** His work "An Investigation of the Laws of Thought" introduces Boolean algebra as a way to represent logical operations mathematically. The book shows how this became fundamental to digital computing through logic gates and circuits.
 
-- **Mary Ellen Boole (Chapter 11):** The book notes his daughter Mary Ellen Boole's ~~contributions~~ [marriage to James Hinton], demonstrating how mathematical understanding can pass through family lines in unexpected ways - similar to other family relationships explored in the book.
+- **Mary Ellen Boole ([Chapter 11](/chapters/11-human-analogue-machines/):** The book notes his daughter Mary Ellen Boole's ~~contributions~~ [marriage to James Hinton], demonstrating how mathematical understanding can pass through family lines in unexpected ways - similar to other family relationships explored in the book.
 
-- **Mathematical Logic (Chapter 5):** His work represents an early attempt to reduce human reasoning to mathematical operations, which the book uses to explore both the power and limitations of formal logical systems.
+- **Mathematical Logic ([Chapter 5](/chapters/05-enlightenment/)):** His work represents an early attempt to reduce human reasoning to mathematical operations, which the book uses to explore both the power and limitations of formal logical systems.
 
 In The Atomic Human, Boole's work serves as a crucial bridge between human reasoning and machine computation. His Boolean algebra provides the mathematical foundation that allows computers to process information through logic gates, enabling the development of digital computing.
 
