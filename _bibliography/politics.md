@@ -11,11 +11,19 @@ publisher: Clarendon Press
 address: Oxford
 year: 1885
 toggle_machine_commentary: true
-initial:
-  type: machine
-  tool: ChatGPT
-  version: 4o1
-  notes: Requested summary on 'How do the themes in the book relate to Aristotle's Politics?'
+contributed_by:
+  initial:
+    type: machine
+    tool: ChatGPT
+    version: 4o1
+    notes: Requested summary on 'How do the themes in the book relate to Aristotle's Politics?'
+    date: 2024-12-17
+  reviewed_by:
+  - type: human
+    person_id: Neil D. Lawrence
+    date: 2025-01-03
+    notes: Minor formatting fixes.
+ 
 ---
 
 <div class="machine-commentary" markdown="1">
