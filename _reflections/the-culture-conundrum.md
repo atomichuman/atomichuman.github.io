@@ -42,36 +42,24 @@ Established organisations face the same cultural quandry: which half? In their s
 
 "But how?" they ask.
 
-There are two ways that we can interpret that question, "What changes are needed in my orgqanisations culture?" or "What are the steps necessary to change an organisations culture?" Fortuantely we can give the same answer to both these questions.
+We can interpret "how" in two ways: does it mean "what changes are needed in my orgqanisation's culture?" or does it mean "what are the steps necessary to change an organisation's culture?" Fortuantely regardless of how we interpret the question the answer is the same.  
 
-In Data Science Africa and Accelerate Science both initiatives started with a blank slate in terms of culture. Both resisted inheriting existing culture. This meant that they could grow rapidly and develop new principles and processes that are better adapted to the new information landscape.
+In Data Science Africa (DSA) and Accelerate Science both initiatives started with a blank slate in terms of culture. Both resisted inheriting existing culture. This meant that they could grow rapidly and develop new principles and processes that are better adapted to the new information landscape. Today's organisations will face disruptive challenges form new emerging organisations that will take the same approach.
 
-<!-- Consider merging this with previous paragraph for better flow -->
+When it comes to the Data Trusts Initiative (DTI), we need a different approach had to be taken because the purpose of the initiative[^2] requires close engagement with existing cultural and institutional practices. To be successful the initiative has to understand existing organsiations and their cultural practice.
 
- When we start with a blank slate we can develop new culture quickly, but when we are operating with existing practices it can be hard to decide what to change and how to change it. 
+[^2]: Recall the purpose of the \[Data Trusts Initiative](/initiatives/data-trusts/) is to enfrancise people in the decisions around their data. The analogy given is that management of our data is currently akin to a feudal system in which information barons hold the power. The purpose of a data trust is to ensure move towards some form of "data democracy" where the data controller is better incentivised to align with the data subjects' aspirations and interests 
 
-<!-- Consider providing specific examples of anachronistic practices -->
+DSA and Accelerate are building on engqged communities that voluntarily respond to their purpose and engage through contributing their time and effort through projects to develop their principles. They progress through a coalition of the willing that brings mutual benefit to the members.
 
-This form of cultural wisdom contains many lessons, but our information topography will be so disrupted by the machine - remember it can share information 300 million times faster than we can - that many of our current cultural practices may prove anachronistic. 
+But for DTI to be successful it needs to carry existing structures with the own priorities. In this case the unwilling can not be ignored they need to be understood and accommodated in the underlying principles.
 
-<!-- Good contrast with previous initiatives - consider highlighting this more clearly -->
+Different organisations fall somewhere between on the spectrum of these two extremes: brand new inititiatives which build culture from scratch or existing culture that needs to evolve?
 
-When it comes to the Data Trusts Initiative, a different approach had to be taken because the purpose requires close engagement with existing cultural and institutional practices. By its nature the initiative is trying to learn from existing institutions and build on the manner in which they protect our vulnerabilities. Unlike the other two initiatives which could plant a flag and launch a rallying call that builds a coalition of the willing, the data trusts initiative needs to carry existing structures with it to be successful. The unwilling cannot be ignored they need to be understood and accommodated in the underlying principles.
+This is why start-ups find it easy to disrupt, like DSA and Accelerate they can form a new culture and assimilate new capabilities more rapidly. So is the answer to the "how" question to behave more like a start up? 
 
-<!-- Consider combining these two short paragraphs -->
+Certainly all organisations can learn from each other, but because of Wanamaker's quandary large organisations have to be careful with these copy cat approaches. They risk throwing out the cultural baby with the cultural bathwater. The cultural conundrum is how to seperate the part of the culture that is distinctive with that which is extinctive?
 
-How different organisations respond to the challenges presented by AI disruption depends on where they are on this spectrum. Is this a brand new inititiative that can define its culture? Or does it need to evolve existing cultures?
+Now we build on another lesson from \*The Atomic Human\*. The way to deal with uncertainty is to ensure you are responsive and adaptable to changing circumstance. You need your eyes and ears open to how events are evolving in practice. You need feedback mechanisms that ensure that the most senior people understand the challenges being faced by those at the organisational coalface and that those working that coalface feel supported by that structure. In other words it means you need your organisation to be functional. There is no special magic here. An AI-ready organisation is a well managed organisation. AI hasn't changed the rulebook, it's just changed the stakes for getting it wrong.
 
-<!-- Typo: 'inititiative' should be 'initiative' -->
-
-This is why start-ups find it easy to disrupt, like DSA the can form a new culture and assimilate new capabilities more rapidly. Ironically this causes large organisations to believe that they simply need to adopt "start up culture" and all will be well. 
-
-<!-- Strong connection back to opening quote - consider expanding on this parallel -->
-
-But this is where we get back to John Wannamaker's quandry. For an established organisation half of the culture is holding it back, but half of the culture is critical to its ability to thrive and survive. The answer to the quandry is the answer to the cultural conundrum. As with any challenge of uncertainty, you need your eyes and ears open to how events are evolving in practice. That means you need a structure that is capturing that understanding across your organisation. You need the mechanisms of feedback that [we also see as critical to establishing the affordances of your people](/reflections/bridging-from-domain-experts-to-ai-capability/). You need to avoid the trap of centrally imposed solutions that led to the Horizon and Lorenzo scandals. You need to empower your people and listen to the problems they are having and the projects they have to fix them. 
-
-<!-- Consider stronger concluding paragraph that ties together main themes -->
-
-<!-- Typo: 'quandry' should be 'quandary' -->
-
-The trick to solving the culture conundrum is to ensure your culture absorbs the information it needs for the organisation to adapt and to ensure that the individuals in the organisation are empowered to bring about the necessary change.
+Naturally the University of Cambridge isn't immune to these challenges. Our response is ai@cam, our flagship mission on AI. Tomorrow we'll look at how we're addressing the Wanamaker quandary and then we'll explore how we'd like to help others do the same.
