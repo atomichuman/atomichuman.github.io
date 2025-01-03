@@ -12,6 +12,10 @@ contributed_by:
     person_id: Neil D. Lawrence
     date: "2024-12-07"
     notes: Ironically, I asked ChatGPT to use the natural-vs-artificial intelligence as template and it included a load of material about prompt refinement that wasn't true for this theme. So then I had to ask it to remove the material about prompt refinement and then add material about how it had misrepresented the prompt refinement occurring ... it's all getting very meta.
+  - type: "human"
+    person_id: Neil D. Lawrence
+    date: "2024-01-03"
+    notes: Minor formatting changes.
 ---
 
 <div class="machine-commentary" markdown="1">
@@ -21,7 +25,7 @@ contributed_by:
 History offers critical perspectives on the interplay between human progress and technological innovation. In *The Atomic Human*, Neil D. Lawrence draws lessons from pivotal moments such as the Renaissance, the Enlightenment, and the Industrial Revolution to contextualize our current relationship with artificial intelligence (AI). These historical parallels highlight both opportunities for growth and cautionary tales about inequality and societal disruption.
 
 
-## **Lessons from History: A Framework for Understanding AI**
+## Lessons from History: A Framework for Understanding AI
 
 ### 1. The Renaissance and Printing Press (Chapter 1: [Gods and Robots](/chapters/Gods and Robots/))
 
