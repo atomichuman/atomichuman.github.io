@@ -1,17 +1,17 @@
 ---
-layout: initiative
-title: ai@cam - I
-date: 2025-01-03
-toggle_machine_commentary: true
+title: ai@cam
+date: 2025-01-04T00:00:00.000Z
 description: ai@cam is the University of Cambridge's flagship mission on AI.
 website: https//ai.cam.ac.uk/
+toggle_machine_commentary: true
+featured_image: https://ai.cam.ac.uk/assets/uploads/logo.png
+layout: initiative
 contributed_by:
   initial:
     date: 2024-12-27
     type: human
     person_id: Neil D. Lawrence
     notes: First stub of post.
-featured_image: /assets/images/
 ---
 
 
@@ -36,6 +36,6 @@ Good question, and so when we were setting up ai@cam the first thing we did was 
 *NL*: I'd like you to provide a "Machine Commentary" on how the initiative fits with the ideas in *The Atomic Human* and how its approach informed the ideas in the book.
 
 
-*NL*: Can you provide further machine commentary on how DSA is fitting with the approach [described in this post](/reflections/purpose-people-projects-principles-process/)?
+*NL*: Can you provide further machine commentary on how ai@cam is fitting with the approach [described in this post](/reflections/purpose-people-projects-principles-process/)?
 
 </div>
