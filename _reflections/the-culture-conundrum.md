@@ -1,5 +1,5 @@
 ---
-title: The Culture Conundrum
+title: The Cultural Conundrum
 date: 2025-01-03T18:42:42.818Z
 toggle_machine_commentary: true
 contributed_by:
@@ -18,6 +18,10 @@ contributed_by:
       tool: Claude
       version: 3.5-sonnet
       notes: Requested sub-editing comments.
+    - date: 2025-01-03T18:34:12.930Z
+      type: human
+      person_id: Neil D. Lawrence
+      notes: Full revision of draft.
 featured_image: /assets/images/img_0584.jpeg
 ---
 <!-- Consider moving Wanamaker quote later, after establishing context for AI and culture -->
@@ -62,4 +66,4 @@ Certainly all organisations can learn from each other, but because of Wanamaker'
 
 Now we build on another lesson from \*The Atomic Human\*. The way to deal with uncertainty is to ensure you are responsive and adaptable to changing circumstance. You need your eyes and ears open to how events are evolving in practice. You need feedback mechanisms that ensure that the most senior people understand the challenges being faced by those at the organisational coalface and that those working that coalface feel supported by that structure. In other words it means you need your organisation to be functional. There is no special magic here. An AI-ready organisation is a well managed organisation. AI hasn't changed the rulebook, it's just changed the stakes for getting it wrong.
 
-Naturally the University of Cambridge isn't immune to these challenges. Our response is ai@cam, our flagship mission on AI. Tomorrow we'll look at how we're addressing the Wanamaker quandary and then we'll explore how we'd like to help others do the same.
+Naturally the University of Cambridge isn't immune to these challenges. Our response is ai@cam, our flagship mission on AI. Tomorrow we'll look at how we're addressing the Wanamaker quandary that underpins the Cultural Conundrum and then we'll explain how we'd like to help others to do the same.
