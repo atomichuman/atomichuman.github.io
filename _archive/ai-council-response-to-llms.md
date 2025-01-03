@@ -16,7 +16,6 @@ contributed_by:
     tool: ChatGPT
     version: 4o1
     notes: Create initial archive description
-  reviewed_by:
   - type: machine
     tool: ChatGPT
     version: 4o1
