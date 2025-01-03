@@ -51,9 +51,9 @@ The three case studies we've looked at so far, [Data Science Africa](/initiative
 Existing businesses and institutions also face challenges in these shifting landscapes. Some aspects of the organisational culture will be intrinsic to how the organisation operates. Those aspects encode their purpose, principles and processes. They are critical to the organisation's ability to survive and thrive. But other aspects will be holding the organisation back and undermining its ability to adapt to these evolving circumstances. 
 
 <center>
-<img src="/assets/images/machine-learning-frees-up-humans.jpg" alt="Machine Learning Frees Up Humans" style="width: We 60%;">
+<img src="/assets/images/machine-learning-frees-up-humans.jpg" alt="Machine Learning Frees Up Humans" width="50%">
 
-<i>Image: Machine Learning Frees Up Humans. Detail from [Unworkshop: ML and the Physical World](/archive/unworkshop-ml-and-the-physical-world/) graphical summary.</i>
+<i>Image: Machine Learning Frees Up Humans. Detail from <a herf="/archive/unworkshop-ml-and-the-physical-world/">Unworkshop: ML and the Physical World</a> graphical summary.</i>
 </center>
 
 These organisations face a similar quandary to one that the American department store magnate John Wanamaker expressed when considering his marketing budget. He is supposed to have said:
