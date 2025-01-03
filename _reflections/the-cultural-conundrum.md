@@ -37,7 +37,7 @@ contributed_by:
       tool: Claude
       version: 3.5-sonnet
       notes: Add machine commentary.
-featured_image: /assets/images/machine-learning-frees-up-humans.jpeg
+featured_image: /assets/images/machine-learning-frees-up-humans.jpg
 ---
 
 Organisations looking to adapt to the challenges of AI face difficult decisions about how to assimilate the technology. Remember this is a technology that can access information three hundred million times faster than we can. That's the difference between walking pace and light speed. Such a disruptive technology is revolutionising our information landscape. 
@@ -49,6 +49,12 @@ Alongside this information landscape, our human cultures provide intellectual la
 The three case studies we've looked at so far, [Data Science Africa](/initiatives/data-science-africa-i/), [Accelerate Science](/initiatives/accelerate-science/) and the [Data Trusts Initiative](/initiatives/data-trusts/) each have different purposes and contexts leading to different sets of principles and processes that underpin the emerging cultures for these nascent institutions. 
 
 Existing businesses and institutions also face challenges in these shifting landscapes. Some aspects of the organisational culture will be intrinsic to how the organisation operates. Those aspects encode their purpose, principles and processes. They are critical to the organisation's ability to survive and thrive. But other aspects will be holding the organisation back and undermining its ability to adapt to these evolving circumstances. 
+
+<center>
+<img src="/assets/images/machine-learning-frees-up-humans.jpg" alt="Machine Learning Frees Up Humans" style="width: We 60%;">
+
+<i>Image: Machine Learning Frees Up Humans. Detail from [Unworkshop: ML and the Physical World](/archive/unworkshop-ml-and-the-physical-world/) graphical summary.</i>
+</center>
 
 These organisations face a similar quandary to one that the American department store magnate John Wanamaker expressed when considering his marketing budget. He is supposed to have said:
 
