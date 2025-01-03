@@ -23,7 +23,7 @@ Good question, and so when we were setting up ai@cam the first thing we did was 
 
 
 <center>
-<image src="/assets/images/" width="70%"/>
+<image src="https://ai.cam.ac.uk/assets/uploads/logo.png" width="70%"/>
 
 <i></i>
 </center>
