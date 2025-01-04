@@ -35,16 +35,16 @@ contributed_by:
 
 In [The Cultural Conundrum](/reflections/the-cultural-conundrum) we reflected on the challenges of adapting existing culture to the disruptions of AI. The institutional approach at the University of Cambridge is our flagship mission on AI, [ai@cam](https://ai.cam.ac.uk/).
 
-<!-- Good historical context but paragraph could be tightened -->
+<center>
+<image src="https://ai.cam.ac.uk/assets/uploads/logo.png" width="70%"/>
+</center>
+  
 Cambridge has a tradition of being at the cutting edge of machine learning with cutting edge work in speech, language and computer vision. Today we enjoy the legacy of those achievements and a host of leading researchers, so why would we need a new initiative on AI? 
 
 It's a good question, what would be the *purpose* of a new initiative at the University of Cambridge.[^1] Let's assume that the initiative *is* needed. Then another question arises. Why hasn't this initiative arisen naturally? Why do we need to intervene? 
 
 [^1]: One can imagine that it might be useful to raise the profile of the work, or to attract more funding, and many initiatives are launched with these objectives, but in my experience such initiatives tend to lower thinking and increase politics.
 
-<center>
-<image src="https://ai.cam.ac.uk/assets/uploads/logo.png" width="70%"/>
-</center>
 
 Given these questions, instead of launching a new institute, we chose to explore what the aspirations of the University's AI researchers were and how we could suppot them. Across December 2021 to March 2022 we surveyed Cambridge's AI community and ran a series of workshops with staff from across the University, both academics and professional services. We reported with [a landscaping document](https://ai.cam.ac.uk/blog/ai-needs-to-serve-people-science-and-society) in April 2022. It captured Cambridge's aspirations:
 
