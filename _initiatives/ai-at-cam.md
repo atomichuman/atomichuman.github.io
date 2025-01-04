@@ -1,5 +1,5 @@
 ---
-title: ai@cam: Cambridge University's Flagship AI Mission
+title: "ai@cam: Cambridge University's Flagship AI Mission"
 date: 2025-01-04
 description: ai@cam is the University of Cambridge's flagship mission on AI. Over the last year it has supported 5 AI-deas projects, supported 46 research projects across 20 Departments, and engaged in policy and public dialogue to better steer national AI priorities.
 website: https://ai.cam.ac.uk/
