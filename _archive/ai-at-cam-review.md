@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ai@cam Review- Building Cambridge's AI Capabilities
+title: ai@cam Review - Building Cambridge's AI Capabilities
 date: 2025-01-04
 toggle_machine_commentary: true
 description: >
@@ -19,19 +19,23 @@ contributed_by:
       version: 3.5-sonnet
       notes: Created initial archive description and commentary
       date: 2025-01-04
+    - type: human
+      person_id: Neil D. Lawrence
+      notes: Reviewed the machine commentary
+      date: 2025-01-04
 ---
 
-<div class="machine-commentary" markdown=1>
+<div class="machine-commentary" markdown="1">
 
 ## Background: AI@Cam Initiative (2022)
 
-The *AI@Cam* initiative represents Cambridge University's strategic response to the opportunities and challenges presented by artificial intelligence. The document outlines a vision for making Cambridge a global leader in AI research, education and innovation while ensuring developments benefit society.
+The *ai@cam* initiative represents Cambridge University's strategic response to the opportunities and challenges presented by artificial intelligence. The document outlines a vision for making Cambridge a global leader in AI research, education and innovation while ensuring developments benefit society.
 
 ### Key Strategic Elements:
 
-- [Original Document](https://example.com/ai-at-cam-2022.pdf)
-- Vision Statement (March 2022)
-- Implementation Framework
+- [Original Document](https://www.cam.ac.uk/system/files/aicam_review_april22.pdf)
+- [Cambridge University Release Story](https://www.cam.ac.uk/stories/ai-at-cam)
+- [ai@cam blog post](https://ai.cam.ac.uk/blog/ai-needs-to-serve-people-science-and-society)
 
 ## Core Strategic Pillars
 
@@ -93,7 +97,5 @@ The strategy appears well-positioned to address contemporary AI challenges throu
 ## Further Reading
 
 - [AI@Cam Website](https://ai.cam.ac.uk)
-- [Cambridge AI Research Directory](https://www.cam.ac.uk/research/ai)
-- [Strategic Framework Document](https://example.com/ai-at-cam-framework.pdf)
 
 </div> 
