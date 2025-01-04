@@ -66,9 +66,6 @@ Next steps are to focus more on the core machine learning community, support for
 
 ## Machine Commentary
 
-*NL*: I'd like you to provide a "Machine Commentary" on how the initiative fits with the ideas in *The Atomic Human* and how its approach informed the ideas in the book.
-
-
 *NL*: Can you provide further machine commentary on how ai@cam is fitting with the approach [described in this post](/reflections/purpose-people-projects-principles-process/)?
 
 </div>
