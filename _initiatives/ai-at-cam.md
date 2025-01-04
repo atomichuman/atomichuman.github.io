@@ -44,8 +44,6 @@ It's a good question, what would be the *purpose* of a new initiative at the Uni
 
 <center>
 <image src="https://ai.cam.ac.uk/assets/uploads/logo.png" width="70%"/>
-
-<i>The ai@cam logo</i>
 </center>
 
 Given these questions, instead of launching a new institute, we chose to explore what the aspirations of the University's AI researchers were and how we could suppot them. Across December 2021 to March 2022 we surveyed Cambridge's AI community and ran a series of workshops with staff from across the University, both academics and professional services. We reported with [a landscaping document](https://ai.cam.ac.uk/blog/ai-needs-to-serve-people-science-and-society) in April 2022. It captured Cambridge's aspirations:
