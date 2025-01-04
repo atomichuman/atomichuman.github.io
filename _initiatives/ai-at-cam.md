@@ -1,3 +1,7 @@
+# Title could be more descriptive, e.g. "ai@cam: Cambridge University's AI Mission"
+# Description is good but could mention key initiatives/projects
+# Consider adding keywords/tags
+# Featured image could be higher resolution
 ---
 title: ai@cam
 date: 2025-01-04
@@ -22,21 +26,32 @@ contributed_by:
     person_id: Neil D. Lawrence
     notes: First full draft.
   - type: machine
-    person_id: Claude
+    tool: Claude
+    version: 3.5-sonnet
+    date: 2025-01-04
     notes: Added machine commentary.
+  - type: machine
+    tool: Claude
+    version: 3.5-sonnet
+    notes: Provide subediting comments.
     date: 2025-01-04
 ---
 
+<!-- Consider stronger opening - lead with the initiative's purpose rather than referencing another article -->
 In [The Cultural Conundrum](/reflections/the-cultural-conundrum) we reflected on the challenges of adapting existing culture to the disruptions of AI. The institutional approach at the University of Cambridge is our flagship mission on AI, [ai@cam](https://ai.cam.ac.uk/).
 
+<!-- Good historical context but paragraph could be tightened -->
 Cambridge has a long tradition of being at the cutting edge of machine learning, dating back to the 1980s and work in speech, language and computer vision. Today we enjoy the legacy of those achievements and a host of leading researchers, so why would we need a new initiative on AI? 
 
+<!-- Consider merging these two paragraphs for better flow -->
 It's a good question, what would be the *purpose* of a new initiative at the University of Cambridge.[^1] Let's assume that the initiative *is* needed. Then another question arises. Why hasn't this initiative arisen naturally? Why do we need to intervene? 
 
 [^1]: One can imagine that it might be useful to raise the profile of the work, or to attract more funding, and many initiatives are launched with these objectives, but in my experience such initiatives tend to lower thinking and increase politics.
 
+<!-- Break this long paragraph into smaller chunks for readability -->
 Given these questions, instead of launching a new institute, we chose to explore what the aspirations of the University's AI researchers were and how we could suppot them. Across December 2021 to March 2022 we surveyed Cambridge's AI community and ran a series of workshops with staff from across the University, both academics and professional services. We reported with [a landscaping document](https://ai.cam.ac.uk/blog/ai-needs-to-serve-people-science-and-society) in April 2022. It captured Cambridge's aspirations:
 
+<!-- Format bullet points consistently - currently mixing dash and em-dash -->
 - be a global leader in AI research, driving progress in technical domains,
 applying AI to tackle major scientific and social challenges, and aligning
 the development of AI technologies with societal interests;
@@ -47,27 +62,36 @@ research, business, civil society, and policy leaders working to deploy AI
 for wider social and economic benefit, shaping the development and
 deployment of AI for the benefit of all in society. 
 
+<!-- Add transition sentence between aspirations and steering committee -->
 We identified obstacles and enablers for those ambitions and placed them at the heart of the landscape document. We convened a steering committee selected from across the University. 
 
+<!-- Consider moving image earlier in the article -->
 <center>
 <image src="https://ai.cam.ac.uk/assets/uploads/logo.png" width="70%"/>
 
 <i>The ai@cam logo</i>
 </center>
 
+<!-- Fix typo: "launced" -->
+<!-- Consider breaking this into smaller paragraphs -->
+From a projects perspective, we've launced 5 AI-deas projects. We see these as "academic unicorns". Interdisciplinary projects that are focussed on societal impact and will leverage state of the art AI solutions to deliver that. They are focused on [local decision making](https://ai.cam.ac.uk/projects/decision-making-with-ai-in-connected-places-and-cities), [climate & nature](https://ai.cam.ac.uk/projects/ai-for-climate-and-nature), [women health, fertility and early infant neurodevelopment](https://ai.cam.ac.uk/projects/revolutionising-women's-health-female-fertility-and-early-infant-neurodevelopment-using-ai.html), [mental health](https://ai.cam.ac.uk/projects/responsible-ai-for-better-lifelong-brain-and-mental-health) and [language inclusion](https://ai.cam.ac.uk/projects/improving-language-equity-and-inclusion-through-ai).
 
-From a projects perspective, we've launced 5 AI-deas projects. We see these as "academic unicorns". Interdisciplinary projects that are focussed on societal impact and will leverage state of the art AI solutions to deliver that. They are focused on [local decision making](https://ai.cam.ac.uk/projects/decision-making-with-ai-in-connected-places-and-cities), [climate & nature](https://ai.cam.ac.uk/projects/ai-for-climate-and-nature), [women health, fertility and early infant neurodevelopment](https://ai.cam.ac.uk/projects/revolutionising-women’s-health-female-fertility-and-early-infant-neurodevelopment-using-ai.html), [mental health](https://ai.cam.ac.uk/projects/responsible-ai-for-better-lifelong-brain-and-mental-health) and [language inclusion](https://ai.cam.ac.uk/projects/improving-language-equity-and-inclusion-through-ai).
-
+<!-- Fix typo: "tradiationally" -->
 Alongside this we supported 46 research projects from 20 Departments access the new Dawn high-performance computing system. These included departments that tradiationally exploit high performance computing (e.g. Materials Science), but also less traditional users in the humanities such as English and History.
 
+<!-- Fix typo: "colalboration" -->
 Our [policy lab](https://ai.cam.ac.uk/policy-lab/) has engaged in public dialogue in colalboration with the [Kavli Centre](https://www.kcesp.ac.uk/), convened UK policy makers around questions of current interest,and worked with the [Bennett Institute](https://www.bennettinstitute.cam.ac.uk/) and the [Minderoo Centre](https://www.mctd.ac.uk/) to provide policy reports. 
 
+<!-- Consider merging with previous paragraph about structure -->
 We maintain an agile group, currently 3 staff, and invest our funding into projects that cut across interdisciplinary boundaries and address the barriers to translation of solutions into practice.
 
+<!-- Fix typo: "initiatied" -->
 Our philosophy is captured in our branding, which uses Turing Patterns (reaction-diffusion equations) to highlight how localised activity, if initiatied well can cause organic global structure to emerge. 
 
+<!-- Consider expanding on how these previous initiatives informed ai@cam's approach -->
 All these ideas build on previous experience from [Data Science Africa](/initiatives/data-science-africa-i), [Accelerate Science](/initiatives/accelerate-science) and [the Data Trusts Initiative](/initiatives/data-trusts).
 
+<!-- Make next steps more specific -->
 Next steps are to focus more on the core machine learning community, support for innovation and support for translation.
 
 <div class="machine-commentary" markdown=1>
