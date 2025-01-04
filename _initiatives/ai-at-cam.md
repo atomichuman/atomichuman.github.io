@@ -1,7 +1,3 @@
-# Title could be more descriptive, e.g. "ai@cam: Cambridge University's AI Mission"
-# Description is good but could mention key initiatives/projects
-# Consider adding keywords/tags
-# Featured image could be higher resolution
 ---
 title: ai@cam: Cambridge University's Flagship AI Mission
 date: 2025-01-04
