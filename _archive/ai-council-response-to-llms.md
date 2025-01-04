@@ -20,14 +20,14 @@ contributed_by:
       tool: ChatGPT
       version: 4o1
       notes: Create initial archive description
-      date: 2025-01-03T05:18:03.452Z
+      date: 2025-01-03
     - type: machine
       tool: ChatGPT
       version: 4o1
       notes: Requested additional specific commentary on the NACA model outlined in
         the policy paper.
-      date: 2025-01-03T05:18:03.540Z
-    - date: 2025-01-03T05:33:27.129Z
+      date: 2025-01-03
+    - date: 2025-01-03
       type: human
       person_id: Neil D. Lawrence
       notes: Minor fixes to formatting of machine commentary.

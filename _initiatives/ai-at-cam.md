@@ -39,48 +39,28 @@ research, business, civil society, and policy leaders working to deploy AI
 for wider social and economic benefit, shaping the development and
 deployment of AI for the benefit of all in society. 
 
-Identified enablers for those ambitions, and challenges that obstruct their achieval. For me those nine challenges are critical:
-
-Table 1 Challenges in coordinating a new wave of progress in AI technologies across the University
-
-Challenge
-Bridging between the needs of challenge-driven applications and the focus of academically driven research
-
-Question this poses
-The next wave of progress in Al will be inspired by (or driven by) applications; how well prepared is Cambridge for this type of research?
-
-Innovative solutions are often most easily developed at a small-scale, but achieving impact for these ideas requires the ability to scale-up (sometimes rapidly). What approaches to scaling the deployment of Al systems can help translate innovation to practice?
-
-Hype surrounding Al progress contributes to a mismatch between expectations about its utility and technical capabilities in the field. What forms of engagement and communications can help overcome barriers to wider understanding of A''s capabilities?
-
-Encompassing the pursuit of academic understanding over the long-term and the need for near-term and real time decision-making in deployment
-
-Balancing the incentives that drive progress in Al outside academia and the incentives that shape individual academic's career progression
-
-Accommodating the intellectual agility needed to follow new lines of investigation and the institutional inertia that influences how to pursue new research opportunities
-
-Academic research typically proceeds at a different pace to decision-making in policy and private sector organisations. Connecting University expertise to this wider environment requires action to align these timescales. What interventions can support rapid deployment of academic expertise?
-
-Progress requires cooperation and collaboration across sectors and communities, which in turn requires investment of time and energy from academics. How do we align collective needs with individual interests?
-
-Effective research and teaching requires effective administration. How can the University manage its administrative functions to support agile, responsive and effective collaborations?
-identified challenges we experience in achieving those aspirations.
-
-The report showed that the University aspires to be a leading institution in the 
-
-The question is one that not only Universities are facing. The Amazon Core ML team I joined in 2016 was set up to deliver machine learning solutions across the compnay, but there were already teams using cutting edge techniques in recommender systems, supply chain etc across the company. In government the deputy Prime Minister set up iAI, a centralised capability for deploying artificial intelligence across government, but there were already teams across government exploring these techniques in domains as broad as education and cybersecurity. How do we ensure that initiatives enhance existing capabilities rather than displacing them?
-
-The approach we took for Cambridge was to push the question back to the community. We asked: What would be the purpose of a new initiative on AI at the University of Cambridge?
-
-<h>
-
+We identified obstacles and enablers for those ambitions and placed them at the heart of the landscape document. We convened a steering committee selected from across the University. 
 
 <center>
 <image src="https://ai.cam.ac.uk/assets/uploads/logo.png" width="70%"/>
 
-<i></i>
+<i>The ai@cam logo</i>
 </center>
 
+
+From a projects perspective, we've launced 5 AI-deas projects. We see these as "academic unicorns". Interdisciplinary projects that are focussed on societal impact and will leverage state of the art AI solutions to deliver that. They are focused on [local decision making](https://ai.cam.ac.uk/projects/decision-making-with-ai-in-connected-places-and-cities), [climate & nature](https://ai.cam.ac.uk/projects/ai-for-climate-and-nature), [women health, fertility and early infant neurodevelopment](https://ai.cam.ac.uk/projects/revolutionising-women’s-health-female-fertility-and-early-infant-neurodevelopment-using-ai.html), [mental health](https://ai.cam.ac.uk/projects/responsible-ai-for-better-lifelong-brain-and-mental-health) and [language inclusion](https://ai.cam.ac.uk/projects/improving-language-equity-and-inclusion-through-ai).
+
+Alongside this we supported 46 research projects from 20 Departments access the new Dawn high-performance computing system. These included departments that tradiationally exploit high performance computing (e.g. Materials Science), but also less traditional users in the humanities such as English and History.
+
+Our [policy lab](https://ai.cam.ac.uk/policy-lab/) has engaged in public dialogue in colalboration with the [Kavli Centre](https://www.kcesp.ac.uk/), convened UK policy makers around questions of current interest,and worked with the [Bennett Institute](https://www.bennettinstitute.cam.ac.uk/) and the [Minderoo Centre](https://www.mctd.ac.uk/) to provide policy reports. 
+
+We maintain an agile group, currently 3 staff, and invest our funding into projects that cut across interdisciplinary boundaries and address the barriers to translation of solutions into practice.
+
+Our philosophy is captured in our branding, which uses Turing Patterns (reaction-diffusion equations) to highlight how localised activity, if initiatied well can cause organic global structure to emerge. 
+
+All these ideas build on previous experience from [Data Science Africa](/initiatives/data-science-africa-i), [Accelerate Science](/initiatives/accelerate-science) and [the Data Trusts Initiative](/initiatives/data-trusts).
+
+Next steps are to focus more on the core machine learning community, support for innovation and support for translation.
 
 <div class="machine-commentary" markdown=1>
 
