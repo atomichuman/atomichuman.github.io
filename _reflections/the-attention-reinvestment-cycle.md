@@ -19,9 +19,8 @@ contributed_by:
     tool: Claude
     version: 3.5-sonnet
     notes: Request sub-editting input.
-featured_image: /assets/images/img_0582.jpeg
+featured_image: /assets/images/attention-flywheel.svg
 ---
-
 The recent [Draghi report on The Future of European Competitiveness](https://commission.europa.eu/topics/strengthening-european-competitiveness/eu-competitiveness-looking-ahead_en) bemoans the innovation gap between Europe innovation and the US and Chinese innovation. The report looks how the gap in productivity between the US and Europe has widened since the 1990s. Draghi suggests that this is because Europe has missed out on the digital economy. 
 
 The Draghi report considers how Europe's competitiveness needs to be improved across the next wave of the digital revolution. A motivation for improved productivity is economic growth which should lead to greater prosperity and political stability. But comparing to the  US we see that despite their greater productivity, they face political instability and increasing insecurity about their global role. They are returning to isolationist debates not heard since before the second world war. 
@@ -78,6 +77,15 @@ Alongside these principles, there is a final ingredient that enables an *attenti
 [^8]: See [The Human Analogue Machine](/chapters/11-the-human-analogue-machine) for more on this.
 
 [^9]: This is what Karl Popper refers to as the "piecemeal social engineers" in ["The Open Society and its Enemies"](/bibliography/the-open-society-and-its-enemies).
+
+<center>
+
+<img src="/assets/images/attention-flywheel.svg" width="50%">
+
+<i>The attention reinvestment cycle.</i>
+
+</center>
+
 
 The *attention reinvestment cycle* leverages the principles that have emerged from the initiatives we've reviewed to reinvest time savings into the wider sharing of how those time savings were made. This refocuses the innovation economy. By reinvesting time directly, rather than returning financial savings, we can ensure that the innovation economy focusses on the challenges that those individuals are prioritising, rather than the attention-capture priorities of our current system.
 
