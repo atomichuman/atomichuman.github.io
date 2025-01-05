@@ -1,6 +1,6 @@
 ---
 title: The Attention Reinvestment Cycle
-date: 2025-01-05T16:31:42.780Z
+date: 2025-01-05
 toggle_machine_commentary: true
 description: As Europe grapples with its digital innovation gap, this article proposes a radical rethinking of how we harness technological progress. Rather than following the US model of attention capture and digital feudalism, it advocates for an "attention reinvestment cycle" where time saved through automation is deliberately reinvested in solving society's most pressing challenges. Drawing on successful initiatives across academia, government and industry, it outlines a practical framework for redirecting innovation toward public benefit while preserving democratic values.
 contributed_by:
