@@ -2,6 +2,8 @@
 title: The Attention Reinvestment Cycle
 date: 2025-01-05T16:31:42.780Z
 toggle_machine_commentary: true
+# Consider adding a description field summarizing the key argument about attention reinvestment
+# Consider adding keywords/tags to help with navigation
 contributed_by:
   initial:
     date: 2024-12-31T16:31:42.791Z
@@ -13,19 +15,28 @@ contributed_by:
     date: 2024-01-05
     person_id: Neil D. Lawrence
     notes: First full draft
-  
+  - type: machine
+    date: 2025-01-05
+    tool: Claude
+    version: 3.5-sonnet
+    notes: Request sub-editting input.
 featured_image: /assets/images/img_0582.jpeg
 ---
 
+<!-- Add link URL for Draghi report in first paragraph -->
 The recent [Draghi report on The Future of European Competitiveness]() bemoans the innovation gap between Europe innovation and the US and Chinese innovation. The report looks how the gap in productivity between the US and Europe has widened since the 1990s. Draghi suggests that this is because Europe has missed out on the digital economy.
+<!-- Fix typo: "competetiveness" -> "competitiveness" -->
 The Draghi report considers how Europe's competetiveness needs to be improved across the next wave of the digital revolution. 
 
+<!-- Consider merging these two paragraphs for flow -->
 A motivation for improved productivity is economic growth which should lead to greater prosperity and political stability. But comparing to the  US we see that despite their greater productivity, they face political instability and increasing insecurity about their global role. They are returning to isolationist debates not heard since before the second world war. 
 
+<!-- Fix typo: "suppply" -> "supply" -->
 My colleague at Amazon, Narayan Venkatasubramanyan, is a supply chain guru. He likes stories. At a Chinese restaurant in Palo Alto, he once told me the story of the last 150 years in suppply chain. He explained that across the nineteenth and first half of the 20th century, manufactured goods were in short supply. If you could make it people would buy it. Those that controlled the means of production made large profits. Manufacturing was the bottleneck in supply chain and therefore the source of economic value.
 
 After the second world war, manufacturing capacity increased. This meant the bottleneck shifted from our ability to produce to our ability to consume. Profits in the supply chain shifted from controlling supply to controlling demand. 
 
+<!-- Consider breaking this long paragraph into two -->
 A simplistic economic model would suggest that demand is controlled by the best value proposition. But in practice there is a further bottleneck. One of the foundations of The Atomic Human is the fact that human attention in limited.[^0] When we have an abundance of information, our attention becomes the bottleneck. 
 
 [^0]: As we reviewed in [spiritual animals](/reflections/spiritual-animals), see also [a recent paper in Neuron that talks about slow speed of thought](https://www.cell.com/neuron/fulltext/S0896-6273(24)00808-0), but I think misses the fact that this is likely determined by our limited speed of bidirecitonal communication. Their estimate is 10 bits per second. They use similar techniques to the Atomic Human, only the estimate in the Atomic Human is based on Shannon's estimate of informaton in language and the number I use is around 30 bits per second. 
@@ -36,6 +47,7 @@ Because the new bottleneck is consumption, and the route to that consumption is 
 
 [^1]: See [Spiritual Animals](/reflections/spiritual-animals) for more detail on this.
 
+<!-- Fix spacing around quotation marks -->
 The challenge of capturing attention  is what the American department store magnate, John Wanamaker, was referring to when he says "Half the money I spend on advertising is wasted; the trouble is I don't know which half."[^2] 
 
 [^2]: As referred to in [The Cultural Conundrum](/reflections/the-cultural-conundrum).
@@ -54,10 +66,12 @@ This leads us back to the Draghi report and a fundamental challenge that it does
 
 [^6]: See [Bridging from Domain Experts to AI Capability](/reflections/bridging-from-domain-experts-to-ai-capability) for more on this.
 
+<!-- Fix typo: "dialouges" -> "dialogues", "woudl" -> "would" -->
 In a recent [Financial Times Opinion piece](/archive/ft-atomic-human-article-2024), I highlighted that the challenge we face is that as we automate more, our human aspirations become squeezed by the necessity to quantify  all aspects of the automated supply chain. This explains why in our public dialouges we receive a clear message about the type of technological innovation people woudl like to see. But what is supplied is entirely the opposite of what is requested.[^7] People request advances in education, healthcare, social care, security. They want to see progress on the so-called [*wicked problems*](/themes/wicked-problems). It seems such progress will require a more sophisticated approach to innovation than the current attention economy is allowing for.
 
 [^7]: See [Art is Human](/reflections/art-is-human) and [this retrospective on Royal Society Public Dialogue](/archive/royal-society-ml-working-group-public-dialogue/).
 
+<!-- Fix typo: "beleive" -> "believe", "beter" -> "better" -->
 So what is the solution? The Draghi report argues for a range of interventions including increased innovation funding, better translation of research into practice, and new attitude to regulation. Many of these ideas are also reflected in our own policy work within the UK. But we will need to do more than that.
 
 I beleive that as academics and universities, we need to do a beter job of stepping up. [Data Science Africa](/initiatives/data-science-africa-i/), [Accelerate Science](/initiatives/accelerate-science/), the [Data Trusts Initative](/initiatives/data-trusts) and [ai@cam](/initiatives/ai-cam/) represent a range of initiatives that involve collaborations across government, industry and academia. Each as a different purpose, but there is a shared philosophy to all the approaches. It is an *attention reinvestment cycle*.
@@ -95,8 +109,7 @@ In the United States, the geopolitics of AI is dominating decision-making. As in
 \
 </div>
 
-
-
+<!-- Consider removing or integrating these references into the text -->
 Price II, William Nicholson and Sachs, Rachel and Eisenberg, Rebecca S., New Innovation Models in Medical AI (February 11, 2021). 99 Wash. U. L. Rev. 1121 (2022), U of Michigan Public Law Research Paper No. 21-009, Available at SSRN: https://ssrn.com/abstract=3783879 or http://dx.doi.org/10.2139/ssrn.3783879
 
 
