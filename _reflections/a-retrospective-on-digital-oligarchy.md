@@ -1,4 +1,5 @@
 ---
+layout: reflection
 title: A Retrospective on Digital Oligarchy
 date: 2024-12-22
 toggle_machine_commentary: true
