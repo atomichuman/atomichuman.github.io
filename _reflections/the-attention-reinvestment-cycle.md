@@ -32,7 +32,7 @@ After the second world war, manufacturing capacity increased. This meant the bot
 
 A simplistic economic model would suggest that demand is controlled by the best value proposition. But in practice there is a further bottleneck. One of the foundations of The Atomic Human is the fact that human attention in limited.[^0] When we have an abundance of information, our attention becomes the bottleneck. 
 
-[^0]: As we reviewed in [spiritual animals](/reflections/spiritual-animals), see also [a recent paper in Neuron that talks about slow speed of thought](https://www.cell.com/neuron/fulltext/S0896-6273(24)00808-0), but I think misses the fact that this is likely determined by our limited speed of bidirecitonal communication. Their estimate is 10 bits per second. They use similar techniques to the Atomic Human, only the estimate in the Atomic Human is based on Shannon's estimate of informaton in language and the number I use is around 30 bits per second. 
+[^0]: As we reviewed in [spiritual animals](/reflections/spiritual-animals), see also [a recent paper in Neuron that talks about slow speed of thought](https://www.cell.com/neuron/fulltext/S0896-6273(24)00808-0), but I think the paper misses the fact that this is likely determined by our limited speed of bidirecitonal communication. Their estimate is 10 bits per second. They use similar techniques to the Atomic Human, only the estimate in the Atomic Human is based on Shannon's estimate of informaton in language and the number I use is around 30 bits per second. 
 
 Our limited communication ability lies at the core of the atomic human. And our intelligence (both individual and cultural) has evolved ways through which we are selective in choosing which information to focus on. 
 
