@@ -12,7 +12,10 @@ themes:
 - Power Asymmetries
 - The Open Society
 - Generative AI and the Sorcerer's Apprentice
+reflections:
+- A Retrospective on System Zero
 ---
+
 
 <div class="machine-commentary" markdown=1>
 
