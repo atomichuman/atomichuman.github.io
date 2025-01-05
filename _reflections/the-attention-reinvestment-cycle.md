@@ -19,7 +19,7 @@ contributed_by:
     tool: Claude
     version: 3.5-sonnet
     notes: Request sub-editting input.
-featured_image: /assets/images/attention-flywheel.svg
+featured_image: /assets/images/attention-flywheel.png
 ---
 
 The recent [Draghi report on The Future of European Competitiveness](https://commission.europa.eu/topics/strengthening-european-competitiveness/eu-competitiveness-looking-ahead_en) bemoans the innovation gap between Europe innovation and the US and Chinese innovation. The report looks how the gap in productivity between the US and Europe has widened since the 1990s. Draghi suggests that this is because Europe has missed out on the digital economy. 
