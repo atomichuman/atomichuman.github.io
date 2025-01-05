@@ -34,25 +34,17 @@ A simplistic economic model would suggest that demand is controlled by the best 
 
 [^0]: As we reviewed in [spiritual animals](/reflections/spiritual-animals), see also [a recent paper in Neuron that talks about slow speed of thought](https://www.cell.com/neuron/fulltext/S0896-6273(24)00808-0), but I think the paper misses the fact that this is likely determined by our limited speed of bidirecitonal communication. Their estimate is 10 bits per second. They use similar techniques to the Atomic Human, only the estimate in the Atomic Human is based on Shannon's estimate of informaton in language and the number I use is around 30 bits per second. 
 
-Our limited communication ability lies at the core of the atomic human. And our intelligence (both individual and cultural) has evolved ways through which we are selective in choosing which information to focus on. 
-
-Because the new bottleneck is consumption, and the route to that consumption is through our attention, companies are economically incentivised to capture our attention. This phenomenon is known as the "attention economy".[^1]
+Our limited communication ability lies at the core of the atomic human. And our intelligence (both individual and cultural) has evolved ways through which we are selective in choosing which information to focus on. Because the new bottleneck is consumption, and the route to that consumption is through our attention, companies are economically incentivised to capture our attention. This phenomenon is known as the "attention economy".[^1] The challenge of capturing attention  is what the American department store magnate, John Wanamaker, was referring to when he says "Half the money I spend on advertising is wasted; the trouble is I don't know which half."[^2] Today advertisers no longer face Wanamaker's quandary. Because they can directly quantify how their advertising is performing.[^3] The emergence of [System Zero](/themes/system-zero)[^4] is a consequence of this.
 
 [^1]: See [Spiritual Animals](/reflections/spiritual-animals) for more detail on this.
 
-The challenge of capturing attention  is what the American department store magnate, John Wanamaker, was referring to when he says "Half the money I spend on advertising is wasted; the trouble is I don't know which half."[^2] 
-
 [^2]: As referred to in [The Cultural Conundrum](/reflections/the-cultural-conundrum).
-
-Today advertisers no longer face Wanamaker's quandary. Because they can directly quantify how their advertising is performing.[^3] The emergence of [System Zero](/themes/system-zero)[^4] is a consequence of this.
 
 [^3]: I first commented on this emerging phenomenon for an article in the Guardian from July 2015. You can see a commentary on this article [here](/archive/data-driven-economy-marketing-2015). 
 
 [^4]: Covered in [Chapter 8 of *The Atomic Human*](/chapters/08-system-zero).
 
-This is leading to what I call the "attention capture cycle". Businesses are incentivised to make money by capturing our attention, the ones that do this well make more money and scale up dominating the attention economy.
-
-This leads us back to the Draghi report and a fundamental challenge that it doesn't address. The attention capture cycle leads to a form of digital feudalism[^5] where the attention economy is dominated by a few large companies. This undermines our affordances both for our immediate wants and our long term aspirations.[^6]
+This is leading to what I call the "attention capture cycle". Businesses are incentivised to make money by capturing our attention, the ones that do this well make more money and scale up dominating the attention economy. This takes us back to the Draghi report and a fundamental challenge that it doesn't address. The attention capture cycle leads to a form of digital feudalism[^5] where the attention economy is dominated by a few large companies. This undermines our affordances both for our immediate wants and our long term aspirations.[^6]
 
 [^5]: See [A Retrospective on Digital Oligarchy](/reflections/a-retrospective-on-digital-oligarchy) for more on this.
 
@@ -88,7 +80,6 @@ Alongside these principles, there is a final ingredient that enables an *attenti
 <i>The attention reinvestment cycle.</i>
 
 </center>
-
 
 The *attention reinvestment cycle* leverages the principles that have emerged from the initiatives we've reviewed to reinvest time savings into the wider sharing of how those time savings were made. This refocuses the innovation economy. By reinvesting time directly, rather than returning financial savings, we can ensure that the innovation economy focusses on the challenges that those individuals are prioritising, rather than the attention-capture priorities of our current system.
 
