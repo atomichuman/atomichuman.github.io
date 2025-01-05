@@ -175,7 +175,7 @@ title: Advent Calendar - The Atomic Human
       <td data-date="2"><a href="/initiatives/data-trusts/">2</a></td>
       <td data-date="3"><a href="/reflections/the-cultural-quandry">3</a></td>
       <td data-date="4"><a href="/initiatives/ai-at-cam/">4</a></td>
-      <td data-date="5">5</td>
+      <td data-date="5"><a href="/reflections/the-attention-reinvestment-cycle">5</a></td>
     </tr>
 
   </body>
