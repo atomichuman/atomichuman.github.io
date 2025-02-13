@@ -29,7 +29,7 @@ Respectful play involves understanding the homeowners and what they'd find usefu
 
 With this approach in mind we approached my colleague [Dr Jonathan Tenney](/people/jonathan-tenney/), an Assyriologist in the University's department of Archeology. Instead of imposing neural networks on him [we followed approaches from the social sciences](https://science.ai.cam.ac.uk/2024/12/19/how-can-we-develop-machine-learning-tools-to-map-ancient-social-networks) such as grounded theory to understand Jonathan's work. 
 
-The collaboration then can enrich both fields - AI and Assyriology - offering insights into ancient and modern ways of processing information. Part of this work features in *The Atomic Human* where we explore the opportunities presented by human-analogue machiens. Today we conclude the traditional 24 days of the advent calendar by highlighting this approach..
+The collaboration then can enrich both fields - AI and Assyriology - offering insights into ancient and modern ways of processing information. Part of this work features in *The Atomic Human* where we explore the opportunities presented by human-analogue machiens. Today we conclude the traditional [24 days of the advent calendar](https://the-atomic-human.ai/advent-calendar/) by highlighting this approach.
 
 <center>
 <image src="/assets/images/Atomic_H_11_Human_Analogue.png" alt="Dan Andrew's drawing for Chapter 11, Human Analogue Machines" width="50%"/>
