@@ -1,7 +1,7 @@
 ---
 title: "Dan Andrews: System Zero"
 date: 2024-12-18
-featured_image: /assets/images/Atomic_H_8_Not_Rocket.png
+featured_image: /assets/images/Atomic_H_8_System_Zero.png
 source: Drawn on commission by Dan Andrews of scribeysense.com
 description: A conveyor belt of human history is processed by a machine leading to discord.
 toggle_machine_commentary: true
